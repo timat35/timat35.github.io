@@ -7,7 +7,7 @@
 <div class = "menu_Image">
 	<div class= "creaHolder">
 		<div class = "creaImage">
-			<img id=""  src="/img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
+			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
 		</div>
 		<div>
 			<h1><a href="/" class= "title">Le chant de l'émail</a></h1>
@@ -16,7 +16,7 @@
 	</div>
 	<div class= "creaHolder">
 		<div class = "creaImage">
-			<img id=""  src="/img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
+			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
 
 		</div>
 		<div>
@@ -26,7 +26,7 @@
 	</div>
 	<div class= "creaHolder">
 		<div class = "creaImage">
-			<img id=""  src="/img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
+			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
 
 		</div>
 		<div>
@@ -36,7 +36,7 @@
 	</div>
 	<div class= "creaHolder">
 		<div class = "creaImage">
-			<img id=""  src="/img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
+			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
 		</div>
 		<div>
 			<h1><a href="/" class= "title">Têt-en-l'air</a></h1>
