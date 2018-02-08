@@ -1,9 +1,8 @@
 
-var transition_img = 200;
+var transition_img = 250;
 
 function onHover()
 {
-    //$("#index_reza").attr('src', 'img/acceuil/a-reza-bottom.jpg');
 	$("#index_reza").fadeTo(transition_img,0.5,'easeInOutCubic',function(){
 		$(this).attr('src','img/acceuil/a-reza-bottom.jpg').fadeTo(transition_img, 1);
 	});
