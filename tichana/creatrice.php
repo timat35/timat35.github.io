@@ -9,7 +9,7 @@
 		<img id="crea_img"> </img/>
 	<div>
 	<div id="crea_text">
-		<h1><a>title</a></h1>
+		<h1><a>title</a>
 		<a class="subtitle">subtitle</a>
 		<p class="desc">subtitle</p>
 	<div>
