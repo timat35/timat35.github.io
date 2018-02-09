@@ -1,7 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="shortcut icon" href="img/favicon.png">
 <link rel="stylesheet" href="css/style_reza.css?v=1.52" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 <link rel="stylesheet" href="css/slick.css?v=1.3" type="text/css">
 <link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
