@@ -4,43 +4,41 @@
 <?php  include('header.php');?>
 
 
-<div class = "container-fluid">
+<div class = "container index_main">
 	<div class = "row">
 	<div class= "creaHolder col" >
 		<div class = "creaImage">
-			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
+			<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
 		</div>
 		<div>
-			<a href="/" class= "title">Le chant de l'émail</a>
+			<a href="/" class= "title">Le chant de l'émail</a></br>
 			<a class="desc">Céramiste</a>
 		</div>
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
-
+			<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
 		</div>
 		<div>
-			<a href="/" class= "title">Eska</a>
+			<a href="/" class= "title">Eska</a></br>
 			<a class="desc">Vêtements dédiés à l’outdoor</a>
 		</div>
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_reza"  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""  onmouseover="onHover();" onmouseout="offHover();"/>
-
+			<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
 		</div>
 		<div>
-			<a href="/" class= "title">Réza</a>
+			<a href="/" class= "title">Réza</a></br>
 			<a class="desc">Créations artisanales en cuir</a>
 		</div>
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id=""  src="img/acceuil/a-reza.jpg" alt=""  onclick="" class=""/>
+			<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
 		</div>
 		<div>
-			<a href="/" class= "title">Têt-en-l'air</a>
+			<a href="/" class= "title">Têt-en-l'air</a></br>
 			<a class="desc">Modiste chapeaux</a>
 		</div>
 	</div>
