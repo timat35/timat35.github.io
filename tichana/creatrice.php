@@ -2,6 +2,8 @@
 <!--?php  include('title/title_sacs.php');?-->
 <?php  include('header.php');?>
 
+
+
 <div id="content">
 
 	<div>
@@ -30,18 +32,22 @@
 
 
 </div>
-<?php  include('footer.php');?>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="/js/reza.js?v=1.5"></script>
-<script type="text/javascript" src="/js/jquery.event.move.js"></script>
-<script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
-<script type="text/javascript" src="/fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/main.js?v=1.5"></script>
+<script type="text/javascript" src="js/jquery.event.move.js"></script>
+<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 <script type="text/javascript">
+
+	var data = <?php echo json_encode($_GET['creatrice'])?>;
+	console.log(data)
+
+
 $(document).ready(function() {
 	$(".fancybox").fancybox({
 			helpers : {
@@ -55,6 +61,8 @@ $(document).ready(function() {
 			closeOpacity: false
 		});
 	});
+	
+	
 	
 	$( '#toggle-menu' ).on( 'touchstart click', function(e) {
 	  e.preventDefault();
