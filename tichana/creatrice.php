@@ -4,30 +4,20 @@
 
 
 
-<div id="content">
+<div id="content" class ="container">
 
-	<div>
-		<img id ="logo"> </img/>
-		<img id="crea_img"> </img/>
-	<div>
-	<div id="crea_text">
-		<h1><a>title</a>
-		<a class="subtitle">subtitle</a>
-		<p class="desc">subtitle</p>
-	<div>
-	<div id ="slide">
+	<div class="row text_center">
+		<img id ="logo" src=""></img/>
 	</div>
-	<div id="crea_contact">
-	<div>
-	<div id="other_crea">
-	
-	<div>
-	
-	
-	
-	
-
-
+	<div class="row text_center">
+		<h2><a id="crea_title">title</a></h2>
+	</div>
+	<div class="row text_center">
+		<a id="crea_sub">subtitle</a>
+	</div>
+	<div class="row text_center">
+		<a id="crea_link">link</a>
+	</div>
 </div>
 
 
@@ -44,11 +34,11 @@
 
 <script type="text/javascript">
 
-	var data = <?php echo json_encode($_GET['creatrice'])?>;
-	console.log(data)
-
+var name = <?php echo json_encode($_GET['creatrice'])?>;
+load_content(name)
 
 $(document).ready(function() {
+
 	$(".fancybox").fancybox({
 			helpers : {
 				overlay : {

@@ -16,15 +16,16 @@
 
 <body class=" bodyClass container-fluid" >
 
+<nav id="topmenu" class="navbar navbar-inverse navbar-static-top">
+	<ul>
+		<li><a href="propos.php">Les créatrices</a></li>
+		<li><a href="propos.php">La boutique</a></li>
+		<li><a href="contact.php">Événement</a></li>
+		<li><a href="contact.php">Contact</a></li>
+	</ul>
+</nav>
+
 	<div id="header" class="container-fluid h-25">
-			<div id="topmenu">
-			<ul>
-				<li><a href="propos.php">Les créatrices</a></li>
-				<li><a href="propos.php">La boutique</a></li>
-				<li><a href="contact.php">Événement</a></li>
-				<li><a href="contact.php">Contact</a></li>
-			</ul>
-		</div>
 		<div class="logo">
 			<h1><a href="/">Tichana</a>
 			<div class="desc">

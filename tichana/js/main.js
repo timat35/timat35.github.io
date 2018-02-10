@@ -10,5 +10,17 @@ function index_hover(object, dir)
 }
 
 function load_content(name) {
-	console.log(name)
+	
+	$.getJSON("json/creatrice.json", function(crea_data) {
+		console.log(crea_data[name])
+		
+		document.getElementById("crea_title").innerHTML = crea_data[name].title;
+		document.getElementById("crea_sub").innerHTML = crea_data[name].subtitle;
+		document.getElementById("crea_link").innerHTML = crea_data[name].link;
+	});
+
+	
+	
+	
+
 }
