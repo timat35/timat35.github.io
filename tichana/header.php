@@ -14,9 +14,9 @@
 </head>
 
 
-<body class="center" >
+<body class=" bodyClass container-fluid" >
 
-	<div id="header" >
+	<div id="header" class="container-fluid h-25">
 			<div id="topmenu">
 			<ul>
 				<li><a href="propos.php">Les créatrices</a></li>

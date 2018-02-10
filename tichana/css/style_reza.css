@@ -4,9 +4,10 @@
     width: device-width; 
 }
 
-@media (min-width: 1800px) {
+
+@media (min-width: 768px) {
   .container {
-    max-width: 1800px!important;
+    max-width: 100%!important;
   }
 }
 
@@ -19,11 +20,10 @@ body{ padding:0px;
 	margin:0px;
 	font-family: 'harman', Helvetica, Arial, sans-serif;
 	color:#fff;
-	font-size:100%;
 }
 
-.center{
-	margin: 0 auto;
+.bodyClass {
+	padding:0px!important;
 	}
 	
 a{
@@ -48,12 +48,12 @@ p{
 	z-index: 24;}
 
 /*Main Title*/
-.logo {float: left;padding-bottom: 30px; width:100%;}
+.logo {float: left;padding-bottom: 1%; width:100%;}
 .logo h1 {
-    margin-top: 50px;
+    margin-top:1%;
 }
 
-.logo h1 a{ display:block;text-align:center; color:#fff; text-decoration:none;outline: none; font-size:2.5em!important}
+.logo h1 a{ display:block;text-align:center; color:#fff; text-decoration:none;outline: none; font-size:2.5em}
 .logo .desc{ text-align:center; color:#fffccd; font-size:0.5em;}
 .outer-center {float: right;right: 50%;position: relative;}
 .inner-center {float: right;right: -50%;position: relative;}
@@ -154,7 +154,7 @@ position:relative;
 
 .creaHolder {
 	min-width:10em;
-    margin: 0px 2px;
+	padding: 0px 5px!important;
 }
 
 .creaHolder h1{
