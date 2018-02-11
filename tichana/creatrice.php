@@ -10,21 +10,41 @@
 		<img id ="logo" src=""></img/>
 	</div>
 	<div class="row text_center">
-		<h2><a id="crea_title">title</a></h2>
+		<h2><a id="crea_title"></a></h2>
 	</div>
 	<div class="row text_center">
-		<a id="crea_sub">subtitle</a>
+		<a id="crea_sub"></a>
 	</div>
 	<div class="row text_center">
-		<a id="crea_link">link</a>
+		<a id="crea_link"></a>
 	</div>
 </div>
 
+
+<div class="grid">
+
+  <div class="grid-sizer"></div>
+  <div class="grid-item">
+    <img src="img/reza/img_1.jpg" />
+  </div>
+  <div class="grid-item">
+     <img src="img/reza/img_2.jpg" />
+  </div>
+  <div class="grid-item">
+     <img src="img/reza/img_3.jpg" />
+  </div>
+  <div class="grid-item">
+
+
+
+</div>
 
 </div>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/main.js?v=1.5"></script>
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="js/jquery.event.move.js"></script>
 <script type="text/javascript" src="js/jquery.event.swipe.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>
@@ -36,6 +56,16 @@
 
 var name = <?php echo json_encode($_GET['creatrice'])?>;
 load_content(name)
+
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});  
 
 $(document).ready(function() {
 

@@ -41,12 +41,12 @@ p{
 /*Header*/
 .logged-in #header{ margin-top:0px;}
 #header{ 
-	background-image:url("background.png");
+	background-image:url("background2.png");
 	width:100%;
 	display:inline-block;
 	position:relative;
 	padding:0px;
-	z-index: 24;}
+	}
 
 /*Main Title*/
 .logo {float: left;padding-bottom: 1%; width:100%;}
@@ -154,6 +154,36 @@ position:relative;
     margin-top: 25px;
 	text-align: center;
 }
+
+
+.grid {
+  margin: 2% 5% 2% 5%;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 30%;
+  padding:0.2%
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
 
 
 .creaHolder {

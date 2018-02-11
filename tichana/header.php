@@ -18,10 +18,10 @@
 
 <nav id="topmenu" class="navbar navbar-inverse navbar-static-top">
 	<ul>
-		<li><a href="propos.php">Les créatrices</a></li>
-		<li><a href="propos.php">La boutique</a></li>
-		<li><a href="contact.php">Événement</a></li>
-		<li><a href="contact.php">Contact</a></li>
+		<li><a href="/">Les créatrices</a></li>
+		<li><a href="/">La boutique</a></li>
+		<li><a href="/">Événement</a></li>
+		<li><a href="/">Contact</a></li>
 	</ul>
 </nav>
 
