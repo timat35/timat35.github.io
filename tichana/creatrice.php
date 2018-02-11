@@ -2,47 +2,73 @@
 <!--?php  include('title/title_sacs.php');?-->
 <?php  include('header.php');?>
 
-<div id="content">
 
-	<div>
-		<img id ="logo"> </img/>
-		<img id="crea_img"> </img/>
-	<div>
-	<div id="crea_text">
-		<h1><a>title</a></h1>
-		<a class="subtitle">subtitle</a>
-		<p class="desc">subtitle</p>
-	<div>
-	<div id ="slide">
+
+<div id="content" class ="container">
+
+	<div class="row text_center">
+		<img id ="logo" src=""></img/>
 	</div>
-	<div id="crea_contact">
-	<div>
-	<div id="other_crea">
-	
-	<div>
-	
-	
-	
-	
+	<div class="row text_center">
+		<h2><a id="crea_title"></a></h2>
+	</div>
+	<div class="row text_center">
+		<a id="crea_sub"></a>
+	</div>
+	<div class="row text_center">
+		<a id="crea_link"></a>
+	</div>
+</div>
+
+
+<div class="grid">
+
+  <div class="grid-sizer"></div>
+  <div class="grid-item">
+    <img src="img/reza/img_1.jpg" />
+  </div>
+  <div class="grid-item">
+     <img src="img/reza/img_2.jpg" />
+  </div>
+  <div class="grid-item">
+     <img src="img/reza/img_3.jpg" />
+  </div>
+  <div class="grid-item">
+
 
 
 </div>
 
-
 </div>
-<?php  include('footer.php');?>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="/js/reza.js?v=1.5"></script>
-<script type="text/javascript" src="/js/jquery.event.move.js"></script>
-<script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
-<script type="text/javascript" src="/fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/main.js?v=1.5"></script>
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="js/jquery.event.move.js"></script>
+<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 <script type="text/javascript">
+
+var name = <?php echo json_encode($_GET['creatrice'])?>;
+load_content(name)
+
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});  
+
 $(document).ready(function() {
+
 	$(".fancybox").fancybox({
 			helpers : {
 				overlay : {
@@ -55,6 +81,8 @@ $(document).ready(function() {
 			closeOpacity: false
 		});
 	});
+	
+	
 	
 	$( '#toggle-menu' ).on( 'touchstart click', function(e) {
 	  e.preventDefault();

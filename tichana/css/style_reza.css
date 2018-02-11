@@ -4,6 +4,13 @@
     width: device-width; 
 }
 
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%!important;
+  }
+}
+
 img {
 	max-width:100%;
 	height:auto;
@@ -13,11 +20,10 @@ body{ padding:0px;
 	margin:0px;
 	font-family: 'harman', Helvetica, Arial, sans-serif;
 	color:#fff;
-	font-size:100%;
 }
 
-.center{
-	margin: 0 auto;
+.bodyClass {
+	padding:0px!important;
 	}
 	
 a{
@@ -35,20 +41,21 @@ p{
 /*Header*/
 .logged-in #header{ margin-top:0px;}
 #header{ 
-	background-image:url("background.png");
+	background-image:url("background2.png");
 	width:100%;
 	display:inline-block;
 	position:relative;
-	z-index: 24;}
+	padding:0px;
+	}
 
 /*Main Title*/
-.logo {float: left;padding-bottom: 30px; width:100%;}
+.logo {float: left;padding-bottom: 1%; width:100%;}
 .logo h1 {
-    margin-top: 50px;
+    margin-top:1%;
 }
 
-.logo h1 a{ display:block;text-align:center; color:#fff; text-decoration:none;outline: none; font-size:2.5em!important}
-.desc{ text-align:center; color:#fffccd; font-size:1.2em;}
+.logo h1 a{ display:block;text-align:center; color:#ff3f3f; text-decoration:none;outline: none; font-size:2.5em}
+.logo .desc{ text-align:center; color:#fdff96; font-size:0.5em;}
 .outer-center {float: right;right: 50%;position: relative;}
 .inner-center {float: right;right: -50%;position: relative;}
 
@@ -64,8 +71,7 @@ p{
 #topmenu ul {
     list-style: none;
     text-align: right;
-    z-index: 1000;
-    margin-right: 5%;
+    margin-right: 1%;
 }
 
 #topmenu  ul  li {
@@ -81,7 +87,7 @@ p{
 
 #topmenu   ul  li > a {
 
-    color: #ffffff;
+    color: #000;
     display: inline-block;
 	font-size:1.3em;
 	font-family: 'Lobster1.4Regular'!important; 
@@ -99,7 +105,7 @@ p{
     height: 0.1em;
     bottom: -0.2em;
     left: 0px;
-    background: #ffffff;
+    background: #000;
     visibility: hidden;
     border-radius: 5px;
     transform: scaleX(0);
@@ -140,16 +146,49 @@ position:relative;
   opacity:0;
 }*/
 
-.menu_Image {
-    text-align: center;
-	margin-top:70px;
+.row.text_center {
+    justify-content: center;
 }
 
+.index_main {
+    margin-top: 25px;
+	text-align: center;
+}
+
+
+.grid {
+  margin: 2% 5% 2% 5%;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 30%;
+  padding:0.2%
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+
+
 .creaHolder {
-    display: inline-block;
-    width: 20%;
 	min-width:10em;
-    margin: 0px 2px;
+	padding: 0px 5px!important;
 }
 
 .creaHolder h1{
@@ -159,6 +198,7 @@ position:relative;
 .creaHolder a.title{
 	font-weight: normal;
 	font-size: 1.5vw;
+	    color: #000;
 }
 
 .creaHolder a.desc{
