@@ -32,5 +32,7 @@ function load_content(name, files) {
 		document.getElementById("crea_grid").appendChild(temp_div)
 	}
 	
+
+	
 }
 
