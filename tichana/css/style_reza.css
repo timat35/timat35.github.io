@@ -170,7 +170,8 @@ position:relative;
 /* ---- .grid-item ---- */
 /* add dinamic margin bottom and change width*/
 .grid-item {
-  width: 400px;
+  width: 300px;
+  margin-bottom:5px;
 }
 
 .grid-item {
