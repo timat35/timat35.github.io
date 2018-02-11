@@ -9,7 +9,7 @@ function index_hover(object, dir)
 	});
 }
 
-function load_content(name) {
+function load_content(name, files) {
 	
 	$.getJSON("json/creatrice.json", function(crea_data) {
 		
@@ -17,9 +17,20 @@ function load_content(name) {
 		document.getElementById("crea_sub").innerHTML = crea_data[name].subtitle;
 		document.getElementById("crea_link").innerHTML = crea_data[name].link;
 	});
-
 	
 	
+	nb_img = files.length;
+	for (var i=0; i<nb_img; i++) {
+		const temp_div = document.createElement("div");
+		temp_div.setAttribute("class", "grid-item");
+		
+		const temp_img = document.createElement("img");
+		temp_img.setAttribute("src", files[i]);
+		
+		temp_div.appendChild(temp_img)
+		
+		document.getElementById("crea_grid").appendChild(temp_div)
+	}
 	
-
 }
+

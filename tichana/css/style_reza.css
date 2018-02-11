@@ -157,7 +157,7 @@ position:relative;
 
 
 .grid {
-  margin: 2% 5% 2% 5%;
+  margin: 2% auto;
 }
 
 /* clear fix */
@@ -168,11 +168,9 @@ position:relative;
 }
 
 /* ---- .grid-item ---- */
-
-.grid-sizer,
+/* add dinamic margin bottom and change width*/
 .grid-item {
-  width: 30%;
-  padding:0.2%
+  width: 400px;
 }
 
 .grid-item {

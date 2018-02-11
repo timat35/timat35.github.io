@@ -22,9 +22,8 @@
 
 
 <div class="grid">
-
-  <div class="grid-sizer"></div>
-  <div class="grid-item">
+  <div id ="crea_grid" class="grid-sizer"></div>
+  <!--div class="grid-item">
     <img src="img/reza/img_1.jpg" />
   </div>
   <div class="grid-item">
@@ -32,11 +31,7 @@
   </div>
   <div class="grid-item">
      <img src="img/reza/img_3.jpg" />
-  </div>
-  <div class="grid-item">
-
-
-
+  </div-->
 </div>
 
 </div>
@@ -55,12 +50,16 @@
 <script type="text/javascript">
 
 var name = <?php echo json_encode($_GET['creatrice'])?>;
-load_content(name)
+var img_files = <?php echo json_encode(glob('img/'.$_GET['creatrice'].'/*.*'))?>;
+load_content(name, img_files)
 
+// column width must be dynamic
 var $grid = $('.grid').masonry({
   itemSelector: '.grid-item',
   percentPosition: true,
-  columnWidth: '.grid-sizer'
+  columnWidth: 400,
+  fitWidth: true,
+  gutter:5
 });
 // layout Masonry after each image loads
 $grid.imagesLoaded().progress( function() {
