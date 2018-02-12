@@ -30,7 +30,7 @@ function load_content(name, files) {
 	});
 
  	nb_img = files.length;
-	for (var i=0; i<nb_img; i++) {
+	for (var i=0; i<3; i++) {
 		const temp_div = document.createElement("div");
 		temp_div.setAttribute("class", "grid-item");
 		
@@ -49,10 +49,69 @@ function load_content(name, files) {
 		temp_fig.appendChild(temp_a)
 		temp_div.appendChild(temp_fig)
 		
-		document.getElementById("crea_grid").appendChild(temp_div)
+		document.getElementById("div_grid").appendChild(temp_div)
 	}
 	
+	if (nb_img > 2) {
+		
+		
+	}
+}
 
+function load_more(name, files) {
+	
+	var new_img = [];
+ 	nb_img = files.length;
+	for (var i=3; i<nb_img; i++) {
+		const temp_div = document.createElement("div");
+		temp_div.setAttribute("class", "grid-item ");
+		
+		const temp_fig = document.createElement("figure");
+		temp_fig.setAttribute("ind", i);
+		
+		const temp_a = document.createElement("a");
+		temp_a.setAttribute("href", files[i]);
+		temp_a.setAttribute("data-size", "0x0");
+		temp_a.setAttribute("data-index", 0);
+		
+		const temp_img = document.createElement("img");
+		temp_img.setAttribute("src", files[i]);
+		
+		temp_a.appendChild(temp_img)
+		temp_fig.appendChild(temp_a)
+		temp_div.appendChild(temp_fig)
+		
+		new_img.push(temp_div)
+	}
+	
+	return(new_img)
+	
+	
+}
+
+function get_items() {
+	var items = [];
+	$( ".grid-item" ).each( function() {
+		var temp = [];
+		var $pic     = $(this)
+		$pic.find('a').each(function() {
+			var $href   = $(this).attr('href'),
+						$size   = $(this).data('size').split('x'),
+						$width  = $size[0],
+						$height = $size[1];
+	 
+			var temp = {
+				src : $href,
+				w   : $width,
+				h   : $height
+					}
+			
+			temp.el = $(this).find("img")[0];
+			items.push(temp)
+		});
+	});
+	
+	return(items)
 	
 }
 

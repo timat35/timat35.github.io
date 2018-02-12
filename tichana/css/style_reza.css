@@ -183,6 +183,17 @@ position:relative;
   max-width: 100%;
 }
 
+.btn_more {
+	position: absolute!important;
+	bottom: -5%;
+	text-align: center;
+}
+
+.btn_more button{
+	background:none;
+	border:none;
+}
+
 #crea_text {
 	padding:0% 20%;
 }

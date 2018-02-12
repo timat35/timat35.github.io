@@ -6,23 +6,29 @@
 
 <div id="content" class ="container">
 
-	<div class="row text_center">
+	<div class="col">
 		<img id ="logo" src=""></img/>
 	</div>
-	<div class="row text_center">
+	<div class="col">
 		<h2><a id="crea_title"></a></h2>
 	</div>
-	<div class="row text_center">
+	<div class="col">
 		<a id="crea_sub"></a>
 	</div>
-	<div class="row text_center">
+	<div class="col">
 		<a id="crea_link"></a>
 	</div>
 </div>
 
-<div class="grid">
+<div id = "div_grid" class="grid">
   <div id ="crea_grid" class="grid-sizer"></div>
+	
+
 </div>
+
+	<div class="col ">
+		<button class="link_more"> Plus de photos </button >
+	</div>
 
 <div class="container">
   <div id ="crea_text" class="col ">
@@ -123,39 +129,63 @@ load_content(name, img_files)
 	});
 	
 	// layout Masonry after each image loads
+	
+
 	$grid.imagesLoaded().progress( function() {
-	  $grid.masonry();
+		$grid.masonry();
 	});  
 	
 
 var pswpElement = document.querySelectorAll('.pswp')[0];
 
-var items = [];
-$( ".grid-item" ).each( function() {
-	var temp = [];
-	var $pic     = $(this)
-	$pic.find('a').each(function() {
-		var $href   = $(this).attr('href'),
-                    $size   = $(this).data('size').split('x'),
-                    $width  = $size[0],
-                    $height = $size[1];
- 
-		var temp = {
-			src : $href,
-			w   : $width,
-			h   : $height
-                }
+var items = get_items();
+
+$(".link_more").click(function(){
+    var new_img = load_more(name, img_files);
+	var $new_img = $( new_img );
+	$grid.append( $new_img ).masonry( 'appended', $new_img );
+	$grid.imagesLoaded().progress( function() {
+		$grid.masonry();
+	});  
+	
+	var items = get_items();
+	// update on click
+	$('.grid-item').on('click', 'figure', function(event) {
 		
-		temp.el = $(this).find("img")[0];
-		items.push(temp)
+		event.preventDefault();
+		var $index = Number($(this).attr('ind'))
+		var options = {
+			index: $index,
+			showHideOpacity:true,
+			getThumbBoundsFn : function(index) {
+				var thumbnail = items[index].el;
+				var pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
+				var rect = thumbnail.getBoundingClientRect();
+				return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
+			}
+		}
+		
+		// Initialize PhotoSwipe
+		var lightBox = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+		lightBox.listen('gettingData', function (index, item) {
+		if (item.w < 1 || item.h < 1) {
+			var img = new Image();
+			img.onload = function () {
+				item.w = this.width;
+				item.h = this.height;
+				lightBox.updateSize(true);
+			};
+			img.src = item.src;
+		}
+	});
+		lightBox.init();
 	});
 
 });
 
-
 $('.grid-item').on('click', 'figure', function(event) {
+	
     event.preventDefault();
-     
 	var $index = Number($(this).attr('ind'))
     var options = {
         index: $index,
@@ -167,7 +197,9 @@ $('.grid-item').on('click', 'figure', function(event) {
 			return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
         }
 	}
-
+	
+	
+	
     // Initialize PhotoSwipe
     var lightBox = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
 	lightBox.listen('gettingData', function (index, item) {
