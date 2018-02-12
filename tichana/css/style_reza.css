@@ -183,6 +183,9 @@ position:relative;
   max-width: 100%;
 }
 
+#crea_text {
+	padding:0% 20%;
+}
 
 
 .creaHolder {

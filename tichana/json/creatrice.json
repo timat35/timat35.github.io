@@ -2,7 +2,16 @@
  "chant": {
 	"title":"Le chant de l'émail",
 	"subtitle":"Céramiste",
-	"link":"http://www.cestfaitici.fr/artisans/45/le-chant-de-l-email/oceane-doledec"
+	"link":"http://www.cestfaitici.fr/artisans/45/le-chant-de-l-email/oceane-doledec",
+	"text":[
+		"Le Chant de l’émail nous souffle une mélodie qui rime avec poterie sans interdit. La créativité est le maître mot de la marque qui propose une grande variété d’objets uniques ou en toute petite série. Ce sont des céramiques du quotidien : vases, lampes, mobiles…"
+		,
+		"Les inspirations viennent tout azimut, graphismes ethniques, nature, exploration des contrastes, le mat/le brillant, le lisse/le rugueux, le minéral/le végétal… avec toujours en ligne de mire, la recherche d’une pureté graphique, des céramiques aux lignes contemporaines, une forme soignée pour l’élégance, de la couleur pour vivifier."
+		,
+		"Océane, la créatrice, cherche à exploiter la multitude de possibilités qu’offre le travail de la terre, que ce soit au travers des différentes façons de façonner ou de décorer, au travers de l’utilisation de différentes terres, d’où une évolution permanente. Elle réalise l’ensemble du processus de création du dessin original à la cuisson des pièces, en passant par la création des émaux."
+		,
+		"L’environnement au cœur de la démarche. Elle travaille à partir de matières premières pour contrôler l’ensemble du cycle de fabrication, dans une optique de limitation de l’utilisation de matières polluantes et des dépenses énergétiques."
+		]
  },
  "eska": {
  	"title":"Eska",
@@ -12,7 +21,15 @@
  "reza": {
  	"title":"Réza",
 	"subtitle":"Créations artisanales en cuir",
-	"link":"http://www.reza-cuir.com/"
+	"link":"http://www.reza-cuir.com/",
+	"text":[
+		"Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère."
+		,
+		"La créatrice, Élisa, travaille seule et réalise toutes les étapes de fabrication : de l’idée au produit fini, en passant par le dessin, le patronage, le choix des matières premières, la coupe, le parage, l’assemblage et la couture."
+		,
+		"Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !"
+		]
+
  },
  "tet": {
  	"title":"Têt-en-l'air",

@@ -1,0 +1,30 @@
+{
+ "chant": {
+	"main": {
+		"name" : ["mobile.jpg", "vases.jpg", "suspension.jpg"]
+		"size" : ["1800x1192", "1800x1192", "1590x2400"]
+	}
+	"more": {
+		"name" : []
+		"size" : []
+	}
+ },
+ "eska": {
+	"name":[]
+	"size":[]
+ },
+ "reza": {
+	"main": {
+		"name" : ["img_1.jpg", "img_2.jpg", "img_3.jpg"]
+		"size" : ["1024x768", "1024x768", "1024x768"]
+	}
+	"more": {
+		"name" : ["more_3.jpg", "more_4.jpg", "more_5.jpg", "more_6.jpg", "more_7.jpg","more_9.jpg"]
+		"size" : ["768x1024","1024x768","1024x680","1024x768","1024x768","1024x768"]
+	}
+ },
+ "tet": {
+	"name":[]
+	"size":[]
+ }
+}

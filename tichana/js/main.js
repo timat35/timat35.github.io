@@ -16,9 +16,19 @@ function load_content(name, files) {
 		document.getElementById("crea_title").innerHTML = crea_data[name].title;
 		document.getElementById("crea_sub").innerHTML = crea_data[name].subtitle;
 		document.getElementById("crea_link").innerHTML = crea_data[name].link;
+		
+		var arr_text = crea_data[name].text;
+		nb_par = arr_text.length;
+		
+		for (var i=0; i<nb_par; i++) {
+			const temp_p = document.createElement("p");
+			temp_p.innerHTML = arr_text[i]
+			document.getElementById("crea_text").appendChild(temp_p)
+			
+		}
+		
 	});
-	
-	
+
  	nb_img = files.length;
 	for (var i=0; i<nb_img; i++) {
 		const temp_div = document.createElement("div");

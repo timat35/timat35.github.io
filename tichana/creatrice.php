@@ -20,10 +20,16 @@
 	</div>
 </div>
 
-
 <div class="grid">
   <div id ="crea_grid" class="grid-sizer"></div>
 </div>
+
+<div class="container">
+  <div id ="crea_text" class="col ">
+  </div>
+</div>
+
+
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -164,23 +170,17 @@ $('.grid-item').on('click', 'figure', function(event) {
 
     // Initialize PhotoSwipe
     var lightBox = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-	lightBox.listen('gettingData', (index, items) => {
-  if (!item.w || !item.h) {
-    const innerImgEl = item.el.getElementsByTagName('img')[0]
-    if (innerImgEl) {
-      item.w = innerImgEl.width
-      item.h = innerImgEl.height
+	lightBox.listen('gettingData', function (index, item) {
+    if (item.w < 1 || item.h < 1) {
+        var img = new Image();
+        img.onload = function () {
+            item.w = this.width;
+            item.h = this.height;
+            lightBox.updateSize(true);
+        };
+        img.src = item.src;
     }
-
-    const img = new Image()
-    img.onload = function () {
-      item.w = this.width
-      item.h = this.height
-      lightBox.updateSize(true)
-    }
-    img.src = item.src
-  }
-})
+});
 	
 	
     lightBox.init();
