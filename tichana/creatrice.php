@@ -24,11 +24,11 @@
   <div id ="crea_grid" class="grid-sizer"></div>
 	
 
-</div>
-
-	<div class="col ">
+	<div id = "btn_more" class="col down">
 		<button class="link_more"> Plus de photos </button >
 	</div>
+</div>
+
 
 <div class="container">
   <div id ="crea_text" class="col ">
@@ -138,54 +138,39 @@ load_content(name, img_files)
 
 var pswpElement = document.querySelectorAll('.pswp')[0];
 
-var items = get_items();
+
 
 $(".link_more").click(function(){
-    var new_img = load_more(name, img_files);
-	var $new_img = $( new_img );
-	$grid.append( $new_img ).masonry( 'appended', $new_img );
+	
+	if (this.parentNode.classList.contains("down")) {
+
+		this.innerHTML= "Moins de photos"
+		this.parentNode.setAttribute("class", "col up")
+
+		var new_img = load_more(name, img_files);
+		var $new_img = $( new_img );
+		$grid.append( $new_img ).masonry( 'appended', $new_img );
+
+	}
+	else {
+		
+		this.innerHTML= "Plus de photos"
+		this.parentNode.setAttribute("class", "col down")
+
+		var obj = $('.grid-item.more');
+		$grid.masonry('remove',obj);
+	}
+	
 	$grid.imagesLoaded().progress( function() {
 		$grid.masonry();
 	});  
-	
-	var items = get_items();
-	// update on click
-	$('.grid-item').on('click', 'figure', function(event) {
-		
-		event.preventDefault();
-		var $index = Number($(this).attr('ind'))
-		var options = {
-			index: $index,
-			showHideOpacity:true,
-			getThumbBoundsFn : function(index) {
-				var thumbnail = items[index].el;
-				var pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
-				var rect = thumbnail.getBoundingClientRect();
-				return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
-			}
-		}
-		
-		// Initialize PhotoSwipe
-		var lightBox = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-		lightBox.listen('gettingData', function (index, item) {
-		if (item.w < 1 || item.h < 1) {
-			var img = new Image();
-			img.onload = function () {
-				item.w = this.width;
-				item.h = this.height;
-				lightBox.updateSize(true);
-			};
-			img.src = item.src;
-		}
-	});
-		lightBox.init();
-	});
-
 });
 
-$('.grid-item').on('click', 'figure', function(event) {
+$('.grid').on('click', 'figure', function(event) {
+	event.preventDefault();
+	var items = get_items();
 	
-    event.preventDefault();
+
 	var $index = Number($(this).attr('ind'))
     var options = {
         index: $index,

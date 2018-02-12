@@ -160,6 +160,7 @@ position:relative;
   margin: 2% auto;
 }
 
+
 /* clear fix */
 .grid:after {
   content: '';
@@ -171,11 +172,14 @@ position:relative;
 /* add dinamic margin bottom and change width*/
 .grid-item {
   width: 300px;
-  margin-bottom:5px;
 }
 
 .grid-item {
   float: left;
+}
+
+.grid-item figure {
+  margin-bottom:5px!important;
 }
 
 .grid-item img {
@@ -183,15 +187,34 @@ position:relative;
   max-width: 100%;
 }
 
-.btn_more {
+#btn_more{
 	position: absolute!important;
-	bottom: -5%;
 	text-align: center;
 }
 
-.btn_more button{
+#btn_more.down{
+	z-index: 10;
+	bottom: -20px;
+}
+
+#btn_more.up{
+    z-index: 10;
+    top: -30px;
+}
+
+#btn_more button{
 	background:none;
 	border:none;
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+#btn_more button:hover{
+	color: #008CBA;
+}
+
+#btn_more button:focus{
+	outline: 0px;
 }
 
 #crea_text {

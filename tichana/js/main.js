@@ -64,7 +64,7 @@ function load_more(name, files) {
  	nb_img = files.length;
 	for (var i=3; i<nb_img; i++) {
 		const temp_div = document.createElement("div");
-		temp_div.setAttribute("class", "grid-item ");
+		temp_div.setAttribute("class", "grid-item more ");
 		
 		const temp_fig = document.createElement("figure");
 		temp_fig.setAttribute("ind", i);
