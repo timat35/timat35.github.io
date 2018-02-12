@@ -51,9 +51,10 @@ function load_content(name, files) {
 		
 		document.getElementById("div_grid").appendChild(temp_div)
 	}
-	
-	if (nb_img > 2) {
+
+	if (nb_img < 4) {
 		
+		document.getElementById("btn_more").outerHTML=''
 		
 	}
 }
