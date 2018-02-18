@@ -44,17 +44,19 @@ Lundi au samedi 11h-19h.<br>
 
 
 <div>
-<div><a target="_blank" href="https://www.facebook.com/events/358354611277929/"><img src="/media/photo-marche/marche-noel-2017.jpg" alt="marche-noel-2017"  width class=" borderClass imgMarket" /></a></div>
+<div><a target="_blank" href="http://megeve.com/noesit/!/fiche/salon-talents-de-femmes-442236/"><img src="/media/photo-marche/talent-femme-2018.jpg" alt="talent-femme-2018"  width class=" borderClass imgMarket" /></a></div>
 <div class="matDescMarche">
 <section class="matTitle">
-<p>Marché de Noël équitable et culturel </p>
+<p>Salon Talents de Femmes à Megève </p>
 </section>
 <section class="textLong">
 <p>
-Du vendredi 24 novembre 2017 au samedi 23 décembre 2017. <br>
-Tous les jours 10h-20h.<br>
-Square Docteur Martin, Grenoble. <br>
-<!--organisé par <a target="_blank" href = http://www.cestfaitici.fr/evenement/262/marche-de-noel-de-grenoble-grenoble-24-novembre-23-decembre-2017  style="text-decoration: underline; color: -webkit-link;">C'est fait ici</a>.<br-->
+Du vendredi 2 au dimanche 4 mars 2018: <br>
+Vendredi: 14h à 20h.<br>
+Samedi: 10h à 20h. <br>
+Dimanche: 10h à 18h. <br>
+Salle des Congrès du Palais. <br>
+74120 Megève.
 </p>
 </section>
 </div>
@@ -64,12 +66,11 @@ Square Docteur Martin, Grenoble. <br>
 
 
 <div>
-
-
 <section class="matTitle"><p>J'y étais ! </p></section>
 <div>
-<div><a target="_blank" href="http://www.lacordealinge-grenoble.com/marche_2017.html"><img src="/media/photo-marche/marche-createur-grenoble-2017.jpg" alt="marche-createur-grenoble-2017"  width class=" borderClass imgMarket" /></a></div>
+<div><a target="_blank" href="https://www.facebook.com/events/358354611277929/"><img src="/media/photo-marche/marche-noel-2017.jpg" alt="marche-noel-2017"  width class=" borderClass imgMarket" /></a></div>
 </div>
+<div><a target="_blank" href="http://www.lacordealinge-grenoble.com/marche_2017.html"><img src="/media/photo-marche/marche-createur-grenoble-2017.jpg" alt="marche-createur-grenoble-2017"  width class=" borderClass imgMarket" /></a></div>
 <div>
 <div><a target="_blank" href="https://www.artspentes.com/estive"><img src="/media/photo-marche/marche_estive_2017.jpg" alt="estive-2017"  width class=" borderClass imgMarket" /></a></div>
 </div>
