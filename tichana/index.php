@@ -8,7 +8,7 @@
 	<div class = "row">
 	<div class= "creaHolder col" >
 		<div class = "creaImage">
-			<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
+			<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail</a></br>
@@ -17,7 +17,7 @@
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
+			<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=eska" class= "title">Eska</a></br>
@@ -26,7 +26,7 @@
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
+			<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=reza" class= "title">Réza</a></br>
@@ -35,7 +35,7 @@
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);";"/>
+			<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a></br>
@@ -43,6 +43,7 @@
 		</div>
 	</div>
 	</div>
+
 </div>
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

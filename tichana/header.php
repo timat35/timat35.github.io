@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/slick.css?v=1.3" type="text/css">
 <link rel="stylesheet" href="css/photoswipe.css"> 
 <link rel="stylesheet" href="css/default-skin.css"> 
+<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
 
 </head>
 
@@ -18,7 +19,7 @@
 <nav id="topmenu" class="navbar navbar-inverse navbar-static-top">
 	<ul>
 		<li><a href="">Les créatrices</a></li>
-		<li><a href="">La boutique</a></li>
+		<li><a href="boutique.php">La boutique</a></li>
 		<li><a href="">Événement</a></li>
 		<li><a href="">Contact</a></li>
 	</ul>

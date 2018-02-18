@@ -37,6 +37,42 @@ p{
 #content {
 	text-align:center;
 }
+div#boutique {
+    margin: 1% 0%;
+	text-align:center;
+}
+
+div#calendar {
+	margin: 7% 0%;
+}
+
+div.fc-left h2 {
+    font-size: 1.5rem!important;
+    font-weight: 400!important;
+}
+
+th span {
+    font-weight: 400;
+}
+
+.fc-toolbar.fc-header-toolbar {
+	margin-bottom:0!important;
+	
+}
+
+.fc button {
+	height:inherit!important;
+}*/
+
+ .fc button .fc-icon{
+	 top:0em!important;
+	 vertical-align:baseline!important;
+	 margin:0!important
+ }
+
+.fc-row.fc-week.fc-widget-content {
+    height: 0px!important;
+}
 
 /*Header*/
 .logged-in #header{ margin-top:0px;}
