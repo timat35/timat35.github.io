@@ -7,27 +7,43 @@
 <div id="boutique" class ="container">
 
 	<div class="row">
-		<div class="col ">
-			<img id="index_reza"  src="img/boutique/background.png" />
+		<div id="boutiqueLeft" class="col-9">
+			<div class="row">
+				<p>
+				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
+				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
+				</p>
+				<p>
+				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
+				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
+				</p>
+				<p>
+				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
+				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
+				</p>
+			</div>
+			<div class="row justify-content-center">
+				<img id="index_eska"  src="img/boutique/background.png" alt=""  />
+			</div>
 		</div>
-		<div class="col ">
-			<p>
-			Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
-			Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
-			</p>
-			<p>
-			Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
-			Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
-			</p>
-			<p>
-			Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
-			Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
-			</p>
-		</div>
-		<div class="col">
-			<iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://cartosm.eu/map?lon=5.7233639893763&lat=45.186836007727&zoom=18&width=400&height=350&mark=true&nav=true&pan=true&zb=inout&style=default&icon=left"></iframe>
-			<div id="calendar"></div>
-
+		<div id="boutiqueRight" class="col-3">
+			<div class="contact">
+				<h1>Le court-circuit</h1>
+				<p>
+				7 rue du Lieutenant Chanaron</br>
+				38000 Grenoble
+				</p>
+				<h3> Horaires </h3>
+				<p>
+				Du Mardi au Samedi</br>
+				14h - 19h
+				</p>
+				<iframe class="googlemap" frameborder="0" style="border:0"
+				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJSX3kCY_0ikcRvZVeJUpOuP0&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
+				</iframe>
+				<h4> Qui est la? </h4>
+				<div id="calendar"></div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -52,10 +68,27 @@
 
 
 $(document).ready(function() {
+	
+	w_w = $(window).width();
+    if (w_w <1600){
+       document.getElementById("boutiqueLeft").className= 'col-8';
+		document.getElementById("boutiqueRight").className= 'col-4';
+    }
+	
+	$(window).resize(function(){
+		w_w = $(window).width();
+		if (w_w  <1600){
+			document.getElementById("boutiqueLeft").className = 'col-8';
+			document.getElementById("boutiqueRight").className ='col-4';
+		}
+		else {
+			document.getElementById("boutiqueLeft").className = 'col-9';
+			document.getElementById("boutiqueRight").className ='col-3';
+			
+		}
+    });
 
     // page is now ready, initialize the calendar...
-
-$(document).ready(function() {
     $('#calendar').fullCalendar({
         googleCalendarApiKey: "AIzaSyAaxUTleiUlolnnX3BLykCj16woRUDiAnQ",
         events: {
@@ -64,12 +97,12 @@ $(document).ready(function() {
 		defaultView: $(window).width() < 514 ? 'basicDay' : 'month',
 		firstDay:2,
 		hiddenDays: [ 0,1],
-		aspectRatio:1.5,
+		aspectRatio:1.2,
 		columnHeaderFormat:'dddd',
 		header: {
-			left:   'prev,next ',
-			center: 'title',
-			right:  ''
+			left:   'title',
+			center: '',
+			right:  'prev,next '
 		},
 		eventTextColor:'#000000',
 		eventAfterRender: function (calEvent, element, view) {
@@ -116,7 +149,7 @@ $(document).ready(function() {
     });
 	
 	
-});
+
 
 });
 

@@ -8,38 +8,46 @@
 	<div class = "row">
 	<div class= "creaHolder col" >
 		<div class = "creaImage">
-			<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			<a href="creatrice.php?creatrice=chant">
+				<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			</a>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail</a></br>
-			<a class="desc">Céramiste</a>
+			<a href="creatrice.php?creatrice=chant" class="desc">Céramiste</a>
 		</div>
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			<a href="creatrice.php?creatrice=eska">
+				<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			</a>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=eska" class= "title">Eska</a></br>
-			<a class="desc">Vêtements dédiés à l’outdoor</a>
+			<a href="creatrice.php?creatrice=eska" class="desc">Vêtements dédiés à l’outdoor</a>
 		</div>
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			<a href="creatrice.php?creatrice=reza">
+				<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			</a>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=reza" class= "title">Réza</a></br>
-			<a class="desc">Créations artisanales en cuir</a>
+			<a href="creatrice.php?creatrice=reza" class="desc">Créations artisanales en cuir</a>
 		</div>
 	</div>
 	<div class= "creaHolder col">
 		<div class = "creaImage">
-			<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			<a href="creatrice.php?creatrice=tet">
+				<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+			</a>
 		</div>
 		<div>
 			<a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a></br>
-			<a class="desc">Modiste chapeaux</a>
+			<a href="creatrice.php?creatrice=tet" class="desc">Modiste chapeaux</a>
 		</div>
 	</div>
 	</div>

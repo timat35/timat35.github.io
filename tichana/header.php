@@ -18,18 +18,19 @@
 
 <nav id="topmenu" class="navbar navbar-inverse navbar-static-top">
 	<ul>
-		<li><a href="">Les créatrices</a></li>
+		<li><a href="/">Les créatrices</a></li>
 		<li><a href="boutique.php">La boutique</a></li>
-		<li><a href="">Événement</a></li>
-		<li><a href="">Contact</a></li>
+		<li><a href="/">Événement</a></li>
+		<li><a href="/">Contact</a></li>
 	</ul>
 </nav>
 
 	<div id="header" class="container-fluid h-25">
 		<div class="logo">
-			<h1><a href="">Tichana</a>
-			<div class="desc">
+			<h1><a href="/">Le court-circuit</a></h1>
+			<h2 class="title-desc">
 				Ceramique, Maroquinerie, Modiste, Styliste, mais pas que...
+			</h2>
 			</div>
 		</div>		
 
