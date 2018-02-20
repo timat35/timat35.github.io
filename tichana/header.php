@@ -34,7 +34,7 @@
 
 	<div id="header" class="container-fluid h-25">
 		<div class="logo">
-			<h1><a href="/">Le court-circuit</a></h1>
+			<h1 class="display-1"><a href="/">Le court-circuit</a></h1>
 			<h2 class="title-desc">
 				Ceramique, Maroquinerie, Modiste, Styliste, mais pas que...
 			</h2>
