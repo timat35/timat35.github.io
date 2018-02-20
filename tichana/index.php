@@ -58,7 +58,7 @@
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/main.js?v=1.63"></script>
-<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.event.move.js"></script>
 <script type="text/javascript" src="js/jquery.event.swipe.js"></script>
 

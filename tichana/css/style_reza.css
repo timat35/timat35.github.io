@@ -11,6 +11,8 @@
   }
 }
 
+
+
 img {
 	max-width:100%;
 	height:auto;
@@ -117,9 +119,12 @@ th span {
 .outer-center {float: right;right: 50%;position: relative;}
 .inner-center {float: right;right: -50%;position: relative;}
 
-/* Top menu */ 
+/* NAV */ 
 
-#topmenu {
+
+
+
+/* #topmenu {
 	
 	width:100%;
 	float:left;
@@ -181,7 +186,7 @@ th span {
 #topmenu  ul > ul > li:hover  {
     background-color: #F8F691;
 }
-
+*/
 
 /* creatrice page */
 
