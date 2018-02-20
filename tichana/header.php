@@ -16,15 +16,15 @@
 
 <body class=" bodyClass container-fluid" >
 
-<nav class="navbar navbar-expand-lg navbar-full navbar-dark bg-primary">
+<nav class="navbar navbar-expand-md  ">
 
-	<button class="navbar-toggler  d-lg-none" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
+	<button class="navbar-toggler  d-md-none" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
 	&#9776;
 	</button>
 
 	<div class="collapse navbar-collapse " id="mainNavbarCollapse">
 		<ul class="nav navbar-nav ml-auto">
-			<li class="nav-item"><a class="nav-link" href="/">Les créatrices<span class="sr-only">(current)</span></a></li>
+			<li class="nav-item"><a class="nav-link" href="/">Les créatrices</a></li>
 			<li class="nav-item"><a class="nav-link" href="boutique.php">La boutique</a></li>
 			<li class="nav-item"><a class="nav-link" href="/">Événement</a></li>
 			<li class="nav-item"><a class="nav-link"href="/">Contact</a></li>
