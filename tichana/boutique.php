@@ -14,12 +14,7 @@
 				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
 				</p>
 				<p>
-				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
-				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
-				</p>
-				<p>
-				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
-				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
+				glouglbi glouba sont dans un vaisseau spatiale.. que c'est zouli!
 				</p>
 			</div>
 			<div class="row justify-content-center">
