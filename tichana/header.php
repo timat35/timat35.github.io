@@ -24,17 +24,17 @@
 
 	<div class="collapse navbar-collapse " id="mainNavbarCollapse">
 		<ul class="nav navbar-nav ml-auto">
-			<li class="nav-item"><a class="nav-link" href="/tichana/">Les créatrices</a></li>
+			<li class="nav-item"><a class="nav-link" href="/">Les créatrices</a></li>
 			<li class="nav-item"><a class="nav-link" href="boutique.php">La boutique</a></li>
 			<li class="nav-item"><a class="nav-link" href="news.php">Événement</a></li>
-			<li class="nav-item"><a class="nav-link"href="/tichana/">Contact</a></li>
+			<li class="nav-item"><a class="nav-link"href="/">Contact</a></li>
 		</ul>
 	</div>
 </nav>
 
 	<div id="header" class="container-fluid h-25">
 		<div class="logo">
-			<h1 class="display-1"><a href="/tichana/">Le court-circuit</a></h1>
+			<h1 class="display-1"><a href="/">Le court-circuit</a></h1>
 			<h2 class="title-desc">
 				Ceramique, Maroquinerie, Modiste, Styliste, mais pas que...
 			</h2>
