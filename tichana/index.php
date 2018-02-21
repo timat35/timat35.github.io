@@ -9,6 +9,7 @@
 	<div class= "creaHolder col-6 col-md-3" >
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=chant">
+				<img  src="img/acceuil/logo-chant.png" class="index-logo" alt=""/>
 				<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 			</a>
 		</div>
@@ -20,6 +21,7 @@
 	<div class= "creaHolder col-6 col-md-3">
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=eska">
+				<img  src="img/acceuil/logo-eska.png" class="index-logo" alt=""/>
 				<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 			</a>
 		</div>
@@ -31,6 +33,7 @@
 	<div class= "creaHolder col-6 col-md-3">
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=reza">
+				<img  src="img/acceuil/logo-reza.png" class="index-logo" alt=""/>
 				<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 			</a>
 		</div>
@@ -42,6 +45,7 @@
 	<div class= "creaHolder col-6 col-md-3">
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=tet">
+				<img  src="img/acceuil/logo-tet.png" class="index-logo" alt=""/>
 				<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 			</a>
 		</div>

@@ -42,7 +42,7 @@
 	<h2>En parallele</h3>
 	</div>
 	
-	<div class="row mb-4">
+	<div class="row mb-4 mx-4">
 		
 		<div class="col-12 col-lg-6  mt-4">
 			<div class="row">

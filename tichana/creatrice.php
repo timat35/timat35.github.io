@@ -16,7 +16,9 @@
 		<a id="crea_sub"></a>
 	</div>
 	<div class="col">
-		<a id="crea_link"></a>
+		<a href="" id="crea_link">
+		www
+		</a>
 	</div>
 </div>
 

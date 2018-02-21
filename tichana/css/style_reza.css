@@ -70,10 +70,13 @@ a{
 
 }
 
-img.index_img {
-	
+img.index-logo {
+    margin: 5% 0%;
+    height: 80px;
+}
 
-	
+a#crea_link {
+    color: black;
 }
 
 #content {
@@ -305,6 +308,11 @@ button.navbar-toggler.d-md-none {
 	font-size:2.0em;
 
 	}
+	
+img.index-logo {
+    margin: 5% 0%;
+    height: 60px;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -317,6 +325,12 @@ button.navbar-toggler.d-md-none {
 	font-size:2.0em;
 
 	}
+	
+img.index-logo {
+    margin: 5% 0%;
+    height: 80px;
+}
+
 }
 
 
