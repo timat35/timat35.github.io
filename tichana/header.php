@@ -26,7 +26,7 @@
 		<ul class="nav navbar-nav ml-auto">
 			<li class="nav-item"><a class="nav-link" href="/">Les créatrices</a></li>
 			<li class="nav-item"><a class="nav-link" href="boutique.php">La boutique</a></li>
-			<li class="nav-item"><a class="nav-link" href="/">Événement</a></li>
+			<li class="nav-item"><a class="nav-link" href="news.php">Événement</a></li>
 			<li class="nav-item"><a class="nav-link"href="/">Contact</a></li>
 		</ul>
 	</div>

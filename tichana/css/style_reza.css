@@ -38,9 +38,7 @@ a{
 	text-decoration:none; 
 	color:#000;
 }
-p{	
-	line-height:19px;
-}
+
 
 
 /*Header*/
@@ -62,7 +60,7 @@ p{
 .logo h1 a{
 	display:block;
 	text-align:center;
-	color:#ff3f3f;
+	color:#d13fff70;
 	text-decoration:none;
 	outline: none;
 }
