@@ -23,7 +23,7 @@
 				</p>
 			</div>
 			<div class="row justify-content-center">
-				<img id="index_eska"  src="img/boutique/background.png" alt=""  />
+				<img id="index_eska"  src="img/boutique/test.jpg" alt=""  />
 			</div>
 		</div>
 		<div id="boutiqueRight" class="col-3">
