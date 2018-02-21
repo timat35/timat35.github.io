@@ -52,6 +52,7 @@
 </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/moment.js'></script>
 <script type="text/javascript" src="js/main.js?v=1.5"></script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
