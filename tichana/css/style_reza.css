@@ -50,6 +50,8 @@ a{
 	position:relative;
 	padding:0px;
 	}
+	
+
 
 /*Main Title*/
 .logo {float: left;padding-bottom: 1%; width:100%;}
@@ -313,8 +315,16 @@ a.d_off {
 	margin: 0 auto;
 }
 
+@media (max-height: 699.98px) { 
+.logo h1 {
+	font-size: 4rem;
+}
 
+h2.title-desc {
+	font-size: 1.5rem;
+}
 
+}
 
 @media (max-width: 767.98px) { 
   html {

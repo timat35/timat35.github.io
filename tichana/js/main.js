@@ -13,6 +13,9 @@ function load_content(name, files) {
 	
 	$.getJSON("json/creatrice.json", function(crea_data) {
 		
+		
+		
+		
 		document.getElementById("crea_title").innerHTML = crea_data[name].title;
 		document.getElementById("crea_sub").innerHTML = crea_data[name].subtitle;
 		//document.getElementById("crea_logo1").src = 'img/acceuil/logo-' + name + '.png'
@@ -27,6 +30,8 @@ function load_content(name, files) {
 		}
 		
 		$('*[data-crea=' +name+ ']').addClass('d-none');
+		
+		
 			
 		var arr_text = crea_data[name].text;
 		nb_par = arr_text.length;

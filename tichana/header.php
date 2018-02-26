@@ -32,7 +32,7 @@
 	</div>
 </nav>
 
-	<div id="header" class="container-fluid h-25">
+	<div id="header" class="container-fluid ">
 		<div class="logo">
 			<h1 class="display-1"><a href="/">Le court-circuit</a></h1>
 			<h2 class="title-desc">
