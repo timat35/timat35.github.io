@@ -204,6 +204,8 @@ var $grid = $('.grid').masonry({
   gutter:5
 });
 
+
+
 	// layout Masonry after each image loads
 	
 
@@ -214,7 +216,36 @@ $grid.imagesLoaded().progress( function() {
 
 $(document).ready(function() {
 	
+	w_w = $(window).width();
+    if (w_w <798){
+		document.getElementById("header").className = 'container-fluid';
+		document.getElementById("nav_id").className = 'navbar navbar-expand-md ';
+		document.getElementById("small-header").className = 'navbar-brand nav-center d-none';
+    }
+	else {
+		document.getElementById("header").className = 'container-fluid d-none';
+		document.getElementById("nav_id").className = 'navbar navbar-expand-md creatrice ';
+		document.getElementById("small-header").className = 'navbar-brand nav-center ';
+		
+	}
+
+
+	
 	$(window).resize(function(){
+		
+		w_w = $(window).width();
+		if (w_w <798){
+			document.getElementById("header").className = 'container-fluid';
+			document.getElementById("nav_id").className = 'navbar navbar-expand-md ';
+			document.getElementById("small-header").className = 'navbar-brand nav-center d-none';
+		}
+		else {
+			document.getElementById("header").className = 'container-fluid d-none';
+			document.getElementById("nav_id").className = 'navbar navbar-expand-md creatrice ';
+			document.getElementById("small-header").className = 'navbar-brand nav-center ';
+			
+		}
+		
 		$grid.imagesLoaded().progress( function() {
 			$grid.masonry();
 		});  

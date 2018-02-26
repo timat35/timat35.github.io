@@ -13,7 +13,7 @@ function load_content(name, files) {
 	
 	$.getJSON("json/creatrice.json", function(crea_data) {
 		
-		
+
 		
 		
 		document.getElementById("crea_title").innerHTML = crea_data[name].title;
@@ -22,7 +22,7 @@ function load_content(name, files) {
 		//document.getElementById("crea_logo2").src = 'img/acceuil/logo-' + name + '.png'
 		document.getElementById("crea_link").href = crea_data[name].link;
 		document.getElementById("crea_link").innerHTML = crea_data[name].link_text;
-		
+		document.getElementById("nav-logo").src = 'img/acceuil/logo-' + name + '.png';
 		
 		if (crea_data[name].facebook != undefined) {
 			document.getElementById("crea_face").setAttribute("class", "");
@@ -30,6 +30,7 @@ function load_content(name, files) {
 		}
 		
 		$('*[data-crea=' +name+ ']').addClass('d-none');
+		
 		
 		
 			

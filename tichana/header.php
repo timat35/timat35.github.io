@@ -16,11 +16,17 @@
 
 <body class=" bodyClass container-fluid" >
 
-<nav class="navbar navbar-expand-md  ">
-
+<nav id="nav_id" class="navbar navbar-expand-md  ">
+	
 	<button class="navbar-toggler  d-md-none" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
 	&#9776;
 	</button>
+	
+	<a id="small-header"class="navbar-brand nav-center d-none" href="/"> 
+	Le court-circuit
+	</a>
+
+	<img id="nav-logo"  class="d-none d-xl-block" alt=""/>
 
 	<div class="collapse navbar-collapse " id="mainNavbarCollapse">
 		<ul class="nav navbar-nav ml-auto">
