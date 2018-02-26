@@ -18,7 +18,16 @@ function load_content(name, files) {
 		//document.getElementById("crea_logo1").src = 'img/acceuil/logo-' + name + '.png'
 		//document.getElementById("crea_logo2").src = 'img/acceuil/logo-' + name + '.png'
 		document.getElementById("crea_link").href = crea_data[name].link;
+		document.getElementById("crea_link").innerHTML = crea_data[name].link_text;
 		
+		
+		if (crea_data[name].facebook != undefined) {
+			document.getElementById("crea_face").setAttribute("class", "");
+			document.getElementById("crea_face").href = crea_data[name].facebook;
+		}
+		
+		$('*[data-crea=' +name+ ']').addClass('d-none');
+			
 		var arr_text = crea_data[name].text;
 		nb_par = arr_text.length;
 		

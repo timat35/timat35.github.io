@@ -3,6 +3,8 @@
 	"title":"Le chant de l'émail",
 	"subtitle":"Céramiste",
 	"link":"http://www.cestfaitici.fr/artisans/45/le-chant-de-l-email/oceane-doledec",
+	"link_text":"www.cestfaitici.fr/le-chant-de-l*email",
+	"facebook":"https://www.facebook.com/lechantdelemail/",
 	"text":[
 		"Le <b>Chant de l’émail</b> nous souffle une mélodie qui rime avec poterie sans interdit. La créativité est le maître mot de la marque qui propose une grande variété d’objets uniques ou en toute petite série. Ce sont des céramiques du quotidien : vases, lampes, mobiles…"
 		,
@@ -17,6 +19,9 @@
  	"title":"Eska",
 	"subtitle":"Vêtements dédiés à l’outdoor",
 	"link":"http://www.eska-vetements.fr/",
+	"link_text":"www.eska-vetements.fr",
+	"facebook":"https://www.facebook.com/eska.vetements/",
+	"instagram":"eskavetements",
 	"text":[
 		"<b>Eska</b>, c’est l’envie pour Hélène de lier métier, passion et convictions.",
 		"Alors dans son atelier tout près de Grenoble, elle imagine, patronne et confectionne des vêtements pour hommes et femmes."
@@ -28,8 +33,9 @@
  	"title":"Réza",
 	"subtitle":"Créations artisanales en cuir",
 	"link":"http://www.reza-cuir.com/",
+	"link_text":"www.reza-cuir.com",
 	"text":[
-		"Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère."
+		"<b>Réza</b> est une marque de <b>maroquinerie</b> proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère."
 		,
 		"La créatrice, Élisa, travaille seule et réalise toutes les étapes de fabrication : de l’idée au produit fini, en passant par le dessin, le patronage, le choix des matières premières, la coupe, le parage, l’assemblage et la couture."
 		,
@@ -40,6 +46,8 @@
  "tet": {
  	"title":"Têt-en-l'air",
 	"subtitle":"Modiste chapeaux",
-	"link":"http://www.cestfaitici.fr/artisans/52/tet-en-l-air/delphine-baffier"
+	"link":"http://www.cestfaitici.fr/artisans/52/tet-en-l-air/delphine-baffier",
+	"link_text":"www.cestfaitici.fr/tet-en-l-air",
+	"facebook":"https://www.facebook.com/atelier.tetenlair/"
  }
 }

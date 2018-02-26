@@ -13,28 +13,98 @@
 		<h2><a id="crea_title"></a></h2>
 	</div>
 	<div class="col">
-		<a id="crea_sub"></a>
+		<h5><a id="crea_sub"></a></h5>
 	</div>
 	<div class="col">
-		<a href="" id="crea_link">
-		www
+		<a href="" target="_blank" id="crea_link">
+		</a>
+		<a target="_blank" id="crea_face" class="d_off">
+			<img src="img/Icone-Facebook.jpg" alt="Icone-Facebook"  class="link_logo" />
 		</a>
 	</div>
-</div>
-
-<div id = "div_grid" class="grid">
-  <div id ="crea_grid" class="grid-sizer"></div>
-	
-
-	<div id = "btn_more" class="col down">
-		<button class="link_more"> Plus de photos </button >
+	<div class="col">
+		
 	</div>
 </div>
 
+<div class="masonry_container">
+	<div id = "div_grid" class="grid">
+	  <div id ="crea_grid" class="grid-sizer"></div>
+		
+
+		<div id = "btn_more" class="col down">
+			<button class="link_more"> Plus de photos </button >
+		</div>
+	</div>
+</div>
 
 <div class="container">
   <div id ="crea_text" class="col ">
   </div>
+</div>
+
+	<div class="row justify-content-center">
+		<div class="col-12 col-lg-6  border-bottom border-dark   mb-4"/>
+	</div>
+
+<div class = "row justify-content-md-center">
+
+	<div class= "col-12 mb-4 text-center">
+		<h3><a class= "title"> Les autres creatrices</a></h3>
+	</div>
+			
+	<div  data-crea="chant" class= "creaHolder col-6 col-md-2 text-center" >
+		<div class = "creaImage">
+			<a href="creatrice.php?creatrice=chant">
+				<img  src="img/acceuil/logo-chant.png"  class="index-logo-small" alt=""/>
+				<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+
+			</a>
+		</div>
+		<div>
+			
+			<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail<a></h3>
+		</div>
+	</div>
+	<div data-crea="eska" class= "creaHolder col-6 col-md-2  text-center">
+		<div class = "creaImage">
+			<a href="creatrice.php?creatrice=eska">
+				
+				<img  src="img/acceuil/logo-eska.png"  class="index-logo-small" alt=""/>
+				<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+
+			</a>
+		</div>
+		<div>
+			<h3><a href="creatrice.php?creatrice=eska" class= "title">Eska</a></h3>
+		</div>
+	</div>
+	<div data-crea="reza" class= "creaHolder col-6 col-md-2 text-center ">
+		<div class = "creaImage">
+			<a href="creatrice.php?creatrice=reza">
+				
+				<img  src="img/acceuil/logo-reza.png"  class="index-logo-small" alt=""/>
+				<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+
+			</a>
+		</div>
+		<div>
+			<h3><a href="creatrice.php?creatrice=reza" class= "title">Réza</a></h3>
+		</div>
+	</div>
+	<div data-crea="tet" class= "creaHolder col-6 col-md-2 text-center mx-auto mx-md-0">
+		<div class = "creaImage">
+			<a href="creatrice.php?creatrice=tet">
+				
+				<img  src="img/acceuil/logo-tet.png" class="index-logo-small" alt=""/>
+				<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+				
+			</a>
+		</div>
+		<div>
+			<h3><a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a></h3>
+		</div>
+	</div>
 </div>
 
 
@@ -106,8 +176,11 @@
 
 </div>
 
+
+
 </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/main.js?v=1.5"></script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
@@ -116,6 +189,7 @@
 <script type="text/javascript" src="js/jquery.event.swipe.js"></script>
 <script type="text/javascript" src="js/photoswipe.js"></script>
 <script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
 
@@ -123,23 +197,32 @@ var name = <?php echo json_encode($_GET['creatrice'])?>;
 var img_files = <?php echo json_encode(glob('img/'.$_GET['creatrice'].'/*.*'))?>;
 load_content(name, img_files)
 
-	var $grid = $('.grid').masonry({
-	  itemSelector: '.grid-item',
-	  percentPosition: true,
-	  fitWidth: true,
-	  gutter:5
-	});
-	
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  fitWidth: true,
+  gutter:5
+});
+
 	// layout Masonry after each image loads
 	
 
-	$grid.imagesLoaded().progress( function() {
-		$grid.masonry();
-	});  
+$grid.imagesLoaded().progress( function() {
+	$grid.masonry();
+});  
 	
 
-var pswpElement = document.querySelectorAll('.pswp')[0];
+$(document).ready(function() {
+	
+	$(window).resize(function(){
+		$grid.imagesLoaded().progress( function() {
+			$grid.masonry();
+		});  
+	});
+	
+});
 
+var pswpElement = document.querySelectorAll('.pswp')[0];
 
 
 $(".link_more").click(function(){
@@ -204,6 +287,7 @@ $('.grid').on('click', 'figure', function(event) {
 	
     lightBox.init();
 });
+
 
 	
 </script>
