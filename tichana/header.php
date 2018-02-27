@@ -22,18 +22,18 @@
 	&#9776;
 	</button>
 	
-	<a id="small-header"class="navbar-brand nav-center d-none" href="/"> 
+	<a id="small-header" class="navbar-brand nav-center d-none" href="/"> 
 	Le court-circuit
 	</a>
 
-	<img id="nav-logo"  class="d-none d-xl-block" alt=""/>
+	<img id="nav-logo" src="" class="d-none d-xl-block" alt=""/>
 
 	<div class="collapse navbar-collapse " id="mainNavbarCollapse">
 		<ul class="nav navbar-nav ml-auto">
 			<li class="nav-item"><a class="nav-link" href="/">Les créatrices</a></li>
 			<li class="nav-item"><a class="nav-link" href="boutique.php">La boutique</a></li>
 			<li class="nav-item"><a class="nav-link" href="news.php">Événement</a></li>
-			<li class="nav-item"><a class="nav-link"href="/">Contact</a></li>
+			<li class="nav-item"><a class="nav-link" href="/">Contact</a></li>
 		</ul>
 	</div>
 </nav>

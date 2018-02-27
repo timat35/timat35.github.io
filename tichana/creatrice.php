@@ -1,5 +1,4 @@
 
-<!--?php  include('title/title_sacs.php');?-->
 <?php  include('header.php');?>
 
 
@@ -7,7 +6,7 @@
 <div id="content" class ="container">
 
 	<div class="col">
-		<img id ="logo" src=""></img/>
+		<img id ="logo" src=""></img>
 	</div>
 	<div class="col">
 		<h2><a id="crea_title"></a></h2>
@@ -142,7 +141,7 @@
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
                 <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <!-- element will get class pswp__preloader active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
                       <div class="pswp__preloader__cut">
@@ -169,6 +168,8 @@
         </div>
 
     </div>
+
+</div>
 
 </div>
 

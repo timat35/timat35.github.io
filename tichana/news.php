@@ -7,7 +7,7 @@
 <div id="news" class ="container">
 
 	<div class="col-12 text-center">
-	<h2>A la boutique</h3>
+	<h2>A la boutique</h2>
 	</div>
 	
 	<div class="row mb-4 justify-content-center">
@@ -16,7 +16,7 @@
 			<div class="row">
 			
 				<div  class="col-4 text-center align-self-center ">
-					<img   src="img/news/background.png"  alt="" />
+					<img   src="img/news/background.png"  alt=""/>
 				</div>
 				<div  class="col-auto align-self-center">
 					<div class="info">
@@ -34,12 +34,12 @@
 	</div>
 	
 	<div class="row justify-content-center">
-		<div class="col-12 col-lg-6  border-bottom border-warning  mb-4"/>
+		<div class="col-12 col-lg-6  border-bottom border-warning  mb-4"></div>
 	</div>
 	
 	
 	<div class="col-12 text-center">
-	<h2>En parallele</h3>
+	<h2>En parallele</h2>
 	</div>
 	
 	<div class="row mb-4 mx-4">
@@ -114,6 +114,7 @@
 	</div>
 </div>
 
+</div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
