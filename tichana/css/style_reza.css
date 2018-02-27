@@ -319,7 +319,6 @@ img#nav-logo {
 	padding:0% 20%;
 }
 
-
 .creaHolder {
 	min-width:10em;
 	padding: 0px 5px!important;
@@ -372,6 +371,10 @@ h2.title-desc {
     position: relative;
 
 	}
+	
+#crea_text {
+	padding:0% 10%;
+}
 }
 
 
@@ -409,6 +412,11 @@ img.index-logo-small {
 	margin:0 auto;
 	
 }
+
+#crea_text {
+	padding:0% 5%;
+}
+
 }
 
 @media (max-width: 575.98px) {
@@ -430,6 +438,10 @@ img.index-logo {
 img.index-logo-small {
     margin: 5% 0%;
     height: 40px;
+}
+
+#crea_text {
+	padding:0% 0%;
 }
 
 }

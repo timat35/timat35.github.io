@@ -28,14 +28,14 @@
 	  <div id ="crea_grid" class="grid-sizer"></div>
 		
 
-		<div id = "btn_more" class="col down">
+		<div id = "btn_more" class="col down d-none d-md-block">
 			<button class="link_more"> Plus de photos </button >
 		</div>
 	</div>
 </div>
 
 <div class="container">
-  <div id ="crea_text" class="col ">
+  <div id ="crea_text" class="col">
   </div>
 </div>
 
@@ -253,7 +253,7 @@ $(".link_more").click(function(){
 	if (this.parentNode.classList.contains("down")) {
 
 		this.innerHTML= "Moins de photos"
-		this.parentNode.setAttribute("class", "col up")
+		this.parentNode.setAttribute("class", "col up d-none d-md-block")
 
 		var new_img = load_more(name, img_files);
 		var $new_img = $( new_img );
@@ -263,7 +263,7 @@ $(".link_more").click(function(){
 	else {
 		
 		this.innerHTML= "Plus de photos"
-		this.parentNode.setAttribute("class", "col down")
+		this.parentNode.setAttribute("class", "col down d-none d-md-block")
 
 		var obj = $('.grid-item.more');
 		$grid.masonry('remove',obj);
