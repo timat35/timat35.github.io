@@ -205,6 +205,16 @@ img#nav-logo {
 
 }
 
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+	top:90%!important;
+	left:-20%!important;
+	text-align:center!important;
+	background-color: #ffffff91!important;
+}
 
 @media (min-width: 769px) {
 	  ul  li > a:before {
@@ -380,6 +390,12 @@ img.index-logo {
     margin: 5% 0%;
     height: 60px;
 }
+
+img.index-logo-small {
+    margin: 5% 0%;
+    height: 40px;
+}
+
 
 .creaHolder.separation	{
     border-bottom-style: solid;

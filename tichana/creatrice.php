@@ -49,7 +49,7 @@
 		<h3><a class= "title"> Les autres creatrices</a></h3>
 	</div>
 			
-	<div  data-crea="chant" class= "creaHolder col-6 col-md-2 text-center" >
+	<div  data-crea="chant" class= "creaHolder col-6 col-md-3 text-center" >
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=chant">
 				<img  src="img/acceuil/logo-chant.png"  class="index-logo-small" alt=""/>
@@ -61,7 +61,7 @@
 			<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail</a></h3>
 		</div>
 	</div>
-	<div data-crea="eska" class= "creaHolder col-6 col-md-2  text-center">
+	<div data-crea="eska" class= "creaHolder col-6 col-md-3  text-center">
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=eska">
 				
@@ -74,7 +74,7 @@
 			<h3><a href="creatrice.php?creatrice=eska" class= "title">Eska</a></h3>
 		</div>
 	</div>
-	<div data-crea="reza" class= "creaHolder col-6 col-md-2 text-center ">
+	<div data-crea="reza" class= "creaHolder col-6 col-md-3 text-center ">
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=reza">
 				
@@ -87,7 +87,7 @@
 			<h3><a href="creatrice.php?creatrice=reza" class= "title">Réza</a></h3>
 		</div>
 	</div>
-	<div data-crea="tet" class= "creaHolder col-6 col-md-2 text-center mx-auto mx-md-0">
+	<div data-crea="tet" class= "creaHolder col-6 col-md-3 text-center mx-auto mx-md-0">
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=tet">
 				
@@ -222,8 +222,6 @@ $(document).ready(function() {
 		document.getElementById("small-header").className = 'navbar-brand nav-center ';
 		
 	}
-
-
 	
 	$(window).resize(function(){
 		
