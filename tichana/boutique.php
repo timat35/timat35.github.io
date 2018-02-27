@@ -7,21 +7,21 @@
 <div id="boutique" class ="container">
 
 	<div class="row">
-		<div id="boutiqueLeft" class="col-9">
-			<div class="row">
+		<div id="boutiqueLeft" class="col-12 col-lg-9">
+			<div class="row text-center">
 				<p>
 				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
 				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
 				</p>
 				<p>
-				glouglbi glouba sont dans un vaisseau spatiale.. que c'est zouli!
+				glouglbi glouba sont dans un vaisseau spatiale.. que c'est zouli! par contre c'est pas centré
 				</p>
 			</div>
 			<div class="row justify-content-center">
 				<img id="index_eska"  src="img/boutique/test.jpg" alt=""  />
 			</div>
 		</div>
-		<div id="boutiqueRight" class="col-3">
+		<div id="boutiqueRight" class="col-12 col-lg-3">
 			<div class="contact">
 				<h1>Le court-circuit</h1>
 				<p>
@@ -54,8 +54,6 @@
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="js/jquery.event.move.js"></script>
 <script type="text/javascript" src="js/jquery.event.swipe.js"></script>
-<script type="text/javascript" src="js/photoswipe.js"></script>
-<script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
 <script type="text/javascript" src='fullcalendar/fullcalendar.js'></script>
 <script type='text/javascript' src='fullcalendar/gcal.js'></script>
 <script type="text/javascript" src='fullcalendar/locale/fr.js'></script>
@@ -67,19 +65,19 @@ $(document).ready(function() {
 	
 	w_w = $(window).width();
     if (w_w <1600){
-       document.getElementById("boutiqueLeft").className= 'col-8';
-		document.getElementById("boutiqueRight").className= 'col-4';
+       document.getElementById("boutiqueLeft").className= 'col-12 col-lg-8';
+		document.getElementById("boutiqueRight").className= 'col-12 col-lg-4';
     }
 	
 	$(window).resize(function(){
 		w_w = $(window).width();
 		if (w_w  <1600){
-			document.getElementById("boutiqueLeft").className = 'col-8';
-			document.getElementById("boutiqueRight").className ='col-4';
+			document.getElementById("boutiqueLeft").className = 'col-12 col-lg-8';
+			document.getElementById("boutiqueRight").className ='col-12 col-lg-4';
 		}
 		else {
-			document.getElementById("boutiqueLeft").className = 'col-9';
-			document.getElementById("boutiqueRight").className ='col-3';
+			document.getElementById("boutiqueLeft").className = 'col-12 col-lg-9';
+			document.getElementById("boutiqueRight").className ='col-12 col-lg-3';
 			
 		}
     });
@@ -90,11 +88,11 @@ $(document).ready(function() {
         events: {
             googleCalendarId: "u2fcgjs9fjrtgq1iad1j1kb4g4@group.calendar.google.com"
         },
-		defaultView: $(window).width() < 514 ? 'basicDay' : 'month',
+		defaultView: 'month',
 		firstDay:2,
 		hiddenDays: [ 0,1],
-		aspectRatio:1.2,
-		columnHeaderFormat:'dddd',
+		aspectRatio:'a',
+		columnHeaderFormat: $(window).width() < 1225 ? 'ddd': 'dddd',
 		header: {
 			left:   'title',
 			center: '',
@@ -116,13 +114,6 @@ $(document).ready(function() {
 			} 
 			element.css('border','0px')
 			
-		},
-		windowResize: function(view) {
-			if ($(window).width() < 514){
-				$('#calendar').fullCalendar( 'changeView', 'basicDay' );
-			} else {
-				$('#calendar').fullCalendar( 'changeView', 'month' );
-			}
 		},
 		eventClick: function(calEvent, jsEvent, view) {
 		
