@@ -18,7 +18,7 @@
 		<a href="" target="_blank" id="crea_link">
 		</a>
 		<a target="_blank" id="crea_face" class="d_off">
-			<img src="img/Icone-Facebook.jpg" alt="Icone-Facebook"  class="link_logo" />
+			<img src="img/ico/icoFace.jpg" alt="IcoFace"  class="link_logo" />
 		</a>
 	</div>
 </div>
