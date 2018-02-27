@@ -30,7 +30,23 @@
 
 	<div class="collapse navbar-collapse " id="mainNavbarCollapse">
 		<ul class="nav navbar-nav ml-auto">
-			<li class="nav-item"><a class="nav-link" href="/">Les créatrices</a></li>
+			
+			<li class="nav-item d-block d-md-none"><a class="nav-link" href="/">Les créatrices</a></li>
+			
+			<li class="nav-item dropdown d-none d-md-block">
+				<a class="nav-link " href="/" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+				Les créatrices
+				</a>
+				<div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+				  <a class="dropdown-item " href="creatrice.php?creatrice=chant">Le chant de l'émail</a>
+				  <a class="dropdown-item " href="creatrice.php?creatrice=eska">Eska</a>
+				  <a class="dropdown-item " href="creatrice.php?creatrice=reza">Réza</a>
+				  <a class="dropdown-item " href="creatrice.php?creatrice=tet">Têt-en-l'air</a>
+				</div>
+			</li>
+			
+
+			
 			<li class="nav-item"><a class="nav-link" href="boutique.php">La boutique</a></li>
 			<li class="nav-item"><a class="nav-link" href="news.php">Événement</a></li>
 			<li class="nav-item"><a class="nav-link" href="/">Contact</a></li>
@@ -42,7 +58,7 @@
 		<div class="logo">
 			<h1 class="display-1"><a href="/">Le court-circuit</a></h1>
 			<h2 class="title-desc">
-				Ceramique, Maroquinerie, Modiste, Styliste, mais pas que...
+				Collectif d'artisans locaux
 			</h2>
 		</div>
 	</div>		
