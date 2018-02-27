@@ -16,7 +16,7 @@
 			</div>
 			<div>
 				
-				<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail<a></h3>
+				<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail</a></h3>
 				<h6><a href="creatrice.php?creatrice=chant" class="desc">Céramiste</a></h6>
 			</div>
 		</div>
@@ -62,8 +62,7 @@
 	</div>
 
 </div>
-	
-</div>
+
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>

@@ -22,9 +22,6 @@
 			<img src="img/Icone-Facebook.jpg" alt="Icone-Facebook"  class="link_logo" />
 		</a>
 	</div>
-	<div class="col">
-		
-	</div>
 </div>
 
 <div class="masonry_container">
@@ -62,8 +59,7 @@
 			</a>
 		</div>
 		<div>
-			
-			<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail<a></h3>
+			<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail</a></h3>
 		</div>
 	</div>
 	<div data-crea="eska" class= "creaHolder col-6 col-md-2  text-center">
@@ -176,9 +172,6 @@
 
 </div>
 
-
-
-</div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>

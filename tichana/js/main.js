@@ -18,8 +18,6 @@ function load_content(name, files) {
 		
 		document.getElementById("crea_title").innerHTML = crea_data[name].title;
 		document.getElementById("crea_sub").innerHTML = crea_data[name].subtitle;
-		//document.getElementById("crea_logo1").src = 'img/acceuil/logo-' + name + '.png'
-		//document.getElementById("crea_logo2").src = 'img/acceuil/logo-' + name + '.png'
 		document.getElementById("crea_link").href = crea_data[name].link;
 		document.getElementById("crea_link").innerHTML = crea_data[name].link_text;
 		document.getElementById("nav-logo").src = 'img/acceuil/logo-' + name + '.png';
@@ -31,9 +29,6 @@ function load_content(name, files) {
 		
 		$('*[data-crea=' +name+ ']').addClass('d-none');
 		
-		
-		
-			
 		var arr_text = crea_data[name].text;
 		nb_par = arr_text.length;
 		
