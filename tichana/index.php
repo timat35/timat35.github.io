@@ -30,7 +30,7 @@
 			</div>
 			<div>
 				<h3><a href="creatrice.php?creatrice=eska" class= "title">Eska</a></h3>
-				<h6><a href="creatrice.php?creatrice=eska" class="desc">Vêtements dédiés à l’outdoor</a></h6>
+				<h6><a href="creatrice.php?creatrice=eska" class="desc">Vêtements</a></h6>
 			</div>
 		</div>
 		<div class= "creaHolder col-6 col-md-3">

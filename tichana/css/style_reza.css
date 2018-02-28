@@ -1,5 +1,21 @@
 
 
+@font-face {
+    font-family: 'lullabellemedium';
+    src: url('font/lullabelle-webfont.eot');
+    src: url('font/lullabelle-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/lullabelle-webfont.woff2') format('woff2'),
+         url('font/lullabelle-webfont.woff') format('woff'),
+		 url('font/lullabellee-webfont.ttf')  format('truetype'), 
+         url('font/lullabelle-webfont.svg#lullabellemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
 @viewport { 
     width: device-width; 
 }
@@ -44,10 +60,10 @@ a{
 /*Header*/
 .logged-in #header{ margin-top:0px;}
 #header{ 
-	background-image:url("background2.png");
+	/* background-image:url("background2.png");*/
 	width:100%;
 	display:inline-block;
-	position:relative;
+	position:relative;/* */
 	padding:0px;
 	}
 	
@@ -64,10 +80,16 @@ a{
     margin-top:1%;
 }
 
+.logo h1 img{
+	position:absolute;
+	width:120px;
+}
+
 .logo h1 a{
 	display:block;
 	text-align:center;
-	color:#d13fff70;
+	font-family: 'lullabellemedium';
+	color:#000000;
 	text-decoration:none;
 	outline: none;
 }
@@ -156,10 +178,10 @@ th span {
 
 /* NAV */ 
 
-nav{
+/* nav{
     border-bottom-style: inset;
 	
-}
+}*/
 
 nav.creatrice {
 	height: 135px;
@@ -170,8 +192,9 @@ button.navbar-toggler.d-md-none {
 }
 
 a.navbar-brand.nav-center {
+	font-family: 'lullabellemedium';
 	font-size:3rem;
-	color: #d13fff70!important;
+	color: #000000!important;
 	margin-left:1%
 	
 	

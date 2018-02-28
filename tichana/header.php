@@ -22,8 +22,8 @@
 	&#9776;
 	</button>
 	
-	<a id="small-header" class="navbar-brand nav-center d-none" href="/"> 
-	Le court-circuit
+	<a id="small-header" class="navbar-brand nav-center d-none title" href="/"> 
+	La chouette dorée
 	</a>
 
 	<img id="nav-logo" src="" class="d-none d-xl-block" alt=""/>
@@ -56,9 +56,11 @@
 
 	<div id="header" class="container-fluid ">
 		<div class="logo">
-			<h1 class="display-1"><a href="/">Le court-circuit</a></h1>
+			<h1 class="display-1 title">
+			<img  src="img/logo_rond.png" alt="" class="img-fluid ml-5 d-none d-lg-block" />
+			<a href="/">La chouette dorée</a></h1>
 			<h2 class="title-desc">
-				Collectif d'artisans locaux
+				Boutique Collective d'artisans locaux
 			</h2>
 		</div>
 	</div>		
