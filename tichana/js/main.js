@@ -75,7 +75,7 @@ function load_more(name, files) {
 	
 	var new_img = [];
  	nb_img = files.length;
-	console.log(nb_img)
+
 	for (var i=3; i<nb_img; i++) {
 		const temp_div = document.createElement("div");
 		temp_div.setAttribute("class", "grid-item more ");
