@@ -23,7 +23,7 @@
 	</button>
 	
 	<a id="small-header" class="navbar-brand nav-center d-none title" href="/"> 
-	La chouette dorée
+	La Chouette Dorée
 	</a>
 
 	<img id="nav-logo" src="" class="d-none d-xl-block" alt=""/>
@@ -58,9 +58,9 @@
 		<div class="logo">
 			<h1 class="display-1 title">
 			<img  src="img/logo_rond.png" alt="" class="img-fluid ml-5 d-none d-lg-block" />
-			<a href="/">La chouette dorée</a></h1>
+			<a href="/">La Chouette Dorée</a></h1>
 			<h2 class="title-desc">
-				Boutique Collective d'artisans locaux
+				Boutique collective d'artisans locaux
 			</h2>
 		</div>
 	</div>		

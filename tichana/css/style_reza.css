@@ -109,9 +109,7 @@ img.index-logo-small {
     height: 60px;
 }
 
-a#crea_link {
-    color: black;
-}
+
 
 #content {
 	text-align:center;
@@ -338,8 +336,13 @@ img#nav-logo {
 	outline: 0px;
 }
 
-#crea_text {
+.px-20r {
 	padding:0% 20%;
+}
+
+img.insta{
+	height:72px;
+	margin-left:36px;
 }
 
 .creaHolder {
@@ -363,9 +366,6 @@ img.link_logo {
     margin-left: 0.5%;
 }
 
-a.d_off {
-	display:none!important;
-}
 
 
 
@@ -395,7 +395,7 @@ h2.title-desc {
 
 	}
 	
-#crea_text {
+.px-20r {
 	padding:0% 10%;
 }
 }
@@ -436,7 +436,7 @@ img.index-logo-small {
 	
 }
 
-#crea_text {
+.px-20r {
 	padding:0% 5%;
 }
 
@@ -463,7 +463,7 @@ img.index-logo-small {
     height: 40px;
 }
 
-#crea_text {
+.px-20r {
 	padding:0% 0%;
 }
 

@@ -3,6 +3,7 @@
 
 
 
+
 <div id="content" class ="container">
 
 	<div class="col">
@@ -15,11 +16,7 @@
 		<h5><a id="crea_sub"></a></h5>
 	</div>
 	<div class="col">
-		<a href="" target="_blank" id="crea_link">
-		</a>
-		<a target="_blank" id="crea_face" class="d_off">
-			<img src="img/ico/icoFace.jpg" alt="IcoFace"  class="link_logo" />
-		</a>
+		<a href="" target="_blank" id="crea_link">Site web</a>
 	</div>
 </div>
 
@@ -34,8 +31,16 @@
 	</div>
 </div>
 
+
+	
 <div class="container">
-  <div id ="crea_text" class="col">
+  <div id ="crea_text" class="row  px-20r"></div>
+  <div class="row px-20r my-3">
+	  <div id = "crea_like" class="fb-page d-none " data-small-header=true  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+	  </div>
+	  <a id="crea_insta" target="_blank" class="d-none">
+	  <img class="insta" src="img/ico/instagram_bw.png"></img>
+	  </a>
   </div>
 </div>
 

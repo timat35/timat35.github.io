@@ -19,12 +19,25 @@ function load_content(name, files) {
 		document.getElementById("crea_title").innerHTML = crea_data[name].title;
 		document.getElementById("crea_sub").innerHTML = crea_data[name].subtitle;
 		document.getElementById("crea_link").href = crea_data[name].link;
-		document.getElementById("crea_link").innerHTML = crea_data[name].link_text;
 		document.getElementById("nav-logo").src = 'img/acceuil/logo-' + name + '.png';
 		
 		if (crea_data[name].facebook != undefined) {
-			document.getElementById("crea_face").setAttribute("class", "");
-			document.getElementById("crea_face").href = crea_data[name].facebook;
+			
+			(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			document.getElementById("crea_like").setAttribute("class", "fb-page");
+			document.getElementById("crea_like").setAttribute("data-href", crea_data[name].facebook);
+		}
+		
+		if (crea_data[name].instagram != undefined) {
+			document.getElementById("crea_insta").setAttribute("class", "");
+			document.getElementById("crea_insta").href=crea_data[name].instagram;
 		}
 		
 		$('*[data-crea=' +name+ ']').addClass('d-none');
