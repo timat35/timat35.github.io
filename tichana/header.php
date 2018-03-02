@@ -5,11 +5,10 @@
 
 <link rel="shortcut icon" href="img/favicon.png">
 <link rel="stylesheet" href="css/style_reza.css?v=1.52" type="text/css">
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
-<link rel="stylesheet" href="css/slick.css?v=1.3" type="text/css">
-<link rel="stylesheet" href="css/photoswipe.css"> 
-<link rel="stylesheet" href="css/default-skin.css"> 
-<link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css?v=4.0" type="text/css">
+<link rel="stylesheet" href="css/photoswipe.css?v=4.4.1"> 
+<link rel="stylesheet" href="css/default-skin.css?v=1"> 
+<link rel='stylesheet' href='fullcalendar/fullcalendar.css?v=3.0' />
 
 </head>
 
