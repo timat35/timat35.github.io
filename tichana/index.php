@@ -10,7 +10,7 @@
 			<div class = "creaImage">
 				<a href="creatrice.php?creatrice=chant">
 					
-					<img id="index_chant"  src="img/acceuil/index-chant-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<img id="index_chant"  src="img/acceuil/c-index-chant-1.jpg" alt="chant de l'email acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 					<img  src="img/acceuil/logo-chant.png" class="index-logo img-fluid" alt=""/>
 				</a>
 			</div>
@@ -24,7 +24,7 @@
 			<div class = "creaImage">
 				<a href="creatrice.php?creatrice=eska">
 					
-					<img id="index_eska"  src="img/acceuil/index-eska-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<img id="index_eska"  src="img/acceuil/c-index-eska-1.jpg" alt="eska acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 					<img  src="img/acceuil/logo-eska.png" class="index-logo" alt=""/>
 				</a>
 			</div>
@@ -37,7 +37,7 @@
 			<div class = "creaImage">
 				<a href="creatrice.php?creatrice=reza">
 					
-					<img id="index_reza"  src="img/acceuil/index-reza-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<img id="index_reza"  src="img/acceuil/c-index-reza-1.jpg" alt="reza acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 					<img  src="img/acceuil/logo-reza.png" class="index-logo" alt=""/>
 				</a>
 			</div>
@@ -50,7 +50,7 @@
 			<div class = "creaImage">
 				<a href="creatrice.php?creatrice=tet">
 					
-					<img id="index_tet"  src="img/acceuil/index-tet-1.jpg" alt=""  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<img id="index_tet"  src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-l air acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
 					<img  src="img/acceuil/logo-tet.png" class="index-logo" alt=""/>
 				</a>
 			</div>
