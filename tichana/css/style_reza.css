@@ -259,6 +259,21 @@ img#nav-logo {
 }
 
 
+
+img.index_img {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+img.index_img:hover {
+    opacity: 0.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​
+
 /* creatrice page */
 
 .row.text_center {

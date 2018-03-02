@@ -7,10 +7,11 @@
 <div class = "container index_main">
 	<div class = "row">
 		<div class= "creaHolder col-6 col-md-3  separation" >
-			<div class = "creaImage">
+			<div class = "">
 				<a href="creatrice.php?creatrice=chant">
-					
-					<img id="index_chant"  src="img/acceuil/c-index-chant-1.jpg" alt="chant de l'email acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+				<div style="background-image: url(img/acceuil/c-index-chant-2.jpg);background-size: cover">
+					<img  src="img/acceuil/c-index-chant-1.jpg" alt="chant de l'email acceuil" class="index_img" />
+				</div>
 					<img  src="img/acceuil/logo-chant.png" class="index-logo img-fluid" alt=""/>
 				</a>
 			</div>
@@ -21,10 +22,12 @@
 			</div>
 		</div>
 		<div class= "creaHolder col-6 col-md-3  separation">
-			<div class = "creaImage">
+			<div class = "">
 				<a href="creatrice.php?creatrice=eska">
 					
-					<img id="index_eska"  src="img/acceuil/c-index-eska-1.jpg" alt="eska acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<div style="background-image: url(img/acceuil/c-index-eska-2.jpg);background-size: cover">
+						<img src="img/acceuil/c-index-eska-1.jpg" alt="eska acceuil"  class="index_img" />
+					</div>
 					<img  src="img/acceuil/logo-eska.png" class="index-logo" alt=""/>
 				</a>
 			</div>
@@ -34,10 +37,12 @@
 			</div>
 		</div>
 		<div class= "creaHolder col-6 col-md-3">
-			<div class = "creaImage">
+			<div class = "">
 				<a href="creatrice.php?creatrice=reza">
 					
-					<img id="index_reza"  src="img/acceuil/c-index-reza-1.jpg" alt="reza acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<div style="background-image: url(img/acceuil/c-index-reza-2.jpg);background-size: cover;">
+						<img src="img/acceuil/c-index-reza-1.jpg" alt="reza acceuil"  class="index_img" />
+					</div>
 					<img  src="img/acceuil/logo-reza.png" class="index-logo" alt=""/>
 				</a>
 			</div>
@@ -47,10 +52,12 @@
 			</div>
 		</div>
 		<div class= "creaHolder col-6 col-md-3 ">
-			<div class = "creaImage">
+			<div class = "">
 				<a href="creatrice.php?creatrice=tet">
 					
-					<img id="index_tet"  src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-l air acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+					<div style="background-image: url(img/acceuil/c-index-tet-2.jpg);background-size: cover;">
+						<img src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-lair acceuil"  class="index_img" />
+					</div>
 					<img  src="img/acceuil/logo-tet.png" class="index-logo" alt=""/>
 				</a>
 			</div>

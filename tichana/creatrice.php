@@ -58,7 +58,9 @@
 		<div class = "creaImage">
 			<a href="creatrice.php?creatrice=chant">
 				<img  src="img/acceuil/logo-chant.png"  class="index-logo-small" alt=""/>
-				<img id="index_chant"  src="img/acceuil/c-index-chant-1.jpg" alt="chant de l'email acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+				<div style="background-image: url(img/acceuil/c-index-chant-2.jpg);background-size: cover;">
+					<img src="img/acceuil/c-index-chant-1.jpg" alt="chant de lemail acceuil"  class="index_img" />
+				</div>
 
 			</a>
 		</div>
@@ -71,7 +73,9 @@
 			<a href="creatrice.php?creatrice=eska">
 				
 				<img  src="img/acceuil/logo-eska.png"  class="index-logo-small" alt=""/>
-				<img id="index_eska"  src="img/acceuil/c-index-eska-1.jpg" alt="Eska acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+				<div style="background-image: url(img/acceuil/c-index-eska-2.jpg);background-size: cover;">
+					<img src="img/acceuil/c-index-eska-1.jpg" alt="eska acceuil"  class="index_img" />
+				</div>
 
 			</a>
 		</div>
@@ -84,7 +88,9 @@
 			<a href="creatrice.php?creatrice=reza">
 				
 				<img  src="img/acceuil/logo-reza.png"  class="index-logo-small" alt=""/>
-				<img id="index_reza"  src="img/acceuil/c-index-reza-1.jpg" alt="Reza acceuil"  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+				<div style="background-image: url(img/acceuil/c-index-reza-2.jpg);background-size: cover;">
+					<img src="img/acceuil/c-index-reza-1.jpg" alt="reza acceuil"  class="index_img" />
+				</div>
 
 			</a>
 		</div>
@@ -97,7 +103,9 @@
 			<a href="creatrice.php?creatrice=tet">
 				
 				<img  src="img/acceuil/logo-tet.png" class="index-logo-small" alt=""/>
-				<img id="index_tet"  src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-l air acceuil "  onclick="" class="index_img"  onmouseover="index_hover(this, 2);" onmouseout="index_hover(this, 1);"/>
+				<div style="background-image: url(img/acceuil/c-index-tet-2.jpg);background-size: cover;">
+					<img src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-lair acceuil"  class="index_img" />
+				</div>
 				
 			</a>
 		</div>
