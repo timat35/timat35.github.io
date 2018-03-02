@@ -68,7 +68,10 @@ function load_content(name, files) {
 		temp_a.setAttribute("data-index", 0);
 		
 		const temp_img = document.createElement("img");
-		temp_img.setAttribute("src", files[i]);
+		
+		var thumb_files =  files[i].split("/").pop();
+		
+		temp_img.setAttribute("src", 'img/'+ name + '/thumb/thumb-'+ thumb_files);
 		
 		temp_a.appendChild(temp_img)
 		temp_fig.appendChild(temp_a)
@@ -102,7 +105,9 @@ function load_more(name, files) {
 		temp_a.setAttribute("data-index", 0);
 		
 		const temp_img = document.createElement("img");
-		temp_img.setAttribute("src", files[i]);
+		
+		var thumb_files =  files[i].split("/").pop();
+		temp_img.setAttribute("src", 'img/'+ name + '/thumb/thumb-'+ thumb_files);
 		
 		temp_a.appendChild(temp_img)
 		temp_fig.appendChild(temp_a)
