@@ -214,4 +214,38 @@ function load_news() {
 	
 }
 
+function get_today_info (){
+	
+	
+	var gcal_url =" https://www.googleapis.com/calendar/v3/calendars/u2fcgjs9fjrtgq1iad1j1kb4g4@group.calendar.google.com/events?key=AIzaSyAaxUTleiUlolnnX3BLykCj16woRUDiAnQ"
 
+	var xhReq = new XMLHttpRequest();
+	xhReq.open("GET", gcal_url, false);
+	xhReq.send(null);
+	var gcal_json = JSON.parse(xhReq.responseText);
+
+	var obj = gcal_json.items;
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1; //January is 0!
+	var yyyy = today.getFullYear();
+	
+	if(dd<10) {
+		dd = '0'+dd
+	} 
+
+	if(mm<10) {
+		mm = '0'+mm
+	} 
+	
+	today = yyyy + '-' + mm + '-' + dd;
+	
+	for (var i=0 ; i < obj.length ; i++)
+	{
+		if (obj[i].start.date ==today) {
+			var temp = obj[i].summary;
+		}
+	}
+	
+	return temp;
+}

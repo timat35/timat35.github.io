@@ -4,29 +4,26 @@
 
 
 
-<div id="news" class ="container">
+<div ="container">
 
-	<div class="col-12 text-center">
-	<h2>A la boutique</h2>
-	</div>
-	
 	<div class="row mb-4 justify-content-center">
-		
 		<div class="col-12 col-lg-6  mt-4">
 			<div class="row">
-			
-				<div  class="col-4 text-center align-self-center ">
-					<img   src="img/news/background.png"  alt=""/>
-				</div>
-				<div  class="col-auto align-self-center">
-					<div class="info">
-						<h3>Vernissage</h3>
-						<h5></h5>
-						<p>
-						Vernissage de la boutique, decourverte et apero</br>
-						Le 15 avril apres 18h</br>
-						</p>
+				<div  class="col-12">
+					<div class="text-center">
+						<h5 id="a_today"></h5></br></br>
 					</div>
+				</div>
+			</div>
+			<div class="row text-center justify-content-center">
+				<div class="col-auto">
+					 <b>Téléphone fixe</b></br>
+					 04 76 82 85 64
+				</div>
+				<div class="col-auto ">
+					 <b>Horaire</b></br> 
+					 du Mardi au Samedi de 14h à 19h.</br>
+					 Plus d'information <a href="boutique.php" >ici</a>
 				</div>
 			</div>
 		</div>
@@ -39,77 +36,50 @@
 	
 	
 	<div class="col-12 text-center">
-	<h2>En parallele</h2>
+	<h3>Les creatrices</h3>
 	</div>
 	
-	<div class="row mb-4 mx-4">
-		
+	<div class="row mb-4 justify-content-center">
 		<div class="col-12 col-lg-6  mt-4">
 			<div class="row">
-			
-				<div  class="col-4 text-center align-self-center ">
-					<img   src="img/news/marche_mens_2016.jpg"  alt="" />
-				</div>
-				<div  class="col-8 align-self-center">
-					<div class="info">
-						<h3>Reza et tet-en-l'air</h3>
-						<h5>Marche de nuit a Mens</h5>
+				<div  class="col-12 col-md-3 align-self-center">
+					<div class="info text-center">
+						<h5><a href="creatrice.php?creatrice=chant" >Le chant de l'émail</a></h5>
 						<p>
-						7 rue du Lieutenant Chanaron</br>
-						38000 Grenoble</br>
-						Du Mardi au Samedi</br>
-						14h - 19h	
+						 oceane.doledec@gmail.com</br>
+						06 30 84 01 96
+						</p>
+					</div>
+				</div>
+				<div  class="col-12 col-md-3 align-self-center">
+					<div class="info text-center">
+						<h5><a href="creatrice.php?creatrice=eska" >Eska</a></h5>
+						<p>
+						helene@eska-vetements.fr</br>
+						06 86 07 13 88</br>
+						</p>
+					</div>
+				</div>
+				<div  class="col-12 col-md-3 align-self-center">
+					<div class="info text-center">
+						<h5><a href="creatrice.php?creatrice=reza" >Reza</a></h5>
+						<p>
+						reza.cuir@gmail.com</br>
+						06 67 88 23 78</br>
+						</p>
+					</div>
+				</div>
+				<div  class="col-12 col-md-3 align-self-center">
+					<div class="info text-center">
+						<h5><a href="creatrice.php?creatrice=tet" >Têt-en-l'air</a></h5>
+						<p>
+						delphine@tetenlair.com</br>
+						06 31 30 96 19</br>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		
-
-		<div class="col-12 col-lg-6  mt-4">
-			<div class="row">
-			
-				<div  class="col-4 text-center align-self-center ">
-					<img   src="img/news/festiv_art.png"  alt="" />
-				</div>
-				<div  class="col-8 align-self-center">
-					<div class="info">
-						<h3>Eska</h3>
-						<h5>Nuit de la glisse</h5>
-						<p>
-						blbou lb iblou biboub</br>
-						38000 Grenoble</br>
-						Du Mardi au Samedi</br>
-						14h - 19h	
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-12 col-lg-6  mt-4">
-			<div class="row">
-			
-				<div  class="col-4 text-center align-self-center">
-					<img   src="img/news/marche-noel-2017.jpg"  alt="" />
-				</div>
-				<div  class="col-8 align-self-center">
-					<div class="info">
-						<h3>Le chant de l'email et Tete en l'air</h3>
-						<h5>Marche de nuit a Mens</h5>
-						<p>
-						7 rue du Lieutenant Chanaron</br>
-						38000 Grenoble</br>
-						Du Mardi au Samedi</br>
-						14h - 19h	
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	
-
 		
 	</div>
 </div>
@@ -133,12 +103,38 @@
 
 <script type="text/javascript">
 
-
-$(document).ready(function() {
+	var crea = get_today_info();
 	
+	if (crea != undefined) {
+		
 
-});
-
+		if (crea == "Le chant de l'émail") {
+			var ref = "creatrice.php?creatrice=chant";
+		} 
+		else if (crea == "Eska") {
+			var ref = "creatrice.php?creatrice=eska";
+		} 
+		else if (crea == "Réza") {
+			var ref = "creatrice.php?creatrice=reza";
+		} 
+		else if (crea == "Têt-en-l'air") {
+			var ref ="creatrice.php?creatrice=tet";
+		}
+		
+		const temp_a = document.createElement("a");
+		temp_a.setAttribute("href", ref);
+		temp_a.innerHTML = crea;
+		
+		document.getElementById("a_today").innerHTML = "Aujourd'hui, "
+		document.getElementById("a_today").append(temp_a)
+		document.getElementById("a_today").append(" ouvre la chouette dorée de 14h à 19h.")
+		
+	}
+	else {
+		document.getElementById("a_today").innerHTML=  "Aujourd'hui, la chouette dorée est fermée.";
+	}
+	
+	
 	
 </script>
 
