@@ -144,9 +144,7 @@ function load_news() {
 	$.getJSON("json/news.json", function(news_data) {
 		
 		var nb_news = Object.keys(news_data).length;
-		console.log(nb_news)
 		for (var i = 1; i <= nb_news; i++) { 
-			console.log(i)
 			
 			var local_news = news_data[i];
 			
