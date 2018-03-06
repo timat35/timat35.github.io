@@ -1,0 +1,16 @@
+# ignore temp image file for tichana
+tichana/temp/
+
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Thumbnails
+._*
+
+
