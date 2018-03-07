@@ -16,11 +16,11 @@
 				</div>
 			</div>
 			<div class="row text-center justify-content-center">
-				<div class="col-auto">
+				<div class="col-12 col-md-auto mb-3 mb-md-0">
 					 <b>Téléphone fixe</b></br>
 					 04 76 82 85 64
 				</div>
-				<div class="col-auto ">
+				<div class="col-12 col-md-auto ">
 					 <b>Horaire</b></br> 
 					 du Mardi au Samedi de 14h à 19h.</br>
 					 Plus d'information <a href="boutique.php" >ici</a>
