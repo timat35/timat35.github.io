@@ -40,7 +40,7 @@
 	</div>
 	
 	<div class="row mb-4 justify-content-center">
-		<div class="col-12 col-lg-6  mt-4">
+		<div class="col-12  mt-4 mat-col-1450-6">
 			<div class="row">
 				<div  class="col-12 col-md-3 align-self-center">
 					<div class="info text-center">

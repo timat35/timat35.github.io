@@ -405,6 +405,8 @@ h2.title-desc {
 
 }
 
+
+
 @media (max-width: 1300px) { 
   ul  li {
 	margin: 0px 0px;
@@ -488,3 +490,11 @@ img.index-logo-small {
 
 
 
+@media (min-width: 1450px){
+	.mat-col-1450-6 {
+		-webkit-box-flex: 0!important;
+		-ms-flex: 0 0 50%!important;
+		flex: 0 0 50%!important;
+		max-width: 50%!important;
+	}
+}
