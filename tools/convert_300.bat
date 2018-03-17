@@ -1,4 +1,4 @@
-cd C:\local_website\tichana\temp\chant\photos
+cd C:\local_website\tichana\temp\reza
 
 for  %%i in (*) do (
 	magick %%i -resize 300 -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB thumb-%%i

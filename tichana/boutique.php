@@ -10,15 +10,17 @@
 		<div id="boutiqueLeft" class="col-12 col-lg-9">
 			<div class="row-12 mx-3">
 				<p>
-				Réza est une marque de maroquinerie proposant sacs et divers accessoires en cuir soulignés par des biais en tissu, gage de créations originales.La fabrication artisanale se fait dans un atelier situé sur le massif de Belledonne, en Isère.
-				Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé !
+				Tu sais, remarqua Arthur, c'est en de tels moments, quand je me retrouve coincé dans un sas vogon en compagnie d'un natif de Bélelgeuse, au seuil d'une mort imminente par asphyxie dans les profondeurs de l'espace, que je regrette de ne pas avoir écouté ce que me disait ma mère quand j'étais petit.
+				</br>
+				– Eh bien, que te disait-elle ?</br>
+				– Je sais pas. J'ai pas écouté.
 				</p>
 				<p>
-				glouglbi glouba sont dans un vaisseau spatiale.. que c'est zouli! par contre c'est pas centré
+				Deux secondes plus tard, il apercevait dans son rétro le reflet de l’auto-stoppeur, trempé, sur le bas-côté. Durant une minute, il se sentit tout content. La minute suivante, il culpabilisa d’avoir été content de ce qu’il avait fait. Puis il fut content d’avoir culpabilisé d’avoir été content de ce qu’il avait fait et, satisfait, poursuivit sa route dans la nuit.
 				</p>
 			</div>
 			<div class="row-12">
-				<img   src="img/boutique/test.jpg" alt="" class="img-fluid" />
+				<img   src="img/boutique/boutique_chouette_doree_small.jpg" alt="boutique chouette doree" class="img-fluid" />
 			</div>
 		</div>
 		<div id="boutiqueRight" class="col-12 col-lg-3">
