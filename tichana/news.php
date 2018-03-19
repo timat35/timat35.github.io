@@ -24,7 +24,7 @@
 						<h5></h5>
 						<p>
 						Vernissage de la boutique, decouverte et apero</br>
-						Le 15 avril apres 18h</br>
+						Le jeudi 26 avril à partir de 17h</br>
 						</p>
 					</div>
 				</div>

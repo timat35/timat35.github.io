@@ -25,7 +25,7 @@
 		</div>
 		<div id="boutiqueRight" class="col-12 col-lg-3">
 			<div class="contact">
-				<h1>Le court-circuit</h1>
+				<h1>La Chouette Dorée</h1>
 				<p>
 				7 rue du Lieutenant Chanaron</br>
 				38000 Grenoble
