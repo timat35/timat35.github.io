@@ -56,7 +56,7 @@
 	<div id="header" class="container-fluid ">
 		<div class="logo">
 			<h1 class="display-1 title">
-			<img  src="img/logo_rond.png" alt="" class="img-fluid ml-5 d-none d-lg-block" />
+			<img  src="img/logo_chouette.png" alt="" class="img-fluid ml-5 d-none d-lg-block" />
 			<a href="/">La Chouette Dorée</a></h1>
 			<h2 class="title-desc">
 				Boutique collective d'artisans locaux
