@@ -8,15 +8,15 @@
 
 	<div class="row">
 		<div id="boutiqueLeft" class="col-12 col-lg-9">
-			<div class="row-12 mx-3">
+			<div class="row-12">
 				<p>
-				Tu sais, remarqua Arthur, c'est en de tels moments, quand je me retrouve coincé dans un sas vogon en compagnie d'un natif de Bélelgeuse, au seuil d'une mort imminente par asphyxie dans les profondeurs de l'espace, que je regrette de ne pas avoir écouté ce que me disait ma mère quand j'étais petit.
-				</br>
-				– Eh bien, que te disait-elle ?</br>
-				– Je sais pas. J'ai pas écouté.
+				Situé dans le quartier championnet à Grenoble, La Chouette Dorée est une boutique partagée par 4 créatrices.</br>
 				</p>
 				<p>
-				Deux secondes plus tard, il apercevait dans son rétro le reflet de l’auto-stoppeur, trempé, sur le bas-côté. Durant une minute, il se sentit tout content. La minute suivante, il culpabilisa d’avoir été content de ce qu’il avait fait. Puis il fut content d’avoir culpabilisé d’avoir été content de ce qu’il avait fait et, satisfait, poursuivit sa route dans la nuit.
+				Retrouvez dans ce lieu le savoir faire local et l'univers de chacune : de la maroquinerie en cuir d'Elisa aux vêtements homme/femme d'Hélène, en passant par les chapeaux de Delphine et la céramique en grès d'Océane.
+				</p>
+				<p>
+				Vous trouverez dans l'agenda les jours de présence de chaque créatrice à la boutique !
 				</p>
 			</div>
 			<div class="row-12">
