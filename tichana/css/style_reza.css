@@ -489,7 +489,11 @@ img.index-logo-small {
 }
 
 .px-20r {
-	padding:0% 0%;
+	padding:0% 2%;
+}
+
+img.insta {
+    margin-left: 0px;
 }
 
 }
