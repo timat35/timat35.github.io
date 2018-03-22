@@ -28,7 +28,7 @@ function load_content(name, files) {
 		}
 		
 		if (crea_data[name].instagram != undefined) {
-			document.getElementById("crea_insta").setAttribute("class", "");
+			document.getElementById("crea_insta").setAttribute("class", "mt-md-0 mt-3");
 			document.getElementById("crea_insta").href=crea_data[name].instagram;
 		}
 		
