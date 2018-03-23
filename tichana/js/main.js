@@ -148,6 +148,9 @@ function load_news() {
 			
 			var local_news = news_data[i];
 			
+			const temp_link = document.createElement("a");
+			temp_link.setAttribute("href",local_news.link);
+			
 			const temp_img = document.createElement("img");
 			temp_img.setAttribute("src", 'img/news/' + local_news.img);
 			
@@ -191,9 +194,10 @@ function load_news() {
 			temp_row.setAttribute("class", "row");
 			
 			const temp_base= document.createElement("div");
-			temp_base.setAttribute("class", "col-12 col-lg-6  mt-4");
+			temp_base.setAttribute("class", "col-12  mt-4"); //col-lg-6 
 			
-			temp_col_img.appendChild(temp_img)
+			temp_col_img.appendChild(temp_link)
+			temp_link.appendChild(temp_img)
 			
 			temp_info.appendChild(temp_crea)
 			temp_info.appendChild(temp_title)

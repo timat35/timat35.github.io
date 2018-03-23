@@ -11,19 +11,19 @@
 		
 		<div class="row mb-4 justify-content-center">
 			
-			<div class="col-12 col-lg-9   mt-4">
+			<div class="col-12 col-lg-9 mt-4">
 				<div class="row">
 				
-					<div  class="col-4 text-center align-self-center ">
-						<img   src="img/news/background.png"  alt="" class="img-fluid" />
+					<div  class="col-8 text-center align-self-center ">
+						<img   src="img/news/vernissage.jpg"  alt="" class="img-fluid" />
 					</div>
-					<div  class="col-8 align-self-center">
+					<div  class="col-4 align-self-center">
 						<div class="info">
 							<h3>Vernissage</h3>
 							<h5></h5>
 							<p>
-							Vernissage de la boutique, decouverte et apero</br>
-							Le jeudi 26 avril à partir de 17h</br>
+							Vernissage de la boutique, découverte et apéro.</br>
+							Le jeudi 26 avril à partir de 17h.</br>
 							</p>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 	<div class="col-12 col-lg-3 d-none d-md-block">
 		<div class="col-12 text-center">
 
-			<div class="fb-page mt-2" data-href="https://www.facebook.com/lachouettedoree/" data-tabs="timeline, events" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" >
+			<div class="fb-page mt-4" data-href="https://www.facebook.com/lachouettedoree/" data-tabs="timeline, events" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" >
 				<blockquote cite="https://www.facebook.com/lachouettedoree/" class="fb-xfbml-parse-ignore">
 					<a href="https://www.facebook.com/lachouettedoree/">La chouette dorée</a>
 				</blockquote>
