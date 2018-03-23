@@ -1,5 +1,5 @@
 
-<!--?php  include('title/title_sacs.php');?-->
+<?php  include('title/title_contact.php');?>
 <?php  include('header.php');?>
 
 
@@ -18,7 +18,7 @@
 			<div class="row text-center justify-content-center">
 				<div class="col-12 col-md-auto mb-3 mb-md-0">
 					 <b>Téléphone fixe</b></br>
-					 04 76 82 85 64
+					 04 56 24 81 61
 				</div>
 				<div class="col-12 col-md-auto ">
 					 <b>Horaire</b></br> 
@@ -84,22 +84,13 @@
 	</div>
 </div>
 
-</div>
+<?php  include('footer.php');?>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/moment.js'></script>
 <script type="text/javascript" src="js/main.js?v=1.5"></script>
-<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-<script type="text/javascript" src="js/jquery.event.move.js"></script>
-<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
-<script type="text/javascript" src="js/photoswipe.js"></script>
-<script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
-<script type="text/javascript" src='fullcalendar/fullcalendar.js'></script>
-<script type='text/javascript' src='fullcalendar/gcal.js'></script>
-<script type="text/javascript" src='fullcalendar/locale/fr.js'></script>
 
 <script type="text/javascript">
 

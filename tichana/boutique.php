@@ -1,7 +1,6 @@
 
-<!--?php  include('title/title_sacs.php');?-->
+<?php  include('title/title_boutique.php');?>
 <?php  include('header.php');?>
-
 
 
 <div id="boutique" class ="container">
@@ -45,17 +44,13 @@
 	</div>
 </div>
 
-</div>
+<?php  include('footer.php');?>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/moment.js'></script>
 <script type="text/javascript" src="js/main.js?v=1.5"></script>
-<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-<script type="text/javascript" src="js/jquery.event.move.js"></script>
-<script type="text/javascript" src="js/jquery.event.swipe.js"></script>
 <script type="text/javascript" src='fullcalendar/fullcalendar.js'></script>
 <script type='text/javascript' src='fullcalendar/gcal.js'></script>
 <script type="text/javascript" src='fullcalendar/locale/fr.js'></script>

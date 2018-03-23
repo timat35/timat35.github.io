@@ -1,11 +1,7 @@
 
 
-<div id="footer">
-	<div id="copyright">
-			<div class="copytext">
-				<a class="towfiq">Elisa Tisseyre - reza.cuir@gmail.com - n° Siret: 53827828400020 - </a>
-				<a class="towfiq" href="/mentions-legales.php" style="text-decoration: underline; cursor:pointer;">Mentions légales</a>
-			</div>
-	</div>
-</div>
+<footer class="col-12 text-center mt-5 my-1 border-top border-dark">
+	<span class="text-muted"  style="white-space:pre">La Chouette Dorée - 7 rue du Lieutenant Chanaron, 38000 Grenoble - 04 56 24 81 61 - 
+	<a href="/mentions-legales.php">Mentions légales</a></span>
+</footer>
 

@@ -3,6 +3,5 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta charset="UTF-8">
-<title>Réza - Contact</title>
-<meta name="description" content="Où me trouver?: à l'atelier, sur les marché ou exposition" />
-
+<title>La Chouette Dorée - contact</title>
+<meta name="description" content="Contact de La Chouette Dorée et des créatrices"/>

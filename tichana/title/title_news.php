@@ -3,6 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta charset="UTF-8">
-<title>Réza - À Propos</title>
-<meta name="description" content="Réza, un savoir-faire et l'utilisation de matiére premiére (cuir et tissus) de qualité" />
+<title>La Chouette Dorée - Événement</title>
+<meta name="description" content="Les différents événements à la boutique ou dans les marchés de créateurs"/>
 

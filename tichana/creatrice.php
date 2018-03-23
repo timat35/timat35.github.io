@@ -1,4 +1,5 @@
 
+<?php  include('title/title_creatrice.php');?>
 <?php  include('header.php');?>
 
 
@@ -184,7 +185,7 @@
 
 </div>
 
-</div>
+<?php  include('footer.php');?>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
