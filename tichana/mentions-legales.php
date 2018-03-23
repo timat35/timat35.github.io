@@ -31,8 +31,7 @@ SIRET 510 909 80700024 – RCS Clermont-Ferrand Marque déposée INPI
 </div>
 </div>
 </div>
-
-<?php  include('footer.php');?>
+s
 
 </body>
 </html>
