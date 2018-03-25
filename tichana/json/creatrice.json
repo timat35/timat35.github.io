@@ -40,14 +40,24 @@
 		"La créatrice, Élisa, travaille seule et réalise toutes les étapes de fabrication : de l’idée au produit fini, en passant par le dessin, le patronage, le choix des matières premières, la coupe, le parage, l’assemblage et la couture."
 		,
 		"Modèles uniques ou en petites séries."
-		]
-
+	]
  },
  "tet": {
  	"title":"Têt-en-l'air",
 	"subtitle":"Modiste chapeaux",
 	"link":"http://www.cestfaitici.fr/artisans/52/tet-en-l-air/delphine-baffier",
 	"link_text":"www.cestfaitici.fr/tet-en-l-air",
-	"facebook":"https://www.facebook.com/atelier.tetenlair/"
+	"facebook":"https://www.facebook.com/atelier.tetenlair/",
+	"text":[
+		"Modiste de formation, Delphine Baffier a appris les techniques de cet artisanat ancestral à l'école de modiste de Lyon. C'est sous la marque <b>Têt-en-l'air</b> qu'elle se lance à Grenoble en 2012."
+		,
+		"En utilisant différentes matières comme la paille, la laine, les tissus, le feutre de laine, le buntal, le cuir..., elle forme, crée des modèles un tantinet rétro.Du fantaisie au classique, du turban au bibi, le chapeau est présent sous toutes ses formes, varie selon les saisons et les humeurs ! Chapeaux de pluie, chapeau cloche, toque, capeline, borsalino, miki ... et depuis 2017 des bonnets pour bébé."
+		,
+		"Delphine propose également le sur-mesure aussi bien pour un modèle quotidien que pour un événement. Elle vous guidera vers l'accessoire de tête ou le chapeau qui vous ressemble. N'hésitez pas à  appeler pour prendre RDV."
+		,
+		"Elle adore les bijoux de tête et en fait sa spécialité. C'est pourquoi vous trouverez des fleurs, des couronnes dans des couleurs explosives! Aussi des headband et des bandeaux. A offrir ou se faire plaisir !"
+		,
+		"Chaque modèle est réfléchi pour dessiner le regard, valoriser la silhouette."
+		]
  }
 }
