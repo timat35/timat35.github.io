@@ -50,7 +50,7 @@
 	<div class="col-12 col-lg-3 d-none d-md-block">
 		<div class="col-12 text-center">
 
-			<div class="fb-page mt-4" data-href="https://www.facebook.com/lachouettedoree/" data-tabs="timeline, events" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" >
+			<div class="fb-page mt-4" data-href="https://www.facebook.com/lachouettedoree/" data-tabs="timeline, events" data-width="500" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" >
 				<blockquote cite="https://www.facebook.com/lachouettedoree/" class="fb-xfbml-parse-ignore">
 					<a href="https://www.facebook.com/lachouettedoree/">La chouette dorée</a>
 				</blockquote>
