@@ -25,17 +25,17 @@ Pour tout renseignement, commande, tarif vous pouvez me contacter par mail à l'
 <section class="matTitle"><p>Où me trouver ?</p></section>
 
 <div>
-<div><a target="_blank" href="http://www.foliesdouces.com/"><img src="/media/photo-marche/folie_douces.jpg" alt="foliesdouces"  width class=" borderClass imgMarket" /></a></div>
+<div><a target="_blank" href="http://www.lachouettedoree.fr/"><img src="/media/photo-marche/boutique_chouette_doree_small.jpg" alt="chouette dorée"  width class=" borderClass imgMarket" /></a></div>
 <div class="matDescMarche">
 <section class="matTitle">
-<p>Boutique Folies Douces</p>
+<p>Boutique la Chouette Dorée</p>
 </section>
 <section class="textLong">
 <p>
-Vous pouvez trouver toutes mes créations à la boutique folies douces.<br>
-75 montée de la Grande Côte, Lyon 1er.<br>
-Lundi au samedi 11h-19h.<br>
-<div><a target="_blank"  href="https://www.facebook.com/foliedoucelyon/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a></div>
+Vous pouvez trouver toutes mes créations à la Chouette Dorée.<br>
+7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
+Du mardi au samedi 14h-19h.<br>
+<div><a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a></div>
 </p>
 </section>
 </div>
@@ -67,6 +67,9 @@ Salle des Congrès du Palais. <br>
 
 <div>
 <section class="matTitle"><p>J'y étais ! </p></section>
+<div>
+<div><a target="_blank" href="http://megeve.com/noesit/!/fiche/salon-talents-de-femmes-442236/"><img src="/media/photo-marche/talent-femme-2018.jpg" alt="talent-femme-2018"  width class=" borderClass imgMarket" /></a></div>
+</div>
 <div>
 <div><a target="_blank" href="https://www.facebook.com/events/358354611277929/"><img src="/media/photo-marche/marche-noel-2017.jpg" alt="marche-noel-2017"  width class=" borderClass imgMarket" /></a></div>
 </div>

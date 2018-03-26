@@ -259,13 +259,15 @@
 			source[3] = "/media/photo-sac/sac-rabat-marron-fonce-ouvert.jpg";
 			source[4] = "/media/photo-sac/sac-rabat-jaune.jpg";
 			source[5] = "/media/photo-sac/sac-rabat-rouge.jpg";
+			source[6] = "/media/photo-sac/sac-rabat-bleu.jpg";
+			source[7] = "/media/photo-sac/sac-rabat-prune.jpg";
 			var	articleTitle= "Sac Rabat",
 			
 			 articleDescription="3 compartiments: poche principale, poche int\351rieure zipp\351e et poche zipp\351e plaqu\351e à l'arri\350re; fermeture par rabat et lani\350re, taille de la bandouli\350re r\351glable, cuir vachette ou veau, doublure poche int\351rieure en cuir.",
 			 articleDimension="";
 			
 			$("#menu_sac_2").addClass("activeMobil");
-			var nb_article = 5;
+			var nb_article = 7;
 				
 		} else if (article == 'sac_cabas') {
 			source[2] = "/media/photo-sac/sac-cabas-marron-face.jpg";
