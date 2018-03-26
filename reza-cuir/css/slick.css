@@ -1,3 +1,5 @@
+/* if change in slick, change to slick_1.x.css, and update  header.php  */
+
 #center {
 	
     width:1024px!important;
@@ -19,7 +21,7 @@
 
 div.slider-nav-thumbnails {
 
-  width:450px;
+  width:375px;  /* number of slide * 75px */
   margin: 5px auto 0px auto;
 
 }

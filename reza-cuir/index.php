@@ -35,49 +35,38 @@
 </div>
 <div class="slider">
 	<figure>
-		<img src="/media/photo-acceuil/a-portechequier-portefeuille-portemonnaie.jpg" alt="portechequier-portefeuille-portemonnaie" />
+		<img src="/media/photo-acceuil/a-sac-rabat.jpg" alt="sac-rabat" />
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-portefeuille-multiples.jpg" alt="portefeuille-multiples"/>
+		<img src="/media/photo-acceuil/a-bracelet-cuir-tissu.jpg" alt="bracelet-cuir-tissu"/>
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-sac-bandouliere-portefeuille-etui-noir.jpg" alt="sac-bandouliere-portefeuille-etui-noir"/>
+		<img src="/media/photo-acceuil/a-portemonnaie.jpg" alt="portemonnaie" />
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-sac-besace-portefeuille-portemonnaie-bracelet.jpg" alt="sac-besace-portefeuille-portemonnaie-bracelet" />
+		<img src="/media/photo-acceuil/a-sac-besace.jpg" alt="sac-besace" />
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-sac-cabas-portefeuille-portemonnaie.jpg" alt="sac-cabas-portefeuille-portemonnaie" />
-	</figure>
-	<figure>
-		<img src="/media/photo-acceuil/a-sac-bandouliere-marron-jaune.jpg" alt="sac-bandouliere-marron-jaune" />
-	</figure>
-	<figure>
-		<img src="/media/photo-acceuil/a-sac-cabas-portefeuille.jpg" alt="sac-cabas-portefeuille" />
+		<img src="/media/photo-acceuil/a-portemonnaie-multipoche.jpg" alt="portemonnaie-multipoche" />
 	</figure>
 </div>
 <div class="slider-nav-thumbnails">
 	<div>
-		<img src="/media/photo-acceuil/thumbs-portechequier-portefeuille-portemonnaie.jpg" alt="thumbs-portechequier-portefeuille-portemonnaie" />
+		<img src="/media/photo-acceuil/thumbs-sac-rabat.jpg" alt="thumbs-sac-rabat" />
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-portefeuille-multiples.jpg" alt="thumbs-portefeuille-multiples"/>
+		<img src="/media/photo-acceuil/thumbs-bracelet-cuir-tissu.jpg" alt="thumbs-bracelet-cuir-tissu"/>
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-bandouliere-portefeuille-etui-noir.jpg" alt="thumbs-sac-bandouliere-portefeuille-etui-noir"/>
+		<img src="/media/photo-acceuil/thumbs-portemonnaie.jpg" alt="thumbs-portemonnaie" />
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-besace-portefeuille-portemonnaie-bracelet.jpg" alt="thumbs-sac-besace-portefeuille-portemonnaie-bracelet" />
+		<img src="/media/photo-acceuil/thumbs-sac-besace.jpg" alt="thumbs-sac-besace" />
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-cabas-portefeuille-portemonnaie.jpg" alt="thumbs-sac-cabas-portefeuille-portemonnaie" />
+		<img src="/media/photo-acceuil/thumbs-portemonnaie-multipoche.jpg" alt="thumbs-portemonnaie-multipoche" />
 	</div>
-	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-bandouliere-marron-jaune.jpg" alt="thumbs-sac-bandouliere-marron-jaune" />
-	</div>
-	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-cabas-portefeuille.jpg" alt="thumbs-sac-cabas-portefeuille" />
-	</div>
+</div>
 </div>
 </div>
 <?php  include('footer.php');?>
@@ -93,12 +82,12 @@
 	autoplay:true,
 	autoplaySpeed:4000,
 	speed:1000,
-	initialSlide:3, // to edit if new slide // change also in slick 1.1. css L22 nb of slide * 75 
+	initialSlide:0, // to edit if new slide // change also in slick 1.1. css L22 nb of slide * 75 
 	draggable:false,
  	asNavFor: '.slider-nav-thumbnails',
 	});
 	$('.slider-nav-thumbnails').slick({
- 	slidesToShow: 7, // to edit if new slide 
+ 	slidesToShow: 5, // to edit if new slide 
  	slidesToScroll: 1,
  	asNavFor: '.slider',
  	dots: false,
