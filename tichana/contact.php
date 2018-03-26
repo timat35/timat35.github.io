@@ -73,7 +73,7 @@
 					<div class="info text-center">
 						<h5><a href="creatrice.php?creatrice=tet" >Têt-en-l'air</a></h5>
 						<p>
-						delphine@tetenlair.com</br>
+						tetenlair-chapeaux@sfr.fr</br>
 						06 31 30 96 19</br>
 						</p>
 					</div>
