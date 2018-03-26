@@ -81,7 +81,7 @@
 <?php  include('footer.php');?>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="/js/reza_1.63.js"></script>
+<script type="text/javascript" src="/js/reza.js?v=1"></script>
 <script type="text/javascript" src="/js/jquery.event.move.js"></script>
 <script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
 <script type="text/javascript" src="/fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>

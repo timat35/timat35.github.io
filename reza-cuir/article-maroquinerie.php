@@ -54,7 +54,7 @@
 
 </section>
 <div id="porteMonnaie_btnCouleur" class="menuBase menuCouleur noDisplay">
-<div  onclick="changeArticleMaro('portemonnaie', false)"><a>Classique</a></div><div onclick="changeArticleMaro('portemonnaie_3poche', false)"><a>3 poches</a></div><div onclick="changeArticleMaro('portemonnaie_demiLune', false)"><a>Demi-lune</a></div>
+<div onclick="changeArticleMaro('portemonnaie_3poche', false)"><a>3 poches</a></div><div onclick="changeArticleMaro('portemonnaie_5poche', false)"><a>5 poches</a></div>
 </div>
 </div>
 </div>
@@ -79,7 +79,7 @@
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="/js/reza_1.63.js"></script>
+<script type="text/javascript" src="/js/reza.js?v=1"></script>
 <script type="text/javascript" src="/js/jquery.event.move.js"></script>
 <script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
 <script type="text/javascript" src="/fancybox/jquery.fancybox_swipe.js?v=2.1.5"></script>

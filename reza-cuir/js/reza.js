@@ -6,100 +6,154 @@
 		$("#menu_maro_2").removeClass("activeMobil");
 		$("#menu_maro_3").removeClass("activeMobil");
 		$("#menu_maro_4").removeClass("activeMobil");
+		$("#menu_maro_5").removeClass("activeMobil");
+		$("#menu_maro_6").removeClass("activeMobil");
+		$("#menu_maro_7").removeClass("activeMobil");
 		
+		$("#besace_btnCouleur").addClass("noDisplay");
+		$("#cabas_btnCouleur").addClass("noDisplay");
+		$("#bandou_btnCouleur").addClass("noDisplay");
+		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
+		
+		var temp_thumb = document.getElementsByClassName("articleView");
+		var nb_thumb = temp_thumb.length;		
+		var source = [];
+		for (var i = 1; i <= nb_thumb; ++i) {
+			source[i] = "";
+		}
 
-		if (article == 'portemonnaie') {
+		var nb_article = 3;
+		
+		if (article == 'portemonnaie_3poche') {
 			
-			var source1 = "/media/photo-maroquinerie/portemonnaie-multiple.jpg",
-				source2 = "/media/photo-maroquinerie/portemonnaie-jaune-rouge-profil.jpg",
-				source3 = "/media/photo-maroquinerie/portemonnaie-jaune-rouge-interieur.jpg",
-				articleTitle= "Porte-monnaie",
-				articleDescription="Fermeture \340 pression, cuir vachette ou veau, finition biais en tissu.",
-				articleDimension="Dimensions: 10,5cm X 6,5cm.";
+			source[1] = "/media/photo-maroquinerie/1-portemonnaie-noire.jpg";
+			source[2] = "/media/photo-maroquinerie/2-portemonnaie-jaune-bleu.jpg";
+			source[3] = "/media/photo-maroquinerie/3-portemonnaie-rouge-vert.jpg";
+			var articleTitle= "Porte-monnaie 3 poches",
+			articleDescription="Fermeture \340 pression, cuir vachette ou veau.",
+			articleDimension="Dimensions: 10,5cm X 7cm.";	
 			
-			$("#btnCouleur").addClass("noDisplay");
-			$("#menu_maro_2").addClass("activeMobil");
-				
+			$("#menu_maro_3").addClass("activeMobil");
+			$("#porteMonnaie_btnCouleur").removeClass("noDisplay");
+
+		} else if (article == 'portemonnaie_5poche') {
+			source[1] = "/media/photo-maroquinerie/1-portemonnaie-multiple.jpg";
+			source[2] = "/media/photo-maroquinerie/2-portemonnaie-marron.jpg";
+			source[3] = "/media/photo-maroquinerie/3-portemonnaie-interieur.jpg";
+			var	articleTitle= "Porte-monnaie 5 poches",
+				articleDescription="Fermeture \340 pression, cuir vachette ou veau.",
+				articleDimension="Dimensions: 10,5cm X 7cm.";	
+			
+		$("#menu_maro_4").addClass("activeMobil");
+		$("#porteMonnaie_btnCouleur").removeClass("noDisplay");
+			
 		} else if (article == 'portefeuille') {
-			var source1 = "/media/photo-maroquinerie/portefeuille-multiple-couleur.jpg",
-				source2 = "/media/photo-maroquinerie/portefeuille-rouge-mauve.jpg",
-				source3 = "/media/photo-maroquinerie/portefeuille-bleue-marine-doublure.jpg",
-				articleTitle= "Portefeuille",
-				articleDescription="Fermeture \340 pression, \340 l'int\350rieur 2 emplacements pour cartes et 4 poches dont une zipp\351e pour porte monnaie, format passeport, cuir vachette ou veau, finition biais en tissu.",
+			source[1] = "/media/photo-maroquinerie/portefeuille-multiple.jpg";
+			source[2] = "/media/photo-maroquinerie/portefeuille-2017.jpg";
+			source[3] = "/media/photo-maroquinerie/portefeuille-bleue-marine-doublure.jpg";
+			source[4] = "/media/photo-maroquinerie/portefeuille-jaune.jpg";
+			source[5] = "/media/photo-maroquinerie/portefeuille-couleur.jpg";
+			source[6] = "/media/photo-maroquinerie/portefeuille-marron.jpg";
+			source[7] = "/media/photo-maroquinerie/portefeuille-vert.jpg";
+			source[8] = "/media/photo-maroquinerie/portefeuille-noir.jpg";
+			source[9] = "/media/photo-maroquinerie/portefeuille-rouge.jpg";
+			source[10] = "/media/photo-maroquinerie/portefeuille-marron-fonce.jpg";
+			var	articleTitle= "Portefeuille",
+				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 2 emplacements pour cartes et 4 poches dont une zipp\351e pour porte monnaie, format passeport, cuir vachette ou veau, finition biais en tissu.",
 				articleDimension="Dimensions: 15,5cm X 10cm.";	
+				
+			var nb_article = 10;
 			
-			$("#btnCouleur").addClass("noDisplay");
 			$("#menu_maro_1").addClass("activeMobil");
 				
 		} else if (article == 'portechequier') {
-			var source1 = "/media/photo-maroquinerie/portechequier-bleue-marine.jpg",
-				source2 = "/media/photo-maroquinerie/portechequier-bleue-marine-marron.jpg",
-				source3 = "/media/photo-maroquinerie/portechequier-bleue-doublure.jpg",
-				articleTitle= "Porte-ch\351quier",
-				articleDescription="Fermeture \340 pression, \340 l'int\350rieur 3 emplacements pour cartes et 4 poches dont une double zipp\351e pour porte monnaie et billets, format ch\351quier, cuir vachette ou veau, finition biais en tissu.",
+			source[1] = "/media/photo-maroquinerie/portechequier-noir-tissu-wax.jpg";
+			source[2] = "/media/photo-maroquinerie/portechequier-bleue-marine-marron.jpg";
+			source[3] = "/media/photo-maroquinerie/portechequier-bleue-doublure.jpg";
+			var	articleTitle= "Porte-ch\351quier",
+				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 3 emplacements pour cartes et 4 poches dont une double zipp\351e pour porte monnaie et billets, format ch\351quier, cuir vachette ou veau, finition biais en tissu.",
 				articleDimension="Dimensions: 20,5cm X 11,5cm.";
 				
-			$("#btnCouleur").addClass("noDisplay");
-			$("#menu_maro_3").addClass("activeMobil");
+			$("#menu_maro_5").addClass("activeMobil");
 				
 		} else if (article == 'etui_lunette') {
-			var source1 = "/media/photo-maroquinerie/etui-lunette-jaune-face.jpg",
-				source2 = "/media/photo-maroquinerie/etui-lunette-jaune-bleu.jpg",
-				source3 = "/media/photo-maroquinerie/etui-lunette-jaune-doublure.jpg",
-				articleTitle= "Etui \340 lunettes",
-				articleDescription="Fermeture lani\350re \340 enrouler et nouer, cuir vachette ou veau, finition biais en tissu.",
-				articleDimension="Dimensions: 15cm X 6cm.";
+			source[1] = "/media/photo-maroquinerie/etui-lunette-6.jpg";
+			source[2] = "/media/photo-maroquinerie/etui-lunette-4.jpg";
+			source[3] = "/media/photo-maroquinerie/etui-lunette-rouge-interieur.jpg";
+			var	articleTitle= "Etui \340 lunettes",
+				articleDescription="Fermeture \340 pression, coque plastique int\351gr\351e, cuir vachette ou veau, finition biais en tissu.",
+				articleDimension="Dimensions: 16cm X 6cm pour une \351paisseur de 2,5cm.";
 			
-			$("#btnCouleur").addClass("noDisplay");
-			$("#menu_maro_4").addClass("activeMobil");
+			$("#menu_maro_6").addClass("activeMobil");
+				
+					
+		} else if (article == 'pochette') {
+			source[1] = "/media/photo-maroquinerie/pochette-de-face.jpg";
+			source[2] = "/media/photo-maroquinerie/pochette-marron-jaune.jpg";
+			source[3] = "/media/photo-maroquinerie/pochette-multiples-ouvert.jpg";
+			var	articleTitle= "Pochette",
+				articleDescription="Format pour blague \340 tabac ou autre, fermeture \340 pression, cuir vachette ou veau, finition biais en tissu.",
+				articleDimension="Dimensions: 15.5cm X 9cm.";
+			
+			$("#menu_maro_7").addClass("activeMobil");
 				
 					
 		}
-		
-		var	source1_medium = source1.slice(0,-4) + "-320.jpg",
-			source2_medium = source2.slice(0,-4) + "-320.jpg",
-			source3_medium = source3.slice(0,-4) + "-320.jpg",
-			source1_low = source1.slice(0,-4) + "-100.jpg",
-			source2_low = source2.slice(0,-4) + "-100.jpg",
-			source3_low = source3.slice(0,-4) + "-100.jpg";
-			
-		if (document.getElementById("fancy_1").href != source1) {
-			
-			document.getElementById("fancy_1").href = source1;
-			document.getElementById("fancy_2").href = source2;
-			document.getElementById("fancy_3").href = source3;
 
-			$("#thumb_img_1").fadeTo(200,0.0, function() {
-				  $("#thumb_img_1").attr("src",source1_low);
-			  }).fadeTo(400,1);
-			$("#thumb_img_2").fadeTo(200,0.0, function() {
-				  $("#thumb_img_2").attr("src",source2_low);
-			  }).fadeTo(400,1);
-			$("#thumb_img_3").fadeTo(200,0.0, function() {
-				  $("#thumb_img_3").attr("src",source3_low);
-			  }).fadeTo(400,1);
-			  
+			
+		var source_low = [];
+		for (var i = 1; i <= nb_thumb; ++i) {
+			source_low[i] = source[i].slice(0,-4)+ "-100.jpg";
+		}
+		
+		var	source2_medium = source[2].slice(0,-4) + "-320.jpg";
+			
+		if (document.getElementById("fancy_1").href != source[1]) {
+			
+			for (var i = 1; i <= nb_thumb; ++i) {
+				document.getElementById("fancy_"+i).href = source[i];
+				document.getElementById("fancy_r"+i).href = source[i];
+			}	
+			
+
+			$.each(temp_thumb, function(index){
+				
+				$(this).fadeTo(200,0.0,function() {
+					$(this).attr("src",source_low[index+1]);
+				}).fadeTo(400,1);
+			})
+
 			$("#img_base").fadeTo(200,0.0, function() {
 				$("#img_base").attr("src",source2_medium);
 			}).fadeTo(400,1);
 			  
 			  
 			
-			document.getElementById("fancy_base").href= source2;
+			document.getElementById("fancy_base").href= source[2];
+			document.getElementById("fancy_r1").rel = "fancybox";
+
+			for (i=2; i <= nb_article; ++i){
+				document.getElementById("fancy_r"+i).rel = "NO";
+			}
 			
-			document.getElementById("fancy_1").rel = "fancybox";
+			document.getElementById("fancy_1").rel = "NO";
 			document.getElementById("fancy_2").rel = "NO";
-			document.getElementById("fancy_3").rel = "fancybox";
 			
-			$("#thumb_img_1").addClass("borderClass");
-			$("#thumb_img_2").addClass("borderClass");
-			$("#thumb_img_3").addClass("borderClass");
+			for (i=3; i <= nb_article; ++i){
+				document.getElementById("fancy_"+i).rel = "fancybox";
+			}
 			
-			$("#thumb_img_1").removeClass("matPortrait");
-			$("#thumb_img_2").removeClass("matPortrait");
-			$("#thumb_img_3").removeClass("matPortrait");
 			
 			$("img_base").addClass("borderClass");
+			$.each(temp_thumb, function(index){
+				$(this).addClass("borderClass");
+				if (index > (nb_article-1)) {
+					$(this).addClass("noDisplay");
+				} else {
+					$(this).removeClass("noDisplay");
+				}
+			})
+			
 			
 			document.getElementById("articleTitle").innerHTML = articleTitle;
 			document.getElementById("articleTitleMobil").innerHTML = articleTitle;
@@ -110,39 +164,46 @@
 				
 		}
 		
-		if (article == 'portemonnaie') {
+		var temp_after = document.getElementsByClassName("fancyfake_after");
+		
+		for (i=nb_article; i < temp_after.length; i++) {
+			temp_after[i].rel= "NO"
+		}
+		
+		
+		if (article == 'pochette') {
 			
 		$("#thumb_img_1").removeClass("borderClass");
-		$("#thumb_img_1").addClass("matPortrait");
 			
 		}	
 		
+		
 		if (mobil) {
 			
-		$("#btnCouleur").addClass("noDisplay");
-		
-
+		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
 	
 		var $body = $( 'body' ),
 			$content = $( '#content' ),
 			transitionEnd = 'transitionend webkitTransitionEnd otransitionend MSTransitionEnd';
 			
 		$body.addClass( 'animating' );
-		$body.addClass( 'up' );
+		$body.addClass( 'up anim7' );
 		$('#toggle-menu').removeClass('noDisplay')
 		
 		$content.on( transitionEnd, function() {
 			$body
-			.removeClass( 'animating down up' )
-			.removeClass( 'menu-visible' );
+			.removeClass( 'animating down up anim7' )
+			.removeClass( 'menu-visible anim7' );
 		$content.off( transitionEnd );
 			});
-
+			
 		setTimeout( function(){
-				 $body.removeClass( 'animating down up' );
-				 $body.removeClass( 'menu-visible' );
-			}, 300);			
+				 $body.removeClass( 'animating down up anim7' );
+				 $body.removeClass( 'menu-visible anim7' );
+				}, 300);			
 		}	
+		
+
 	}
 	
 	function changeArticleSac(article, mobil) {
@@ -151,109 +212,139 @@
 		$("#menu_sac_2").removeClass("activeMobil");
 		$("#menu_sac_3").removeClass("activeMobil");
 		$("#menu_sac_4").removeClass("activeMobil");
-		
 
-		if (article == 'sac_noire') {
+
+		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
+		
+		var temp_thumb = document.getElementsByClassName("articleView");
+		var nb_thumb = temp_thumb.length;
+		var source = [];
+		for (var i = 1; i <= nb_thumb; ++i) {
+			source[i] = "";
+		}
 			
-			var source1 = "/media/photo-sac/Sac-besace-noire-face-portefeuille-rouge.jpg",
-				source2 = "/media/photo-sac/Sac-besace-noire-face.jpg",
-				source3 = "/media/photo-sac/Sac-besace-noire-doublure.jpg",
-				articleTitle= "Sac Besace",
+		var nb_article = 3;
+
+		if (article == 'sac_marron') {
+			source[2] = "/media/photo-sac/Sac-besace-marron-face-2.jpg";
+			source[1] = "/media/photo-sac/Sac-besace-marron-doublure.jpg";
+			source[3] = "/media/photo-sac/Sac-besace-noire-face.jpg";
+			source[4] = "/media/photo-sac/Sac-besace-noire-doublure.jpg";
+			source[5] = "/media/photo-sac/sac-besace-rouge.jpg";
+			source[6] = "/media/photo-sac/sac-besace-rouge-doublure.jpg";
+			var	articleTitle= "Sac Besace",
 				articleDescription="4 compartiments: poche principale, poche int\350rieure zipp\351e et 2 poches plaqu\351es sur le devant; fermeture rabat par 2 tops magn\351tiques plac\351s sous les boucles de r\351glages, porte clef, bandouli\350re ajustable par boucles, cuir vachette ou veau, doublure en tissu.",
-				articleDimension="Dimensions: hauteur 18cm, largeur 26cm, epaisseur 6cm.";
+				articleDimension="Dimensions: hauteur 18cm, largeur 26cm, \351paisseur 6cm.";
+			
+			var nb_article = 6;
 				
-			$("#btnCouleur").removeClass("noDisplay");
-			$("#menu_sac_2").addClass("activeMobil");
-				
-		} else if (article == 'sac_marron') {
-			var source1 = "/media/photo-sac/Sac-besace-marron-face-doublure.jpg",
-				source2 = "/media/photo-sac/Sac-besace-marron-face-2.jpg",
-				source3 = "/media/photo-sac/Sac-besace-marron-doublure.jpg",
-				articleTitle= "Sac Besace",
-				articleDescription="4 compartiments: poche principale, poche int\350rieure zipp\351e et 2 poches plaqu\351es sur le devant; fermeture rabat par 2 tops magn\351tiques plac\351s sous les boucles de r\351glages, porte clef, bandouli\350re ajustable par boucles, cuir vachette ou veau, doublure en tissu.",
-				articleDimension="Dimensions: hauteur 18cm, largeur 26cm, epaisseur 6cm.";	
-				
-			$("#btnCouleur").removeClass("noDisplay");
 			$("#menu_sac_1").addClass("activeMobil");
+			
+		} else if (article == 'sac_rabat') {
+			source[1] = "/media/photo-sac/sac-rabat-marron-clair.jpg";
+			source[2] = "/media/photo-sac/sac-rabat-marron-fonce.jpg";
+			source[3] = "/media/photo-sac/sac-rabat-marron-fonce-ouvert.jpg";
+			source[4] = "/media/photo-sac/sac-rabat-jaune.jpg";
+			source[5] = "/media/photo-sac/sac-rabat-rouge.jpg";
+			var	articleTitle= "Sac Rabat",
+			
+			 articleDescription="3 compartiments: poche principale, poche int\351rieure zipp\351e et poche zipp\351e plaqu\351e à l'arri\350re; fermeture par rabat et lani\350re, taille de la bandouli\350re r\351glable, cuir vachette ou veau, doublure poche int\351rieure en cuir.",
+			 articleDimension="";
+			
+			$("#menu_sac_2").addClass("activeMobil");
+			var nb_article = 5;
 				
 		} else if (article == 'sac_cabas') {
-			var source1 = "/media/photo-sac/sac-cabas-marron-dessus.jpg",
-				source2 = "/media/photo-sac/sac-cabas-marron-face.jpg",
-				source3 = "/media/photo-sac/sac-cabas-marron-doublure.jpg",
-				articleTitle= "Sac Cabas",
-				articleDescription="Grand volume, 3 compartiments: grande poche principale avec fermeture par top magn\351tique, une poche int\350rieure zipp\351e et une poche ext\350rieure plaqu\351e avec fermeture par top magn\351tique, grande anse pour porter \340 l'\351paule, cuir vachette ou veau, doublure en tissu.",
-				articleDimension="Dimensions: hauteur 36cm, largeur 8cm, epaisseur 8cm (peut contenir des formats A4).";
-				
-			$("#btnCouleur").addClass("noDisplay");
-			$("#menu_sac_3").addClass("activeMobil");
-				
-		} else if (article == 'sac_pochette') {
-			var source1 = "/media/photo-sac/sac-pochette-rouge-portemonnaie.jpg",
-				source2 = "/media/photo-sac/sac-pochette-rouge-face-portrait.jpg",
-				source3 = "/media/photo-sac/sac-cabas-marron-doublure.jpg",
-				articleTitle= "Sac Pochette",
-				articleDescription="Petit sac \340 fermeture zipp\351e sur le dessus, bandouli\350re ajustable par simple noeud, cuir vachette ou veau.",
-				articleDimension="Dimensions: hauteur 15cm, largeur 20cm.";
+			source[2] = "/media/photo-sac/sac-cabas-marron-face.jpg";
+			source[1] = "/media/photo-sac/sac-cabas-noir.jpg";
+			source[4] = "/media/photo-sac/sac-cabas-marron-fonce-dessus.jpg";
+			source[3] = "/media/photo-sac/sac-cabas-marron-fonce.jpg";
+			source[5] = "/media/photo-sac/sac-cabas-marron-fonce-doublure.jpg";
+			var	articleTitle= "Sac Cabas",
+				articleDescription="Grand volume, 3 compartiments: grande poche principale avec fermeture par top magn\351tique, une poche int\351rieure zipp\351e et une poche ext\351rieure plaqu\351e avec fermeture par top magn\351tique, grande anse pour porter \340 l'\351paule, cuir vachette ou veau, doublure en tissu.",
+				articleDimension="Dimensions: hauteur 36cm, largeur 30cm, \351paisseur 8cm (peut contenir des formats A4).";
 			
-			$("#btnCouleur").addClass("noDisplay");
+			$("#menu_sac_3").addClass("activeMobil");
+			var nb_article = 5;
+			
+		} else if (article == 'sac_bandou_jaune') {
+			source[5] = "/media/photo-sac/sac-bandouliere-noir-doublure.jpg";
+			source[4] = "/media/photo-sac/sac-bandouliere-noir.jpg";
+			source[6] = "/media/photo-sac/sac-bandouliere-cuir-jaune.jpg";
+			source[1] = "/media/photo-sac/sac-bandouliere-cuir-marron-fonce.jpg";
+			source[2] = "/media/photo-sac/sac-bandouliere-cuir-marron-tissu-japonais.jpg";
+			source[3] = "/media/photo-sac/sac-bandouliere-cuir-noir-tissu-japonais.jpg";
+			source[7] = "/media/photo-sac/sac-bandouliere-jaune-ouvert-poche.jpg";
+			source[8] = "/media/photo-sac/sac-bandouliere-cuir-noir-wax-2.jpg";
+			source[9] = "/media/photo-sac/sac-bandouliere-marron-claire-tissu-vague-rouge.jpg";
+			source[10] = "/media/photo-sac/sac-bandouliere-marron-vague-rouge.jpg";
+			
+
+			var articleTitle= "Sac Bandouli\350re \340 noeud",
+				articleDescription="3 compartiments dont une poche int\351rieure zipp\351 et une poche ext\351rieure plaqu\351e, fermeture par top magn\351tique, bandouli\350re ajustable par simple noeud, cuir vachette ou veau, doublure en tissu.",
+				articleDimension="Dimensions: hauteur 22cm, largeur 27cm, \351paisseur 5cm.";
+		
 			$("#menu_sac_4").addClass("activeMobil");
-				
+			
+			var nb_article = 10;
 					
 		}
 		
-		var	source1_medium = source1.slice(0,-4) + "-320.jpg",
-			source2_medium = source2.slice(0,-4) + "-320.jpg",
-			source3_medium = source3.slice(0,-4) + "-320.jpg",
-			source1_low = source1.slice(0,-4) + "-100.jpg",
-			source2_low = source2.slice(0,-4) + "-100.jpg",
-			source3_low = source3.slice(0,-4) + "-100.jpg";
+		var source_low = [];
+		for (var i = 1; i <= nb_thumb; ++i) {
+			source_low[i] = source[i].slice(0,-4)+ "-100.jpg";
+		}
 		
-		if (document.getElementById("fancy_1").href != source1) {
-			
-			document.getElementById("fancy_1").href = source1;
-			document.getElementById("fancy_2").href = source2;
-			document.getElementById("fancy_3").href = source3;
+		var	source2_medium = source[2].slice(0,-4) + "-320.jpg";
 
-			  $("#thumb_img_1").fadeTo(200,0.0, function() {
-				  $("#thumb_img_1").attr("src",source1_low);
-			  }).fadeTo(400,1);
-			  $("#thumb_img_2").fadeTo(200,0.0, function() {
-				  $("#thumb_img_2").attr("src",source2_low);
-			  }).fadeTo(400,1);
-			  $("#thumb_img_3").fadeTo(200,0.0, function() {
-				  $("#thumb_img_3").attr("src",source3_low);
-			  }).fadeTo(400,1);
+		
+		if (document.getElementById("fancy_1").href != source[1]) {
+			
+			
+			
+			for (var i = 1; i <= nb_thumb; ++i) {
+				document.getElementById("fancy_"+i).href = source[i];
+				document.getElementById("fancy_r"+i).href = source[i];
+			}			
+			
+			
+			$.each(temp_thumb, function(index){
+				$(this).fadeTo(200,0.0,function() {
+					$(this).attr("src",source_low[index+1]);
+				}).fadeTo(400,1);
+			})
+
+			$("#img_base").fadeTo(200,0.0, function() {
+				$("#img_base").attr("src",source2_medium);
+			}).fadeTo(400,1);
 			  
-			  if (article == 'sac_pochette') {
-				  
-				  $("#img_base").fadeTo(200,0.0, function() {
-					$("#img_base").attr("src",source1_medium);
-				}).fadeTo(400,1);
-				  
-			  } else {
-				
-				
-				$("#img_base").fadeTo(200,0.0, function() {
-					$("#img_base").attr("src",source2_medium);
-				}).fadeTo(400,1);
-			  }
 			  
 			
-			document.getElementById("fancy_base").href= source2;
+			document.getElementById("fancy_base").href= source[2];
+			document.getElementById("fancy_r1").rel = "fancybox";
+
+			for (i=2; i <= nb_article; ++i){
+				document.getElementById("fancy_r"+i).rel = "NO";
+			}
 			
-			document.getElementById("fancy_1").rel = "fancybox";
+			document.getElementById("fancy_1").rel = "NO";
 			document.getElementById("fancy_2").rel = "NO";
-			document.getElementById("fancy_3").rel = "fancybox";
 			
-			$("#thumb_img_1").addClass("borderClass");
-			$("#thumb_img_2").addClass("borderClass");
-			$("#thumb_img_3").addClass("borderClass");
+			for (i=3; i <= nb_article; ++i){
+				document.getElementById("fancy_"+i).rel = "fancybox";
+			}
 			
-			$("#thumb_img_1").removeClass("matPortrait twoArticle");
-			$("#thumb_img_2").removeClass("matPortrait");
-			$("#thumb_img_3").removeClass("matPortrait noDisplay");
 			
 			$("img_base").addClass("borderClass");
+			
+			$.each(temp_thumb, function(index){
+				$(this).addClass("borderClass");
+				if (index > (nb_article-1)) {
+					$(this).addClass("noDisplay");
+				} else {
+					$(this).removeClass("noDisplay");
+				}
+			})
 			
 			document.getElementById("articleTitle").innerHTML = articleTitle;
 			document.getElementById("articleTitleMobil").innerHTML = articleTitle;
@@ -264,59 +355,50 @@
 				
 		}
 		
-
+		var temp_after = document.getElementsByClassName("fancyfake_after");
+		
+		for (i=nb_article; i < temp_after.length; i++) {
+			temp_after[i].rel= "NO"
+		}
+		
+		$("#img_base").addClass("borderClass");
 		
 		if (article == 'sac_cabas') {
 			
-		$("#thumb_img_2").removeClass("borderClass");
-		$("#thumb_img_2").addClass("matPortrait");
-		$("#img_base").removeClass("borderClass");
+			$("#thumb_img_1").removeClass("borderClass");
+			$("#thumb_img_2").removeClass("borderClass");
+			$("#thumb_img_3").removeClass("borderClass");
+			$("#img_base").removeClass("borderClass");
 			
 		}
 		
-		if (article == 'sac_pochette') {
-		
-		
-		$("#thumb_img_1").addClass("matPortrait twoArticle");
-		$("#thumb_img_2").removeClass("borderClass");
-		$("#thumb_img_2").addClass("matPortrait");
-		$("#thumb_img_3").addClass("noDisplay");
-		
-		document.getElementById("fancy_base").href= source1;
-		document.getElementById("fancy_1").rel = "NO";
-		document.getElementById("fancy_2").rel = "fancybox";
-		document.getElementById("fancy_3").rel = "NO";
-		
-		}
 		
 		if (mobil) {
-			
-		$("#btnCouleur").addClass("noDisplay");
+					
 		
-
-	
 		var $body = $( 'body' ),
 			$content = $( '#content' ),
 			transitionEnd = 'transitionend webkitTransitionEnd otransitionend MSTransitionEnd';
+	
+			$body.addClass( 'animating' );
+			$body.addClass( 'up anim4' );
 			
-		$body.addClass( 'animating' );
-		$body.addClass( 'up' );
 		$('#toggle-menu').removeClass('noDisplay')
-		
+
 		$content.on( transitionEnd, function() {
 			$body
-			.removeClass( 'animating down up' )
-			.removeClass( 'menu-visible' );
+			.removeClass( 'animating  up anim4' )
+			.removeClass( 'menu-visible anim4' );
 		$content.off( transitionEnd );
-			});	
+			});
 			
 		setTimeout( function(){
-				 $body.removeClass( 'animating down up' );
-				 $body.removeClass( 'menu-visible' );
-			}, 300);
-		}	
+				 $body.removeClass( 'animating down up anim4' );
+				 $body.removeClass( 'menu-visible anim4' );
+				}, 300);
+
+		}
 	}
-	
 
     function changeImage(object) {
 		
@@ -329,26 +411,50 @@
             document.getElementById("img_base").src = url_medium;
             document.getElementById("fancy_base").href= url_high;
         }
-	var temp = document.getElementsByClassName("fancyfake");
+	var temp_before = document.getElementsByClassName("fancyfake_before");
+	var temp_after = document.getElementsByClassName("fancyfake_after");
+	var temp_thumb = document.getElementsByClassName("articleView");
 	var i;
-	for (i=0; i < temp.length; i++) {
-		if (temp[i].href == url_high) {
-			temp[i].rel="NO"
+	var str_fancy = "fancybox"; 
+	var str_no = "NO"; 
+	var bool_fancy = false; 
+	for (i=0; i < temp_before.length; i++) {
+		
+		if (temp_before[i].href == url_high) {
+			
+			bool_fancy = true
+			temp_before[i].rel= str_no
+			temp_after[i].rel= str_no
+			
+			
 		}
-		else {
-			temp[i].rel="fancybox"
+		else 
+		{
+			if (!bool_fancy) {
+				temp_before[i].rel= str_fancy
+				temp_after[i].rel= str_no
+			}
+			else {
+				temp_before[i].rel= str_no
+				temp_after[i].rel= str_fancy
+			}	
 		}
+		
+		if ($("#".concat(temp_thumb[i].id)).hasClass("noDisplay")) {
+			temp_before[i].rel= str_no
+			temp_after[i].rel= str_no
+		}
+		
 	}
 	
-	if ($("#thumb_img_3").hasClass("noDisplay")) {
-		document.getElementById("fancy_3").rel = "NO";
-	}
 	
-	if ($(object).hasClass("matPortrait")) {
-		$("#img_base").removeClass("borderClass");
+	
+	
+	if ($(object).hasClass("borderClass")) {
+		$("#img_base").addClass("borderClass");
 	}
 	else {
-		$("#img_base").addClass("borderClass");
+		$("#img_base").removeClass("borderClass");
 	}
 	
     }
