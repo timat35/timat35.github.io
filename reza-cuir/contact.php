@@ -18,45 +18,67 @@ Elisa Tisseyre<br>
 Le Tresminet Vaugelas 38190 Laval<br>
 06 67 88 23 78<br>
 <br>
-Pour tout renseignement, commande, tarif vous pouvez me contacter par mail à l'adresse:<br>
-<a href="mailto:reza.cuir@gmail.com" style="text-decoration: underline; color: -webkit-link;">reza.cuir@gmail.com</a>
+Pour tout renseignement, commande, tarif vous pouvez me contacter par mail à l'adresse:
+<a href="mailto:reza.cuir@gmail.com" style="text-decoration: underline; color: -webkit-link;">reza.cuir@gmail.com</a></br>
+Ou me rencontrer lors de mes permanence à la Chouette Dorée.
+<a target="_blank" href="http://www.lachouettedoree.fr/boutique.php" style="text-decoration: underline; color: -webkit-link;">Agenda des permanences</a></br>
 </p>
 </section>
 <section class="matTitle"><p>Où me trouver ?</p></section>
 
-<div>
-<div><a target="_blank" href="http://www.lachouettedoree.fr/"><img src="/media/photo-marche/boutique_chouette_doree_small.jpg" alt="chouette dorée"  width class=" borderClass imgMarket" /></a></div>
+<div class="new_marche">
+	<div>
+	<a target="_blank" href="http://www.lachouettedoree.fr/"><img src="/media/photo-marche/boutique_chouette_doree_small.jpg" alt="chouette dorée"  width class=" borderClass imgMarket" /></a>
+	</div>
+	<div class="matDescMarche">
+		<section class="matTitle">
+		<p>Boutique la Chouette Dorée</p>
+		</section>
+		<section class="textLong">
+		<p>
+		Vous pouvez trouver toutes mes créations à la Chouette Dorée.<br>
+		7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
+		Du mardi au samedi 14h-19h.<br>
+		<div>
+			<a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
+		</div>
+		</p>
+		</section>
+	</div>
+</div>
+
+<div class="new_marche">
+	<div>
+		<a target="_blank" href="https://www.facebook.com/festivarts.grenoble/"><img src="/media/photo-marche/festiv_art_2018.png" alt="festiv_art_2018"  width class=" borderClass imgMarket" /></a>
+	</div>
+	<div class="matDescMarche">
+		<section class="matTitle">
+		<p>Festiv'arts 2018</p>
+		</section>
+		<section class="textLong">
+		<p>
+		Dimanche 8 avril 2018.<br>
+		De 12h à 20h.<br>
+		Au Jardin de ville.<br>
+		38000 Grenoble.
+		</p>
+		</section>
+	</div>
+</div>
+
+
+<div  class="new_marche">
+<div><a target="_blank" href="http://www.lacordealinge-grenoble.com/marche_2018.html"><img src="/media/photo-marche/marche-createur-grenoble-2018.png" alt="marche-createur-grenoble-2018"  width class=" borderClass imgMarket" /></a></div>
 <div class="matDescMarche">
 <section class="matTitle">
-<p>Boutique la Chouette Dorée</p>
+<p>Marché des créateurs de Grenoble</p>
 </section>
 <section class="textLong">
 <p>
-Vous pouvez trouver toutes mes créations à la Chouette Dorée.<br>
-7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
-Du mardi au samedi 14h-19h.<br>
-<div><a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a></div>
-</p>
-</section>
-</div>
-</div>
-
-
-
-<div>
-<div><a target="_blank" href="http://megeve.com/noesit/!/fiche/salon-talents-de-femmes-442236/"><img src="/media/photo-marche/talent-femme-2018.jpg" alt="talent-femme-2018"  width class=" borderClass imgMarket" /></a></div>
-<div class="matDescMarche">
-<section class="matTitle">
-<p>Salon Talents de Femmes à Megève </p>
-</section>
-<section class="textLong">
-<p>
-Du vendredi 2 au dimanche 4 mars 2018: <br>
-Vendredi: 14h à 20h.<br>
-Samedi: 10h à 20h. <br>
-Dimanche: 10h à 18h. <br>
-Salle des Congrès du Palais. <br>
-74120 Megève.
+Samedi 26 mai 2018.<br>
+De 9h à 19h.<br>
+Quartier Championnet.<br>
+38000 Grenoble.
 </p>
 </section>
 </div>
