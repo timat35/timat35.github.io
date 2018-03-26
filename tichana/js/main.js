@@ -150,6 +150,7 @@ function load_news() {
 			
 			const temp_link = document.createElement("a");
 			temp_link.setAttribute("href",local_news.link);
+			temp_link.setAttribute("target","_blank");
 			
 			const temp_img = document.createElement("img");
 			temp_img.setAttribute("src", 'img/news/' + local_news.img);

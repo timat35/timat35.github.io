@@ -77,7 +77,7 @@ Ou me rencontrer lors de mes permanence à la Chouette Dorée.
 <p>
 Samedi 26 mai 2018.<br>
 De 9h à 19h.<br>
-Quartier Championnet.<br>
+À Championnet.<br>
 38000 Grenoble.
 </p>
 </section>
