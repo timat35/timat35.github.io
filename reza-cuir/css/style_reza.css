@@ -273,7 +273,7 @@ span.text-content span{
 	margin: 0 auto 10px auto;}
 
 #content .menuBase.maroquinerie {	
-	max-width: 650px;
+	max-width: 100%;
 	margin: 0 auto 10px auto;
 	text-align:left;
 }

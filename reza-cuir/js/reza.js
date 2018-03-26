@@ -75,6 +75,19 @@
 				articleDimension="Dimensions: 20,5cm X 11,5cm.";
 				
 			$("#menu_maro_5").addClass("activeMobil");
+			
+		} else if (article == 'bracelet') {
+			source[1] = "/media/photo-maroquinerie/bracelet.jpg";
+			source[2] = "/media/photo-maroquinerie/bracelet-cuir-rouge.jpg";
+			source[3] = "/media/photo-maroquinerie/bracelet-cuir-tissu.jpg";
+			var	articleTitle= "Bracelets",
+				articleDescription="Bande de cuir en vachette ou en veau, biais en tissu, fermoir aimant\351 pour les bracelets double et triple tours, fermoir crochet\351 pour les bracelets en simple tour.",
+				articleDimension="";
+			
+			$("#menu_maro_6").addClass("activeMobil");
+				
+					
+		
 				
 		} else if (article == 'etui_lunette') {
 			source[1] = "/media/photo-maroquinerie/etui-lunette-6.jpg";
