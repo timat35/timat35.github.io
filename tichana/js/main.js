@@ -140,7 +140,7 @@ function get_items() {
 }
 
 function load_news() {
-	
+
 	$.getJSON("json/news.json", function(news_data) {
 		
 		var nb_news = Object.keys(news_data).length;

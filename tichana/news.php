@@ -82,7 +82,8 @@
 
 $(document).ready(function() {
 	
-	 load_news();
+	$.ajaxSetup({ cache: false });
+	load_news();
 
 });
 

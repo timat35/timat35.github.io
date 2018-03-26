@@ -222,6 +222,8 @@ $grid.imagesLoaded().progress( function() {
 
 $(document).ready(function() {
 	
+	$.ajaxSetup({ cache: false });
+	
 	w_w = $(window).width();
     if (w_w <798){
 		document.getElementById("header").className = 'container-fluid';
