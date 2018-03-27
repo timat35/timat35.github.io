@@ -15,7 +15,7 @@
 				Retrouvez dans ce lieu le savoir faire local et l'univers de chacune : de la maroquinerie en cuir d'Elisa aux vêtements homme/femme d'Hélène, en passant par les chapeaux de Delphine et la céramique en grès d'Océane.
 				</p>
 				<p>
-				Vous trouverez dans l'agenda les jours de présence de chaque créatrice à la boutique !
+				Vous trouverez dans <a id="link_calendar" href="#">l'agenda</a> les jours de présence de chaque créatrice à la boutique !
 				</p>
 			</div>
 			<div class="row-12">
@@ -78,6 +78,12 @@ $(document).ready(function() {
 			
 		}
     });
+
+	$("#link_calendar").click(function() {
+		$('html,body').animate({scrollTop:  $("#calendar").offset().top},'slow');
+	});
+	
+	
 
     // page is now ready, initialize the calendar...
     $('#calendar').fullCalendar({

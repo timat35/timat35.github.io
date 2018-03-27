@@ -21,7 +21,7 @@ Le Tresminet Vaugelas 38190 Laval<br>
 Pour tout renseignement, commande, tarif vous pouvez me contacter par mail à l'adresse:
 <a href="mailto:reza.cuir@gmail.com" style="text-decoration: underline; color: -webkit-link;">reza.cuir@gmail.com</a></br>
 Ou me rencontrer lors de mes permanence à la Chouette Dorée.
-<a target="_blank" href="http://www.lachouettedoree.fr/boutique.php" style="text-decoration: underline; color: -webkit-link;">Agenda des permanences</a></br>
+<a target="_blank" href="http://www.lachouettedoree.fr/boutique.php#calendar" style="text-decoration: underline; color: -webkit-link;">Agenda des permanences</a></br>
 </p>
 </section>
 <section class="matTitle"><p>Où me trouver ?</p></section>

@@ -9,6 +9,15 @@
 <link rel="stylesheet" href="css/default-skin.css?v=1"> 
 <link rel='stylesheet' href='fullcalendar/fullcalendar.css?v=3.0' />
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75664834-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-75664834-2');
+</script>
+
 </head>
 
 
