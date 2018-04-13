@@ -69,6 +69,9 @@
 			<h2 class="title-desc">
 				Boutique collective d'artisans locaux
 			</h2>
+			<h4 class="title-desc">
+				Grenoble, Quartier Championnet
+			</h4>
 		</div>
 	</div>		
 	

@@ -21,7 +21,7 @@
 					 04 56 24 81 61
 				</div>
 				<div class="col-12 col-md-auto ">
-					 <b>Horaire</b></br> 
+					 <b>Horaires</b></br> 
 					 du Mardi au Samedi de 14h à 19h.</br>
 					 Plus d'information <a href="boutique.php" >ici</a>
 				</div>

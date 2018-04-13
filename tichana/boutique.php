@@ -9,7 +9,7 @@
 		<div id="boutiqueLeft" class="col-12 col-lg-9">
 			<div class="row-12">
 				<p>
-				Situé dans le quartier championnet à Grenoble, La Chouette Dorée est une boutique partagée par 4 créatrices.</br>
+				Situé dans le quartier Championnet à Grenoble, La Chouette Dorée est une boutique partagée par 4 créatrices.</br>
 				</p>
 				<p>
 				Retrouvez dans ce lieu le savoir faire local et l'univers de chacune : de la maroquinerie en cuir d'Elisa aux vêtements homme/femme d'Hélène, en passant par les chapeaux de Delphine et la céramique en grès d'Océane.
@@ -29,13 +29,13 @@
 				7 rue du Lieutenant Chanaron</br>
 				38000 Grenoble
 				</p>
-				<h3> Horaires </h3>
+				<h3> Horaires</h3>
 				<p>
 				Du Mardi au Samedi</br>
 				14h - 19h
 				</p>
 				<iframe class="googlemap" frameborder="0" style="border:0"
-				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJSX3kCY_0ikcRvZVeJUpOuP0&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
+				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcdXKCY_0ikcReGh91bg_Wxw&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
 				</iframe>
 				<h4> Qui est la? </h4>
 				<div id="calendar"></div>

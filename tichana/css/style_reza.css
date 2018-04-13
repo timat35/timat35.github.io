@@ -72,7 +72,11 @@ a{
 
 
 
-.logo {float: left;padding-bottom: 1%; width:100%;}
+.logo {
+	float: left;
+	width:100%;
+}
+
 .logo h1 {
     margin-top:1%;
 }
@@ -227,8 +231,8 @@ img#nav-logo {
 
     color: #000!important;
     display: inline-block;
-	font-size:1.3em;
-	font-family: 'Lobster1.4Regular'!important; 
+	font-size:1.25em;
+	
 
 }
 
@@ -240,7 +244,7 @@ img#nav-logo {
 	top:90%!important;
 	left:-20%!important;
 	text-align:center!important;
-	background-color: #ffffff91!important;
+	background-color: #ffffffcc!important;
 }
 
 @media (min-width: 769px) {
@@ -407,6 +411,10 @@ div.info a {
 
 h2.title-desc {
 	font-size: 1.5rem;
+}
+
+h4.title-desc {
+	font-size: 1.2rem;
 }
 
 }
