@@ -12,7 +12,7 @@
 		<div class="row mb-4 justify-content-center">
 			
 			<div class="col-12 col-lg-9 mt-4">
-				<div class="row">
+				<!--div class="row">
 				
 					<div  class="col-8 text-center align-self-center ">
 						<img   src="img/news/vernissage.jpg"  alt="" class="img-fluid" />
@@ -27,14 +27,14 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</div-->
 			</div>
 			
 		</div>
 		
-		<div class="row justify-content-center">
+		<!--div class="row justify-content-center">
 			<div class="col-12 col-lg-9  border-bottom border-warning  mb-4"></div>
-		</div>
+		</div-->
 		
 		
 		<div class="col-12 text-center">
