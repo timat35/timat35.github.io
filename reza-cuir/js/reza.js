@@ -48,21 +48,15 @@
 		$("#porteMonnaie_btnCouleur").removeClass("noDisplay");
 			
 		} else if (article == 'portefeuille') {
-			source[1] = "/media/photo-maroquinerie/portefeuille-multiple.jpg";
-			source[2] = "/media/photo-maroquinerie/portefeuille-2017.jpg";
-			source[3] = "/media/photo-maroquinerie/portefeuille-bleue-marine-doublure.jpg";
-			source[4] = "/media/photo-maroquinerie/portefeuille-jaune.jpg";
-			source[5] = "/media/photo-maroquinerie/portefeuille-couleur.jpg";
-			source[6] = "/media/photo-maroquinerie/portefeuille-marron.jpg";
-			source[7] = "/media/photo-maroquinerie/portefeuille-vert.jpg";
-			source[8] = "/media/photo-maroquinerie/portefeuille-noir.jpg";
-			source[9] = "/media/photo-maroquinerie/portefeuille-rouge.jpg";
-			source[10] = "/media/photo-maroquinerie/portefeuille-marron-fonce.jpg";
+			source[1] = "/media/photo-maroquinerie/portefeuille-cuir-5.jpg";
+			source[2] = "/media/photo-maroquinerie/portefeuilles-cuir-3.jpg";
+			source[3] = "/media/photo-maroquinerie/portefeuille.jpg";
+
 			var	articleTitle= "Portefeuille",
-				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 2 emplacements pour cartes et 4 poches dont une zipp\351e pour porte monnaie, format passeport, cuir vachette ou veau, finition biais en tissu.",
+				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 2 emplacements pour cartes et 4 poches dont une zipp\351e pour porte monnaie, format passeport, cuir vachette ou veau.",
 				articleDimension="Dimensions: 15,5cm X 10cm.";	
 				
-			var nb_article = 10;
+			var nb_article = 3;
 			
 			$("#menu_maro_1").addClass("activeMobil");
 				
@@ -90,11 +84,11 @@
 		
 				
 		} else if (article == 'etui_lunette') {
-			source[1] = "/media/photo-maroquinerie/etui-lunette-6.jpg";
-			source[2] = "/media/photo-maroquinerie/etui-lunette-4.jpg";
-			source[3] = "/media/photo-maroquinerie/etui-lunette-rouge-interieur.jpg";
+			source[1] = "/media/photo-maroquinerie/etui-lunettes-marron.jpg";
+			source[2] = "/media/photo-maroquinerie/etui-lunettes_2.jpg";
+			source[3] = "/media/photo-maroquinerie/etui-lunettes-3.jpg";
 			var	articleTitle= "Etui \340 lunettes",
-				articleDescription="Fermeture \340 pression, coque plastique int\351gr\351e, cuir vachette ou veau, finition biais en tissu.",
+				articleDescription="Fermeture \340 pression, coque plastique int\351gr\351e, cuir vachette ou veau.",
 				articleDimension="Dimensions: 16cm X 6cm pour une \351paisseur de 2,5cm.";
 			
 			$("#menu_maro_6").addClass("activeMobil");
@@ -283,25 +277,20 @@
 			var nb_article = 5;
 			
 		} else if (article == 'sac_bandou_jaune') {
-			source[5] = "/media/photo-sac/sac-bandouliere-noir-doublure.jpg";
-			source[4] = "/media/photo-sac/sac-bandouliere-noir.jpg";
-			source[6] = "/media/photo-sac/sac-bandouliere-cuir-jaune.jpg";
-			source[1] = "/media/photo-sac/sac-bandouliere-cuir-marron-fonce.jpg";
-			source[2] = "/media/photo-sac/sac-bandouliere-cuir-marron-tissu-japonais.jpg";
-			source[3] = "/media/photo-sac/sac-bandouliere-cuir-noir-tissu-japonais.jpg";
-			source[7] = "/media/photo-sac/sac-bandouliere-jaune-ouvert-poche.jpg";
-			source[8] = "/media/photo-sac/sac-bandouliere-cuir-noir-wax-2.jpg";
-			source[9] = "/media/photo-sac/sac-bandouliere-marron-claire-tissu-vague-rouge.jpg";
-			source[10] = "/media/photo-sac/sac-bandouliere-marron-vague-rouge.jpg";
+			source[1] = "/media/photo-sac/sac-bandouliere.jpg";
+			source[2] = "/media/photo-sac/sac-bandouliere-noir.jpg";
+			source[3] = "/media/photo-sac/sac-bandouliere-noir-jaune.jpg";
+			source[4] = "/media/photo-sac/sac-bandouliere-doublure.jpg";
+
 			
 
 			var articleTitle= "Sac Bandouli\350re \340 noeud",
-				articleDescription="3 compartiments dont une poche int\351rieure zipp\351 et une poche ext\351rieure plaqu\351e, fermeture par top magn\351tique, bandouli\350re ajustable par simple noeud, cuir vachette ou veau, doublure en tissu.",
+				articleDescription=	"3 compartiments: poche principale zipp\351e, poche int\351rieure zipp\351e et poche ext\351rieure avant plaqu\351e ferm\351e par un top magn\351tique; taille de la bandouli\350re r\351glable; cuir vachette ou veau, poche int\351rieure en cuir.",
 				articleDimension="Dimensions: hauteur 22cm, largeur 27cm, \351paisseur 5cm.";
 		
 			$("#menu_sac_4").addClass("activeMobil");
 			
-			var nb_article = 10;
+			var nb_article = 4;
 					
 		}
 		

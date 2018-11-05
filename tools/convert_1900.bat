@@ -1,4 +1,4 @@
-cd C:\local_website\tichana\temp\compresse
+cd C:\local_website\tools\jeanne
 
 for  %%i in (*) do (
 	magick %%i -resize 1425 -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB %%i

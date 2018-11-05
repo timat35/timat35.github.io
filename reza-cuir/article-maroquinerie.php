@@ -17,39 +17,25 @@
 <p id="articleTitleMobil">Portefeuille</p>
 </section>
 <div class="fancy_gallery">
-<a id="fancy_r1"  class="fancyfake_before fancybox"  href="/media/photo-maroquinerie/portefeuille-multiple.jpg" rel="fancybox"></a>
-<a id="fancy_r2" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-2017.jpg" rel="NO"></a>
-<a id="fancy_r3" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-bleue-marine-doublure.jpg" rel="NO"></a>
-<a id="fancy_r4"  class="fancyfake_before fancybox"  href="/media/photo-maroquinerie/portefeuille-jaune.jpg" rel="NO"></a>
-<a id="fancy_r5" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-couleur.jpg" rel="NO"></a>
-<a id="fancy_r6" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-marron.jpg" rel="NO"></a>
-<a id="fancy_r7" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-vert.jpg" rel="NO"></a>
-<a id="fancy_r8" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-noir.jpg" rel="NO"></a>
-<a id="fancy_r9" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-rouge.jpg" rel="NO"></a>
-<a id="fancy_r10" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille-marron-fonce.jpg" rel="NO"></a>
+<a id="fancy_r1"  class="fancyfake_before fancybox"  href="/media/photo-maroquinerie/portefeuille-cuir-5.jpg" rel="fancybox"></a>
+<a id="fancy_r2" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuilles-cuir-3.jpg" rel="NO"></a>
+<a id="fancy_r3" class="fancyfake_before fancybox" href="/media/photo-maroquinerie/portefeuille.jpg" rel="NO"></a>
 </div>
 <div>
-<a id="fancy_base" class="fancybox" href="/media/photo-maroquinerie/portefeuille-2017.jpg" rel="fancybox">
-<img id="img_base" src="/media/photo-maroquinerie/portefeuille-2017-320.jpg" alt="portefeuille-2017"  class="articleMain borderClass " /></a>
+<a id="fancy_base" class="fancybox" href="/media/photo-maroquinerie/portefeuilles-cuir-3.jpg" rel="fancybox">
+<img id="img_base" src="/media/photo-maroquinerie/portefeuilles-cuir-3-320.jpg" alt="portefeuilles-cuir-3"  class="articleMain borderClass " /></a>
 </div>
 <div class="fancy_gallery">
-<a id="fancy_1"  class="fancyfake_after fancybox"  href="/media/photo-maroquinerie/portefeuille-multiple.jpg" rel="NO"></a>
-<a id="fancy_2" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-2017.jpg" rel="NO"></a>
-<a id="fancy_3" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-bleue-marine-doublure.jpg" rel="fancybox"></a>
-<a id="fancy_4"  class="fancyfake_after fancybox"  href="/media/photo-maroquinerie/portefeuille-jaune.jpg" rel="fancybox"></a>
-<a id="fancy_5" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-couleur.jpg" rel="fancybox"></a>
-<a id="fancy_6" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-marron.jpg" rel="fancybox"></a>
-<a id="fancy_7" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-vert.jpg" rel="fancybox"></a>
-<a id="fancy_8" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-noir.jpg" rel="fancybox"></a>
-<a id="fancy_9" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-rouge.jpg" rel="fancybox"></a>
-<a id="fancy_10" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille-marron-fonce.jpg" rel="fancybox"></a>
+<a id="fancy_1"  class="fancyfake_after fancybox"  href="/media/photo-maroquinerie/portefeuille-cuir-5.jpg" rel="NO"></a>
+<a id="fancy_2" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuilles-cuir-3.jpg" rel="NO"></a>
+<a id="fancy_3" class="fancyfake_after fancybox" href="/media/photo-maroquinerie/portefeuille.jpg" rel="fancybox"></a>
 </div>
 <div class="description">
 <section class="matTitle titleDesktop">
 <p id="articleTitle">Portefeuille</p>
 </section>
 <section class="textLong">
-<p id="articleDescription">Fermeture à pression, à l'intèrieur 2 emplacements pour cartes et 4 poches dont une zippée pour porte monnaie, format passeport, cuir vachette ou veau, finition biais en tissu.</p>
+<p id="articleDescription">Fermeture à pression, à l'intèrieur 2 emplacements pour cartes et 4 poches dont une zippée pour porte monnaie, format passeport, cuir vachette ou veau.</p>
 <p id="articleDimension">Dimensions: 15,5cm X 10cm.</p>
 
 </section>
@@ -58,10 +44,7 @@
 </div>
 </div>
 </div>
-<img id="thumb_img_1" src="/media/photo-maroquinerie/portefeuille-multiple-100.jpg" alt="portefeuille-multiple"  onclick="changeImage(this)" class="articleView borderClass  " /><img id="thumb_img_2"  src="/media/photo-maroquinerie/portefeuille-2017-100.jpg" alt="portefeuille-2017" onclick="changeImage(this)" class="articleView borderClass " /><img id="thumb_img_3" src="/media/photo-maroquinerie/portefeuille-bleue-marine-doublure-100.jpg" alt="portefeuille-bleue-marine-doublure"  onclick="changeImage(this)"  class="articleView borderClass " />
-<img id="thumb_img_4" src="/media/photo-maroquinerie/portefeuille-jaune-100.jpg" alt="portefeuille-jaune"  onclick="changeImage(this)" class="articleView borderClass  " /><img id="thumb_img_5"  src="/media/photo-maroquinerie/portefeuille-couleur-100.jpg" alt="portefeuille-couleur" onclick="changeImage(this)" class="articleView borderClass " />
-<img id="thumb_img_6" src="/media/photo-maroquinerie/portefeuille-marron-100.jpg" alt="portefeuille-marron"  onclick="changeImage(this)" class="articleView borderClass  " /><img id="thumb_img_7"  src="/media/photo-maroquinerie/portefeuille-vert-100.jpg" alt="portefeuille-vert" onclick="changeImage(this)" class="articleView borderClass " /><img id="thumb_img_8" src="/media/photo-maroquinerie/portefeuille-noir-100.jpg" alt="portefeuille-noir"  onclick="changeImage(this)"  class="articleView borderClass " />
-<img id="thumb_img_9" src="/media/photo-maroquinerie/portefeuille-rouge-100.jpg" alt="portefeuille-rouge"  onclick="changeImage(this)" class="articleView borderClass  " /><img id="thumb_img_10"  src="/media/photo-maroquinerie/portefeuille-marron-fonce-100.jpg" alt="portefeuille-marron-fonce" onclick="changeImage(this)" class="articleView borderClass " />
+<img id="thumb_img_1" src="/media/photo-maroquinerie/portefeuille-cuir-5-100.jpg" alt="portefeuille-cuir-5"  onclick="changeImage(this)" class="articleView borderClass  " /><img id="thumb_img_2"  src="/media/photo-maroquinerie/portefeuilles-cuir-3-100.jpg" alt="portefeuilles-cuir-3" onclick="changeImage(this)" class="articleView borderClass " /><img id="thumb_img_3" src="/media/photo-maroquinerie/portefeuille-100.jpg" alt="portefeuille"  onclick="changeImage(this)"  class="articleView borderClass " />
 </div>
 
 
