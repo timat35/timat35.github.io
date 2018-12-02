@@ -14,8 +14,8 @@
 <section class="matTitle"><p>Contact</p></section>
 <section class="textLong">
 <p>
-Elisa Tisseyre<br>
-Le Tresminet Vaugelas 38190 Laval<br>
+Reza<br>
+7 rue du lieutenant Chanaron, 38000 Grenoble<br>
 06 67 88 23 78<br>
 <br>
 Pour tout renseignement, commande, tarif vous pouvez me contacter par mail à l'adresse:
