@@ -110,7 +110,11 @@ img.index-logo-small {
     height: 60px;
 }
 
-
+.info {
+    text-align: center;
+    font-size: 1.5em;
+    color: #1d2480;
+}
 
 #content {
 	text-align:center;

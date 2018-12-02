@@ -32,10 +32,12 @@
 				<h3> Horaires</h3>
 				<p>
 				Du Mardi au Samedi</br>
-				14h - 19h
+				10h - 19h </br>
+				Ouverture exceptionelle:</br>
+				Dimanche 16 et 23 décembre
 				</p>
 				<iframe class="googlemap" frameborder="0" style="border:0"
-				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcdXKCY_0ikcReGh91bg_Wxw&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
+				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO5YiRbz1ikcRHLVm1UxN9kc&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
 				</iframe>
 				<h4> Qui est la? </h4>
 				<div id="calendar"></div>
@@ -93,7 +95,7 @@ $(document).ready(function() {
         },
 		defaultView: 'month',
 		firstDay:2,
-		hiddenDays: [ 0,1],
+		hiddenDays: [1],
 		aspectRatio:'a',
 		columnHeaderFormat: $(window).width() < 1225 ? 'ddd': 'dddd',
 		header: {
