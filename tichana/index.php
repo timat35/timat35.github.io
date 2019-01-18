@@ -3,7 +3,6 @@
 <?php  include('title/title_index.php');?>
 <?php  include('header.php');?>
 
-<div class = "info">C'est Noël! La boutique est ouverte de 10h à 19h ainsi que les dimanches 16 et 23 décembre</div>
 
 <div class = "container index_main">
 	<div class = "row">
