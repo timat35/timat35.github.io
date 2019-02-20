@@ -69,7 +69,7 @@
 	</div>
 </div>
 
-<div class = "text_guest">À partir d'avril, Julia Belle alias <a class= "link_guest" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
+<div class = "text_guest">À partir d'avril, <a class= "link_guest" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link_guest" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
 
 <?php  include('footer.php');?>
 

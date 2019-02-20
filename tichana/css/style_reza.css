@@ -124,11 +124,11 @@ img.index-logo-small {
 }
 
 .link_guest {
-	color: #0086d7;
+	color: #064493;
 }
 
 .link_guest:hover {
-	color: #064493;
+	color: #0086d7;
 	text-decoration: none;
 }
 
