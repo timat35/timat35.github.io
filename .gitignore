@@ -1,6 +1,8 @@
 # ignore temp image file for tichana
 tichana/temp/
 tools/
+reza_archive/
+carton/
 
 
 # Windows image file caches
