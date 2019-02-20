@@ -12,29 +12,29 @@
 		<div class="row mb-4 justify-content-center">
 			
 			<div class="col-12 col-lg-9 mt-4">
-				<!--div class="row">
+				<div class="row">
 				
 					<div  class="col-8 text-center align-self-center ">
-						<img   src="img/news/vernissage.jpg"  alt="" class="img-fluid" />
+						<img   src="img/news/anniversaire1_chouette.jpeg"  alt="" class="img-fluid" />
 					</div>
 					<div  class="col-4 align-self-center">
 						<div class="info">
-							<h3>Vernissage</h3>
-							<h5></h5>
+							<h3>Anniversaire</h3>
 							<p>
-							Vernissage de la boutique, découverte et apéro.</br>
+							C'est le retour du printemps, et la Chouette a 1 an.</br> 
+							Venez fêter son anniversaire!</br></br>
 							Le jeudi 26 avril à partir de 17h.</br>
 							</p>
 						</div>
 					</div>
-				</div-->
+				</div>
 			</div>
 			
 		</div>
 		
 		<!--div class="row justify-content-center">
 			<div class="col-12 col-lg-9  border-bottom border-warning  mb-4"></div>
-		</div-->
+		</div>
 		
 		
 		<div class="col-12 text-center">
@@ -43,7 +43,7 @@
 		
 		<div id = "div_marche" class="row mb-4 ml-md-4">
 			
-		</div>
+		</div-->
 		
 	</div>
 	

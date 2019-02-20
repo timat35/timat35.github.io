@@ -110,11 +110,28 @@ img.index-logo-small {
     height: 60px;
 }
 
-.info {
+.info_index {
     text-align: center;
     font-size: 1.5em;
     color: #1d2480;
 }
+
+.text_guest {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 10px 0px 0px 0px;
+}
+
+.link_guest {
+	color: #0086d7;
+}
+
+.link_guest:hover {
+	color: #064493;
+	text-decoration: none;
+}
+
 
 #content {
 	text-align:center;
