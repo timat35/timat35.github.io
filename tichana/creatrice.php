@@ -116,9 +116,7 @@
 	</div>
 </div>
 
-<div data-crea="princesse" class = "text_guest">À partir d'avril, Julia Belle alias <a class= "link_guest" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
-
-
+<div data-crea="princesse" class = "text_guest">À partir d'avril, <a class= "link_guest" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link_guest" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
