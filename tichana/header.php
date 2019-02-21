@@ -49,7 +49,7 @@
 				  <a class="dropdown-item " href="creatrice.php?creatrice=eska">Eska</a>
 				  <a class="dropdown-item " href="creatrice.php?creatrice=reza">Réza</a>
 				  <a class="dropdown-item " href="creatrice.php?creatrice=tet">Têt-en-l'air</a>
-				  <a class="dropdown-item " href="creatrice.php?creatrice=princesse">La princesse aux petits poils</a>
+				  <a class="dropdown-item " href="creatrice.php?creatrice=princesse">Julia Belle</a>
 				</div>
 			</li>
 			

@@ -17,7 +17,7 @@
 		<h5><a id="crea_sub"></a></h5>
 	</div>
 	<div class="col">
-		<a href="" target="_blank" id="crea_link">Site web</a>
+		<a class=link href="" target="_blank" id="crea_link">Site web</a>
 	</div>
 </div>
 
@@ -116,7 +116,7 @@
 	</div>
 </div>
 
-<div data-crea="princesse" class = "text_guest">À partir d'avril, <a class= "link_guest" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link_guest" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
+<div data-crea="princesse" class = "text_guest">À partir d'avril, <a class= "link" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">

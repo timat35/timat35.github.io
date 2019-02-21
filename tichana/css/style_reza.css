@@ -123,11 +123,11 @@ img.index-logo-small {
     margin: 10px 0px 0px 0px;
 }
 
-.link_guest {
+.link {
 	color: #064493;
 }
 
-.link_guest:hover {
+.link:hover {
 	color: #0086d7;
 	text-decoration: none;
 }
