@@ -1,5 +1,6 @@
 # ignore temp image file for tichana
 tichana/temp/
+art_restauration/temp/
 tools/
 reza_archive/
 carton/
