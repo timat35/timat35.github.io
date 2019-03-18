@@ -5,118 +5,58 @@
 
 
 
-<div id="content" class ="container">
-
-	<div class="col">
-		<img id ="logo" src=""></img>
+<div class ="container">
+	<div class = "row">
+		<div class = "col-8">
+			<div class = "info-rect pad40">
+				<p>« Le restaurateur doit limiter son action et ses interventions au strict nécessaire et ne pas faire de traitement avant qu’apparaisse le problème » article 8 de la charte de l’E.C.C.O qui définit les règles de déontologie que doit respecter le restaurateur.    
+				</p>
+				<p>
+				J’interviens donc dans la conservation matérielle des biens culturels en respectant leur signification esthétique, historique et leur intégrité physique par des actes de : </br></br>
+				-	Conservation préventive qui consiste à déterminer les actions indirectes à entreprendre sur l’œuvre afin d’en retarder la détérioration.
+				            On doit prévenir les risques d’altérations en créant des conditions optimales de conservation</br> 
+				-	Conservation curative qui regroupe les interventions  directes  sur l’œuvre dans le but de ralentir le processus de dégradation</br>  
+				-	Restauration qui englobe toutes les opérations visant assurer la bonne lecture de l’œuvre et sa mise en valeur
+				</p>
+			</div>
+			<div class="pad40 mt-4">
+				<p>Toutes les actions de conservation et de restauration entreprises respectent aussi les 3 principes fondamentaux définis par la Charte de Venise (1964)  et adoptés par l’ I.C.O.M
+				</p>
+					<ul class="liste">
+					<li><b>Réversibilité</b> qui oblige à utiliser des produits ou matériaux pouvant être retirés sans que l’objet ne soit affecté, et ce, afin de le ramener à son état antérieur.
+					</li>
+					<li><b>Compatibilité et stabilité</b> des produits et matériaux entre eux et avec les matériaux constitutifs de l’objet à restaurer.</br>
+					Ces éléments ne doivent pas fragiliser les structures ni modifier la surface de l'objet.</br>
+					Ils doivent être stables dans le temps. 
+					</li>
+					<li><b>Lisibilité</b> pour redonner une intégrité esthétique à l’œuvre en respectant ce qui a été conçu et voulu par l’artiste.
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class = "col-3">
+			<div class = "mt-3">
+				<figure ind="0">
+					<a href="img/technique/technique1.jpg" data-size="600x400" >
+						<img src="img/technique/technique1.jpg" alt="tet-en-lair acceuil"/>
+					</a>
+				</figure>
+				<p class= "text-center">Recherche de repeint aux rayons ultra-violet</p>
+			</div>
+			<div class = "mt-3">
+				<figure ind="1">
+					<a href="img/technique/technique2.jpg" data-size="600x400">
+						<img src="img/technique/technique2.jpg" alt="tet-en-lair acceuil"/>
+					</a>
+				</figure>
+				<p class= "text-center">Opérations de consolidation du support</p>
+			</div>
+		</div>
 	</div>
-	<div class="col">
-		<h2><a id="crea_title"></a></h2>
-	</div>
-	<div class="col">
-		<h5><a id="crea_sub"></a></h5>
-	</div>
-	<div class="col">
-		<a class=link href="" target="_blank" id="crea_link">Site web</a>
+	<div class = "row">
+		<p class= "citation">« Tout tableau possède une fonction esthétique et historique.</br>Une retouche doit être posée de manière à ce qu’aucune de ces deux unités ne prédomine ni n’étouffe l’autre.»</br>Cesare Brandi</p>
 	</div>
 </div>
-
-<div class="masonry_container">
-	<div id = "div_grid" class="grid">
-	  <div id ="crea_grid" class="grid-sizer"></div>
-		
-
-		<div id = "btn_more" class="col down d-none d-md-block">
-			<button class="link_more"> Plus de photos </button >
-		</div>
-	</div>
-</div>
-
-
-	
-<div class="container">
-  <div id ="crea_text" class="row  px-20r"></div>
-  <div class="row px-20r my-3">
-	  <div id = "crea_like" class="fb-page d-none " data-small-header=true  data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-	  </div>
-	  <a id="crea_insta" target="_blank" class="d-none">
-	  <img class="insta" src="img/ico/instagram_bw.png"></img>
-	  </a>
-  </div>
-</div>
-
-	<div class="row justify-content-center">
-		<div class="col-12 col-lg-6  border-bottom border-dark   mb-4"/>
-	</div>
-
-<div class = "row justify-content-md-center">
-
-	<div class= "col-12 mb-4 text-center">
-		<h3><a class= "title"> Les autres creatrices</a></h3>
-	</div>
-			
-	<div  data-crea="chant" class= "creaHolder col-6 col-md-3 text-center" >
-		<div class = "creaImage">
-			<a href="creatrice.php?creatrice=chant">
-				<img  src="img/acceuil/logo-chant.png"  class="index-logo-small" alt=""/>
-				<div style="background-image: url(img/acceuil/c-index-chant-2.jpg);background-size: cover;">
-					<img src="img/acceuil/c-index-chant-1.jpg" alt="chant de lemail acceuil"  class="index_img" />
-				</div>
-
-			</a>
-		</div>
-		<div>
-			<h3><a href="creatrice.php?creatrice=chant" class= "title">Le chant de l'émail</a></h3>
-		</div>
-	</div>
-	<div data-crea="eska" class= "creaHolder col-6 col-md-3  text-center">
-		<div class = "creaImage">
-			<a href="creatrice.php?creatrice=eska">
-				
-				<img  src="img/acceuil/logo-eska.png"  class="index-logo-small" alt=""/>
-				<div style="background-image: url(img/acceuil/c-index-eska-2.jpg);background-size: cover;">
-					<img src="img/acceuil/c-index-eska-1.jpg" alt="eska acceuil"  class="index_img" />
-				</div>
-
-			</a>
-		</div>
-		<div>
-			<h3><a href="creatrice.php?creatrice=eska" class= "title">Eska</a></h3>
-		</div>
-	</div>
-	<div data-crea="reza" class= "creaHolder col-6 col-md-3 text-center ">
-		<div class = "creaImage">
-			<a href="creatrice.php?creatrice=reza">
-				
-				<img  src="img/acceuil/logo-reza.png"  class="index-logo-small" alt=""/>
-				<div style="background-image: url(img/acceuil/c-index-reza-2.jpg);background-size: cover;">
-					<img src="img/acceuil/c-index-reza-1.jpg" alt="reza acceuil"  class="index_img" />
-				</div>
-
-			</a>
-		</div>
-		<div>
-			<h3><a href="creatrice.php?creatrice=reza" class= "title">Réza</a></h3>
-		</div>
-	</div>
-	<div data-crea="tet" class= "creaHolder col-6 col-md-3 text-center mx-auto mx-md-0">
-		<div class = "creaImage">
-			<a href="creatrice.php?creatrice=tet">
-				
-				<img  src="img/acceuil/logo-tet.png" class="index-logo-small" alt=""/>
-				<div style="background-image: url(img/acceuil/c-index-tet-2.jpg);background-size: cover;">
-					<img src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-lair acceuil"  class="index_img" />
-				</div>
-				
-			</a>
-		</div>
-		<div>
-			<h3><a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a></h3>
-		</div>
-	</div>
-</div>
-
-<div data-crea="princesse" class = "text_guest">À partir d'avril, <a class= "link" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -185,13 +125,17 @@
 
 </div>
 
+
+
+
+	
+
 <?php  include('footer.php');?>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/main.js?v=1.5"></script>
-<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="js/photoswipe.js"></script>
 <script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
@@ -199,25 +143,9 @@
 
 <script type="text/javascript">
 
-var name = <?php echo json_encode($_GET['creatrice'])?>;
-var img_files = <?php echo json_encode(glob('img/'.$_GET['creatrice'].'/*.*'))?>;
-load_content(name, img_files)
-
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  fitWidth: true,
-  gutter:5
-});
 
 
 
-	// layout Masonry after each image loads
-	
-
-$grid.imagesLoaded().progress( function() {
-	$grid.masonry();
-});  
 	
 
 $(document).ready(function() {
@@ -251,42 +179,13 @@ $(document).ready(function() {
 			document.getElementById("small-header").className = 'navbar-brand nav-center ';
 			
 		}
-		
-		$grid.imagesLoaded().progress( function() {
-			$grid.masonry();
-		});  
+		  
 	});
 	
 });
 
 var pswpElement = document.querySelectorAll('.pswp')[0];
 
-
-$(".link_more").click(function(){
-	
-	if (this.parentNode.classList.contains("down")) {
-
-		this.innerHTML= "Moins de photos"
-		this.parentNode.setAttribute("class", "col up d-none d-md-block")
-
-		var new_img = load_more(name, img_files);
-		var $new_img = $( new_img );
-		$grid.append( $new_img ).masonry( 'appended', $new_img );
-
-	}
-	else {
-		
-		this.innerHTML= "Plus de photos"
-		this.parentNode.setAttribute("class", "col down d-none d-md-block")
-
-		var obj = $('.grid-item.more');
-		$grid.masonry('remove',obj);
-	}
-	
-	$grid.imagesLoaded().progress( function() {
-		$grid.masonry();
-	});  
-});
 
 $('.grid').on('click', 'figure', function(event) {
 	event.preventDefault();
@@ -324,7 +223,6 @@ $('.grid').on('click', 'figure', function(event) {
 	
     lightBox.init();
 });
-
 
 	
 </script>

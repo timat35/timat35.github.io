@@ -46,10 +46,10 @@
 			<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid ml-5 d-none d-lg-block" />
 			<a href="/">Art-restauration</a></h1>
 			<h2 class="title-desc">
-				Christine Laversanne
+				Conservation et restauration de tableaux
 			</h2>
 			<h4 class="title-desc">
-				CONSERVATION ET RESTAURATION DE TABLEAUX
+				christine Laversanne, Lyon
 			</h4>
 		</div>
 	</div>		

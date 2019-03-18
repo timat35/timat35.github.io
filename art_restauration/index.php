@@ -8,12 +8,12 @@
 	<div class = "row index_main">
 		<div class= "creaHolder col-6 col-md-3  separation" >
 			<div class = "">
-				<a href="creatrice.php?creatrice=chant">
+				<a href="technique.php">
 					<img  src="img/acceuil/index-technique.jpg" alt="chant de l'email acceuil"  />
 				</a>
 			</div>
 			<div>
-				<h3><a href="creatrice.php?creatrice=chant" class= "title">Technique</a></h3>
+				<h3><a href="technique.php" class= "title">Technique</a></h3>
 			</div>
 		</div>
 		<div class= "creaHolder col-6 col-md-3  separation">
