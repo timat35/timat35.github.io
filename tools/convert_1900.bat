@@ -1,7 +1,7 @@
-cd C:\local_website\tools\jeanne
+cd C:\local_websites\tools\base
 
 for  %%i in (*) do (
-	magick %%i -resize 1425 -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB %%i
+	magick %%i -resize 1296  %%i
 )
 
-cd C:\local_website\tools
+cd C:\local_websites\tools
