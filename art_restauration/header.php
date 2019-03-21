@@ -32,7 +32,7 @@
 			
 			<li class="nav-item d-block d-md-none"><a class="nav-link" href="/"></a></li>
 			
-			<li class="nav-item"><a class="nav-link" href="boutique.php">Technique</a></li>
+			<li class="nav-item"><a class="nav-link" href="technique.php">Technique</a></li>
 			<li class="nav-item"><a class="nav-link" href="boutique.php">Prestations</a></li>
 			<li class="nav-item"><a class="nav-link" href="news.php">Galerie</a></li>
 			<li class="nav-item"><a class="nav-link" href="contact.php">Contact-devis</a></li>

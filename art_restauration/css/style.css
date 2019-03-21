@@ -29,8 +29,7 @@ html {
 }
 
 .div_index_img {
-    max-width: 25%;
-    margin: 0px auto;
+   
 }
 
 ul.liste li {
@@ -64,7 +63,6 @@ div.info-rect {
 
 img {
 	max-width:100%;
-	height:auto;
 	image-orientation: from-image;
 }
 

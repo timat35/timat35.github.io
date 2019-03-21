@@ -61,11 +61,11 @@
 				<li><b>REALISER</b> des opérations de restauration et de conservation minimalistes et justifiées</li>
 			</ul>
 		</div>
-			<div class="div_index_img">
-				<div  style="background-image: url(img/acceuil/index-restauration2.jpg);background-size: cover;">
-					<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil"  class="index_img" />
-				</div>
-			</div>
+		<div class="div_index_img">
+			<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil"  class= "mr-2"/>
+			<img src="img/acceuil/index-restauration2.jpg" alt="tet-en-lair acceuil" height=304 />
+			
+		</div>
 	</div>
 
 	<div class = "info-rect pad40">
