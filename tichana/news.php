@@ -23,7 +23,7 @@
 							<p>
 							C'est le retour du printemps, et la Chouette a 1 an.</br> 
 							Venez fêter son anniversaire!</br></br>
-							Le jeudi 26 avril à partir de 17h.</br>
+							Le jeudi 04 avril à partir de 17h.</br>
 							</p>
 						</div>
 					</div>

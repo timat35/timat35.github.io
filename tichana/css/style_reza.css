@@ -82,6 +82,7 @@ a{
 }
 
 .logo h1 img{
+	display: none!important;
 	position:absolute;
 	width:120px;
 }
