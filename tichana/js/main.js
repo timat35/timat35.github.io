@@ -1,6 +1,5 @@
 
 
-
 function load_content(name, files) {
 	
 	$.getJSON("json/creatrice.json", function(crea_data) {
@@ -219,15 +218,6 @@ function load_news() {
 
 function get_today_info (){
 	
-	
-	var gcal_url =" https://www.googleapis.com/calendar/v3/calendars/u2fcgjs9fjrtgq1iad1j1kb4g4@group.calendar.google.com/events?key=AIzaSyAaxUTleiUlolnnX3BLykCj16woRUDiAnQ"
-
-	var xhReq = new XMLHttpRequest();
-	xhReq.open("GET", gcal_url, false);
-	xhReq.send(null);
-	var gcal_json = JSON.parse(xhReq.responseText);
-
-	var obj = gcal_json.items;
 	var today = new Date();
 	var dd = today.getDate();
 	var mm = today.getMonth()+1; //January is 0!
@@ -242,13 +232,105 @@ function get_today_info (){
 	} 
 	
 	today = yyyy + '-' + mm + '-' + dd;
-	
-	for (var i=0 ; i < obj.length ; i++)
-	{
-		if (obj[i].start.date ==today) {
-			var temp = obj[i].summary;
+
+	var gcal_url =" https://www.googleapis.com/calendar/v3/calendars/u2fcgjs9fjrtgq1iad1j1kb4g4@group.calendar.google.com/events?key=AIzaSyAaxUTleiUlolnnX3BLykCj16woRUDiAnQ&maxResults=1000"
+	var xhReq = new XMLHttpRequest();
+	xhReq.open("GET", gcal_url);
+	xhReq.send(null);
+	xhReq.onreadystatechange = function (e) {
+	  if(xhReq.readyState === XMLHttpRequest.DONE && xhReq.status === 200) {
+
+	    var gcal_json = JSON.parse(xhReq.responseText);
+	    var obj = gcal_json.items;
+
+
+		for (var i=0 ; i < obj.length ; i++)
+		{
+			if (obj[i].start.date ==today) {
+				
+				var crea = obj[i].summary;
+			}
+
 		}
-	}
-	
-	return temp;
+
+
+		if (crea != undefined) {
+		
+
+			if (similarity(crea,"Le chant de l'émail") > 0.30) {
+				var ref = "creatrice.php?creatrice=chant";
+			} 
+			else if (similarity(crea,"Eska") > 0.30) {
+				var ref = "creatrice.php?creatrice=eska";
+			} 
+			else if (similarity(crea,"Réza") > 0.30) {
+				var ref = "creatrice.php?creatrice=reza";
+			} 
+			else if (similarity(crea,"Têt-en-l'air") > 0.30) {
+				var ref ="creatrice.php?creatrice=tet";
+			}
+			else if (similarity(crea,"Julia Belle") > 0.30) {
+				var ref ="creatrice.php?creatrice=princesse";
+			}
+
+			
+			const temp_a = document.createElement("a");
+			temp_a.setAttribute("href", ref);
+			temp_a.innerHTML = crea;
+			
+			document.getElementById("a_today").innerHTML = "Aujourd'hui, "
+			document.getElementById("a_today").append(temp_a)
+			document.getElementById("a_today").append(" ouvre la chouette dorée de 14h à 19h.")
+			
+		}
+		else {
+			document.getElementById("a_today").innerHTML=  "Aujourd'hui, la chouette dorée est fermée.";
+		}
+			
+		
+	  }
+	};
+
+}
+
+//https://stackoverflow.com/questions/10473745/compare-strings-javascript-return-of-likely
+function similarity(s1, s2) {
+  var longer = s1;
+  var shorter = s2;
+  if (s1.length < s2.length) {
+    longer = s2;
+    shorter = s1;
+  }
+  var longerLength = longer.length;
+  if (longerLength == 0) {
+    return 1.0;
+  }
+  return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
+}
+
+function editDistance(s1, s2) {
+  s1 = s1.toLowerCase();
+  s2 = s2.toLowerCase();
+
+  var costs = new Array();
+  for (var i = 0; i <= s1.length; i++) {
+    var lastValue = i;
+    for (var j = 0; j <= s2.length; j++) {
+      if (i == 0)
+        costs[j] = j;
+      else {
+        if (j > 0) {
+          var newValue = costs[j - 1];
+          if (s1.charAt(i - 1) != s2.charAt(j - 1))
+            newValue = Math.min(Math.min(newValue, lastValue),
+              costs[j]) + 1;
+          costs[j - 1] = lastValue;
+          lastValue = newValue;
+        }
+      }
+    }
+    if (i > 0)
+      costs[s2.length] = lastValue;
+  }
+  return costs[s2.length];
 }

@@ -94,38 +94,7 @@
 
 <script type="text/javascript">
 
-	var crea = get_today_info();
-	
-	if (crea != undefined) {
-		
-
-		if (crea == "Le chant de l'émail") {
-			var ref = "creatrice.php?creatrice=chant";
-		} 
-		else if (crea == "Eska") {
-			var ref = "creatrice.php?creatrice=eska";
-		} 
-		else if (crea == "Réza") {
-			var ref = "creatrice.php?creatrice=reza";
-		} 
-		else if (crea == "Têt-en-l'air") {
-			var ref ="creatrice.php?creatrice=tet";
-		}
-		
-		const temp_a = document.createElement("a");
-		temp_a.setAttribute("href", ref);
-		temp_a.innerHTML = crea;
-		
-		document.getElementById("a_today").innerHTML = "Aujourd'hui, "
-		document.getElementById("a_today").append(temp_a)
-		document.getElementById("a_today").append(" ouvre la chouette dorée de 14h à 19h.")
-		
-	}
-	else {
-		document.getElementById("a_today").innerHTML=  "Aujourd'hui, la chouette dorée est fermée.";
-	}
-	
-	
+	get_today_info();
 	
 </script>
 

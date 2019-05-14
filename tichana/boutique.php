@@ -103,35 +103,46 @@ $(document).ready(function() {
 		},
 		eventTextColor:'#000000',
 		eventAfterRender: function (calEvent, element, view) {
-			if (calEvent.title == "Le chant de l'émail") {
+
+			if (similarity(calEvent.title,"Le chant de l'émail") > 0.30) {
 				element.css('background-color','#8dd3c7')
 			} 
-			else if (calEvent.title == "Eska") {
+			else if (similarity(calEvent.title,"Eska") > 0.30) {
 				element.css('background-color','#ffffb3')
 			} 
-			else if (calEvent.title == "Réza") {
+			else if (similarity(calEvent.title,"Réza") > 0.30) {
 				element.css('background-color','#bebada')
 			} 
-			else if (calEvent.title == "Têt-en-l'air") {
+			else if (similarity(calEvent.title,"Têt-en-l'air") > 0.30) {
 				element.css('background-color','#fb8072')
 			} 
+			else if (similarity(calEvent.title,"Julia Belle") > 0.30) {
+				element.css('background-color','#80b1d3')
+			} 
+			else {
+				element.css('background-color','#EFEFEF')
+			}
 			element.css('border','0px')
 			
 		},
 		eventClick: function(calEvent, jsEvent, view) {
 		
-			if (calEvent.title == "Le Chant de l'émail") {
+			if (similarity(calEvent.title,"Le chant de l'émail") > 0.30) {
 				window.location = "creatrice.php?creatrice=chant"
 			} 
-			else if (calEvent.title == "Eska") {
+			else if (similarity(calEvent.title,"Eska") > 0.30) {
 				window.location = "creatrice.php?creatrice=eska"
 			} 
-			else if (calEvent.title == "Réza") {
+			else if (similarity(calEvent.title,"Réza") > 0.30) {
 				window.location = "creatrice.php?creatrice=reza"
 			} 
-			else if (calEvent.title == "Têt-en-l'air") {
+			else if (similarity(calEvent.title,"Têt-en-l'air") > 0.30) {
 				window.location = "creatrice.php?creatrice=tet"
 			} 
+			else if (similarity(calEvent.title,"Julia Belle") > 0.30) {
+				window.location = "creatrice.php?creatrice=princesse"
+			} 
+
 			return false;
 		}
 	
