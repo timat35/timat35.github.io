@@ -9,7 +9,7 @@
 	<div class="col-12 col-lg-9">
 
 		
-		<div class="row mb-4 justify-content-center">
+<!-- 		<div class="row mb-4 justify-content-center">
 			
 			<div class="col-12 col-lg-9 mt-4">
 				<div class="row">
@@ -36,7 +36,7 @@
 		
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-9  border-bottom border-warning  mb-4"></div>
-		</div>
+		</div> -->
 		
 		
 		<div class="col-12 text-center">
