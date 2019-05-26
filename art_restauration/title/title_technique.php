@@ -3,5 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta charset="UTF-8">
-<title>La Chouette Dorée - créatrice</title>
-<meta name="description" content="Descriptif des créatrices: produits, methodes de travail, liens."/>
+<title>Art-restauration - Lyon - Technique</title>
+<meta name="description" content="Technique utilisée de conservation et restauration de tableaux"/>
+

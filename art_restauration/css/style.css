@@ -42,7 +42,7 @@ ul.liste {
 }
 
 div.info-rect {
-	background-color: #83b1ae;
+	background-color: #3c595f;
 	margin-top:1em;
 	color: white;
 	margin-right: 5%;
@@ -53,7 +53,7 @@ div.info-rect {
 .citation {
 	text-align: center;
 	color:#e05a18;
-	margin: 0 9em;
+	margin: 0 1em;
 }
 
 .pad40 {
@@ -114,6 +114,7 @@ a{
 .logo h1 img{
 	position:absolute;
 	width:120px;
+	margin-left: 5%!important;
 }
 
 .logo h1 a{

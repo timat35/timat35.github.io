@@ -1,5 +1,5 @@
 
-<?php  include('title/title_creatrice.php');?>
+<?php  include('title/title_technique.php');?>
 <?php  include('header.php');?>
 
 
@@ -31,15 +31,19 @@
 					</li>
 				</ul>
 			</div>
+			<div class="pad40">
+			<img src="img/ico/icoECCO.png" alt="tet-en-lair acceuil"/>
+			<img src="img/ico/icoICOM.png" alt="tet-en-lair acceuil"/>
+			</div>
 		</div>
 		<div class = "col-3">
-			<div class = "mt-3">
+			<div class = "mt-3" style="text-align: center">
 				<figure ind="0">
 						<img src="img/technique/technique1.jpg" alt="tet-en-lair acceuil"/>
 				</figure>
 				<p class= "text-center">Recherche de repeint aux rayons ultra-violet</p>
 			</div>
-			<div class = "mt-3">
+			<div class = "mt-3" style="text-align: center">
 				<figure ind="1">
 						<img src="img/technique/technique2.jpg" alt="tet-en-lair acceuil"/>
 				</figure>
@@ -48,7 +52,7 @@
 		</div>
 	</div>
 	<div class = "col-12">
-		<p class= "citation">« Tout tableau possède une fonction esthétique et historique.</br>Une retouche doit être posée de manière à ce qu’aucune de ces deux unités ne prédomine ni n’étouffe l’autre.»</br>Cesare Brandi</p>
+		<p class= "citation">« Tout tableau possède une fonction esthétique et historique. Une retouche doit être posée de manière à ce qu’aucune de ces deux unités ne prédomine ni n’étouffe l’autre.»</br>Cesare Brandi</p>
 	</div>
 </div>
 

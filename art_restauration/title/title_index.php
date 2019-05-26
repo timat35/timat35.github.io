@@ -3,8 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="UTF-8">
-<title>La Chouette Dorée - Boutique collective d'artisans locaux - Grenoble </title>
-<meta name="description" content="La Chouette Dorée est une boutique à Grenoble partagée par 4 créatrices. Reza (maroquinerie), Eska (vêtements homme/femme), Têt-en-l'air (modiste chapeaux) et le Chant de l'émail (céramiste)." />
+<title>Art-restauration - Lyon</title>
+<meta name="description" content="Conservation et restauration de tableaux" />
 <meta property="og:image" content="http://lachouettedoree.fr/img/boutique/boutique_chouette_doree_small.jpg" />
 
 
