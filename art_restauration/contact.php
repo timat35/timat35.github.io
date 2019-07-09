@@ -2,6 +2,9 @@
 <?php  include('title/title_contact.php');?>
 <?php  include('header.php');?>
 
+<div class="col-12 text-center">
+	<h2 class = "page_title">Contact</h2>
+</div>
 
 <div class="slide_shadow">
 </div>
@@ -11,7 +14,6 @@
 
 <div class="matContainer matWide matContact ">
 <div>
-<section class="matTitle"><p>Contact</p></section>
 <section class="textLong">
 <p>
 Christine Laversanne<br />

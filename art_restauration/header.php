@@ -21,7 +21,7 @@
 	&#9776;
 	</button>
 	
-	<a id="small-header" class="navbar-brand nav-center d-none title" href="/gros/"> 
+	<a id="small-header" class="navbar-brand nav-center d-none title" href="/"> 
 	Art-restauration
 	</a>
 
@@ -30,12 +30,12 @@
 	<div class="collapse navbar-collapse " id="mainNavbarCollapse">
 		<ul class="nav navbar-nav ml-auto">
 			
-			<li class="nav-item d-block d-md-none"><a class="nav-link" href="/gros/"></a></li>
+			<li class="nav-item d-block d-md-none"><a class="nav-link" href="/"></a></li>
 			
-			<li class="nav-item"><a class="nav-link" href="/gros/">Acceuil</a></li>
+			<li class="nav-item"><a class="nav-link" href="/">Accueil</a></li>
 			<li class="nav-item"><a class="nav-link" href="technique.php">Technique</a></li>
 			<li class="nav-item"><a class="nav-link" href="prestation.php">Prestations</a></li>
-			<li class="nav-item"><a class="nav-link" href="news.php">Galerie</a></li>
+			<li class="nav-item"><a class="nav-link" href="galery.php">Galerie</a></li>
 			<li class="nav-item"><a class="nav-link" href="contact.php">Contact-devis</a></li>
 		</ul>
 	</div>
@@ -45,7 +45,7 @@
 		<div class="logo">
 			<h1 class="display-4 title">
 			<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid ml-5 d-none d-lg-block" />
-			<a href="/gros/">Art-restauration</a></h1>
+			<a href="/">Art-restauration</a></h1>
 			<h2 class="title-desc">
 				Conservation et restauration de tableaux
 			</h2>

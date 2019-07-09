@@ -28,7 +28,7 @@
 		</div>
 		<div class= "creaHolder col-6 col-md-3">
 			<div class = "">
-				<a href="creatrice.php?creatrice=reza">
+				<a href="galery.php">
 					<img src="img/acceuil/index-galerie.png" alt="reza acceuil"  />
 				</a>
 			</div>
@@ -38,7 +38,7 @@
 		</div>
 		<div class= "creaHolder col-6 col-md-3 ">
 			<div class = "">
-				<a href="creatrice.php?creatrice=tet">
+				<a href="contact.php">
 					<img src="img/acceuil/index-contact-devis.jpg" alt="tet-en-lair acceuil"   />
 				</a>
 			</div>
@@ -49,7 +49,7 @@
 	</div>
 
 	<div class = "row pad40 mt-3">
-		<div class = "col-6">
+		<div class = "col-4 mat-col-1450-6">
 			<ul class="liste">
 				<li><b>PRENDRE SOIN</b> sans altérer ou modifier ce qui a été conçu ou voulu par l’artiste</li>
 				<li><b>RESPECTER</b> les règles de déontologie propre au restaurateur conservateur</li>
@@ -61,7 +61,7 @@
 				<li><b>REALISER</b> des opérations de restauration et de conservation minimalistes et justifiées</li>
 			</ul>
 		</div>
-		<div class="div_index_img">
+		<div class="col-8 mat-col-1450-6 div_index_img">
 			<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil"  class= "mr-2"/>
 			<img src="img/acceuil/index-restauration2.jpg" alt="tet-en-lair acceuil" height=304 />
 			

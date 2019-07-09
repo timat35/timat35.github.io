@@ -83,6 +83,28 @@ a{
 }
 
 
+div.image_comp {
+    margin: 5px 10px;
+}
+
+div.image_comp img {
+	margin:0px;
+}
+
+h2.page_title {
+	color:#B14414;
+}
+
+p.image_comp_title {
+	color:#E16128;
+	margin-bottom: 0px!important;
+	font-size: 1.2em;
+}
+
+p.image_comp_desc {
+	margin-bottom: 0px!important;
+	font-size: 0.8em;
+}
 
 /*Header*/
 .logged-in #header{ margin-top:0px;}

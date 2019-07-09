@@ -4,6 +4,9 @@
 
 
 <div  class ="container">
+	<div class="col-12 text-center">
+		<h2 class = "page_title">Prestations</h2>
+	</div>
 	<div class = "row">
 		<div class = "col-8">
 			<div class = "info-rect pad40">
