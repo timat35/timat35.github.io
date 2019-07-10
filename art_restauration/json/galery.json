@@ -1,0 +1,40 @@
+{
+ "1": {
+	"_comment":["comment", "pour voir"],
+	"title":"HUILE SUR TOILE 19<sup>ème</sup>",
+	"img":"img1",
+	"text":[
+		"Toile déclouée et déformée"
+		,
+		"Plusieurs lacunes complètes"
+		,
+		"Support toile affaibli"
+		,		
+		"Vernis jauni et encrassé"
+		]
+ },
+ "2": {
+	"_comment":["comment", "pour voir"],
+	"title":"HUILE SUR TOILE 20<sup>ème</sup>",
+	"img":"img2",
+	"text":[
+		"Toile découpée- pas de chassis"
+		,
+		"Soulèvements"
+		,
+		"Zones lacunaires importantes"
+		]
+ },
+ "3": {
+	"_comment":["comment", "pour voir"],
+	"title":"HUILE SUR TOILE 17<sup>ème</sup>",
+	"img":"img3",
+	"text":[
+		"Soulèvements – écailles"
+		,
+		"Lacunes de couche picturale"
+		,
+		"Vernis jauni et encrassé"
+		]
+ }
+}

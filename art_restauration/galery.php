@@ -7,32 +7,8 @@
 	<div class="col-12 text-center">
 		<h2 class = "page_title">Galerie</h2>
 	</div>
-	<div class = "row">
-		<div class = "image_comp">
-			<img  src="img/galery/thumb/thumb-img1_base.jpg" alt="img1 base"  />
-			<img  src="img/galery/thumb/thumb-img1_fix.jpg" alt="img1 restauré"  />
-			<div>
-				<p class= "image_comp_title">HUILE SUR TOILE 19éme</p>
-				<p class= "image_comp_desc">Toile déclouée et déformée</br>
-				Plusieurs lacunes complètes</br>
-				Support toile affaibli</br>
-				Vernis jauni et encrassé
-				</p>
-			</div>
-		</div>
-
-		<div class = "image_comp">
-			<img  src="img/galery/thumb/thumb-img2_base.jpg" alt="img1 base"  />
-			<img  src="img/galery/thumb/thumb-img2_fix.jpg" alt="img1 restauré"  />
-			<div>
-				<p class= "image_comp_title">HUILE SUR TOILE 19éme</p>
-				<p class= "image_comp_desc">Toile déclouée et déformée</br>
-				Plusieurs lacunes complètes</br>
-				Support toile affaibli</br>
-				Vernis jauni et encrassé
-				</p>
-			</div>
-		</div>
+	<div id = "galery" class = "row">
+		
 	</div>
 </div>
 
@@ -114,6 +90,51 @@
 <script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
+<script type="text/javascript">
+
+load_galery();
+
+
+var pswpElement = document.querySelectorAll('.pswp')[0];
+
+$('#galery').on('click', 'img', function(event) {
+
+    event.preventDefault();
+    var items = get_items();
+    console.log($(this))
+    var $index = Number($(this).attr('ind'))
+    var options = {
+        index: $index,
+        showHideOpacity:true,
+        getThumbBoundsFn : function(index) {
+            var thumbnail = items[index].el;
+            var pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
+            var rect = thumbnail.getBoundingClientRect();
+            return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
+        }
+    }
+    
+    // Initialize PhotoSwipe
+    var lightBox = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+    lightBox.listen('gettingData', function (index, item) {
+    if (item.w < 1 || item.h < 1) {
+        var img = new Image();
+        img.onload = function () {
+            item.w = this.width;
+            item.h = this.height;
+            lightBox.updateSize(true);
+        };
+        img.src = item.src;
+    }
+});
+    
+    
+    lightBox.init();
+});
+
+
+
+</script>
 
 
 </body>
