@@ -3,10 +3,12 @@ function load_galery() {
 
 	$.getJSON("json/galery.json", function(data) {
 
-	var nb_img = Object.keys(data).length;
-		for (var i = 1; i <= nb_img; i++) { 
+		var nb_data = Object.keys(data).length;
+		var ind = 0;
+		for (var i = 1; i <= nb_data; i++) { 
 			
 			var img_data = data[i];
+
 
 
 			const div_text = document.createElement("div");
@@ -34,31 +36,31 @@ function load_galery() {
 			const div_image = document.createElement("div");
 			div_image.setAttribute("class", "image_comp");
 
-			const temp_a_base = document.createElement("a");
-			temp_a_base.setAttribute("href", 'img/galery/' + img_data.img + '_base.jpg')
-			temp_a_base.setAttribute("data-size", "0x0");
-			temp_a_base.setAttribute("data-index", 0);
-			const temp_img_base = document.createElement("img");
-			temp_img_base.setAttribute("src", 'img/galery/thumb/thumb-' + img_data.img + '_base.jpg');
-			temp_img_base.setAttribute("ind", (i-1)*2);
-			temp_a_base.appendChild(temp_img_base)
+			nb_img = img_data.img.length;
 
-			const temp_a_fix = document.createElement("a");
-			temp_a_fix.setAttribute("href", 'img/galery/' + img_data.img + '_fix.jpg')
-			temp_a_fix.setAttribute("data-size", "0x0");
-			temp_a_fix.setAttribute("data-index", 0);
-			const temp_img_fix = document.createElement("img");
-			temp_img_fix.setAttribute("src", 'img/galery/thumb/thumb-' + img_data.img + '_fix.jpg');
-			temp_img_fix.setAttribute("ind", (i-1)*2+1);
-			temp_a_fix.appendChild(temp_img_fix)
-						
-			div_image.appendChild(temp_a_base)
-			div_image.appendChild(temp_a_fix)
+
+
+
+			for (var k=0; k<nb_img; k++) {
+				
+				const temp_a = document.createElement("a");
+				temp_a.setAttribute("href", 'img/galery/' + img_data.img[k] + '.jpg')
+				temp_a.setAttribute("data-size", "0x0");
+				temp_a.setAttribute("data-index", 0);
+				const temp_img = document.createElement("img");
+				temp_img.setAttribute("src", 'img/galery/thumb/thumb-' + img_data.img[k] + '.jpg');
+				temp_img.setAttribute("ind", ind);
+				temp_a.appendChild(temp_img)
+				div_image.appendChild(temp_a)
+
+				ind +=1;
+			}
+
 			div_image.appendChild(div_text)
 			document.getElementById("galery").appendChild(div_image)
 			
 		}
-		
+			
 	});
 	
 }
