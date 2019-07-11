@@ -44,7 +44,7 @@
 		<div class = "col-3">
 			<div class = "mt-3" style="text-align: center">
 				<figure ind="0">
-						<img src="img/prestation/prestation1.png" alt="tet-en-lair acceuil"/>
+						<img src="img/prestation/prestation1.jpg" alt="tet-en-lair acceuil"/>
 				</figure>
 				<p class= "text-center">Stade ultime des altérations d’adhésion et de cohésion; perte de matière; perte de lisibilité; sans intervention l’œuvre est en péril</p>
 			</div>
