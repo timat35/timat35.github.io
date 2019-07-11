@@ -10,18 +10,18 @@
 	<div class = "row">
 		<div class = "col-8">
 			<div class = "info-rect pad40">
-				<p>« Le restaurateur doit limiter son action et ses interventions au strict nécessaire et ne pas faire de traitement avant qu’apparaisse le problème » article 8 de la charte de l’E.C.C.O qui définit les règles de déontologie que doit respecter le restaurateur.    
+				<p>« <b>Le restaurateur doit limiter son action et ses interventions au strict nécessaire et ne pas faire de traitement avant qu’apparaisse le problème</b> » article 8 de la <b>charte de l’E.C.C.O</b> qui définit les règles de déontologie que doit respecter le restaurateur.    
 				</p>
 				<p>
 				J’interviens donc dans la conservation matérielle des biens culturels en respectant leur signification esthétique, historique et leur intégrité physique par des actes de : </br></br>
-				-	Conservation préventive qui consiste à déterminer les actions indirectes à entreprendre sur l’œuvre afin d’en retarder la détérioration.
+				-	<b>Conservation préventive</b> qui consiste à déterminer les actions indirectes à entreprendre sur l’œuvre afin d’en retarder la détérioration.
 				            On doit prévenir les risques d’altérations en créant des conditions optimales de conservation</br> 
-				-	Conservation curative qui regroupe les interventions  directes  sur l’œuvre dans le but de ralentir le processus de dégradation</br>  
-				-	Restauration qui englobe toutes les opérations visant assurer la bonne lecture de l’œuvre et sa mise en valeur
+				-	<b>Conservation curative</b> qui regroupe les interventions  directes  sur l’œuvre dans le but de ralentir le processus de dégradation</br>  
+				-	<b>Restauration</b> qui englobe toutes les opérations visant assurer la bonne lecture de l’œuvre et sa mise en valeur
 				</p>
 			</div>
 			<div class="pad40 mt-4">
-				<p>Toutes les actions de conservation et de restauration entreprises respectent aussi les 3 principes fondamentaux définis par la Charte de Venise (1964)  et adoptés par l’ I.C.O.M
+				<p>Toutes les actions de conservation et de restauration entreprises respectent aussi les 3 principes fondamentaux définis par la <b>Charte de Venise</b> (1964)  et adoptés par <b>l’ I.C.O.M</b>
 				</p>
 					<ul class="liste">
 					<li><b>Réversibilité</b> qui oblige à utiliser des produits ou matériaux pouvant être retirés sans que l’objet ne soit affecté, et ce, afin de le ramener à son état antérieur.
