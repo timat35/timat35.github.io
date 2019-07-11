@@ -19,7 +19,7 @@
 		<div class= "creaHolder col-6 col-md-3  separation">
 			<div class = "">
 				<a href="prestation.php">
-					<img src="img/acceuil/index-prestation.png" alt="eska acceuil"   />
+					<img src="img/acceuil/index-prestation.jpg" alt="eska acceuil"   />
 				</a>
 			</div>
 			<div>
