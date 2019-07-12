@@ -47,6 +47,7 @@ function load_galery() {
 				const temp_a = document.createElement("a");
 				temp_a.setAttribute("href", 'img/galery/' + img_data.img[k] + '.jpg')
 				temp_a.setAttribute("data-size", "0x0");
+				temp_a.setAttribute("data-title", temp_title);
 				temp_a.setAttribute("data-index", 0);
 				const temp_img = document.createElement("img");
 				temp_img.setAttribute("src", 'img/galery/thumb/thumb-' + img_data.img[k] + '.jpg');
@@ -76,12 +77,14 @@ function get_items() {
 			var $href   = $(this).attr('href'),
 						$size   = $(this).data('size').split('x'),
 						$width  = $size[0],
-						$height = $size[1];
+						$height = $size[1],
+						$title = $(this).data('title');
 	 
 			var temp = {
 				src : $href,
 				w   : $width,
-				h   : $height
+				h   : $height,
+				title : $title
 					}
 			
 			temp.el = $(this).find("img")[0];

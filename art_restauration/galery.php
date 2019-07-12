@@ -102,7 +102,6 @@ $('#galery').on('click', 'img', function(event) {
     event.preventDefault();
     var items = get_items();
 
-    console.log(items)
     var $index = Number($(this).attr('ind'))
     var options = {
         index: $index,
