@@ -117,7 +117,7 @@ $(document).ready(function() {
 				element.css('background-color','#fb8072')
 			} 
 			else if (similarity(calEvent.title,"Julia Belle") > 0.30) {
-				element.css('background-color','#80b1d3')
+				element.css('background-color','#78BCEB')
 			} 
 			else {
 				element.css('background-color','#EFEFEF')
