@@ -34,7 +34,8 @@ function load_galery() {
 			div_text.appendChild(temp_p)
 			
 			const div_image = document.createElement("div");
-			div_image.setAttribute("class", "image_comp");
+			div_image.setAttribute("class", "image_comp photoswipe");
+
 
 			nb_img = img_data.img.length;
 
@@ -68,7 +69,7 @@ function load_galery() {
 
 function get_items() {
 	var items = [];
-	$(".image_comp").each( function() {
+	$(".photoswipe").each( function() {
 		var temp = [];
 		var $pic     = $(this)
 		$pic.find('a').each(function() {
