@@ -3,11 +3,10 @@
 <?php  include('title/title_index.php');?>
 <?php  include('header.php');?>
 
-<div class = "text_guest">À partir d'avril, <a class= "link" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
 
 <div class = "container index_main">
-	<div class = "row">
-		<div class= "creaHolder col-6 col-md-3  separation" >
+	<div class = "row justify-content-center">
+		<div class= "creaHolder col-6 col-md-15  separation" >
 			<div class = "">
 				<a href="creatrice.php?creatrice=chant">
 				<div style="background-image: url(img/acceuil/c-index-chant-2.jpg);background-size: cover">
@@ -22,7 +21,7 @@
 				<h6><a href="creatrice.php?creatrice=chant" class="desc">Céramiste</a></h6>
 			</div>
 		</div>
-		<div class= "creaHolder col-6 col-md-3  separation">
+		<div class= "creaHolder col-6 col-md-15  separation">
 			<div class = "">
 				<a href="creatrice.php?creatrice=eska">
 					
@@ -37,7 +36,7 @@
 				<h6><a href="creatrice.php?creatrice=eska" class="desc">Vêtements</a></h6>
 			</div>
 		</div>
-		<div class= "creaHolder col-6 col-md-3">
+		<div class= "creaHolder col-6 col-md-15 separation">
 			<div class = "">
 				<a href="creatrice.php?creatrice=reza">
 					
@@ -52,7 +51,7 @@
 				<h6><a href="creatrice.php?creatrice=reza" class="desc">Créations artisanales en cuir</a></h6>
 			</div>
 		</div>
-		<div class= "creaHolder col-6 col-md-3 ">
+		<div class= "creaHolder col-6 col-md-15 separation">
 			<div class = "">
 				<a href="creatrice.php?creatrice=tet">
 					
@@ -65,6 +64,21 @@
 			<div>
 				<h3><a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a></h3>
 				<h6><a href="creatrice.php?creatrice=tet" class="desc">Modiste chapeaux</a></h6>
+			</div>
+		</div>
+		<div class= "creaHolder col-6 col-md-15 ">
+			<div class = "">
+				<a href="creatrice.php?creatrice=princesse">
+					
+					<div style="background-image: url(img/acceuil/c-index-prin-2.jpg);background-size: cover;">
+						<img src="img/acceuil/c-index-prin-1.jpg" alt="tet-en-lair acceuil"  class="index_img" />
+					</div>
+					<img  src="img/acceuil/logo-princesse.png" class="index-logo" alt=""/>
+				</a>
+			</div>
+			<div>
+				<h3><a href="creatrice.php?creatrice=princesse" class= "title">Julia Belle</a></h3>
+				<h6><a href="creatrice.php?creatrice=princesse" class="desc">linogravures, eaux-fortes, monotype et gravure à la pointe-sèche</a></h6>
 			</div>
 		</div>
 	</div>

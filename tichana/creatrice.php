@@ -105,7 +105,7 @@
 				
 				<img  src="img/acceuil/logo-tet.png" class="index-logo-small" alt=""/>
 				<div style="background-image: url(img/acceuil/c-index-tet-2.jpg);background-size: cover;">
-					<img src="img/acceuil/c-index-tet-1.jpg" alt="tet-en-lair acceuil"  class="index_img" />
+					<img src="img/acceuil/c-index-tet-1.jpg" alt="julia belle acceuil"  class="index_img" />
 				</div>
 				
 			</a>
@@ -114,9 +114,23 @@
 			<h3><a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a></h3>
 		</div>
 	</div>
+	<div data-crea="princesse" class= "creaHolder col-6 col-md-3 text-center mx-auto mx-md-0">
+		<div class = "creaImage">
+			<a href="creatrice.php?creatrice=princesse">
+				
+				<img  src="img/acceuil/logo-princesse.png" class="index-logo-small" alt=""/>
+				<div style="background-image: url(img/acceuil/c-index-prin-2.jpg);background-size: cover;">
+					<img src="img/acceuil/c-index-prin-1.jpg" alt="julia belle acceuil"  class="index_img" />
+				</div>
+				
+			</a>
+		</div>
+		<div>
+			<h3><a href="creatrice.php?creatrice=princesse" class= "title">Julia Belle</a></h3>
+		</div>
+	</div>
 </div>
 
-<div data-crea="princesse" class = "text_guest">À partir d'avril, <a class= "link" href="creatrice.php?creatrice=princesse">Julia Belle</a> alias <a class= "link" href="creatrice.php?creatrice=princesse">"La princesse aux petits poils"</a> nous rejoint</div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
