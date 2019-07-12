@@ -41,7 +41,7 @@
 	</div>
 </nav>
 
-	<div id="header" class="container-fluid ">
+	<div id="header" class="container">
 		<div class="logo">
 			<h1 class="display-4 title">
 			<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid ml-5 d-none d-lg-block" />

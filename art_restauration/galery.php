@@ -7,7 +7,7 @@
 	<div class="col-12 text-center">
 		<h2 class = "page_title">Galerie</h2>
 	</div>
-	<div id = "galery" class = "row">
+	<div id = "galery" class = "row pad40">
 		
 	</div>
 </div>

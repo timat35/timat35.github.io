@@ -7,9 +7,9 @@
 	<div class="col-12 text-center">
 		<h2 class = "page_title">Technique</h2>
 	</div>
-	<div class = "row">
+	<div class = "row pad40">
 		<div class = "col-8">
-			<div class = "info-rect pad40">
+			<div class = "info-rect ">
 				<p>« <b>Le restaurateur doit limiter son action et ses interventions au strict nécessaire et ne pas faire de traitement avant qu’apparaisse le problème</b> » article 8 de la <b>charte de l’E.C.C.O</b> qui définit les règles de déontologie que doit respecter le restaurateur.    
 				</p>
 				<p>
@@ -20,7 +20,7 @@
 				-	<b>Restauration</b> qui englobe toutes les opérations visant assurer la bonne lecture de l’œuvre et sa mise en valeur
 				</p>
 			</div>
-			<div class="pad40 mt-4">
+			<div class=" mt-4">
 				<p>Toutes les actions de conservation et de restauration entreprises respectent aussi les 3 principes fondamentaux définis par la <b>Charte de Venise</b> (1964)  et adoptés par <b>l’ I.C.O.M</b>
 				</p>
 					<ul class="liste">
@@ -34,7 +34,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="pad40">
+			<div>
 			<img src="img/ico/icoECCO.png" alt="tet-en-lair acceuil"/>
 			<img src="img/ico/icoICOM.png" alt="tet-en-lair acceuil"/>
 			</div>

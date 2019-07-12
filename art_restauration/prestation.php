@@ -7,7 +7,7 @@
 	<div class="col-12 text-center">
 		<h2 class = "page_title">Prestations</h2>
 	</div>
-	<div class = "row">
+	<div class = "row pad40">
 		<div class = "col-8">
 			<div class = "info-rect pad40">
 				<p><b>Une peinture de chevalet est un objet complexe constitué de plusieurs strates qui présentent chacune une sensibilité particulière et seront traitées différemment.</b>
