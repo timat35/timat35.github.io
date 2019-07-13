@@ -43,7 +43,7 @@
 				<a href="img/technique/technique1.jpg" data-size="0x0" data-index="0">
 					<img src="img/technique/technique1.jpg" ind="0" alt="tet-en-lair acceuil"/>
 				</a>
-				<p class= "text-center">Recherche de repeint aux rayons ultra-violet</p>
+				<p class= "text-center">Recherche de repeints aux rayons ultra-violet</p>
 			</div>
 			<div class = "mt-3" style="text-align: center">
 				<a href="img/technique/technique2.jpg" data-size="0x0" data-index="0">
@@ -53,7 +53,7 @@
 			</div>
 		</div>
 	</div>
-	<div class = "col-12">
+	<div class = "mt-5 col-12">
 		<p class= "citation">« Tout tableau possède une fonction esthétique et historique. Une retouche doit être posée de manière à ce qu’aucune de ces deux unités ne prédomine ni n’étouffe l’autre.»</br>Cesare Brandi</p>
 	</div>
 </div>

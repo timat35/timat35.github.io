@@ -80,7 +80,7 @@
 	<div class="d-flex justify-content-center">
 		<div class = "info-rect pad40">
 			<h4>Parcours</h4>
-				<p>3 ans de formation de «  Conservateur restaurateur d’œuvres et d’objets polychromes » à l’atelier de la Renaissance à Lyon. L’atelier dispense une formation aux techniques de conservation et de restauration de tableaux et d’objets peints en appliquant les règles de déontologie éditées par   l’E.C.C.O (Confédération  Européenne des Organisations de Conservateurs Restaurateurs). Les cours théoriques comme le travail d’atelier s’appuient sur l’expérience (30 ans) et le savoir-faire des formateurs. Des cours d’histoire de l’art et de copie complètent l’enseignement pour  permettre de mieux comprendre et appréhender les œuvres en fonction de la technique utilisée et de l’époque de création.
+				<p>4 ans de formation de «  Conservateur restaurateur d’œuvres et d’objets polychromes » à l’atelier de la Renaissance à Lyon. L’atelier dispense une formation aux techniques de conservation et de restauration de tableaux et d’objets peints en appliquant les règles de déontologie éditées par   l’E.C.C.O (Confédération  Européenne des Organisations de Conservateurs Restaurateurs). Les cours théoriques comme le travail d’atelier s’appuient sur l’expérience (30 ans) et le savoir-faire des formateurs. Des cours d’histoire de l’art et de copie complètent l’enseignement pour  permettre de mieux comprendre et appréhender les œuvres en fonction de la technique utilisée et de l’époque de création.
 				</p>
 		</div>
 	</div>
