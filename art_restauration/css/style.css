@@ -56,7 +56,7 @@ div.info-rect {
 
 .citation {
 	text-align: center;
-	color:#e05a18;
+	color:#984806;
 	margin: 0 1em;
 }
 
@@ -104,15 +104,15 @@ div.image_comp img {
 }
 
 h2.page_title {
-	color:#B14414;
+	color:#984806;
 }
 
 h4.page_title {
-	color:#B14414;
+	color:#984806;
 }
 
 p.image_comp_title {
-	color:#E16128;
+	color:#984806;
 	margin-bottom: 0px!important;
 	font-size: 1.2em;
 }
@@ -158,10 +158,17 @@ p.image_comp_desc {
 	display:block;
 	text-align:center;
 	font-family: 'Lucida Calligraphy';
-	color:#000000;
+	color:#984806;
 	text-decoration:none;
 	outline: none;
 }
+
+.logo h1 a::first-letter {
+  font-family: 'Vivaldi';
+  font-size: 200%;
+}
+
+
 
 
 .logo .title-desc{ 
@@ -474,7 +481,7 @@ img.insta{
 
 .creaHolder a.title{
 	font-weight: normal;
-	    color: #000;
+	    color:#984806;
 }
 
 .creaHolder a.desc{
