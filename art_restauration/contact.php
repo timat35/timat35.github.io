@@ -14,11 +14,12 @@
 
 <div class="matContainer matWide matContact ">
 <div>
-<section class="textLong">
+<section>
 <p>
 Christine Laversanne<br />
 9 avenue Jean Jaures, 69007 Lyon<br />
-<br />
+</section>
+<section  class="textContact">
 Pour tout renseignement, constat d’état, devis , n’hésitez pas à me contacter :<br/>
 Par email à l’adresse <a href="mailto:art-restauration@gmail.com" style="text-decoration: underline; color: -webkit-link;">art-restauration@gmail.com</a></br>
 Par téléphone au 06 21 49 82 51<br/>
