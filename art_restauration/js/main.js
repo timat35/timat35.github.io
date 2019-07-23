@@ -40,14 +40,14 @@ function load_galery() {
 			nb_img = img_data.img.length;
 
 
-
+			div_image.appendChild(div_text)
 
 			for (var k=0; k<nb_img; k++) {
 				
 				const temp_a = document.createElement("a");
 				temp_a.setAttribute("href", 'img/galery/' + img_data.img[k] + '.jpg')
 				temp_a.setAttribute("data-size", "0x0");
-				temp_a.setAttribute("data-title", temp_title);
+				temp_a.setAttribute("data-title", img_data.subtitle[k]);
 				temp_a.setAttribute("data-index", 0);
 				const temp_img = document.createElement("img");
 				temp_img.setAttribute("src", 'img/galery/thumb/thumb-' + img_data.img[k] + '.jpg');
@@ -58,7 +58,7 @@ function load_galery() {
 				ind +=1;
 			}
 
-			div_image.appendChild(div_text)
+			
 			document.getElementById("galery").appendChild(div_image)
 			
 		}

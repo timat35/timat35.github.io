@@ -30,7 +30,7 @@
 			<div class= "creaHolder col-6 col-md-3">
 				<div class = "">
 					<a href="galery.php">
-						<img src="img/acceuil/index-galerie.png" alt="reza acceuil"  />
+						<img src="img/acceuil/index-galerie.jpg" alt="reza acceuil"  />
 					</a>
 				</div>
 				<div>
@@ -57,16 +57,16 @@
 					<li><b>PRENDRE SOIN</b> sans altérer ou modifier ce qui a été conçu ou voulu par l’artiste</li>
 					<li><b>RESPECTER</b> les règles de déontologie propre au restaurateur conservateur</li>
 					<li><b>EFFECTUER</b> un examen technologique minutieux des constituants de l’œuvre</li>
-					<li><b>ETABLIR</b> un diagnostic précis à partir de l’analyse globale des pathologies du tableau</li>
+					<li><b>ÉTABLIR</b> un diagnostic précis à partir de l’analyse globale des pathologies du tableau</li>
 					<li><b>PROPOSER</b> un protocole de traitement respectant l’intégrité historique et esthétique de  l’œuvre</li>
-					<li><b>EDITER</b> un devis détaillé et argumenté comprenant une documentation photographique </li>
+					<li><b>ÉDITER</b> un devis détaillé et argumenté comprenant une documentation photographique </li>
 					<li><b>UTILISER</b> des matériaux stables, réversibles et reconnus par la profession</li>
-					<li><b>REALISER</b> des opérations de restauration et de conservation minimalistes et justifiées</li>
+					<li><b>RÉALISER</b> des opérations de restauration et de conservation minimalistes et justifiées</li>
 				</ul>
 			</div>
 			<div class="col-6 mat-col-1450-6 div_index_img">
 				<div id = "galery" class="row photoswipe">
-					<a href="img/acceuil/index-restauration1.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
+					<a href="img/acceuil/index-restauration1_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
 						<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil" ind="0" />
 					</a>
 					<a href="img/acceuil/index-restauration2.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
