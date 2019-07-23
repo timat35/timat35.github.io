@@ -20,7 +20,7 @@ Christine Laversanne<br />
 9 avenue Jean Jaures, 69007 Lyon<br />
 </section>
 <section  class="textContact">
-Pour tout renseignement, constat d’état, devis , n’hésitez pas à me contacter :<br/>
+Pour tous renseignements, constat d’état, devis , n’hésitez pas à me contacter :<br/>
 Par email à l’adresse <a href="mailto:art-restauration@gmail.com" style="text-decoration: underline; color: -webkit-link;">art-restauration@gmail.com</a></br>
 Par téléphone au 06 21 49 82 51<br/>
 Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a target="_blank" href="http://www.autourdelimage.fr/"> Autour de l'image</a>, 44 rue Sala Lyon 2ème. 
