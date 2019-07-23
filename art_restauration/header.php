@@ -49,9 +49,9 @@
 			<h2 class="title-desc">
 				Conservation et Restauration de tableaux
 			</h2>
-			<h4 class="title-desc">
+			<h3 class="title-desc">
 				Christine Laversanne, Lyon
-			</h4>
+			</h3>
 		</div>
 	</div>		
 	

@@ -26,17 +26,17 @@
 				</p>
 			</div>
 			<div class="pad40 mt-4">
-				<h4 class="page_title">SERVICES PROPOSES GRATUITS ET SANS ENGAGEMENT</h4>
+				<h4 class="page_title">SERVICES PROPOSÉS GRATUITS ET SANS ENGAGEMENT</h4>
 				<ul class="liste">
 				<li><b>DEVIS</b></li>
-				<li><b>DEPLACEMENT A DOMICILE</b></li>
-				<li><b>CONSEILS EN CONSERVATION PREVENTIVE</b></li>
+				<li><b>DÉPLACEMENT À DOMICILE</b></li>
+				<li><b>CONSEILS EN CONSERVATION PRÉVENTIVE</b></li>
 				</ul>
-				<h4 class="page_title">DIFFERENTES ETAPES D’UNE RESTAURATION</h4>
+				<h4 class="page_title">DIFFÉRENTES ÉTAPES D’UNE RESTAURATION</h4>
 				<ul class="liste">
 				<li><b>DEVIS</b> établi à partir de l’examen approfondi de l’œuvre</li>
 				<li><b>VALIDATION</b> du devis par le client</li>
-				<li><b>REALISATION DE LA RESTAURATION</b> en suivant le protocole établi</li>
+				<li><b>RÉALISATION DE LA RESTAURATION</b> en suivant le protocole établi</li>
 				<li><b>RESTITUTION</b> du bien confié en atelier ou à domicile</li>
 				</ul>
 			</div>
@@ -49,8 +49,8 @@
 				<p class= "text-center">Stade ultime des altérations d’adhésion et de cohésion; perte de matière; perte de lisibilité; sans intervention l’œuvre est en péril</p>
 			</div>
 			<div class = "mt-3 " style="text-align: center">
-				<a href="img/prestation/prestation2.png" data-size="0x0" data-index="0">
-						<img src="img/prestation/prestation2.png" ind="1" alt="tet-en-lair acceuil"/>
+				<a href="img/prestation/prestation2_base.jpg" data-size="0x0" data-index="0">
+						<img src="img/prestation/prestation2.jpg" ind="1" alt="tet-en-lair acceuil"/>
 				</a>
 				<p class= "text-center">Jaunissement du vernis. L’allègement des vernis redonne de la luminosité et permet de retrouver les tonalités de la peinture originale</p>
 			</div>

@@ -89,7 +89,7 @@ a{
 
 .pswp__caption__center {
 	font-size: 20px!important;
-	color:#E16128!important;
+	color:#ffffff!important;
 	text-align: center!important;
 
 }
@@ -519,6 +519,11 @@ div.info a {
 	h2.title-desc {
 		font-size: 1.5rem;
 	}
+
+	h3.title-desc {
+		font-size: 1.4rem;
+	}
+
 
 	h4.title-desc {
 		font-size: 1.2rem;
