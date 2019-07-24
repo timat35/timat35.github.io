@@ -164,7 +164,7 @@ p.image_comp_desc {
 	outline: none;
 }
 
-.logo h1 a::first-letter {
+.first-letter {
   font-family: 'Vivaldi';
   font-size: 200%;
 }
