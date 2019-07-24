@@ -44,7 +44,9 @@
 	<div id="header" class="container">
 		<div class="logo">
 			<h1 class="display-4 title">
-			<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid ml-5 d-none d-lg-block" />
+			<div class="col-md-3">
+				<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid d-none d-lg-block" />
+			</div>
 			<a href="/">Art-Restauration</a></h1>
 			<h2 class="title-desc">
 				Conservation et Restauration de tableaux

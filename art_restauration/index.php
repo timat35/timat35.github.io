@@ -69,7 +69,7 @@
 					<a href="img/acceuil/index-restauration1_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
 						<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil" ind="0" />
 					</a>
-					<a href="img/acceuil/index-restauration2.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
+					<a href="img/acceuil/index-restauration2_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
 						<img src="img/acceuil/index-restauration2.jpg" alt="tet-en-lair acceuil" ind="1" />
 					</a>
 				</div>
