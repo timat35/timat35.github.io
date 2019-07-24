@@ -53,7 +53,7 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
         <b>Email : </b>' . $_POST['email'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
 
-        $retour = mail('timat35@gmail.com', 'Envoi depuis page Contact', $message, $entete);
+        $retour = mail('christinelaversanne@gmail.com', 'Envoi depuis page Contact', $message, $entete);
         if($retour) {
             echo '<p>Votre message a bien été envoyé.</p>';
         }

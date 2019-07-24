@@ -47,7 +47,7 @@
 			<div class="col-md-3">
 				<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid d-none d-lg-block" />
 			</div>
-			<a href="/">Art-Restauration</a></h1>
+			<a href="/"><span class="first-letter">A</span>rt-Restauration</a></h1>
 			<h2 class="title-desc">
 				Conservation et Restauration de tableaux
 			</h2>
