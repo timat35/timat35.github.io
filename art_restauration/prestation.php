@@ -16,10 +16,10 @@
 				La première intervention  consiste à dresser un <b>constat d’état</b> pour recenser l’ensemble des altérations et déterminer les interventions prioritaires à mener.
 				</p>
 				<p>
-				<b>Le constat d’état est l’examen minutieux de l’œuvre et des matériaux qui la constituent.</b></br>Ces composants, le support, la couche picturale et le vernis sont soumis à un  vieillissement naturel qui conjugué à d’autres facteurs, comme les conditions environnementales, les accidents, les manipulations, accentuent et contribuent à sa dégradation.  
+				<b>Le constat d’état est l’examen minutieux de l’œuvre et des matériaux qui la constituent.</b></br>Les composants (le support, la couche picturale et le vernis) sont soumis à un  vieillissement naturel qui conjugué à d’autres facteurs, comme les conditions environnementales, les accidents, les manipulations, accentuent et contribuent à sa dégradation.  
 				</p>
 				<p>
-				C’est cet examen attentif et avec différents moyens, du support , des  vernis, de la couche colorée et de la préparation qui permet de <b>diagnostiquer les altérations</b>, d’en mesurer l’importance et d’établir un <b>protocole de restauration</b> déontologiquement conforme et adapté à l’œuvre confiée.
+				Le restaurateur utilise différentes techniques pour réaliser l'examen attentif du support, des vernis, de la couche colorée et de la préparation. Cela lui permet d'en <b>diagnostiquer les altérations</b>, d’en mesurer l’importance et d’établir un <b>protocole de restauration</b> déontologiquement conforme et adapté à l’œuvre confiée.
 				</p>
 				<p>
 				<b>Ces différentes étapes permettent d’établir un <u>devis précis et détaillé</u> des opérations de conservation et/ou  de restauration à envisager.</b>

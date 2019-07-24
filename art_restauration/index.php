@@ -56,7 +56,7 @@
 				<ul class="liste">
 					<li><b>PRENDRE SOIN</b> sans altérer ou modifier ce qui a été conçu ou voulu par l’artiste</li>
 					<li><b>RESPECTER</b> les règles de déontologie propre au restaurateur conservateur</li>
-					<li><b>EFFECTUER</b> un examen technologique minutieux des constituants de l’œuvre</li>
+					<li><b>EFFECTUER</b> un examen technique minutieux des constituants de l’œuvre</li>
 					<li><b>ÉTABLIR</b> un diagnostic précis à partir de l’analyse globale des pathologies du tableau</li>
 					<li><b>PROPOSER</b> un protocole de traitement respectant l’intégrité historique et esthétique de  l’œuvre</li>
 					<li><b>ÉDITER</b> un devis détaillé et argumenté comprenant une documentation photographique </li>
@@ -69,7 +69,7 @@
 					<a href="img/acceuil/index-restauration1_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
 						<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil" ind="0" />
 					</a>
-					<a href="img/acceuil/index-restauration2.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
+					<a href="img/acceuil/index-restauration2_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
 						<img src="img/acceuil/index-restauration2.jpg" alt="tet-en-lair acceuil" ind="1" />
 					</a>
 				</div>

@@ -150,8 +150,9 @@ p.image_comp_desc {
 }
 
 .logo h1 img{
-	position:absolute;
-	margin-left: 0%!important;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 .logo h1 a{
