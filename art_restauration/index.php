@@ -56,7 +56,7 @@
 				<ul class="liste">
 					<li><b>PRENDRE SOIN</b> sans altérer ou modifier ce qui a été conçu ou voulu par l’artiste</li>
 					<li><b>RESPECTER</b> les règles de déontologie propre au restaurateur conservateur</li>
-					<li><b>EFFECTUER</b> un examen technologique minutieux des constituants de l’œuvre</li>
+					<li><b>EFFECTUER</b> un examen technique minutieux des constituants de l’œuvre</li>
 					<li><b>ÉTABLIR</b> un diagnostic précis à partir de l’analyse globale des pathologies du tableau</li>
 					<li><b>PROPOSER</b> un protocole de traitement respectant l’intégrité historique et esthétique de  l’œuvre</li>
 					<li><b>ÉDITER</b> un devis détaillé et argumenté comprenant une documentation photographique </li>
