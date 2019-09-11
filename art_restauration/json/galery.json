@@ -1,9 +1,49 @@
 {
 "1": {
 	"_comment":["comment", "pour voir"],
+	"title":"Paysage animé A.F Boudewyns 17<sup>ème</sup>",
+	"img":["paysage_anime_1","paysage_anime_2","paysage_anime_3","paysage_anime_4","paysage_anime_5"],
+	"text":[
+		"Huile sur bois"
+		,
+		"Soulèvements, lacunes de couche picturale, vernis jaunis"
+		],
+	"subtitle":[
+		"Avant les opérations de conservation et de restauration",
+		"Soulèvements et lacunes de couche picturale",
+		"Refixage des soulèvements à la cire résine",
+		"Etape d’allègement des vernis",
+		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
+	]
+ },
+"2": {
+	"_comment":["comment", "pour voir"],
+	"title":"L’homme au turban 19<sup>ème</sup>",
+	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
+		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
+	"text":[
+		"Huile sur toile"
+		,
+		"Adhésifs et badigeons au revers de la toile, accrocs et déchirures"
+		,
+		"Lacunes complètes, nombreux repeints, vernis très assombris"
+		],
+	"subtitle":[
+		"Avant les opérations de conservation et de restauration", 
+		"Exemple de déchirure (10cm)",
+		"Protection de la couche colorée avant les opérations au revers de la toile", 
+		"Après le retrait des adhésifs et badigeons et les consolidations",  
+		"Allègement des anciens vernis qui altéraient la lisibilité de l’œuvre",   
+		"Retrait d’un repeint très important sur la main", 
+		"Retrait sous le repeint de mastics très abusif",
+		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
+	]
+ },
+"3": {
+	"_comment":["comment", "pour voir"],
 	"title":"Portrait d’homme 19<sup>ème</sup>",
-	"img":["portrait_19_1","portrait_19_8","portrait_19_2","portrait_19_3"
-		,"portrait_19_4","portrait_19_5","portrait_19_6","portrait_19_7"],
+	"img":["portrait_19_1","portrait_19_2","portrait_19_3"
+		,"portrait_19_4","portrait_19_5","portrait_19_6","portrait_19_7","portrait_19_8"],
 	"text":[
 		"Huile sur toile"
 		,
@@ -13,20 +53,20 @@
 		],
 	"subtitle":[
 		"Avant les opérations de conservation et de restauration", 
-		"L’œuvre restaurée",
 		"Avant les opérations de conservation et de restauration",
 		"Protection de la couche picturale avant application d’une nouvelle toile", 
 		"Pose de la nouvelle toile après consolidations des lacunes",  
 		"Étape d’allègement des crasses et des vernis",   
 		"Masticage des lacunes", 
-		"Revers de la toile après restauration"
+		"Revers de la toile après restauration",
+		"L’œuvre restaurée"
 	]
  },
-"2": {
+"4": {
 	"_comment":["comment", "pour voir"],
 	"title":"Scène du 17<sup>ème</sup>",
-	"img":["scene_17_1","scene_17_10","scene_17_2","scene_17_3","scene_17_4"
-		,"scene_17_5","scene_17_6","scene_17_7","scene_17_8","scene_17_9"],
+	"img":["scene_17_1","scene_17_2","scene_17_3","scene_17_4"
+		,"scene_17_5","scene_17_6","scene_17_7","scene_17_8","scene_17_9","scene_17_10"],
 	"text":[
 		"Huile sur bois"
 		,
@@ -36,7 +76,6 @@
 		],
 	"subtitle":[
 		"Avant restauration",
-		"L’oeuvre après restauration",
 		"Tableau fléché",
 		"Exemple de petits enfoncements sur la robe",
 		"Griffures et petites lacunes",
@@ -44,7 +83,8 @@
 		"Fabrication du morceau manquant avec de la pate à bois",
 		"Étape d’allègement des vernis",
 		"Fixation du panneau au cadre avec des élastiques pour éviter de contraindre le bois",
-		"Carton noir pour masquer les fixations"
+		"Carton noir pour masquer les fixations",
+		"L’oeuvre après restauration"
 		
 	]
  }
