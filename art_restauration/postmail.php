@@ -68,7 +68,7 @@ $email_message .= $passage_ligne .clean_string($message). $passage_ligne; //Cont
 
                 }else{
 					//Message d'erreur
-                    $email_message .= $passage_ligne ."L'utilisateur a tenté de vous envoyer une pièce jointe mais celle ci était superieure à 2Mo.". $passage_ligne;
+                    $email_message .= $passage_ligne ."L'utilisateur a tenté de vous envoyer une pièce jointe mais celle ci était superieure à 8Mo.". $passage_ligne;
                 }
             }else{
 				//Message d'erreur
@@ -76,7 +76,7 @@ $email_message .= $passage_ligne .clean_string($message). $passage_ligne; //Cont
             }
         }else{
 			//Message d'erreur
-            $email_message .= $passage_ligne ."L'utilisateur a tenté de vous envoyer une pièce jointe .htaccess.". $passage_ligne;
+            $email_message .= $passage_ligne ."L'utilisateur a tenté de vous envoyer une pièce jointe .htaccess. Appele Mathieu!". $passage_ligne;
         }
     }
 $email_message .= $passage_ligne . "--" . $boundary . "--" . $passage_ligne; //Séparateur de fermeture

@@ -2,8 +2,8 @@
 "1": {
 	"_comment":["comment", "pour voir"],
 	"title":"Portrait d’homme 19<sup>ème</sup>",
-	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
-		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
+	"img":["portrait_19_1","portrait_19_8","portrait_19_2","portrait_19_3"
+		,"portrait_19_4","portrait_19_5","portrait_19_6","portrait_19_7"],
 	"text":[
 		"Huile sur toile"
 		,
@@ -13,19 +13,20 @@
 		],
 	"subtitle":[
 		"Avant les opérations de conservation et de restauration", 
+		"L’œuvre restaurée",
 		"Avant les opérations de conservation et de restauration",
 		"Protection de la couche picturale avant application d’une nouvelle toile", 
 		"Pose de la nouvelle toile après consolidations des lacunes",  
 		"Étape d’allègement des crasses et des vernis",   
 		"Masticage des lacunes", 
-		"Revers de la toile après restauration",
-		"L’œuvre restaurée"
+		"Revers de la toile après restauration"
 	]
  },
 "2": {
 	"_comment":["comment", "pour voir"],
 	"title":"Scène du 17<sup>ème</sup>",
-	"img":["paysage_anime_1","paysage_anime_2","paysage_anime_3","paysage_anime_4","paysage_anime_5"],
+	"img":["scene_17_1","scene_17_10","scene_17_2","scene_17_3","scene_17_4"
+		,"scene_17_5","scene_17_6","scene_17_7","scene_17_8","scene_17_9"],
 	"text":[
 		"Huile sur bois"
 		,
@@ -34,11 +35,17 @@
 		"Vernis très jaune"
 		],
 	"subtitle":[
-		"Avant les opérations de conservation et de restauration",
-		"Soulèvements et lacunes de couche picturale",
-		"Refixage des soulèvements à la cire résine",
-		"Etape d’allègement des vernis",
-		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
+		"Avant restauration",
+		"L’oeuvre après restauration",
+		"Tableau fléché",
+		"Exemple de petits enfoncements sur la robe",
+		"Griffures et petites lacunes",
+		"Pièce de bois manquante",
+		"Fabrication du morceau manquant avec de la pate à bois",
+		"Étape d’allègement des vernis",
+		"Fixation du panneau au cadre avec des élastiques pour éviter de contraindre le bois",
+		"Carton noir pour masquer les fixations"
+		
 	]
  }
 }
