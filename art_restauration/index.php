@@ -10,7 +10,7 @@
 			<div class= "creaHolder col-6 col-md-3  separation" >
 				<div class = "">
 					<a href="technique.php">
-						<img  src="img/acceuil/index-technique.jpg" alt="chant de l'email acceuil"  />
+						<img  src="img/acceuil/index-technique.jpg" alt="technique"  />
 					</a>
 				</div>
 				<div>
@@ -20,7 +20,7 @@
 			<div class= "creaHolder col-6 col-md-3  separation">
 				<div class = "">
 					<a href="prestation.php">
-						<img src="img/acceuil/index-prestation.jpg" alt="eska acceuil"   />
+						<img src="img/acceuil/index-prestation.jpg" alt="prestation"   />
 					</a>
 				</div>
 				<div>
@@ -30,7 +30,7 @@
 			<div class= "creaHolder col-6 col-md-3">
 				<div class = "">
 					<a href="galery.php">
-						<img src="img/acceuil/index-galerie.jpg" alt="reza acceuil"  />
+						<img src="img/acceuil/index-galerie.jpg" alt="galerie"  />
 					</a>
 				</div>
 				<div>
@@ -40,7 +40,7 @@
 			<div class= "creaHolder col-6 col-md-3 ">
 				<div class = "">
 					<a href="contact.php">
-						<img src="img/acceuil/index-contact-devis.jpg" alt="tet-en-lair acceuil"   />
+						<img src="img/acceuil/index-contact-devis.jpg" alt="contact-devis"   />
 					</a>
 				</div>
 				<div>
@@ -67,10 +67,10 @@
 			<div class="col-6 mat-col-1450-6 div_index_img">
 				<div id = "galery" class="row photoswipe acceuil">
 					<a href="img/acceuil/index-restauration1_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
-						<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil" ind="0" />
+						<img src="img/acceuil/index-restauration1.jpg" alt="restauration avant" ind="0" />
 					</a>
 					<a href="img/acceuil/index-restauration2_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
-						<img src="img/acceuil/index-restauration2.jpg" alt="tet-en-lair acceuil" ind="1" />
+						<img src="img/acceuil/index-restauration2.jpg" alt="restauration apres" ind="1" />
 					</a>
 				</div>
 			</div>

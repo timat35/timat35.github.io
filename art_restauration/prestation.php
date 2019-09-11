@@ -43,14 +43,14 @@
 		</div>
 		<div id="galery" class = "col-3 photoswipe">
 			<div class = "mt-3 " style="text-align: center">
-				<a href="img/prestation/prestation1_base.jpg" data-size="0x0" data-index="0">
-						<img src="img/prestation/prestation1.jpg" ind="0" alt="tet-en-lair acceuil"/>
+				<a href="img/prestation/prestation1_base.jpg" data-size="0x0" data-index="0"  alt="Stade ultime des altérations">
+						<img src="img/prestation/prestation1.jpg" ind="0" alt="Stade ultime des altérations"/>
 				</a>
 				<p class= "text-center">Stade ultime des altérations d’adhésion et de cohésion; perte de matière; perte de lisibilité; sans intervention l’œuvre est en péril</p>
 			</div>
 			<div class = "mt-3 " style="text-align: center">
-				<a href="img/prestation/prestation2_base.jpg" data-size="0x0" data-index="0">
-						<img src="img/prestation/prestation2.jpg" ind="1" alt="tet-en-lair acceuil"/>
+				<a href="img/prestation/prestation2_base.jpg" data-size="0x0" data-index="0" alt="Jaunissement du vernis">
+						<img src="img/prestation/prestation2.jpg" ind="1" alt="Jaunissement du vernis"/>
 				</a>
 				<p class= "text-center">Jaunissement du vernis. L’allègement des vernis redonne de la luminosité et permet de retrouver les tonalités de la peinture originale</p>
 			</div>

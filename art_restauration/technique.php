@@ -40,14 +40,14 @@
 		</div>
 		<div id = "galery" class = "col-3 photoswipe">
 			<div class = "mt-3" style="text-align: center">
-				<a href="img/technique/technique1.jpg" data-size="0x0" data-index="0">
-					<img src="img/technique/technique1.jpg" ind="0" alt="tet-en-lair acceuil"/>
+				<a href="img/technique/technique1.jpg" data-size="0x0" data-index="0" alt="Recherche de repeints">
+					<img src="img/technique/technique1.jpg" ind="0" alt="Recherche de repeints"/>
 				</a>
 				<p class= "text-center">Recherche de repeints aux rayons ultra-violet</p>
 			</div>
 			<div class = "mt-3" style="text-align: center">
-				<a href="img/technique/technique2.jpg" data-size="0x0" data-index="0">
-					<img src="img/technique/technique2.jpg" ind="1" alt="tet-en-lair acceuil"/>
+				<a href="img/technique/technique2.jpg" data-size="0x0" data-index="0" alt="Operations de consolidation du support">
+					<img src="img/technique/technique2.jpg" ind="1" alt="Operations de consolidation du support"/>
 				</a>
 				<p class= "text-center">Opérations de consolidation du support</p>
 			</div>
