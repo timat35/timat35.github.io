@@ -57,7 +57,7 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
     </form>
     <?php
     if(isset($_POST['message']))
-    {
+    {   
 
         $entete  = 'MIME-Version: 1.0' . "\r\n";
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
@@ -94,22 +94,21 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
             {
                 echo 'Echec de l\'upload !';
             }
-            $boundary = md5(uniqid(rand(), true));
-            $entete = 'Content-Type: multipart/mixed;'."n".' boundary="'.$boundary.'"';
-            $message = 'This is a multi-part message in MIME format.'."n";
-            $message .= '--'.$boundary."n";
-            $message .= 'Content-Type: text/html; charset="UTF-8"'."n";
-            $message .= "n";
+            $entete = 'Content-Type: multipart/mixed;'."\r\n".' boundary="'.$boundary.'"';
+            $message = 'This is a multi-part message in MIME format.'."\r\n";
+            $message .= '--'.$boundary."\r\n";
+            $message .= 'Content-Type: text/html; charset="UTF-8"'."\r\n";
+            $message .= "\r\n";
             $message .= '<h1>Message envoyé depuis le site Art Restauration.fr</h1>
             <p><b>Nom : </b>' . $_POST['nom'] . '<br>
             <b>Email : </b>' . $_POST['email'] . '<br>
             <b>Message : </b>' . $_POST['message'] . '</p>';
-            $message .= "n";
-            $message .= '--'.$boundary."n";
-            $message .= 'Content-Type: application/pdf; name="'.$fichier.'"'."n";
-            $message .= 'Content-Transfer-Encoding: base64'."n";
-            $message .= 'Content-Disposition: attachment; filename="'.$fichier.'"'."n";
-            $message .= "n";
+            $message .= "\r\n";
+            $message .= '--'.$boundary."\r\n";
+            $message .= 'Content-Type: application/pdf; name="'.$fichier.'"'."\r\n";
+            $message .= 'Content-Transfer-Encoding: base64'."\r\n";
+            $message .= 'Content-Disposition: attachment; filename="'.$fichier.'"'."\r\n";
+            $message .= "\r\n";
             $source = file_get_contents($dossier .'/'. $fichier);
             $source = base64_encode ($source);
             $source = chunk_split($source);
