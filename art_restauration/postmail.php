@@ -19,28 +19,26 @@ $email_to = "timat35@gmail.com"; //Destinataire
 $email_subject = "contact Art restauration"; //Sujet du mail
 $boundary = md5(rand()); // clé aléatoire de limite
  
-?>
-
-<?php
 
 function clean_string($string) {
     $bad = array("content-type","bcc:","to:","cc:","href");
     return str_replace($bad,"",$string);
 }
  
-?>
 
-<?php
-
-$headers = "From: "".$nom.""<".$email_from.">" . $passage_ligne; //Emetteur
-$headers.= "Reply-to: "".$nom."" <".$email_from.">" . $passage_ligne; //Emetteur
+$headers = "From: ".$nom."<".$email_from.">" . $passage_ligne; //Emetteur
+$headers.= "Reply-to: ".$nom." <".$email_from.">" . $passage_ligne; //Emetteur
 $headers.= "MIME-Version: 1.0" . $passage_ligne; //Version de MIME
 $headers.= 'Content-Type: multipart/mixed; boundary='.$boundary .' '. $passage_ligne; //Contenu du message (alternative pour deux versions ex:text/plain et text/html
+
+
+
+$email_message = '--' . $boundary . $passage_ligne; //Séparateur d'ouverture
+$email_message .= "Content-Type: text/plain; charset='utf-8'" . $passage_ligne; //Type du contenu
+$email_message .= "Content-Transfer-Encoding: 8bit" . $passage_ligne; //Encodage
+$email_message .= $passage_ligne .clean_string($message). $passage_ligne; //Contenu du message
+
  
-?>
-
-<?php
-
 //Pièce jointe
     if(isset($_FILES["fichier"]) &&  $_FILES['fichier']['name'] != ""){ //Vérifie sur formulaire envoyé et que le fichier existe
         $nom_fichier = $_FILES['fichier']['name'];
@@ -82,12 +80,11 @@ $headers.= 'Content-Type: multipart/mixed; boundary='.$boundary .' '. $passage_l
         }
     }
 $email_message .= $passage_ligne . "--" . $boundary . "--" . $passage_ligne; //Séparateur de fermeture
-?>
 
-<?php
 
 if(mail($email_to,$email_subject, $email_message, $headers)==true){  //Envoi du mail
     header('Location: index.html'); //Redirection
 }
  
 ?>
+
