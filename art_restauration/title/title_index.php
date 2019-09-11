@@ -5,6 +5,6 @@
 <meta charset="UTF-8">
 <title>Art-restauration - Lyon</title>
 <meta name="description" content="Conservation et restauration de tableaux" />
-<meta property="og:image" content="http://lachouettedoree.fr/img/boutique/boutique_chouette_doree_small.jpg" />
+<meta property="og:image" content="http://art-restauration.com/img/acceuil/index-galerie.jpg" />
 
 

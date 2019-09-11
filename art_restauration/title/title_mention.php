@@ -3,6 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta charset="UTF-8">
-<title>La Chouette Dorée</title>
+<title>Art-restauration - Lyon</title>
 <meta name="description" content="Mentions légales du site www.lachouettedoree.fr"/>
 
