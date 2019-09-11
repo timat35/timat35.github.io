@@ -15,7 +15,7 @@ if(preg_match("#@(hotmail|live|msn).[a-z]{2,4}$#", $email_from)){
     $passage_ligne = "\r\n";
 }
  
-$email_to = "timat35@gmail.com"; //Destinataire
+$email_to = "artrestauration.lyon@gmail.com"; //Destinataire
 $email_subject = "contact Art restauration"; //Sujet du mail
 $boundary = md5(rand()); // clé aléatoire de limite
  
