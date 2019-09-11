@@ -33,7 +33,7 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
 </div>
 </div>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     <div>
         <label>Nom</label>
         <input type="text" name="nom" required>
@@ -47,11 +47,18 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
         <textarea name="message" required></textarea>
     </div>
     <div>
+        <input type="hidden" name="MAX_FILE_SIZE" value="8000000">
+        <input type="file" id="avatar" name="fichier_joint" accept="image/*">
+    </div>
+    <div>
         <input type="submit">
     </div>
+
     </form>
     <?php
-    if(isset($_POST['message'])){
+    if(isset($_POST['message']))
+    {
+
         $entete  = 'MIME-Version: 1.0' . "\r\n";
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
         $entete .= 'From: ' . $_POST['email'] . "\r\n";
@@ -61,7 +68,55 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
         <b>Email : </b>' . $_POST['email'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
 
-        $retour = mail('timat35@gmail.com', 'Envoi depuis page Contact', $message, $entete);
+        
+        if(isset($_FILES['fichier_joint']))
+        {   
+
+            $taille_maxi = 8000000;
+            //Taille du fichier
+            $taille = filesize($_FILES['avatar']['tmp_name']);
+            if($taille>$taille_maxi)
+            {
+                 $erreur = 'La taille du fichier est trop élevé (>7.5 mega)';
+            }
+
+            $dossier = 'upload/';
+            $fichier = basename($_FILES['fichier_joint']['name']);
+            $fichier = strtr($fichier,
+             'ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ',
+             'AAAAAACEEEEIIIIOOOOOUUUUYaaaaaaceeeeiiiioooooouuuuyy'); 
+            $fichier = preg_replace('/([^.a-z0-9]+)/i', '-', $fichier);
+            if(move_uploaded_file($_FILES['fichier_joint']['tmp_name'], $dossier . $fichier)) //Si la fonction renvoie TRUE, c'est que ça a fonctionné...
+            {
+                echo 'Upload effectué avec succès !';
+            }
+            else //Sinon (la fonction renvoie FALSE).
+            {
+                echo 'Echec de l\'upload !';
+            }
+            $boundary = md5(uniqid(rand(), true));
+            $entete = 'Content-Type: multipart/mixed;'."n".' boundary="'.$boundary.'"';
+            $message = 'This is a multi-part message in MIME format.'."n";
+            $message .= '--'.$boundary."n";
+            $message .= 'Content-Type: text/html; charset="UTF-8"'."n";
+            $message .= "n";
+            $message .= '<h1>Message envoyé depuis le site Art Restauration.fr</h1>
+            <p><b>Nom : </b>' . $_POST['nom'] . '<br>
+            <b>Email : </b>' . $_POST['email'] . '<br>
+            <b>Message : </b>' . $_POST['message'] . '</p>';
+            $message .= "n";
+            $message .= '--'.$boundary."n";
+            $message .= 'Content-Type: application/pdf; name="'.$fichier.'"'."n";
+            $message .= 'Content-Transfer-Encoding: base64'."n";
+            $message .= 'Content-Disposition: attachment; filename="'.$fichier.'"'."n";
+            $message .= "n";
+            $source = file_get_contents($dossier .'/'. $fichier);
+            $source = base64_encode ($source);
+            $source = chunk_split($source);
+            $message .= $source;
+        }
+
+        $retour = mail('timat35@gmail.com', 'Contact Art Restauration', $message, $entete);
         if($retour) {
             echo '<p>Votre message a bien été envoyé. Merci.</p>';
         }
