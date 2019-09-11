@@ -60,12 +60,12 @@ $email_message .= $passage_ligne .clean_string($message). $passage_ligne; //Cont
                     $f = fclose($handle); //Fermeture du fichier
                                 
                     $email_message .= $passage_ligne . "--" . $boundary . $passage_ligne; //Deuxième séparateur d'ouverture
-                    $email_message .= 'Content-type:'.$type_fichier.';name="'.$nom_fichier.'"'."n"; //Type de contenu (application/pdf ou image/jpeg)
-                    $email_message .='Content-Disposition: attachment; filename="'.$nom_fichier.'"'."n"; //Précision de pièce jointe
-                    $email_message .= 'Content-transfer-encoding:base64'."n"; //Encodage
-                    $email_message .= "n"; //Ligne blanche. IMPORTANT !
-                    $email_message .= $encoded_content."n"; //Pièce jointe
- 
+                    $email_message .= 'Content-type:'.$type_fichier.';name="'.$nom_fichier.'"'.$passage_ligne; //Type de contenu (application/pdf ou image/jpeg)
+                    $email_message .='Content-Disposition: attachment; filename="'.$nom_fichier.'"'.$passage_ligne; //Précision de pièce jointe
+                    $email_message .= 'Content-transfer-encoding:base64'.$passage_ligne; //Encodage
+                    $email_message .= $passage_ligne; //Ligne blanche. IMPORTANT !
+                    $email_message .= $encoded_content.$passage_ligne; //Pièce jointe
+
                 }else{
 					//Message d'erreur
                     $email_message .= $passage_ligne ."L'utilisateur a tenté de vous envoyer une pièce jointe mais celle ci était superieure à 2Mo.". $passage_ligne;
