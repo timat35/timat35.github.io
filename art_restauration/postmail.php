@@ -83,7 +83,7 @@ $email_message .= $passage_ligne . "--" . $boundary . "--" . $passage_ligne; //S
 
 
 if(mail($email_to,$email_subject, $email_message, $headers)==true){  //Envoi du mail
-    header('Location: index.html'); //Redirection
+    header('Location: contact.php'); //Redirection
 }
  
 ?>
