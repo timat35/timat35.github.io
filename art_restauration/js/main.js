@@ -49,11 +49,11 @@ function load_galery() {
 				temp_a.setAttribute("data-size", "0x0");
 				temp_a.setAttribute("data-title", img_data.subtitle[k]);
 				temp_a.setAttribute("data-index", 0);
-				temp_a.setAttribute("alt", img_data.img[k]);
+				temp_a.setAttribute("alt", img_data.subtitle[k]);
 				const temp_img = document.createElement("img");
 				temp_img.setAttribute("src", 'img/galery/thumb/thumb-' + img_data.img[k] + '.jpg');
 				temp_img.setAttribute("ind", ind);
-				temp_img.setAttribute("alt", img_data.img[k]);
+				temp_img.setAttribute("alt", img_data.subtitle[k]);
 				temp_a.appendChild(temp_img)
 				div_image.appendChild(temp_a)
 
