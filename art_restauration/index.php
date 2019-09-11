@@ -65,7 +65,7 @@
 				</ul>
 			</div>
 			<div class="col-6 mat-col-1450-6 div_index_img">
-				<div id = "galery" class="row photoswipe">
+				<div id = "galery" class="row photoswipe acceuil">
 					<a href="img/acceuil/index-restauration1_base.jpg" data-size="0x0" data-index="0" class= "col-6 row_padlr img_max">
 						<img src="img/acceuil/index-restauration1.jpg" alt="tet-en-lair acceuil" ind="0" />
 					</a>

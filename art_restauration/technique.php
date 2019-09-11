@@ -14,7 +14,7 @@
 				</p>
 				<p>
 				J’interviens donc dans la conservation matérielle des biens culturels en respectant leur signification esthétique, historique et leur intégrité physique par des actes de : </br></br>
-				- <b>Conservation préventive</b> qui consiste à déterminer les actions indirectes à entreprendre sur l’œuvre afin d’en retarder la détérioration. On doit prévenir les risques d’altérations en créant des conditions optimales de conservation</br> 
+				- <b>Conservation préventive</b> qui consiste à déterminer les actions indirectes à entreprendre sur l’œuvre afin d’en retarder la détérioration. On doit prévenir les risques d’altération en créant des conditions optimales de conservation</br> 
 				- <b>Conservation curative</b> qui regroupe les interventions  directes  sur l’œuvre dans le but de ralentir le processus de dégradation</br>  
 				- <b>Restauration</b> qui englobe toutes les opérations visant à assurer la bonne lecture de l’œuvre et sa mise en valeur
 				</p>
@@ -23,7 +23,7 @@
 				<p>Toutes les actions de conservation et de restauration entreprises respectent aussi les 3 principes fondamentaux définis par la Charte de Venise (1964)  et adoptés par l’ I.C.O.M
 				</p>
 					<ul class="liste">
-					<li><b>Réversibilité</b> qui oblige à utiliser des produits ou matériaux pouvant être retirés sans que l’œuvre ne soit affectée, et ce, afin de le ramener à son état antérieur.
+					<li><b>Réversibilité</b> qui oblige à utiliser des produits ou matériaux pouvant être retirés sans que l’œuvre ne soit affectée, et ce, afin de la ramener à son état antérieur.
 					</li>
 					<li><b>Compatibilité et stabilité</b> des produits et matériaux entre eux et avec les matériaux constitutifs de l’objet à restaurer.</br>
 					Ces éléments ne doivent pas fragiliser les structures, ni modifier la surface de l'objet.</br>

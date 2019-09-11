@@ -21,7 +21,7 @@ Christine Laversanne<br />
 </section>
 <section  class="textContact">
 Pour tous renseignements, constat d’état, devis, n’hésitez pas à me contacter :<br/>
-Par email à l’adresse <a href="mailto:art-restauration@gmail.com" style="text-decoration: underline; color: -webkit-link;">art-restauration@gmail.com</a></br>
+Par email à l’adresse <a href="mailto:art.restauration.lyon@gmail.com" style="text-decoration: underline; color: -webkit-link;">art.restauration.lyon@gmail.com</a></br>
 Par téléphone au 06 21 49 82 51<br/>
 Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a target="_blank" href="http://www.autourdelimage.fr/"> Autour de l'image</a>, 44 rue Sala Lyon 2ème. 
 </p>
@@ -34,13 +34,21 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
 </div>
 
 <form method="post">
+    <div>
         <label>Nom</label>
         <input type="text" name="nom" required>
+    </div>
+    <div>
         <label>Email</label>
         <input type="email" name="email" required>
+    </div>
+    <div>
         <label>Message</label>
         <textarea name="message" required></textarea>
+    </div>
+    <div>
         <input type="submit">
+    </div>
     </form>
     <?php
     if(isset($_POST['message'])){
@@ -48,14 +56,14 @@ Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a tar
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
         $entete .= 'From: ' . $_POST['email'] . "\r\n";
 
-        $message = '<h1>Message envoyé depuis la page Contact de monsite.fr</h1>
+        $message = '<h1>Message envoyé depuis le site Art Restauration.fr</h1>
         <p><b>Nom : </b>' . $_POST['nom'] . '<br>
         <b>Email : </b>' . $_POST['email'] . '<br>
         <b>Message : </b>' . $_POST['message'] . '</p>';
 
-        $retour = mail('christinelaversanne@gmail.com', 'Envoi depuis page Contact', $message, $entete);
+        $retour = mail('timat35@gmail.com', 'Envoi depuis page Contact', $message, $entete);
         if($retour) {
-            echo '<p>Votre message a bien été envoyé.</p>';
+            echo '<p>Votre message a bien été envoyé. Merci.</p>';
         }
     }
     ?>

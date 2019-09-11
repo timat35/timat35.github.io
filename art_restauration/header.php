@@ -49,7 +49,7 @@
 			</div>
 			<a href="/"><span class="first-letter">A</span>rt-Restauration</a></h1>
 			<h2 class="title-desc">
-				Conservation et Restauration de tableaux
+				Atelier de Conservation et Restauration de tableaux
 			</h2>
 			<h3 class="title-desc">
 				Christine Laversanne, Lyon

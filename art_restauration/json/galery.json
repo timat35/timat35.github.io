@@ -1,41 +1,43 @@
 {
 "1": {
 	"_comment":["comment", "pour voir"],
-	"title":"Paysage animé A.F Boudewyns 17<sup>ème</sup>",
+	"title":"Portrait d’homme 19<sup>ème</sup>",
+	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
+		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
+	"text":[
+		"Huile sur toile"
+		,
+		"Toile déclouée, vieux rubans adhésif au revers de la toile pour masquer d’importantes"
+		,
+		"lacunes complètes, trous de lumière, vernis jaunis et encrassés"
+		],
+	"subtitle":[
+		"Avant les opérations de conservation et de restauration", 
+		"Avant les opérations de conservation et de restauration",
+		"Protection de la couche picturale avant application d’une nouvelle toile", 
+		"Pose de la nouvelle toile après consolidations des lacunes",  
+		"Étape d’allègement des crasses et des vernis",   
+		"Masticage des lacunes", 
+		"Revers de la toile après restauration",
+		"L’œuvre restaurée"
+	]
+ },
+"2": {
+	"_comment":["comment", "pour voir"],
+	"title":"Scène du 17<sup>ème</sup>",
 	"img":["paysage_anime_1","paysage_anime_2","paysage_anime_3","paysage_anime_4","paysage_anime_5"],
 	"text":[
 		"Huile sur bois"
 		,
-		"Soulèvements, lacunes de couche picturale, vernis jaunis"
+		"Tableau fléché, pièce de bois manquante, petits enfoncements, griffures,"
+		,
+		"Vernis très jaune"
 		],
 	"subtitle":[
 		"Avant les opérations de conservation et de restauration",
 		"Soulèvements et lacunes de couche picturale",
 		"Refixage des soulèvements à la cire résine",
 		"Etape d’allègement des vernis",
-		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
-	]
- },
-"2": {
-	"_comment":["comment", "pour voir"],
-	"title":"L’homme au turban 19<sup>ème</sup>",
-	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
-		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
-	"text":[
-		"Huile sur toile"
-		,
-		"Adhésifs et badigeons au revers de la toile, accrocs et déchirures"
-		,
-		"Lacunes complètes, nombreux repeints, vernis très assombris"
-		],
-	"subtitle":[
-		"Avant les opérations de conservation et de restauration", 
-		"Exemple de déchirure (10cm)",
-		"Protection de la couche colorée avant les opérations au revers de la toile", 
-		"Après le retrait des adhésifs et badigeons et les consolidations",  
-		"Allègement des anciens vernis qui altéraient la lisibilité de l’œuvre",   
-		"Retrait d’un repeint très important sur la main", 
-		"Retrait sous le repeint de mastics très abusif",
 		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
 	]
  }
