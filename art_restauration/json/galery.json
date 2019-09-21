@@ -15,31 +15,8 @@
 		"Etape d’allègement des vernis",
 		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
 	]
- },
+},
 "2": {
-	"_comment":["comment", "pour voir"],
-	"title":"L’homme au turban 19<sup>ème</sup>",
-	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
-		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
-	"text":[
-		"Huile sur toile"
-		,
-		"Adhésifs et badigeons au revers de la toile, accrocs et déchirures"
-		,
-		"Lacunes complètes, nombreux repeints, vernis très assombris"
-		],
-	"subtitle":[
-		"Avant les opérations de conservation et de restauration", 
-		"Exemple de déchirure (10cm)",
-		"Protection de la couche colorée avant les opérations au revers de la toile", 
-		"Après le retrait des adhésifs et badigeons et les consolidations",  
-		"Allègement des anciens vernis qui altéraient la lisibilité de l’œuvre",   
-		"Retrait d’un repeint très important sur la main", 
-		"Retrait sous le repeint de mastics très abusif",
-		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
-	]
- },
-"3": {
 	"_comment":["comment", "pour voir"],
 	"title":"Portrait d’homme 19<sup>ème</sup>",
 	"img":["portrait_19_1","portrait_19_2","portrait_19_3"
@@ -54,14 +31,35 @@
 	"subtitle":[
 		"Avant les opérations de conservation et de restauration", 
 		"Avant les opérations de conservation et de restauration",
-		"Protection de la couche picturale avant application d’une nouvelle toile", 
+		"Cartonnage total pour protéger la couche picturale avant rentoilage", 
 		"Pose de la nouvelle toile après consolidations des lacunes",  
 		"Étape d’allègement des crasses et des vernis",   
 		"Masticage des lacunes", 
 		"Revers de la toile après restauration",
 		"L’œuvre restaurée"
 	]
- },
+},
+"3": {
+	"_comment":["comment", "pour voir"],
+	"title":"Abstrait Georges Mathieu 20<sup>ème</sup>",
+	"img":["abstrait_GM_20_1","abstrait_GM_20_2","abstrait_GM_20_3","abstrait_GM_20_4"
+		,"abstrait_GM_20_5","abstrait_GM_20_6"],
+	"text":[
+		"Huile sur toile"
+		,
+		"Déplacage de la couche picturale et soulèvements sur le bas du tableau,"
+		,
+		"petites lacunes de couche colorée réparties sur le pourtour de l’œuvre."
+		],
+	"subtitle":[
+		"Avant les opérations de restauration",
+		"Déplacage de la couche picturale, soulèvements avec nécessité de refixage",
+		"Zone lacunaire à réintégrer",
+		"Couche picturale très fine, pose d’incrustations après refixage",
+		"Après refixage, pose d’incrustations et réintégration picturale en bas du tableau",
+		"L’œuvre après restauration "	
+	]
+},
 "4": {
 	"_comment":["comment", "pour voir"],
 	"title":"Scène du 17<sup>ème</sup>",
@@ -79,13 +77,36 @@
 		"Tableau fléché",
 		"Exemple de petits enfoncements sur la robe",
 		"Griffures et petites lacunes",
-		"Pièce de bois manquante",
-		"Fabrication du morceau manquant avec de la pate à bois",
+		"Pièce de bois manquante et trous d’insectes xylophage",
+		"Fabrication du morceau manquant après traitement du bois",
 		"Étape d’allègement des vernis",
-		"Fixation du panneau au cadre avec des élastiques pour éviter de contraindre le bois",
-		"Carton noir pour masquer les fixations",
+		"Fixation du panneau au cadre avec des élastiques pour éviter de contraindre le panneau",
+		"Carton noir pour masquer les élastiques",
 		"L’oeuvre après restauration"
 		
 	]
- }
+},
+"5": {
+	"_comment":["comment", "pour voir"],
+	"title":"L’homme au turban 19<sup>ème</sup>",
+	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
+		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
+	"text":[
+		"Huile sur toile"
+		,
+		"Adhésifs et badigeons au revers de la toile, accrocs et déchirures"
+		,
+		"Lacunes complètes, nombreux repeints, vernis très assombris"
+		],
+	"subtitle":[
+		"Avant les opérations de conservation et de restauration", 
+		"Exemple de déchirure (10cm)",
+		"Consolidations au revers de la toile après retrait des badigeons et anciennes pièces", 
+		"Après le retrait des adhésifs et badigeons et les consolidations",  
+		"Allègement des anciens vernis qui altéraient la lisibilité de l’œuvre",   
+		"Retrait d’un repeint très important sur la main", 
+		"Retrait sous le repeint d’un ancien mastic très abusif",
+		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
+	]
+}
 }
