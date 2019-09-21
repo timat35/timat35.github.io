@@ -6,31 +6,19 @@
 	<h2 class = "page_title">Contact</h2>
 </div>
 
-<div class="slide_shadow">
-</div>
-
 <div id="content">
-<div class= "matPage matContact">
-
-<div class="matContainer matWide matContact ">
-<div>
-<section>
-<p>
-Christine Laversanne<br />
-9 avenue Jean Jaures, 69007 Lyon<br />
-</section>
-<section  class="textContact">
-Pour tous renseignements, constat d’état, devis, n’hésitez pas à me contacter :<br/>
-Par email à l’adresse <a href="mailto:artrestauration.lyon@gmail.com" style="text-decoration: underline; color: -webkit-link;">artrestauration.lyon@gmail.com</a></br>
-Par téléphone au 06 21 49 82 51<br/>
-Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a target="_blank" href="http://www.autourdelimage.fr/"> Autour de l'image</a>, 44 rue Sala Lyon 2ème. 
-</p>
-</section>
-
-</div>
-
-</div>
-</div>
+    <p>
+    Christine Laversanne<br />
+    9 avenue Jean Jaures, 69007 Lyon<br />
+    </p>
+    <section  class="textContact">
+    <p>
+    Pour tous renseignements, constat d’état, devis, n’hésitez pas à me contacter :<br/>
+    Par email à l’adresse <a href="mailto:artrestauration.lyon@gmail.com" style="text-decoration: underline; color: -webkit-link;">artrestauration.lyon@gmail.com</a></br>
+    Par téléphone au 06 21 49 82 51<br/>
+    Sur rendez-vous, nous pouvons aussi nous retrouver à l’atelier galerie <a target="_blank" href="http://www.autourdelimage.fr/"> Autour de l'image</a>, 44 rue Sala Lyon 2ème. 
+    </p>
+    </section>
 </div>
 
 <form action="postmail.php" method="post" enctype="multipart/form-data">

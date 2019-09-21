@@ -7,6 +7,11 @@
 	<div class="col-12 text-center">
 		<h2 class = "page_title">Galerie</h2>
 	</div>
+    <div id="content">
+        <p>
+        cliquer sur l’image pour le détail des opérations
+        </p>
+    </div>
 	<div id = "galery" class = "row pad40">
 		
 	</div>
