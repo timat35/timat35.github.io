@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css?v=4.0" type="text/css">
 <link rel="stylesheet" href="css/photoswipe.css?v=4.4.1"> 
 <link rel="stylesheet" href="css/default-skin.css?v=1"> 
+<?php include_once("analyticstracking.php") ?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 

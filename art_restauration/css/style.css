@@ -515,9 +515,13 @@ img.index_img:hover {
 	padding:0% 20%;
 }
 
+div.instagram {
+	width: 1350px;
+	margin-left: 0%!important;
+}
+
 img.insta{
 	height:72px;
-	margin-left:36px;
 }
 
 .creaHolder {

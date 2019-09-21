@@ -84,7 +84,16 @@
 				</p>
 		</div>
 	</div>
+
+	<div class="d-flex justify-content-center">
+		<div  class="row mt-3 instagram">
+			<a id="crea_insta" target="_blank" href="https://www.instagram.com/art_restauration_lyon/?hl=fr">
+		 		<img class="insta" src="img/ico/instagram_bw.png"></img>
+		 	</a>
+	 	</div>
+	</div>
 </div>
+
 
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
