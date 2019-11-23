@@ -280,7 +280,7 @@ function get_today_info (){
 			
 			document.getElementById("a_today").innerHTML = "Aujourd'hui, "
 			document.getElementById("a_today").append(temp_a)
-			document.getElementById("a_today").append(" ouvre la chouette dorée de 14h à 19h.")
+			document.getElementById("a_today").append(" ouvre la chouette dorée de 10h à 19h.")
 			
 		}
 		else {

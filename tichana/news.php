@@ -9,23 +9,31 @@
 	<div class="col-12 col-lg-9">
 
 		
-<!-- 		<div class="row mb-4 justify-content-center">
+		<div class="row mb-4 justify-content-center">
 			
 			<div class="col-12 col-lg-9 mt-4">
 				<div class="row">
 				
-					<div  class="col-8 text-center align-self-center ">
+					<!-- <div  class="col-8 text-center align-self-center ">
 						<a href="http://www.lacordealinge-grenoble.com/championnet.html" target="_blank">
 							<img   src="img/news/VideGrenier.jpg"  alt="" class="img-fluid" />
 						</a>
-					</div>
-					<div  class="col-4 align-self-center">
+					</div> -->
+<!-- 					<div  class="col-4 align-self-center">
 						<div class="info">
 							<h3>Vide Grenier</h3>
 							<p>
 							C'est le Vide Grenier du quartier Championnet</br> 
 							Dimanche 28 Avril 2019 de 8h à 18h</br></br>
 							La boutique sera ouverte toute la journée pour l'occasion.</br>
+							</p>
+						</div>
+					</div> -->
+					<div  class="col-12 text-center">
+						<div>
+							<h3>C'est noël</h3>
+							<p>
+							Ouverture exceptionnelle les dimanches 15 et 22 décembre et lundi 23 décembre 10h-19h.</br>
 							</p>
 						</div>
 					</div>
@@ -36,7 +44,7 @@
 		
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-9  border-bottom border-warning  mb-4"></div>
-		</div> -->
+		</div>
 		
 		
 		<div class="col-12 text-center">

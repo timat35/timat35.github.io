@@ -1,32 +1,16 @@
 {
  "1": {
-	"_comment":["Réza", "Eska", "Julia belle"],
-	"title":"Marché des créateurs de Grenoble",
-	"creatrice":["Réza", "Eska","Julia Belle"],
-	"img":"marche-createur-grenoble-2019.jpeg",
-	"link":"http://www.lacordealinge-grenoble.com/marche_2019.html",
+	"_comment":["Le chant de l'émail","Réza", "Têt-en-l'air", "Eska","Julia belle"],
+	"title":"Marché de Noël de Grenoble",
+	"creatrice":["Réza", "Têt-en-l'air","Julia Belle"],
+	"img":"marche_noel_2019_2.jpg",
+	"link":"https://www.grenoble-tourisme.com/fr/catalogue/activite/les-marches-de-noel-de-grenoble-258480/",
 	"text":[
-		"Samedi 25 mai 2019"
+		"Square Docteur Martin,"
 		,		
-		"de 9h à 19h"
+		"du 27 novembre au 23 décembre 2019,"
 		,
-		"quartier Championnet"
-		,
-		"38000 Grenoble"
-		]
- },
- "2": {
-	"_comment":["Le chant de l'émail","Réza", "Têt-en-l'air", "Eska"],
-	"title":"Outdoormix Festival",
-	"creatrice":["Eska"],
-	"img":"outdoor2019.jpg",
-	"link":"https://www.outdoormixfestival.com/fr/accueil/",
-	"text":[
-		"Embrun (05)."
-		,
-		"7 au 10 juin 2019."
-		,		
-		"Stand ESKA."
+		"ouvert du mardi au dimanche de 11h à 19h30."
 		]
  }
 }

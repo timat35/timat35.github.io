@@ -31,8 +31,8 @@
 				</p>
 				<h3> Horaires</h3>
 				<p>
-				Du Mardi au Samedi</br>
-				14h - 19h
+				Du Mardi au Samedi, 10h - 19h </br>
+				ouverture les dimanches 15 et 22 décembre et lundi 23 décembre 10h-19h.
 				</p>
 				<iframe class="googlemap" frameborder="0" style="border:0"
 				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO5YiRbz1ikcRHLVm1UxN9kc&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
