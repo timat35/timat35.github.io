@@ -84,6 +84,7 @@
 						<h5><a href="creatrice.php?creatrice=tet" >Julia Belle</a></h5>
 						<p>
 						juliaoceane.belle@gmail.com</br>
+						06 09 34 69 54</br>
 						</p>
 					</div>
 				</div>
