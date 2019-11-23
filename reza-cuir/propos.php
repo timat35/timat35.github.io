@@ -24,8 +24,8 @@
 <p>L'atelier</p>
 </section>
 <section class="textLong">
-<p>est à son domicile au coeur du massif de Belledonne dans le village de Laval.
-La fabrication est entièrement artisanale. Elle travaille seule et réalise toutes les étapes de fabrication: de l'idée au produit fini, en passant par le dessin, le patronnage, le choix des matières premières, la coupe, le parage, l'assemblage et la couture. Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents. Chacun peut ainsi choisir le modèle, le cuir et le tissu en fonction de ses goûts pour réaliser un article personnalisé!</p>
+<p>est à son domicile à Lavars dans le trièves.
+La fabrication est entièrement artisanale. Elle travaille seule et réalise toutes les étapes de fabrication: de l'idée au produit fini, en passant par le dessin, le patronnage, le choix des matières premières, la coupe, le parage, l'assemblage et la couture. Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents.</p>
 </section>
 </div>
 <div><a class="fancybox" href="/media/photo-propos/couture-aiguille-macro.jpg" rel="fancybox"><img src="/media/photo-propos/couture-aiguille-macro-320.jpg" alt="cuir"  class=" borderClass wideImage" /></a></div>
