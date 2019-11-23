@@ -36,9 +36,9 @@ Ou me rencontrer lors de mes permanence à la Chouette Dorée.
 		</section>
 		<section class="textLong">
 		<p>
-		Vous pouvez trouver toutes mes créations à la Chouette Dorée.<br>
 		7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
-		Du mardi au samedi 14h-19h.<br>
+		Du mardi au samedi 10h-19h.<br>
+		Ouverture les dimanches 15 et 22 décembre et lundi 23 décembre 10h-19h.</br>
 		<div>
 			<a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
 		</div>
@@ -47,18 +47,39 @@ Ou me rencontrer lors de mes permanence à la Chouette Dorée.
 	</div>
 </div>
 
+<div class="new_marche">
+
+	<div>
+	<a target="_blank" href="https://lafabriquedutrieves.jimdo.com/"><img src="/media/photo-marche/fabrique_trieve.png" alt="fabrique du trieve"  width class=" borderClass imgMarket" /></a>
+	</div>
+	<div class="matDescMarche">
+		<section class="matTitle">
+		<p>Boutique La Fabrique du Trièves</p>
+		</section>
+		<section class="textLong">
+		<p>
+		Place de la Halle<br>
+		38710 Mens<br>
+		du mercredi au samedi 9h-13h</br>
+		<div>
+			<a target="_blank"  href="https://www.facebook.com/La-fabrique-du-tri%C3%A8ves-364716250226669/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
+		</div>
+		</p>
+		</section>
+	</div>
+</div>
+
 <div  class="new_marche">
-<div><a target="_blank" href="http://www.lacordealinge-grenoble.com/marche_2019.html"><img src="/media/photo-marche/marche-createur-grenoble-2019.jpeg" alt="marche-createur-grenoble-2018"  width class=" borderClass imgMarket" /></a></div>
+<div><a target="_blank" href="https://www.grenoble-tourisme.com/fr/catalogue/activite/les-marches-de-noel-de-grenoble-258480/"><img src="/media/photo-marche/marche_noel_2019.jpg" alt="marche-createur-grenoble-2018"  width class=" borderClass imgMarket" /></a></div>
 <div class="matDescMarche">
 <section class="matTitle">
-<p>Marché des créateurs de Grenoble</p>
+<p>Marché de Noël de Grenoble</p>
 </section>
 <section class="textLong">
 <p>
-Samedi 25 mai 2019.<br>
-De 9h à 19h.<br>
-À Championnet.<br>
-38000 Grenoble.
+Square Docteur Martin,<br>
+du 27 novembre au 23 décembre 2019,<br>
+ouvert du mardi au dimanche de 11h à 19h30.
 </p>
 </section>
 </div>
@@ -70,6 +91,9 @@ De 9h à 19h.<br>
 
 <div>
 <section class="matTitle"><p>J'y étais ! </p></section>
+<div>
+<div><a target="_blank" href="http://www.lacordealinge-grenoble.com/marche_2019.html"><img src="/media/photo-marche/marche-createur-grenoble-2019.jpeg" alt="marche-createur-grenoble-2019"  width class=" borderClass imgMarket" /></a></div>
+</div>
 <div>
 <div><a target="_blank" href="https://www.facebook.com/festivarts.grenoble/"><img src="/media/photo-marche/festiv_art_2018.png" alt="festiv_art_2018"  width class=" borderClass imgMarket" /></a></div>
 </div>

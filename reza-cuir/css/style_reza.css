@@ -269,13 +269,16 @@ span.text-content span{
 	/* sous menu*/
 	
 #content .menuBase {	
-	max-width: 600px;	/* to CHANGE with the number of menu item */
-	margin: 0 auto 10px auto;}
+	max-width: 100%;	/* to CHANGE with the number of menu item */
+	margin: 0 auto 10px auto;
+	text-align:center;
+
+}
 
 #content .menuBase.maroquinerie {	
 	max-width: 100%;
 	margin: 0 auto 10px auto;
-	text-align:left;
+	text-align:center;
 }
 
 #content .menuBase div{		
@@ -436,8 +439,8 @@ The white stripes in the hamburger button
 		transition: all .25s ease;
 }
 
-#menu_responsive.respon3 {  /* formula: top = -(n+1)*45 */
-	top: -180px; 
+#menu_responsive.respon3 {  /* formula: top = -(n+1)*45 * ne marche pas acteulle respon3 et respond 5 */ 
+	top: -200px; 
 }
 
 #menu_responsive.respon4 {
@@ -445,7 +448,7 @@ The white stripes in the hamburger button
 }
 
 #menu_responsive.respon5 {
-	top: -270px; 
+	top: -330px; 
 }
 
 #menu_responsive.respon6 {
