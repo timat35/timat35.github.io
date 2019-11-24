@@ -3,5 +3,5 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <meta charset="UTF-8">
-<title>Art-restauration - Lyon - Contact</title>
+<title>Atelier Christine Laversanne - Lyon - Contact</title>
 <meta name="description" content="Contact et devis"/>

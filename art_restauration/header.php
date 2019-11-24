@@ -23,7 +23,7 @@
 	</button>
 	
 	<a id="small-header" class="navbar-brand nav-center d-none title" href="/"> 
-	Art-Restauration
+	Atelier Christine Laversanne
 	</a>
 
 	<img id="nav-logo" src="" class="d-none d-xl-block" alt=""/>
@@ -48,12 +48,12 @@
 			<div class="col-md-3">
 				<img  src="img/logo-art-restauration.jpg" alt="" class="img-fluid d-none d-lg-block" />
 			</div>
-			<a href="/"><span class="first-letter">A</span>rt-Restauration</a></h1>
+			<a href="/"><span class="first-letter">A</span>telier Christine Laversanne</a></h1>
 			<h2 class="title-desc">
-				Atelier de Conservation et Restauration de tableaux
+				Conservation et Restauration de tableaux
 			</h2>
 			<h3 class="title-desc">
-				Christine Laversanne, Lyon
+				Lyon
 			</h3>
 		</div>
 	</div>		
