@@ -1,5 +1,5 @@
 Options -Indexes
 RewriteEngine on
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^art-restauration.com [NC]
-RewriteRule ^(.*)$ http://www.art-restauration.com/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^atelier-christine-laversanne.com [NC]
+RewriteRule ^(.*)$ http://www.atelier-christine-laversanne.com/$1 [L,R=301,NC]

@@ -150,7 +150,7 @@ p.image_comp_desc {
 
 .logo h1 img{
     position: absolute;
-    left: 50%;
+    left: 18%;
     transform: translate(-50%, 0%);
 }
 
@@ -704,13 +704,33 @@ img.index-logo-small {
 	}*/
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1200px){
+.logo h1 img{
+	position: absolute;
+    left: 30%;
+    transform: translate(-50%, 0%);
+	}
+}
+
+@media (min-width: 1500px){
+.logo h1 img{
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+	}
+}
+
+@media (min-width: 1700px){
 .logo h1 img{
 	position: absolute;
     left: 70%;
     transform: translate(-50%, 0%);
 	}
 }
+
+
+
+
 
 @media (min-width: 576px){
 	.container {
