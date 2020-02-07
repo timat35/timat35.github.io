@@ -22,8 +22,7 @@
 				</div>
 				<div class="col-12 col-md-auto ">
 					 <b>Horaires</b></br> 
-					 du Mardi au Samedi de 10h à 19h.</br>
-					 Ouverture les dimanches 15 et 22 décembre et lundi 23 décembre 10h-19h.</br>
+					 du Mardi au Samedi, 10h-13h et 14h-19h.</br>
 					 Plus d'information <a href="boutique.php" >ici</a>
 				</div>
 			</div>

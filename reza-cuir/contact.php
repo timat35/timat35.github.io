@@ -37,8 +37,7 @@ Ou me rencontrer lors de mes permanence à la Chouette Dorée.
 		<section class="textLong">
 		<p>
 		7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
-		Du mardi au samedi 10h-19h.<br>
-		Ouverture les dimanches 15 et 22 décembre et lundi 23 décembre 10h-19h.</br>
+		Du mardi au samedi, 10h-13h et 14h-19h.<br>
 		<div>
 			<a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
 		</div>
