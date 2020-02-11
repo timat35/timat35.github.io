@@ -18,7 +18,7 @@
 			<div class="row text-center justify-content-center">
 				<div class="col-12 col-md-auto mb-3 mb-md-0">
 					 <b>Téléphone fixe</b></br>
-					 04 76 46 40 96
+					 04 56 85 36 79
 				</div>
 				<div class="col-12 col-md-auto ">
 					 <b>Horaires</b></br> 
