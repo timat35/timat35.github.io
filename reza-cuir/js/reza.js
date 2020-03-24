@@ -10,9 +10,6 @@
 		$("#menu_maro_6").removeClass("activeMobil");
 		$("#menu_maro_7").removeClass("activeMobil");
 		
-		$("#besace_btnCouleur").addClass("noDisplay");
-		$("#cabas_btnCouleur").addClass("noDisplay");
-		$("#bandou_btnCouleur").addClass("noDisplay");
 		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
 		
 		var temp_thumb = document.getElementsByClassName("articleView");
@@ -24,39 +21,50 @@
 
 		var nb_article = 3;
 		
-		if (article == 'portemonnaie_3poche') {
+		if (article == 'portefeuille') {
 			
-			source[1] = "/media/photo-maroquinerie/1-portemonnaie-noire.jpg";
-			source[2] = "/media/photo-maroquinerie/2-portemonnaie-jaune-bleu.jpg";
-			source[3] = "/media/photo-maroquinerie/3-portemonnaie-rouge-vert.jpg";
-			var articleTitle= "Porte-monnaie 3 poches",
-			articleDescription="Fermeture \340 pression, cuir vachette ou veau.",
-			articleDimension="Dimensions: 10,5cm X 7cm.";	
+			source[1] = "/media/photo-maroquinerie/portefeuille-1.jpg";
+			source[2] = "/media/photo-maroquinerie/portefeuille-2.jpg";
+			source[3] = "/media/photo-maroquinerie/portefeuille-3.jpg";
+			source[4] = "/media/photo-maroquinerie/portefeuille-4.jpg";
+
+			var articleTitle= "Portefeuille 69 euros",
+			articleDescription=
+			"4 compartiments int\351rieurs dont un zipp\351e pour la monnaie, 2 emplacements pour cartes de cr\351dit, fermeture par pression, format passeport, cuir vachette pleine fleur.",
+			articleDimension="Dimensions: 15,5cm X 10cm.";	
+
+			var nb_article = 4;
 			
 			$("#menu_maro_3").addClass("activeMobil");
-			$("#porteMonnaie_btnCouleur").removeClass("noDisplay");
+			
+		} else if (article == 'portemonnaie_zip') {
+			source[1] = "/media/photo-maroquinerie/porte-monnaie-zip-1.jpg";
+			source[2] = "/media/photo-maroquinerie/porte-monnaie-zip-2.jpg";
+			source[3] = "/media/photo-maroquinerie/porte-monnaie-zip-3.jpg";
+			source[4] = "/media/photo-maroquinerie/porte-monnaie-zip-4.jpg";
+			source[5] = "/media/photo-maroquinerie/porte-monnaie-zip-5.jpg";
+			source[6] = "/media/photo-maroquinerie/porte-monnaie-zip-6.jpg";
+			source[7] = "/media/photo-maroquinerie/porte-monnaie-zip-7.jpg";
 
-		} else if (article == 'portemonnaie_5poche') {
-			source[1] = "/media/photo-maroquinerie/1-portemonnaie-multiple.jpg";
-			source[2] = "/media/photo-maroquinerie/2-portemonnaie-marron.jpg";
-			source[3] = "/media/photo-maroquinerie/3-portemonnaie-interieur.jpg";
-			var	articleTitle= "Porte-monnaie 5 poches",
-				articleDescription="Fermeture \340 pression, cuir vachette ou veau.",
-				articleDimension="Dimensions: 10,5cm X 7cm.";	
+			var	articleTitle= "Porte monnaie à zip  49 euros",
+				articleDescription="3 compartiments int\351rieurs pr\351vus pour les cartes de cr\351dit, les billets et la monnaie, fermeture zipp\351e, cuir vachette.",
+				articleDimension="Dimensions: 12,5cm X 8.5cm.";	
 			
-		$("#menu_maro_4").addClass("activeMobil");
-		$("#porteMonnaie_btnCouleur").removeClass("noDisplay");
+			$("#menu_maro_2").addClass("activeMobil");
+
+			var nb_article = 4;
 			
-		} else if (article == 'portefeuille') {
-			source[1] = "/media/photo-maroquinerie/portefeuille-cuir-5.jpg";
-			source[2] = "/media/photo-maroquinerie/portefeuilles-cuir-3.jpg";
-			source[3] = "/media/photo-maroquinerie/portefeuille.jpg";
+		} else if (article == 'portemonnaie_zip') {
+			source[1] = "/media/photo-maroquinerie/portefeuille-1.jpg";
+			source[2] = "/media/photo-maroquinerie/portefeuille-2.jpg";
+			source[3] = "/media/photo-maroquinerie/portefeuille-3.jpg";
+			source[4] = "/media/photo-maroquinerie/portefeuille-4.jpg";
 
 			var	articleTitle= "Portefeuille",
 				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 2 emplacements pour cartes et 4 poches dont une zipp\351e pour porte monnaie, format passeport, cuir vachette ou veau.",
 				articleDimension="Dimensions: 15,5cm X 10cm.";	
 				
-			var nb_article = 3;
+			var nb_article = 4;
 			
 			$("#menu_maro_1").addClass("activeMobil");
 				

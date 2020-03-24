@@ -14,7 +14,7 @@
 <p>La créatrice</p>
 </section>
 <section class="textLong">
-<p>c'est Elisa...formée au métier du cuir en tant que bottière, et qui maintenant confectionne des sacs et accessoires en cuir.</p>
+<p>c'est Elisa...formée au métier du cuir en tant que bottière chez les Compagnons du Devoir, et qui maintenant confectionne des sacs et accessoires en cuir.</p>
 </section>
 </div>
 </div>
@@ -25,13 +25,13 @@
 </section>
 <section class="textLong">
 <p>est à son domicile à Lavars dans le trièves.
-La fabrication est entièrement artisanale. Elle travaille seule et réalise toutes les étapes de fabrication: de l'idée au produit fini, en passant par le dessin, le patronnage, le choix des matières premières, la coupe, le parage, l'assemblage et la couture. Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs, doublures et tissus de biais différents.</p>
+La fabrication est entièrement artisanale. Elle travaille seule et réalise toutes les étapes de fabrication: de l'idée au produit fini, en passant par le dessin, le patronage, le choix des matières premières, la coupe, le parage, l'assemblage et la couture. Les sacs, portefeuilles et autres accessoires sont des modèles uniques: un même gabarit décliné avec des cuirs et doublures différentes.</p>
 </section>
 </div>
 <div><a class="fancybox" href="/media/photo-propos/couture-aiguille-macro.jpg" rel="fancybox"><img src="/media/photo-propos/couture-aiguille-macro-320.jpg" alt="cuir"  class=" borderClass wideImage" /></a></div>
 <div><section class="matTitle"><p>Les cuirs</p></section>
 <section class="textLong">
-<p>proviennent de fins de séries de grandes marques et de tanneries françaises. Un intérêt majeur est accordé au choix du cuir qui détermine ensuite la qualité des fabrications. Seuls les cuirs de bovins (vachette et veau) sont utilisés pour offrir des produits durables.</p>
+<p>proviennent de tanneries françaises et italiennes. Un intérêt majeur est accordé au choix du cuir qui détermine ensuite la qualité des fabrications. Seuls les cuirs de bovins (vachette et veau) sont utilisés pour offrir des produits durables.</p>
 </section>
 </div>
 <div><a class="fancybox" href="/media/photo-propos/cuir.jpg" rel="fancybox"><img src="/media/photo-propos/cuir-320.jpg" alt="cuir"  class=" borderClass" /></a></div>
@@ -40,7 +40,7 @@ La fabrication est entièrement artisanale. Elle travaille seule et réalise tou
 <p>Les tissus</p>
 </section>
 <section class="textLong">
-<p>utilisés sont d'origines variées: tissu japonais pour la plupart mais aussi tissu aborigène, wax africain et batik indonésien. Cette diversité de motifs et de couleurs permet ainsi un large choix d'associations de cuir et de tissu.</p>
+<p>utilisés sont en coton, ils présentent une diversité de motifs et de couleurs permettant ainsi un large choix d'associations de cuir et de tissu.</p>
 </section>
 </div>
 <div><a class="fancybox" href="/media/photo-propos/tissue.jpg" rel="fancybox"><img src="/media/photo-propos/tissue-320.jpg" alt="tissue"  class=" borderClass" /></a></div>

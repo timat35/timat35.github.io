@@ -35,36 +35,36 @@
 </div>
 <div class="slider">
 	<figure>
-		<img src="/media/photo-acceuil/a-sac-rabat.jpg" alt="sac-rabat" />
+		<img src="/media/photo-acceuil/sac-bandouliere-vagabond-1.jpg" alt="sac-bandouliere-vagabond-1" />
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-bracelet-cuir-tissu.jpg" alt="bracelet-cuir-tissu"/>
+		<img src="/media/photo-acceuil/bracelet-cuir-tissu-2.jpg" alt="bracelet-cuir-tissu-2"/>
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-portemonnaie.jpg" alt="portemonnaie" />
+		<img src="/media/photo-acceuil/porte-monnaie-3poches-3.jpg" alt="porte-monnaie-3poches-3" />
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-sac-besace.jpg" alt="sac-besace" />
+		<img src="/media/photo-acceuil/sac-bandouliere-java-4.jpg" alt="sac-bandouliere-java-4" />
 	</figure>
 	<figure>
-		<img src="/media/photo-acceuil/a-portemonnaie-multipoche.jpg" alt="portemonnaie-multipoche" />
+		<img src="/media/photo-acceuil/porte-monnaie-zip-5.jpg" alt="porte-monnaie-zip-5" />
 	</figure>
 </div>
 <div class="slider-nav-thumbnails">
 	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-rabat.jpg" alt="thumbs-sac-rabat" />
+		<img src="/media/photo-acceuil/thumb-sac-bandouliere-vagabond-1.jpg" alt="thumb-sac-bandouliere-vagabond-1" />
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-bracelet-cuir-tissu.jpg" alt="thumbs-bracelet-cuir-tissu"/>
+		<img src="/media/photo-acceuil/thumb-bracelet-cuir-tissu-2.jpg" alt="thumb-bracelet-cuir-tissu-2"/>
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-portemonnaie.jpg" alt="thumbs-portemonnaie" />
+		<img src="/media/photo-acceuil/thumb-porte-monnaie-3poches-3.jpg" alt="thumb-porte-monnaie-3poches-3" />
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-sac-besace.jpg" alt="thumbs-sac-besace" />
+		<img src="/media/photo-acceuil/thumb-sac-bandouliere-java-4.jpg" alt="thumb-sac-bandouliere-java-4" />
 	</div>
 	<div>
-		<img src="/media/photo-acceuil/thumbs-portemonnaie-multipoche.jpg" alt="thumbs-portemonnaie-multipoche" />
+		<img src="/media/photo-acceuil/thumb-porte-monnaie-zip-5.jpg" alt="thumb-porte-monnaie-zip-5" />
 	</div>
 </div>
 </div>
