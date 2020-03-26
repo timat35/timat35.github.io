@@ -217,6 +217,7 @@ $('#galery').on('click', 'img', function(event) {
 });
 
 </script>	
+
 </body>
 </html>
 

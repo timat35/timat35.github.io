@@ -1,477 +1,222 @@
 
 
-	function changeArticleMaro(article, mobil) {
-		
-		$("#menu_maro_1").removeClass("activeMobil");
-		$("#menu_maro_2").removeClass("activeMobil");
-		$("#menu_maro_3").removeClass("activeMobil");
-		$("#menu_maro_4").removeClass("activeMobil");
-		$("#menu_maro_5").removeClass("activeMobil");
-		$("#menu_maro_6").removeClass("activeMobil");
-		$("#menu_maro_7").removeClass("activeMobil");
-		
-		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
-		
-		var temp_thumb = document.getElementsByClassName("articleView");
-		var nb_thumb = temp_thumb.length;		
-		var source = [];
-		for (var i = 1; i <= nb_thumb; ++i) {
-			source[i] = "";
-		}
+function load_article(type) {
 
-		var nb_article = 3;
-		
-		if (article == 'portefeuille') {
-			
-			source[1] = "/media/photo-maroquinerie/portefeuille-1.jpg";
-			source[2] = "/media/photo-maroquinerie/portefeuille-2.jpg";
-			source[3] = "/media/photo-maroquinerie/portefeuille-3.jpg";
-			source[4] = "/media/photo-maroquinerie/portefeuille-4.jpg";
+	$.getJSON("json/article.json", function(data) {
 
-			var articleTitle= "Portefeuille 69 euros",
-			articleDescription=
-			"4 compartiments int\351rieurs dont un zipp\351e pour la monnaie, 2 emplacements pour cartes de cr\351dit, fermeture par pression, format passeport, cuir vachette pleine fleur.",
-			articleDimension="Dimensions: 15,5cm X 10cm.";	
+		const keys = Object.keys(data[type])
 
-			var nb_article = 4;
-			
-			$("#menu_maro_3").addClass("activeMobil");
-			
-		} else if (article == 'portemonnaie_zip') {
-			source[1] = "/media/photo-maroquinerie/porte-monnaie-zip-1.jpg";
-			source[2] = "/media/photo-maroquinerie/porte-monnaie-zip-2.jpg";
-			source[3] = "/media/photo-maroquinerie/porte-monnaie-zip-3.jpg";
-			source[4] = "/media/photo-maroquinerie/porte-monnaie-zip-4.jpg";
-			source[5] = "/media/photo-maroquinerie/porte-monnaie-zip-5.jpg";
-			source[6] = "/media/photo-maroquinerie/porte-monnaie-zip-6.jpg";
-			source[7] = "/media/photo-maroquinerie/porte-monnaie-zip-7.jpg";
+		for (const article_key of keys) {
+		  	
+		  	let item = data[type][article_key];
 
-			var	articleTitle= "Porte monnaie à zip  49 euros",
-				articleDescription="3 compartiments int\351rieurs pr\351vus pour les cartes de cr\351dit, les billets et la monnaie, fermeture zipp\351e, cuir vachette.",
-				articleDimension="Dimensions: 12,5cm X 8.5cm.";	
-			
-			$("#menu_maro_2").addClass("activeMobil");
+			const div_article = document.createElement("div");
+			div_article.setAttribute("class", "col-12 article");
 
-			var nb_article = 4;
-			
-		} else if (article == 'portemonnaie_zip') {
-			source[1] = "/media/photo-maroquinerie/portefeuille-1.jpg";
-			source[2] = "/media/photo-maroquinerie/portefeuille-2.jpg";
-			source[3] = "/media/photo-maroquinerie/portefeuille-3.jpg";
-			source[4] = "/media/photo-maroquinerie/portefeuille-4.jpg";
+			// first row
+			const div_row_article = document.createElement("div");
+			div_row_article.setAttribute("class", "row article_img");
 
-			var	articleTitle= "Portefeuille",
-				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 2 emplacements pour cartes et 4 poches dont une zipp\351e pour porte monnaie, format passeport, cuir vachette ou veau.",
-				articleDimension="Dimensions: 15,5cm X 10cm.";	
-				
-			var nb_article = 4;
-			
-			$("#menu_maro_1").addClass("activeMobil");
-				
-		} else if (article == 'portechequier') {
-			source[1] = "/media/photo-maroquinerie/portechequier-noir-tissu-wax.jpg";
-			source[2] = "/media/photo-maroquinerie/portechequier-bleue-marine-marron.jpg";
-			source[3] = "/media/photo-maroquinerie/portechequier-bleue-doublure.jpg";
-			var	articleTitle= "Porte-ch\351quier",
-				articleDescription="Fermeture \340 pression, \340 l'int\351rieur 3 emplacements pour cartes et 4 poches dont une double zipp\351e pour porte monnaie et billets, format ch\351quier, cuir vachette ou veau, finition biais en tissu.",
-				articleDimension="Dimensions: 20,5cm X 11,5cm.";
-				
-			$("#menu_maro_5").addClass("activeMobil");
-			
-		} else if (article == 'bracelet') {
-			source[1] = "/media/photo-maroquinerie/bracelet.jpg";
-			source[2] = "/media/photo-maroquinerie/bracelet-cuir-rouge.jpg";
-			source[3] = "/media/photo-maroquinerie/bracelet-cuir-tissu.jpg";
-			var	articleTitle= "Bracelets",
-				articleDescription="Bande de cuir en vachette ou en veau, biais en tissu, fermoir aimant\351 pour les bracelets double et triple tours, fermoir crochet\351 pour les bracelets en simple tour.",
-				articleDimension="";
-			
-			$("#menu_maro_6").addClass("activeMobil");
-				
+			// image 
+			const div_galery = document.createElement("div");
+			div_galery.setAttribute("class", "photoswipe");
+			div_galery.setAttribute("id", "galery-"+ article_key);
+
+			nb_img = item.img[1];
+
+
+			for (var k=1; k<=nb_img; k++) {
+
+				const a_galery = document.createElement("a");
+				a_galery.setAttribute("href", "/media/photo-"+type+"/" + item.img[0] + "-" + k + ".jpg");
+				a_galery.setAttribute("data-size","0x0")
+				a_galery.setAttribute("data-index","0")
+
+				const img_main = document.createElement("img");
+				img_main.setAttribute("id","img-main-"+article_key+"-"+k)
+				img_main.setAttribute("src", "/media/photo-"+type+"/" + item.img[0] + "-" + k + "-320.jpg");
+				img_main.setAttribute("alt", article_key+"-"+k);
+				img_main.setAttribute("ind", k-1);
+				img_main.setAttribute("galery", "galery-" + article_key);
+
+				if (k == 2)
+				{
+					img_main.setAttribute("class", "articleMain borderClass");
 					
-		
-				
-		} else if (article == 'etui_lunette') {
-			source[1] = "/media/photo-maroquinerie/etui-lunettes-marron.jpg";
-			source[2] = "/media/photo-maroquinerie/etui-lunettes_2.jpg";
-			source[3] = "/media/photo-maroquinerie/etui-lunettes-3.jpg";
-			var	articleTitle= "Etui \340 lunettes",
-				articleDescription="Fermeture \340 pression, coque plastique int\351gr\351e, cuir vachette ou veau.",
-				articleDimension="Dimensions: 16cm X 6cm pour une \351paisseur de 2,5cm.";
-			
-			$("#menu_maro_6").addClass("activeMobil");
-				
-					
-		} else if (article == 'pochette') {
-			source[1] = "/media/photo-maroquinerie/pochette-de-face.jpg";
-			source[2] = "/media/photo-maroquinerie/pochette-marron-jaune.jpg";
-			source[3] = "/media/photo-maroquinerie/pochette-multiples-ouvert.jpg";
-			var	articleTitle= "Pochette",
-				articleDescription="Format pour blague \340 tabac ou autre, fermeture \340 pression, cuir vachette ou veau, finition biais en tissu.",
-				articleDimension="Dimensions: 15.5cm X 9cm.";
-			
-			$("#menu_maro_7").addClass("activeMobil");
-				
-					
-		}
 
-			
-		var source_low = [];
-		for (var i = 1; i <= nb_thumb; ++i) {
-			source_low[i] = source[i].slice(0,-4)+ "-100.jpg";
-		}
-		
-		var	source2_medium = source[2].slice(0,-4) + "-320.jpg";
-			
-		if (document.getElementById("fancy_1").href != source[1]) {
-			
-			for (var i = 1; i <= nb_thumb; ++i) {
-				document.getElementById("fancy_"+i).href = source[i];
-				document.getElementById("fancy_r"+i).href = source[i];
-			}	
-			
-
-			$.each(temp_thumb, function(index){
-				
-				$(this).fadeTo(200,0.0,function() {
-					$(this).attr("src",source_low[index+1]);
-				}).fadeTo(400,1);
-			})
-
-			$("#img_base").fadeTo(200,0.0, function() {
-				$("#img_base").attr("src",source2_medium);
-			}).fadeTo(400,1);
-			  
-			  
-			
-			document.getElementById("fancy_base").href= source[2];
-			document.getElementById("fancy_r1").rel = "fancybox";
-
-			for (i=2; i <= nb_article; ++i){
-				document.getElementById("fancy_r"+i).rel = "NO";
-			}
-			
-			document.getElementById("fancy_1").rel = "NO";
-			document.getElementById("fancy_2").rel = "NO";
-			
-			for (i=3; i <= nb_article; ++i){
-				document.getElementById("fancy_"+i).rel = "fancybox";
-			}
-			
-			
-			$("img_base").addClass("borderClass");
-			$.each(temp_thumb, function(index){
-				$(this).addClass("borderClass");
-				if (index > (nb_article-1)) {
-					$(this).addClass("noDisplay");
-				} else {
-					$(this).removeClass("noDisplay");
 				}
-			})
-			
-			
-			document.getElementById("articleTitle").innerHTML = articleTitle;
-			document.getElementById("articleTitleMobil").innerHTML = articleTitle;
-			document.getElementById("articleDescription").innerHTML = articleDescription;
-			document.getElementById("articleDescriptionMobil").innerHTML = articleDescription;
-			document.getElementById("articleDimension").innerHTML = articleDimension;
-			document.getElementById("articleDimensionMobil").innerHTML = articleDimension;
-				
-		}
-		
-		var temp_after = document.getElementsByClassName("fancyfake_after");
-		
-		for (i=nb_article; i < temp_after.length; i++) {
-			temp_after[i].rel= "NO"
-		}
-		
-		
-		if (article == 'pochette') {
-			
-		$("#thumb_img_1").removeClass("borderClass");
-			
-		}	
-		
-		
-		if (mobil) {
-			
-		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
-	
-		var $body = $( 'body' ),
-			$content = $( '#content' ),
-			transitionEnd = 'transitionend webkitTransitionEnd otransitionend MSTransitionEnd';
-			
-		$body.addClass( 'animating' );
-		$body.addClass( 'up anim7' );
-		$('#toggle-menu').removeClass('noDisplay')
-		
-		$content.on( transitionEnd, function() {
-			$body
-			.removeClass( 'animating down up anim7' )
-			.removeClass( 'menu-visible anim7' );
-		$content.off( transitionEnd );
-			});
-			
-		setTimeout( function(){
-				 $body.removeClass( 'animating down up anim7' );
-				 $body.removeClass( 'menu-visible anim7' );
-				}, 300);			
-		}	
-		
-
-	}
-	
-	function changeArticleSac(article, mobil) {
-		
-		$("#menu_sac_1").removeClass("activeMobil");
-		$("#menu_sac_2").removeClass("activeMobil");
-		$("#menu_sac_3").removeClass("activeMobil");
-		$("#menu_sac_4").removeClass("activeMobil");
-
-
-		$("#porteMonnaie_btnCouleur").addClass("noDisplay");
-		
-		var temp_thumb = document.getElementsByClassName("articleView");
-		var nb_thumb = temp_thumb.length;
-		var source = [];
-		for (var i = 1; i <= nb_thumb; ++i) {
-			source[i] = "";
-		}
-			
-		var nb_article = 3;
-
-		if (article == 'sac_marron') {
-			source[2] = "/media/photo-sac/Sac-besace-marron-face-2.jpg";
-			source[1] = "/media/photo-sac/Sac-besace-marron-doublure.jpg";
-			source[3] = "/media/photo-sac/Sac-besace-noire-face.jpg";
-			source[4] = "/media/photo-sac/Sac-besace-noire-doublure.jpg";
-			source[5] = "/media/photo-sac/sac-besace-rouge.jpg";
-			source[6] = "/media/photo-sac/sac-besace-rouge-doublure.jpg";
-			var	articleTitle= "Sac Besace",
-				articleDescription="4 compartiments: poche principale, poche int\350rieure zipp\351e et 2 poches plaqu\351es sur le devant; fermeture rabat par 2 tops magn\351tiques plac\351s sous les boucles de r\351glages, porte clef, bandouli\350re ajustable par boucles, cuir vachette ou veau, doublure en tissu.",
-				articleDimension="Dimensions: hauteur 18cm, largeur 26cm, \351paisseur 6cm.";
-			
-			var nb_article = 6;
-				
-			$("#menu_sac_1").addClass("activeMobil");
-			
-		} else if (article == 'sac_rabat') {
-			source[1] = "/media/photo-sac/sac-rabat-marron-clair.jpg";
-			source[2] = "/media/photo-sac/sac-rabat-marron-fonce.jpg";
-			source[3] = "/media/photo-sac/sac-rabat-marron-fonce-ouvert.jpg";
-			source[4] = "/media/photo-sac/sac-rabat-jaune.jpg";
-			source[5] = "/media/photo-sac/sac-rabat-rouge.jpg";
-			source[6] = "/media/photo-sac/sac-rabat-bleu.jpg";
-			source[7] = "/media/photo-sac/sac-rabat-prune.jpg";
-			var	articleTitle= "Sac Rabat",
-			
-			 articleDescription="3 compartiments: poche principale, poche int\351rieure zipp\351e et poche zipp\351e plaqu\351e à l'arri\350re; fermeture par rabat et lani\350re, taille de la bandouli\350re r\351glable, cuir vachette ou veau, doublure poche int\351rieure en cuir.",
-			 articleDimension="";
-			
-			$("#menu_sac_2").addClass("activeMobil");
-			var nb_article = 7;
-				
-		} else if (article == 'sac_cabas') {
-			source[2] = "/media/photo-sac/sac-cabas-marron-face.jpg";
-			source[1] = "/media/photo-sac/sac-cabas-noir.jpg";
-			source[4] = "/media/photo-sac/sac-cabas-marron-fonce-dessus.jpg";
-			source[3] = "/media/photo-sac/sac-cabas-marron-fonce.jpg";
-			source[5] = "/media/photo-sac/sac-cabas-marron-fonce-doublure.jpg";
-			var	articleTitle= "Sac Cabas",
-				articleDescription="Grand volume, 3 compartiments: grande poche principale avec fermeture par top magn\351tique, une poche int\351rieure zipp\351e et une poche ext\351rieure plaqu\351e avec fermeture par top magn\351tique, grande anse pour porter \340 l'\351paule, cuir vachette ou veau, doublure en tissu.",
-				articleDimension="Dimensions: hauteur 36cm, largeur 30cm, \351paisseur 8cm (peut contenir des formats A4).";
-			
-			$("#menu_sac_3").addClass("activeMobil");
-			var nb_article = 5;
-			
-		} else if (article == 'sac_bandou_jaune') {
-			source[1] = "/media/photo-sac/sac-bandouliere.jpg";
-			source[2] = "/media/photo-sac/sac-bandouliere-noir.jpg";
-			source[3] = "/media/photo-sac/sac-bandouliere-noir-jaune.jpg";
-			source[4] = "/media/photo-sac/sac-bandouliere-doublure.jpg";
-
-			
-
-			var articleTitle= "Sac Bandouli\350re \340 noeud",
-				articleDescription=	"3 compartiments: poche principale zipp\351e, poche int\351rieure zipp\351e et poche ext\351rieure avant plaqu\351e ferm\351e par un top magn\351tique; taille de la bandouli\350re r\351glable; cuir vachette ou veau, poche int\351rieure en cuir.",
-				articleDimension="Dimensions: hauteur 22cm, largeur 27cm, \351paisseur 5cm.";
-		
-			$("#menu_sac_4").addClass("activeMobil");
-			
-			var nb_article = 4;
-					
-		}
-		
-		var source_low = [];
-		for (var i = 1; i <= nb_thumb; ++i) {
-			source_low[i] = source[i].slice(0,-4)+ "-100.jpg";
-		}
-		
-		var	source2_medium = source[2].slice(0,-4) + "-320.jpg";
-
-		
-		if (document.getElementById("fancy_1").href != source[1]) {
-			
-			
-			
-			for (var i = 1; i <= nb_thumb; ++i) {
-				document.getElementById("fancy_"+i).href = source[i];
-				document.getElementById("fancy_r"+i).href = source[i];
-			}			
-			
-			
-			$.each(temp_thumb, function(index){
-				$(this).fadeTo(200,0.0,function() {
-					$(this).attr("src",source_low[index+1]);
-				}).fadeTo(400,1);
-			})
-
-			$("#img_base").fadeTo(200,0.0, function() {
-				$("#img_base").attr("src",source2_medium);
-			}).fadeTo(400,1);
-			  
-			  
-			
-			document.getElementById("fancy_base").href= source[2];
-			document.getElementById("fancy_r1").rel = "fancybox";
-
-			for (i=2; i <= nb_article; ++i){
-				document.getElementById("fancy_r"+i).rel = "NO";
-			}
-			
-			document.getElementById("fancy_1").rel = "NO";
-			document.getElementById("fancy_2").rel = "NO";
-			
-			for (i=3; i <= nb_article; ++i){
-				document.getElementById("fancy_"+i).rel = "fancybox";
-			}
-			
-			
-			$("img_base").addClass("borderClass");
-			
-			$.each(temp_thumb, function(index){
-				$(this).addClass("borderClass");
-				if (index > (nb_article-1)) {
-					$(this).addClass("noDisplay");
-				} else {
-					$(this).removeClass("noDisplay");
+				else {
+					img_main.setAttribute("class", "d-none");
 				}
-			})
-			
-			document.getElementById("articleTitle").innerHTML = articleTitle;
-			document.getElementById("articleTitleMobil").innerHTML = articleTitle;
-			document.getElementById("articleDescription").innerHTML = articleDescription;
-			document.getElementById("articleDescriptionMobil").innerHTML = articleDescription;
-			document.getElementById("articleDimension").innerHTML = articleDimension;
-			document.getElementById("articleDimensionMobil").innerHTML = articleDimension;
-				
-		}
-		
-		var temp_after = document.getElementsByClassName("fancyfake_after");
-		
-		for (i=nb_article; i < temp_after.length; i++) {
-			temp_after[i].rel= "NO"
-		}
-		
-		$("#img_base").addClass("borderClass");
-		
-		if (article == 'sac_cabas') {
-			
-			$("#thumb_img_1").removeClass("borderClass");
-			$("#thumb_img_2").removeClass("borderClass");
-			$("#thumb_img_3").removeClass("borderClass");
-			$("#img_base").removeClass("borderClass");
-			
-		}
-		
-		
-		if (mobil) {
-					
-		
-		var $body = $( 'body' ),
-			$content = $( '#content' ),
-			transitionEnd = 'transitionend webkitTransitionEnd otransitionend MSTransitionEnd';
-	
-			$body.addClass( 'animating' );
-			$body.addClass( 'up anim4' );
-			
-		$('#toggle-menu').removeClass('noDisplay')
+				a_galery.appendChild(img_main)
+				div_galery.appendChild(a_galery)
 
-		$content.on( transitionEnd, function() {
-			$body
-			.removeClass( 'animating  up anim4' )
-			.removeClass( 'menu-visible anim4' );
-		$content.off( transitionEnd );
-			});
-			
-		setTimeout( function(){
-				 $body.removeClass( 'animating down up anim4' );
-				 $body.removeClass( 'menu-visible anim4' );
-				}, 300);
-
-		}
-	}
-
-    function changeImage(object) {
-		
-		var url_medium = object.src.slice(0,-8)+"-320.jpg";
-		var url_high = object.src.slice(0,-8)+".jpg";
-		
-		
-        if (document.getElementById("img_base").src != url_medium) 
-        {
-            document.getElementById("img_base").src = url_medium;
-            document.getElementById("fancy_base").href= url_high;
-        }
-	var temp_before = document.getElementsByClassName("fancyfake_before");
-	var temp_after = document.getElementsByClassName("fancyfake_after");
-	var temp_thumb = document.getElementsByClassName("articleView");
-	var i;
-	var str_fancy = "fancybox"; 
-	var str_no = "NO"; 
-	var bool_fancy = false; 
-	for (i=0; i < temp_before.length; i++) {
-		
-		if (temp_before[i].href == url_high) {
-			
-			bool_fancy = true
-			temp_before[i].rel= str_no
-			temp_after[i].rel= str_no
-			
-			
-		}
-		else 
-		{
-			if (!bool_fancy) {
-				temp_before[i].rel= str_fancy
-				temp_after[i].rel= str_no
 			}
-			else {
-				temp_before[i].rel= str_no
-				temp_after[i].rel= str_fancy
-			}	
-		}
-		
-		if ($("#".concat(temp_thumb[i].id)).hasClass("noDisplay")) {
-			temp_before[i].rel= str_no
-			temp_after[i].rel= str_no
-		}
-		
-	}
-	
-	
-	
-	
-	if ($(object).hasClass("borderClass")) {
-		$("#img_base").addClass("borderClass");
-	}
-	else {
-		$("#img_base").removeClass("borderClass");
-	}
-	
-    }
-	
+
+			// text part
+			const div_text = document.createElement("div");
+			div_text.setAttribute("class", "col-4");
+
+			const div_text_title = document.createElement("div");
+			div_text_title.setAttribute("class", "h5");
+			const p_title = document.createElement("p");
+			p_title.innerHTML = item.title;
+			div_text_title.appendChild(p_title)
 
 
-	 
-	 
+			const div_text_desc = document.createElement("div");
+			div_text_desc.setAttribute("class", "article_text");
+			const p_desc = document.createElement("p");
+			p_desc.innerHTML = item.text;
+			const p_dim = document.createElement("p");
+			if (item.text_dimension !== undefined)
+			{
+				p_dim.innerHTML = "Dimensions: " + item.text_dimension;
+			}
+			div_text_desc.appendChild(p_desc)
+			div_text_desc.appendChild(p_dim)
+
+			div_text.appendChild(div_text_title)
+			div_text.appendChild(div_text_desc)
+
+			div_row_article.appendChild(div_galery)
+			div_row_article.appendChild(div_text)
+
+
+			// thumb
+
+			const div_thumb = document.createElement("div");
+			div_thumb.setAttribute("class", "row  article_thumb");
+
+
+			for (var k=1; k<=nb_img; k++) {
+
+				const img_thumb = document.createElement("img");
+				img_thumb.setAttribute("src", "/media/photo-"+type+"/" + item.img[0] + "-" + k + "-100.jpg");
+				img_thumb.setAttribute("alt", article_key + "-" + k);
+				img_thumb.setAttribute("class", "article_thumb_img borderClass");
+				img_thumb.setAttribute("onclick", "updateThumb(this)");
+				img_thumb.setAttribute("key", article_key);
+				div_thumb.appendChild(img_thumb)
+
+
+
+			}
+
+
+
+
+			div_article.appendChild(div_row_article)
+			div_article.appendChild(div_thumb)
+
+			document.getElementById("article_list").appendChild(div_article)
+
+
+		}
+
+	});
+	
+}
+
+
+function updateThumb(thumb) 
+{	
+
+	key = $(thumb).attr('key');
+	alt = $(thumb).attr('alt');
+	$("#galery-"+key).each( function() {
+		var $gal = $(this)
+
+		$gal.find('img').each(function() {
+			console.log($(this).attr('alt'))
+			console.log(alt)
+			if ($(this).attr('alt') == alt)
+			{
+				$(this).attr('class',"article_thumb_img borderClass")
+			}
+			else 
+			{
+				$(this).attr('class',"d-none")
+			}
+		});
+	});
+
+
+}
+
+
+// page atelier
+function load_content(files) {
+
+	console.log(files)
+	
+ 	nb_img = files.length;
+	for (var i=0; i<3; i++) {
+		const temp_div = document.createElement("div");
+		temp_div.setAttribute("class", "grid-item");
+		
+		const temp_fig = document.createElement("figure");
+		temp_fig.setAttribute("ind", i);
+		
+		const temp_a = document.createElement("a");
+		temp_a.setAttribute("href", files[i]);
+		temp_a.setAttribute("data-size", "0x0");
+		temp_a.setAttribute("data-index", 0);
+		
+		const temp_img = document.createElement("img");
+		
+		var thumb_files =  files[i].split("/").pop();
+		
+		temp_img.setAttribute("src", 'media/photo-atelier/thumb/thumb-'+ thumb_files);
+		
+		temp_a.appendChild(temp_img)
+		temp_fig.appendChild(temp_a)
+		temp_div.appendChild(temp_fig)
+		
+		document.getElementById("div_grid").appendChild(temp_div)
+	}
+
+	if (nb_img < 4) {
+		
+		document.getElementById("btn_more").outerHTML=''
+		
+	}
+}
+
+function load_more(name, files) {
+	
+	var new_img = [];
+ 	nb_img = files.length;
+
+	for (var i=3; i<nb_img; i++) {
+		const temp_div = document.createElement("div");
+		temp_div.setAttribute("class", "grid-item more ");
+		
+		const temp_fig = document.createElement("figure");
+		temp_fig.setAttribute("ind", i);
+		
+		const temp_a = document.createElement("a");
+		temp_a.setAttribute("href", files[i]);
+		temp_a.setAttribute("data-size", "0x0");
+		temp_a.setAttribute("data-index", 0);
+		
+		const temp_img = document.createElement("img");
+		
+		var thumb_files =  files[i].split("/").pop();
+		temp_img.setAttribute("src", 'media/photo-atelier/thumb/thumb-'+ thumb_files);
+		
+		temp_a.appendChild(temp_img)
+		temp_fig.appendChild(temp_a)
+		temp_div.appendChild(temp_fig)
+		
+		new_img.push(temp_div)
+	}
+	
+	return(new_img)
+	
+	
+}
+
+
+
+

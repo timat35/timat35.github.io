@@ -7,32 +7,7 @@
 <script type="text/javascript" src="/js/slick.js"></script>
 
 <div id="content">
-<div id="menuMobil">
-	<div class ="textAnchor">
-	<a href="/article-sac.php">
-	<img class="respondHeight borderClass" src="/media/photo-menu-mobil/Smartphone-sac.jpg" alt="sac" />
-	<h2>Sacs</h2>
-	</div>
-	</a>
-	<a href="/article-maroquinerie.php">
-	<div class ="textAnchor">
-	<img class="respondHeight borderClass" src="/media/photo-menu-mobil/Smartphone-maroquinerie.jpg" alt="maroquinerie" />
-	<h2>Petite maroquinerie</h2>
-	</div>
-	</a>
-	<a href="/propos.php">
-	<div class ="textAnchor">
-	<img class="respondHeight borderClass" src="/media/photo-menu-mobil/Smartphone-apropos.jpg" alt="apropos" />
-	<h2>À propos</h2>
-	</div>
-	</a>
-	<a href="/contact.php">
-	<div class ="textAnchor">
-	<img class="respondHeight borderClass" src="/media/photo-menu-mobil/Smartphone-oumetrouver.jpg" alt="contact" />
-	<h2>Où me trouver?</h2>
-	</div>
-	</a>
-</div>
+
 <div class="slider">
 	<figure>
 		<img src="/media/photo-acceuil/sac-bandouliere-vagabond-1.jpg" alt="sac-bandouliere-vagabond-1" />
@@ -72,27 +47,44 @@
 <?php  include('footer.php');?>
 <script type="text/javascript">
 	$('.slider').slick({
- 	slidesToShow: 3,
- 	slidesToScroll: 1,
-	centerMode:true,
- 	arrows: false,
- 	fade: false,
-	focusOnSelect: true,
-	variableWidth: true,
-	autoplay:true,
-	autoplaySpeed:4000,
-	speed:1000,
-	initialSlide:0, // to edit if new slide // change also in slick 1.1. css L22 nb of slide * 75 
-	draggable:false,
- 	asNavFor: '.slider-nav-thumbnails',
+
+	 	slidesToShow: 3,
+	 	slidesToScroll: 1,
+		centerMode:true,
+	 	arrows: false,
+	 	fade: false,
+		focusOnSelect: true,
+		variableWidth: true,
+		autoplay:true,
+		autoplaySpeed:4000,
+		speed:1000,
+		initialSlide:0, // to edit if new slide // change also in slick 1.1. css L22 nb of slide * 75 
+		draggable:false,
+	 	asNavFor: '.slider-nav-thumbnails',
+	 	responsive: [
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 2
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+	  	]
 	});
 	$('.slider-nav-thumbnails').slick({
- 	slidesToShow: 5, // to edit if new slide 
- 	slidesToScroll: 1,
- 	asNavFor: '.slider',
- 	dots: false,
- 	arrows:false,
- 	focusOnSelect: true,
+	 	slidesToShow: 5, // to edit if new slide 
+	 	slidesToScroll: 1,
+	 	asNavFor: '.slider',
+	 	dots: false,
+	 	arrows:false,
+	 	focusOnSelect: true
 	});
  //remove active class from all thumbnail slides
  $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
@@ -103,42 +95,44 @@
  	var mySlideNumber = nextSlide;
  	$('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
  	$('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
-	});
-	// Menu for smarphone fonction 
- 	var maxHeight = 750;
-	var hscreen = $(window).height(),
-	height = hscreen > maxHeight ? maxHeight : hscreen;
-	height = height/2.6
-	$('.respondHeight').height(height);
-	var imgWidth = $('.respondHeight').width();
-	var menuWidth= $('#menuMobil').width();
-	if ((menuWidth > 2.7*imgWidth) && (menuWidth < 4.1*imgWidth))  {
-		$('#menuMobil').addClass("addMargin");
-	} else {
-		$('#menuMobil').removeClass("addMargin");
-	} 
-	if (menuWidth > 4.1*imgWidth) {
-		height =  hscreen/2;
-		$('.respondHeight').height(height);
-	}
-	$( window ).resize(function() {  
-	var maxHeight = 750;
-    var hscreen = $(window).height(),
-    height = hscreen > maxHeight ? maxHeight : hscreen;
-	height = height/2.6
-	$('.respondHeight').height(height);
-	var imgWidth = $('.respondHeight').width();
-	var menuWidth= $('#menuMobil').width();
-	if ((menuWidth > 2.7*imgWidth) && (menuWidth < 4.1*imgWidth))  {
-		$('#menuMobil').addClass("addMargin");
-	} else {
-		$('#menuMobil').removeClass("addMargin");
-	} 
-	if (menuWidth > 4.1*imgWidth) {
-		height =  hscreen/2;
-		$('.respondHeight').height(height);
-	}
-	});
+});
+
+
+	// // Menu for smarphone fonction 
+ // 	var maxHeight = 750;
+	// var hscreen = $(window).height(),
+	// height = hscreen > maxHeight ? maxHeight : hscreen;
+	// height = height/2.6
+	// $('.respondHeight').height(height);
+	// var imgWidth = $('.respondHeight').width();
+	// var menuWidth= $('#menuMobil').width();
+	// if ((menuWidth > 2.7*imgWidth) && (menuWidth < 4.1*imgWidth))  {
+	// 	$('#menuMobil').addClass("addMargin");
+	// } else {
+	// 	$('#menuMobil').removeClass("addMargin");
+	// } 
+	// if (menuWidth > 4.1*imgWidth) {
+	// 	height =  hscreen/2;
+	// 	$('.respondHeight').height(height);
+	// }
+	// $( window ).resize(function() {  
+	// var maxHeight = 750;
+ //    var hscreen = $(window).height(),
+ //    height = hscreen > maxHeight ? maxHeight : hscreen;
+	// height = height/2.6
+	// $('.respondHeight').height(height);
+	// var imgWidth = $('.respondHeight').width();
+	// var menuWidth= $('#menuMobil').width();
+	// if ((menuWidth > 2.7*imgWidth) && (menuWidth < 4.1*imgWidth))  {
+	// 	$('#menuMobil').addClass("addMargin");
+	// } else {
+	// 	$('#menuMobil').removeClass("addMargin");
+	// } 
+	// if (menuWidth > 4.1*imgWidth) {
+	// 	height =  hscreen/2;
+	// 	$('.respondHeight').height(height);
+	// }
+	// });
 </script>
 </body>
 </html>
