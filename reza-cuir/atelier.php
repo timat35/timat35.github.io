@@ -11,7 +11,7 @@
 		<div id = "div_grid" class="grid">
 		  <div id ="crea_grid" class="grid-sizer"></div>
 			<div id = "btn_more" class="col down d-none d-md-block">
-				<button class="link_more">Plus de photos</button >
+				<button class="link_more">Galerie photo</button >
 			</div>
 		</div>
 	</div>
@@ -153,34 +153,9 @@ $grid.imagesLoaded().progress( function() {
 $(document).ready(function() {
 	
 	$.ajaxSetup({ cache: false });
-	
-	w_w = $(window).width();
- //    if (w_w <798){
-	// 	document.getElementById("header").className = 'container-fluid';
-	// 	document.getElementById("nav_id").className = 'navbar navbar-expand-md ';
-	// 	document.getElementById("small-header").className = 'navbar-brand nav-center d-none';
- //    }
-	// else {
-	// 	document.getElementById("header").className = 'container-fluid d-none';
-	// 	document.getElementById("nav_id").className = 'navbar navbar-expand-md creatrice ';
-	// 	document.getElementById("small-header").className = 'navbar-brand nav-center ';
-		
-	// }
-	
+
 	$(window).resize(function(){
 		
-		w_w = $(window).width();
-		// if (w_w <798){
-		// 	document.getElementById("header").className = 'container-fluid';
-		// 	document.getElementById("nav_id").className = 'navbar navbar-expand-md ';
-		// 	document.getElementById("small-header").className = 'navbar-brand nav-center d-none';
-		// }
-		// else {
-		// 	document.getElementById("header").className = 'container-fluid d-none';
-		// 	document.getElementById("nav_id").className = 'navbar navbar-expand-md creatrice ';
-		// 	document.getElementById("small-header").className = 'navbar-brand nav-center ';
-			
-		// }
 		
 		$grid.imagesLoaded().progress( function() {
 			$grid.masonry();
@@ -196,7 +171,7 @@ $(".link_more").click(function(){
 	
 	if (this.parentNode.classList.contains("down")) {
 
-		this.innerHTML= "Moins de photos"
+		this.innerHTML= "Cacher galerie"
 		this.parentNode.setAttribute("class", "col up d-none d-md-block")
 
 		var new_img = load_more(name, img_files);
@@ -206,7 +181,7 @@ $(".link_more").click(function(){
 	}
 	else {
 		
-		this.innerHTML= "Plus de photos"
+		this.innerHTML= "Galerie photo"
 		this.parentNode.setAttribute("class", "col down d-none d-md-block")
 
 		var obj = $('.grid-item.more');

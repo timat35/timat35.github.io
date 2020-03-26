@@ -90,13 +90,13 @@ a.navbar-brand.nav-center {
 
 
 .logo img{
-	max-width: 200px;
+	max-width: 150px;
     margin: 10px 0px 10px 0px;
 }
 
 .logo h2{
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 
@@ -180,6 +180,10 @@ img.borderClass {
   width: 300px;
 }
 
+.grid-item.marche{
+  width: 200px!important;
+}
+
 .grid-item {
   float: left;
 }
@@ -230,12 +234,26 @@ img.borderClass {
 }
 
 .text_atelier {
-	text-align: center;
 	max-width: 800px!important;
 	margin: 20px auto 0 auto;
 }
 
 
+/* page point de vente */
+#div_marche img
+{
+	max-height: 300px
+}
+
+#div_boutique img
+{
+	max-height: 300px
+}
+
+.imgIcone 
+{
+	max-height: 50px!important;
+}
 
 
 /*Header*/
@@ -255,6 +273,7 @@ img.borderClass {
 	height:10px; 
 	background:url(/img/slider_shadow.png) no-repeat bottom; 
 	float:left;
+	margin-bottom: 10px;
 
 }
 

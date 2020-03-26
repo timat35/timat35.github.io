@@ -32,7 +32,7 @@
 					<li class="nav-item"><a class="nav-link" href="atelier.php">L'atelier</a></li>
 					<li class="nav-item"><a class="nav-link" href="sac.php">Sacs</a></li>
 					<li class="nav-item"><a class="nav-link" href="maroquinerie.php">Petite maroquinerie</a></li>
-					<li class="nav-item"><a class="nav-link" href="galery.php">Point de vente</a></li>
+					<li class="nav-item"><a class="nav-link" href="boutique.php">Point de vente</a></li>
 					<li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
 				</ul>
 			</div>

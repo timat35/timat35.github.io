@@ -45,9 +45,9 @@
   </div>
 </div>
 
-	<div class="row justify-content-center">
-		<div class="col-12 col-lg-6  border-bottom border-dark   mb-4"/>
-	</div>
+<div class="row justify-content-center">
+	<div class="col-12 col-lg-6  border-bottom border-dark   mb-4"/>
+</div>
 
 <div class = "row justify-content-md-center">
 
@@ -226,7 +226,7 @@ var $grid = $('.grid').masonry({
 
 
 
-	// layout Masonry after each image loads
+// layout Masonry after each image loads
 	
 
 $grid.imagesLoaded().progress( function() {

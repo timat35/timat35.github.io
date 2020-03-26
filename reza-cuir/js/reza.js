@@ -148,8 +148,6 @@ function updateThumb(thumb)
 // page atelier
 function load_content(files) {
 
-	console.log(files)
-	
  	nb_img = files.length;
 	for (var i=0; i<3; i++) {
 		const temp_div = document.createElement("div");
@@ -215,6 +213,109 @@ function load_more(name, files) {
 	return(new_img)
 	
 	
+}
+
+function load_marche(files) {
+
+
+	$.getJSON("json/news.json", function(data) {
+
+
+		files = data.old
+		nb_img = files.length;
+
+		for (var i=0; i<nb_img; i++) {
+
+			
+			let img_src ='media/photo-marche/old/' + files[i].img;
+			let img_link =files[i].link;
+
+			const temp_div = document.createElement("div");
+			temp_div.setAttribute("class", "grid-item marche");
+			
+			const temp_fig = document.createElement("figure");
+			
+
+			const temp_a = document.createElement("a");
+			temp_a.setAttribute("href", img_link);
+			temp_a.setAttribute("target", "_blank");
+			
+			const temp_img = document.createElement("img");
+			
+			temp_img.setAttribute("src",  img_src);
+			
+			temp_a.appendChild(temp_img)
+			temp_fig.appendChild(temp_a)
+			temp_div.appendChild(temp_fig)
+			
+			document.getElementById("div_grid").appendChild(temp_div)
+
+		}
+
+		files = data.marche
+
+		var nb_news = Object.keys(files).length;
+		for (var i = 1; i <= nb_news; i++) { 
+			var local_news = files[i];
+			
+			const temp_link = document.createElement("a");
+			temp_link.setAttribute("href",local_news.link);
+			temp_link.setAttribute("target","_blank");
+			
+			const temp_img = document.createElement("img");
+			temp_img.setAttribute("src", 'media/photo-marche/' + local_news.img);
+			
+			
+
+			
+	
+			const temp_title = document.createElement("h5");
+			temp_title.innerHTML = local_news.title
+			
+			nb_par = local_news.text.length;
+			
+			const temp_p = document.createElement("p");
+			var temp_desc = local_news.text[0];
+			
+			for (var j=1; j<nb_par; j++) {
+				
+				temp_desc = temp_desc + "<br />" + local_news.text[j];
+			}
+			temp_p.innerHTML = temp_desc;
+			
+			const temp_col_img = document.createElement("div");
+			temp_col_img.setAttribute("class", "col-4");
+			
+			const temp_info = document.createElement("div");
+			temp_info.setAttribute("class", "info");
+			
+			const temp_text = document.createElement("div");
+			temp_text.setAttribute("class", "col text-left align-self-center ml-4");
+			
+
+			
+			const temp_row = document.createElement("div");
+			temp_row.setAttribute("class", "row justify-content-center");
+			
+			const temp_base= document.createElement("div");
+			temp_base.setAttribute("class", "col-12 mb-4 mt-2 "); //col-lg-6 
+			
+			temp_col_img.appendChild(temp_link)
+			temp_link.appendChild(temp_img)
+			
+			temp_info.appendChild(temp_title)
+			temp_info.appendChild(temp_p)
+			temp_text.appendChild(temp_info)
+			
+			temp_row.appendChild(temp_col_img)
+			temp_row.appendChild(temp_text)
+			temp_base.appendChild(temp_row)
+			document.getElementById("div_marche").appendChild(temp_base)
+		}
+
+	});
+
+
 }
 
 
