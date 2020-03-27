@@ -133,7 +133,6 @@
 <script type="text/javascript">
 
 var img_files = <?php echo json_encode(glob('media/photo-atelier/*.*'))?>;
-console.log(img_files);
 load_content(img_files);
 
 var $grid = $('.grid').masonry({

@@ -128,8 +128,6 @@ function updateThumb(thumb)
 		var $gal = $(this)
 
 		$gal.find('img').each(function() {
-			console.log($(this).attr('alt'))
-			console.log(alt)
 			if ($(this).attr('alt') == alt)
 			{
 				$(this).attr('class',"article_thumb_img borderClass")
