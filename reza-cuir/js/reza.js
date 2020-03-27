@@ -55,7 +55,7 @@ function load_article(type) {
 
 			// text part
 			const div_text = document.createElement("div");
-			div_text.setAttribute("class", "col-md-4 col-12 text-center text-md-left");
+			div_text.setAttribute("class", "col-md-6 col-12 text-center text-md-left");
 
 			const div_text_title = document.createElement("h5");
 			div_text_title.setAttribute("class", "mt-2 mt-md-0");

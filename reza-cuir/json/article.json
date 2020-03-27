@@ -3,7 +3,7 @@
 		"portefeuille":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Portefeuille  69 euros",
+			"title":"Portefeuille  69&nbsp;euros",
 			"img":["portefeuille",4],
 			"text":"4 compartiments intérieurs dont un zippée pour la monnaie, 2 emplacements pour cartes de crédit, fermeture par pression,format passeport, cuir vachette pleine fleur.",
 			"text_dimension":"15,5cm X 10cm."
@@ -11,7 +11,7 @@
 		"porte-monnaie-zip":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Porte monnaie à zip  49 euros",
+			"title":"Porte monnaie à zip  49&nbsp;euros",
 			"img":["porte-monnaie-zip",7],
 			"text":"3 compartiments intérieurs prévus pour les cartes de crédit, les billets et la monnaie, fermeture zippée, cuir vachette.",
 			"text_dimension":"12,5cm X 8.5cm."
@@ -19,7 +19,7 @@
 		"porte-monnaie-5poche":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Porte-monnaie 5 poches  35 euros",
+			"title":"Porte-monnaie 5 poches  35&nbsp;euros",
 			"img":["porte-monnaie-5poche",3],
 			"text":"Fermeture à pression, cuir vachette pleine fleur.",
 			"text_dimension":"10,5cm X 7cm."
@@ -27,7 +27,7 @@
 		"porte-monnaie-3poche":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Porte-monnaie 3 poches  29 euros",
+			"title":"Porte-monnaie 3 poches  29&nbsp;euros",
 			"img":["porte-monnaie-3poche",3],
 			"text":"Fermeture à pression, cuir vachette pleine fleur.",
 			"text_dimension":"10,5cm X 7cm."
@@ -35,7 +35,7 @@
 		"etui-lunettes":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Étui à lunettes  28 euros",
+			"title":"Étui à lunettes  28&nbsp;euros",
 			"img":["etui-lunettes",3],
 			"text":"Fermeture à pression, cuir vachette pleine fleur.",
 			"text_dimension":"10,5cm X 7cm."
@@ -43,14 +43,14 @@
 		"bracelet-cuir-tissu":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Bracelet cuir-tissu  18 euros",
+			"title":"Bracelet cuir-tissu  18&nbsp;euros",
 			"img":["bracelet-cuir-tissu",3],
 			"text":"Bande de cuir vachette pleine fleur, biais en tissu, fermoir crocheté, existe en plusieurs tailles selon le tour de poignet."
 		},
 		"bracelet-cuir":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Bracelet cuir 14 euros",
+			"title":"Bracelet cuir 14&nbsp;euros",
 			"img":["bracelet-cuir",3],
 			"text":"Cordon en cuir, fermoir crocheté, existe en plusieurs tailles selon le tour de poignet."
 		}
@@ -60,7 +60,7 @@
 		"sac-bandouliere-vagabond":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Sac Bandoulière Vagabond  220 euros",
+			"title":"Sac Bandoulière Vagabond  220&nbsp;euros",
 			"img":["sac-bandouliere-vagabond",5],
 			"text":"3 compartiments: poche principale, poche zippée à l’avant et poche zippée plaquée à l’arrière, fermeture par rabat et top magnétique, bandoulière réglable, cuir vachette pleine fleur, doublure en coton.",
 			"text_dimension":"31 X 27 X 8cm."
@@ -68,7 +68,7 @@
 		"sac-bandouliere-java":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Sac Bandoulière Java 190 euros",
+			"title":"Sac Bandoulière Java 190&nbsp;euros",
 			"img":["sac-bandouliere-java",8],
 			"text":"3 compartiments: poche principale zippée, poche intérieure zippée et poche extérieure avant plaquée fermée par un top magnétique, bandoulière réglable, cuir vachette pleine fleur, doublure poche intérieure en cuir.",
 			"text_dimension":"27 X 22 X 5cm."
@@ -76,7 +76,7 @@
 		"sac-besace":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Sac Besace  195 euros ",
+			"title":"Sac Besace  195&nbsp;euros ",
 			"img":["sac-besace",8],
 			"text":"4 compartiments: poche principale, poche intérieure zippée et 2 poches plaquées sur le devant, fermeture par rabat et tops magnétiques placés sous les boucles de réglages, bandoulière réglable, cuir vachette pleine fleur, doublure en coton.",
 			"text_dimension":"26 X 18 X 6cm."
@@ -84,10 +84,9 @@
 		"sac-rabat":
 		{
 			"_comment":["comment", "pour voir"],
-			"title":"Sac Rabat  170 euros",
+			"title":"Sac Rabat  170&nbsp;euros",
 			"img":["sac-rabat",7],
-			"text":"3 compartiments: poche principale, poche intérieure zippée et poche zippée plaquée à l'arrière, fermeture par rabat et lanière, bandoulière réglable, cuir vachette pleine fleur, doublure poche intérieure en cuir.",
-			"text_dimension":"27 X 22 X 5cm."
+			"text":"3 compartiments: poche principale, poche intérieure zippée et poche zippée plaquée à l'arrière, fermeture par rabat et lanière, bandoulière réglable, cuir vachette pleine fleur, doublure poche intérieure en cuir."
 		}
 	}
 

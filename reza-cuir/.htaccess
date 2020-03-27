@@ -3,3 +3,14 @@ RewriteEngine on
 RewriteBase /
 RewriteCond %{HTTP_HOST} ^reza-cuir.com [NC]
 RewriteRule ^(.*)$ http://www.reza-cuir.com/$1 [L,R=301,NC]
+Redirect /article-sac.php /sac.php
+Redirect /article-maroquinerie.php /maroquinerie.php
+Redirect /propos.php /atelier.php
+
+
+Options -Indexes
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^art\-restauration\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.art\-restauration\.com$
+RewriteRule ^/?$ "http\:\/\/www\.atelier\-christine\-laversanne\.com" [R=301,L]
