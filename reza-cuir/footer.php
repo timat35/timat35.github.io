@@ -2,7 +2,7 @@
 
 <!-- close div page from header -->
 </div>
-<div id="footer">
+<div id="footer" class="d-none d-sm-block">
 	<div id="copyright">
 			<div class="copytext">
 				<a class="towfiq">Elisa Tisseyre - reza.cuir@gmail.com - n° Siret: 53827828400046 - </a>

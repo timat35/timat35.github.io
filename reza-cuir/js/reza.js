@@ -19,7 +19,7 @@ function load_article(type) {
 
 			// image 
 			const div_galery = document.createElement("div");
-			div_galery.setAttribute("class", "photoswipe");
+			div_galery.setAttribute("class", "photoswipe mx-auto mx-md-0  ");
 			div_galery.setAttribute("id", "galery-"+ article_key);
 
 			nb_img = item.img[1];
@@ -55,10 +55,10 @@ function load_article(type) {
 
 			// text part
 			const div_text = document.createElement("div");
-			div_text.setAttribute("class", "col-4");
+			div_text.setAttribute("class", "col-md-4 col-12 text-center text-md-left");
 
-			const div_text_title = document.createElement("div");
-			div_text_title.setAttribute("class", "h5");
+			const div_text_title = document.createElement("h5");
+			div_text_title.setAttribute("class", "mt-2 mt-md-0");
 			const p_title = document.createElement("p");
 			p_title.innerHTML = item.title;
 			div_text_title.appendChild(p_title)
@@ -86,7 +86,7 @@ function load_article(type) {
 			// thumb
 
 			const div_thumb = document.createElement("div");
-			div_thumb.setAttribute("class", "row  article_thumb");
+			div_thumb.setAttribute("class", "row  article_thumb text-center text-md-left");
 
 
 			for (var k=1; k<=nb_img; k++) {
@@ -270,8 +270,9 @@ function load_marche(files) {
 			
 	
 			const temp_title = document.createElement("h5");
+			temp_title.setAttribute("class", "mt-2 mt-md-0");
 			temp_title.innerHTML = local_news.title
-			
+
 			nb_par = local_news.text.length;
 			
 			const temp_p = document.createElement("p");
@@ -284,13 +285,13 @@ function load_marche(files) {
 			temp_p.innerHTML = temp_desc;
 			
 			const temp_col_img = document.createElement("div");
-			temp_col_img.setAttribute("class", "col-4");
+			temp_col_img.setAttribute("class", "col-md-6 col-lg-4 col-col-12");
 			
 			const temp_info = document.createElement("div");
-			temp_info.setAttribute("class", "info");
+			temp_info.setAttribute("class", "info  text-boutique");
 			
 			const temp_text = document.createElement("div");
-			temp_text.setAttribute("class", "col text-left align-self-center ml-4");
+			temp_text.setAttribute("class", "col text-md-left align-self-center ml-4");
 			
 
 			

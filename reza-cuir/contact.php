@@ -9,9 +9,9 @@
 <div class="container text-center">
 
 	<div class="masonry_container">
-		<div class="h4">
+		<h4>
 			<p>Contact</p>
-		</div>
+		</h4>
 
 		<p>
 			Elisa Tisseyre<br>
@@ -32,10 +32,10 @@
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script type="text/javascript" src="/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/js/jquery.event.move.js"></script>
+<script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>

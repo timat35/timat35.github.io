@@ -1,5 +1,5 @@
 
-<?php  include('title/title_propos.php');?>
+<?php  include('title/title_boutique.php');?>
 <?php  include('header.php');?>
 
 
@@ -9,7 +9,7 @@
 <div class="container text-center">
 
 	<div class="masonry_container">
-		<div class="h4">
+		<div class="h3">
 			<p>Boutiques</p>
 		</div>
 
@@ -17,14 +17,14 @@
 
 			<div class="col-12 mb-4 mt-2 ">
 				<div class="row ">
-					<div class="col-4">
+					<div class="col-md-6 col-lg-4 col-col-12">
 						<a href="http://www.lachouettedoree.fr/" target="_blank">
-							<img src="media/photo-marche/boutique_chouette_doree_small.jpg">
+							<img src="media/photo-marche/boutique_chouette_doree.jpg">
 						</a>
 					</div>
-					<div class="col text-left align-self-center ml-4">
-						<div class="info">
-							<h5>La Chouette dorée</h5>
+					<div class="col text-md-left align-self-center ml-4">
+						<div class="info text-boutique">
+							<h5 class="mt-2 mt-md-0">La Chouette dorée</h5>
 							<p>
 								Une boutique collective d'artisans locaux<br>
 								Où vous pouvez retrouver toute la collection Reza, ainsi que,<br>
@@ -42,7 +42,7 @@
 								7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
 								Du mardi au samedi, 10h-13h et 14h-19h.
 							</p>
-							<div>
+							<div  class="">
 								<a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
 							</div>
 						</div>
@@ -52,14 +52,14 @@
 
 			<div class="col-12 mb-4 mt-2 ">
 				<div class="row ">
-					<div class="col-4">
+					<div class="col-md-6 col-lg-4 col-col-12">
 						<a href="https://lafabriquedutrieves.jimdofree.com/" target="_blank">
 							<img src="media/photo-marche/fabrique_trieve.png">
 						</a>
 					</div>
-					<div class="col text-left align-self-center ml-4">
-						<div class="info">
-							<h5>La fabrique du Trièves</h5>
+					<div class="col text-md-left align-self-center ml-4">
+						<div class="info text-boutique">
+							<h5 class="mt-2 mt-md-0">La fabrique du Trièves</h5>
 							<p>
 								La fabrique du Trièves est une association de petits producteurs et artisans locaux.<br>
 								Elle a pour but de valoriser et promouvoir les artisans d'arts et producteurs du Trièves par la mise en valeur des productions et créations locales.<br>
@@ -83,7 +83,7 @@
 	
 
 	<div class="masonry_container">
-		<div class="h4">
+		<div class="h3">
 			<p>Futur marché</p>
 		</div>
 
@@ -99,7 +99,7 @@
 
 	<div class="masonry_container">
 
-		<div class="h4 mb-4  text-decoration-underline">
+		<div class="h3 mb-4  text-decoration-underline">
 			<p>Ancien marché</p>
 		</div>
 
@@ -125,11 +125,12 @@
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.event.move.js"></script>
+<script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="js/photoswipe.js"></script>
-<script type="text/javascript" src="js/photoswipe-ui-default.js"></script>
 <script type="text/javascript" src="/js/reza.js?v=1"></script>
 
 <script type="text/javascript">

@@ -3,12 +3,11 @@
 <?php  include('title/title_index.php');?>
 <?php  include('header.php');?>
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="/js/slick.js"></script>
+
 
 <div id="content">
 
-<div class="slider">
+<div class="slider d-none d-sm-block">
 	<figure>
 		<img src="/media/photo-acceuil/sac-bandouliere-vagabond-1.jpg" alt="sac-bandouliere-vagabond-1" />
 	</figure>
@@ -25,7 +24,26 @@
 		<img src="/media/photo-acceuil/porte-monnaie-zip-5.jpg" alt="porte-monnaie-zip-5" />
 	</figure>
 </div>
-<div class="slider-nav-thumbnails">
+
+<div class="slider  d-sm-none">
+	<div>
+		<img src="/media/photo-acceuil/thumb300-sac-bandouliere-vagabond-1.jpg" alt="thumb300-sac-bandouliere-vagabond-1" />
+	</div>
+	<div>
+		<img src="/media/photo-acceuil/thumb300-bracelet-cuir-tissu-2.jpg" alt="thumb300-bracelet-cuir-tissu-2"/>
+	</div>
+	<div>
+		<img src="/media/photo-acceuil/thumb300-porte-monnaie-3poches-3.jpg" alt="thumb300-porte-monnaie-3poches-3" />
+	</div>
+	<div>
+		<img src="/media/photo-acceuil/thumb300-sac-bandouliere-java-4.jpg" alt="thumb300-sac-bandouliere-java-4" />
+	</div>
+	<div>
+		<img src="/media/photo-acceuil/thumb300-porte-monnaie-zip-5.jpg" alt="thumb-porte-monnaie-zip-5" />
+	</div>
+</div>
+
+<div class="slider-nav-thumbnails d-none d-sm-block">
 	<div>
 		<img src="/media/photo-acceuil/thumb-sac-bandouliere-vagabond-1.jpg" alt="thumb-sac-bandouliere-vagabond-1" />
 	</div>
@@ -42,9 +60,21 @@
 		<img src="/media/photo-acceuil/thumb-porte-monnaie-zip-5.jpg" alt="thumb-porte-monnaie-zip-5" />
 	</div>
 </div>
+
+
+
 </div>
 </div>
 <?php  include('footer.php');?>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.event.move.js"></script>
+<script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/js/slick.js"></script>
+<script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="/js/reza.js?v=1"></script>
 <script type="text/javascript">
 	$('.slider').slick({
 
@@ -58,25 +88,10 @@
 		autoplay:true,
 		autoplaySpeed:4000,
 		speed:1000,
-		initialSlide:0, // to edit if new slide // change also in slick 1.1. css L22 nb of slide * 75 
+		initialSlide:0, 
 		draggable:false,
 	 	asNavFor: '.slider-nav-thumbnails',
-	 	responsive: [
-		    {
-		      breakpoint: 600,
-		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 2
-		      }
-		    },
-		    {
-		      breakpoint: 480,
-		      settings: {
-		        slidesToShow: 1,
-		        slidesToScroll: 1
-		      }
-		    }
-	  	]
+	 	
 	});
 	$('.slider-nav-thumbnails').slick({
 	 	slidesToShow: 5, // to edit if new slide 
@@ -86,6 +101,7 @@
 	 	arrows:false,
 	 	focusOnSelect: true
 	});
+	
  //remove active class from all thumbnail slides
  $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
  //set active class to first thumbnail slides
@@ -98,41 +114,7 @@
 });
 
 
-	// // Menu for smarphone fonction 
- // 	var maxHeight = 750;
-	// var hscreen = $(window).height(),
-	// height = hscreen > maxHeight ? maxHeight : hscreen;
-	// height = height/2.6
-	// $('.respondHeight').height(height);
-	// var imgWidth = $('.respondHeight').width();
-	// var menuWidth= $('#menuMobil').width();
-	// if ((menuWidth > 2.7*imgWidth) && (menuWidth < 4.1*imgWidth))  {
-	// 	$('#menuMobil').addClass("addMargin");
-	// } else {
-	// 	$('#menuMobil').removeClass("addMargin");
-	// } 
-	// if (menuWidth > 4.1*imgWidth) {
-	// 	height =  hscreen/2;
-	// 	$('.respondHeight').height(height);
-	// }
-	// $( window ).resize(function() {  
-	// var maxHeight = 750;
- //    var hscreen = $(window).height(),
- //    height = hscreen > maxHeight ? maxHeight : hscreen;
-	// height = height/2.6
-	// $('.respondHeight').height(height);
-	// var imgWidth = $('.respondHeight').width();
-	// var menuWidth= $('#menuMobil').width();
-	// if ((menuWidth > 2.7*imgWidth) && (menuWidth < 4.1*imgWidth))  {
-	// 	$('#menuMobil').addClass("addMargin");
-	// } else {
-	// 	$('#menuMobil').removeClass("addMargin");
-	// } 
-	// if (menuWidth > 4.1*imgWidth) {
-	// 	height =  hscreen/2;
-	// 	$('.respondHeight').height(height);
-	// }
-	// });
+
 </script>
 </body>
 </html>

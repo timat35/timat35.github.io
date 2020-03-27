@@ -2,15 +2,15 @@
 
 <link rel="shortcut icon" href="/img/favicon.png">
 <link rel="stylesheet" href="/css/style_reza.css?v=1" type="text/css">
-<link rel="stylesheet" href="/css/slick.css" type="text/css">
-<link rel="stylesheet" href="/css/photoswipe.css" type="text/css">
+<link rel="stylesheet" href="/css/slick.css?v=1" type="text/css">
+<link rel="stylesheet" href="/css/photoswipe.css?v=1" type="text/css">
 <link rel="stylesheet" href="/css/default-skin/default-skin.css" type="text/css">
-<link rel="stylesheet" href="/css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="/css/bootstrap.css?v=1" type="text/css">
 <?php include_once("analyticstracking.php") ?>
 </head>
 
 
-<body class="center container-fluid" >
+<body class="mw-100 mx-auto container-fluid" >
 
 	<div class = "page">
 
@@ -44,7 +44,7 @@
 			<div class="logo">
 				
 				<a  href="/">
-					<img id="nav-logo"  alt="Reza" src="img/logo-reza.png" class="d-none d-lg-block" alt=""/>
+					<img id="nav-logo"  alt="Reza" src="img/logo-reza.png" class="d-block" alt=""/>
 				</a>
 				<h2>
 					Créations artisanales en cuir

@@ -1,5 +1,5 @@
 
-<?php  include('title/title_propos.php');?>
+<?php  include('title/title_atelier.php');?>
 <?php  include('header.php');?>
 
 
@@ -120,6 +120,9 @@
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/js/jquery.event.move.js"></script>
+<script type="text/javascript" src="/js/jquery.event.swipe.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
