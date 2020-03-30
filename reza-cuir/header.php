@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
 <link rel="shortcut icon" href="/img/favicon.png">
-<link rel="stylesheet" href="/css/style_reza.css?v=1" type="text/css">
-<link rel="stylesheet" href="/css/slick.css?v=1" type="text/css">
-<link rel="stylesheet" href="/css/photoswipe.css?v=1" type="text/css">
+<link rel="stylesheet" href="/css/main.css?v=2" type="text/css">
+<link rel="stylesheet" href="/css/slick.css?v=2" type="text/css">
+<link rel="stylesheet" href="/css/photoswipe.css?v=2" type="text/css">
 <link rel="stylesheet" href="/css/default-skin/default-skin.css" type="text/css">
-<link rel="stylesheet" href="/css/bootstrap.css?v=1" type="text/css">
+<link rel="stylesheet" href="/css/bootstrap.css?v=2" type="text/css">
 <?php include_once("analyticstracking.php") ?>
 </head>
 
