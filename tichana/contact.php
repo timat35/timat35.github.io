@@ -46,7 +46,7 @@
 					<div class="info text-center">
 						<h5><a href="creatrice.php?creatrice=chant" >Le chant de l'émail</a></h5>
 						<p>
-						 oceane.doledec@gmail.com</br>
+						lechantdelemail@gmail.com</br>
 						06 30 84 01 96
 						</p>
 					</div>
