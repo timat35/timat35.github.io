@@ -7,12 +7,37 @@
 
 <div id="content">
 
+	<div class="row">
+
+		<div  class="col-3 d-none d-xl-block">
+		</div>
+	
+		<div  class="col-xl-6 col-12 align-self-center text-left">
+			<div>
+				<p>
+					<h5 class="text-center">Info période de confinement</h5>
+					Nos petits commerces d’artisans sont fermés, le marché de Noël de Grenoble annulé… mais les commandes sont possibles ! </br>
+					Pour cela vous pouvez me <a href="contact.php"> contacter</a> par mail pour me préciser l’article de votre choix. </br> 
+					je peux ensuite vous faire un envoi postal ou vous pouvez venir récupérer votre commande à notre boutique de Grenoble</br> <a href="http://www.lachouettedoree.fr/" target="_blank">la chouette dorée</a> au horaires suivants : le mardi de 16h à 19h et le samedi de 10h à 13h.
+				</p>
+
+			</div>
+		</div>
+
+
+	</div>
+
+
+
 <div class="slider d-none d-sm-block">
 	<figure>
 		<img src="/media/photo-acceuil/sac-bandouliere-vagabond-1.jpg" alt="sac-bandouliere-vagabond-1" />
 	</figure>
 	<figure>
 		<img src="/media/photo-acceuil/bracelet-cuir-tissu-2.jpg" alt="bracelet-cuir-tissu-2"/>
+	</figure>
+	<figure>
+		<img src="/media/photo-acceuil/sac-pochette-retro-2.jpg" alt="sac-pochette-retro-2" />
 	</figure>
 	<figure>
 		<img src="/media/photo-acceuil/porte-monnaie-3poches-3.jpg" alt="porte-monnaie-3poches-3" />
@@ -23,6 +48,7 @@
 	<figure>
 		<img src="/media/photo-acceuil/porte-monnaie-zip-5.jpg" alt="porte-monnaie-zip-5" />
 	</figure>
+	
 </div>
 
 <div class="slider  d-sm-none">
@@ -33,6 +59,9 @@
 		<img src="/media/photo-acceuil/thumb300-bracelet-cuir-tissu-2.jpg" alt="thumb300-bracelet-cuir-tissu-2"/>
 	</div>
 	<div>
+		<img src="/media/photo-acceuil/thumb300-sac-pochette-retro-2.jpg" alt="thumb-sac-pochette-retro-2" />
+	</div>
+	<div>
 		<img src="/media/photo-acceuil/thumb300-porte-monnaie-3poches-3.jpg" alt="thumb300-porte-monnaie-3poches-3" />
 	</div>
 	<div>
@@ -41,6 +70,7 @@
 	<div>
 		<img src="/media/photo-acceuil/thumb300-porte-monnaie-zip-5.jpg" alt="thumb-porte-monnaie-zip-5" />
 	</div>
+	
 </div>
 
 <div class="slider-nav-thumbnails d-none d-sm-block">
@@ -51,6 +81,9 @@
 		<img src="/media/photo-acceuil/thumb-bracelet-cuir-tissu-2.jpg" alt="thumb-bracelet-cuir-tissu-2"/>
 	</div>
 	<div>
+		<img src="/media/photo-acceuil/thumb-sac-pochette-retro-2.jpg" alt="thumb-sac-pochette-retro-2" />
+	</div>
+	<div>
 		<img src="/media/photo-acceuil/thumb-porte-monnaie-3poches-3.jpg" alt="thumb-porte-monnaie-3poches-3" />
 	</div>
 	<div>
@@ -59,6 +92,7 @@
 	<div>
 		<img src="/media/photo-acceuil/thumb-porte-monnaie-zip-5.jpg" alt="thumb-porte-monnaie-zip-5" />
 	</div>
+	
 </div>
 
 
@@ -94,7 +128,7 @@
 	 	
 	});
 	$('.slider-nav-thumbnails').slick({
-	 	slidesToShow: 5, // to edit if new slide 
+	 	slidesToShow: 6, // to edit if new slide 
 	 	slidesToScroll: 1,
 	 	asNavFor: '.slider',
 	 	dots: false,

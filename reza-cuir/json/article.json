@@ -87,6 +87,30 @@
 			"title":"Sac Rabat  170&nbsp;euros",
 			"img":["sac-rabat",7],
 			"text":"3 compartiments: poche principale, poche intérieure zippée et poche zippée plaquée à l'arrière, fermeture par rabat et lanière, bandoulière réglable, cuir vachette pleine fleur, doublure poche intérieure en cuir."
+		},
+		"sac-pochette-retro":
+		{
+			"_comment":["comment", "pour voir"],
+			"title":"Sac pochette rétro  80&nbsp;euros",
+			"img":["sac-pochette-retro",6],
+			"text":"Fermeture par rabat et tuck, bandoulière réglable, cuir vachette.",
+			"text_dimension":"20 X 13 X 3.5cm."
+		},
+		"sac-pochette-zip":
+		{
+			"_comment":["comment", "pour voir"],
+			"title":"Sac pochette zippé  85&nbsp;euros",
+			"img":["sac-pochette-zippe",4],
+			"text":"Fermeture par zip, bandoulière réglable, cuir vachette.",
+			"text_dimension":"25 X 16cm."
+		},
+		"sac-postier":
+		{
+			"_comment":["comment", "pour voir"],
+			"title":"Sac postier  140&nbsp;euros",
+			"img":["sac-postier",6],
+			"text":"Fermeture par rabat et top magnétique, 2 poches intérieures, bandoulière réglable, cuir vachette.",
+			"text_dimension":"25 X 20 X 5cm."
 		}
 	}
 

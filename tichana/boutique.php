@@ -25,11 +25,11 @@
 							<h5>Surprise on est fermé ! </h5>
 							Alors on imagine une nouvelle formule. Nous vous proposons des commandes avec <strong> retrait à la boutique </strong>.</br>
 							Pour cela, il vous suffit de faire un tour sur les sites de chacune:</br>
-							<a href="https://www.facebook.com/lechantdelemail/" class= "title">Le chant de l'émail</a> /
-							<a href="https://www.eska-vetements.fr/" class= "title">Eska</a> /
-							<a href="http://www.reza-cuir.com/" class= "title">Réza</a> /
-							<a href="creatrice.php?creatrice=tet" class= "title">Têt-en-l'air</a> /
-							<a href="https://www.julia-belle.com/" class= "title">Julia Belle</a>. </br>
+							<a href="https://www.facebook.com/lechantdelemail/" target="_blank">Le chant de l'émail</a> /
+							<a href="https://www.eska-vetements.fr/" target="_blank">Eska</a> /
+							<a href="http://www.reza-cuir.com/" target="_blank">Réza</a> /
+							<a href="creatrice.php?creatrice=tet" target="_blank">Têt-en-l'air</a> /
+							<a href="https://www.julia-belle.com/" target="_blank">Julia Belle</a>. </br>
 							Nous contacter en nous précisant les articles de votre choix et</br>
 							venir les récupérer <strong>le mardi de 16h à 19h et le samedi de 10h à 13h. </strong></br>
 						</p>
