@@ -55,6 +55,9 @@ a{
 	color:#000;
 }
 
+strong {
+	font-weight: 500!important;
+}
 
 
 /*Header*/
@@ -141,6 +144,12 @@ img.index-logo-small {
 	text-align:center;
 }
 
+
+/*.encart img
+{
+	width: 60%;
+}*/
+
 div#boutique {
     margin: 2% 0%;
 	padding:0% 1%;
@@ -150,7 +159,7 @@ div#boutique {
 #boutiqueLeft div {
 	
 	max-width: 1000px;
-    margin: 0 auto 3% auto!important;
+    margin: 0 auto 1% auto!important;
 	
 }
 

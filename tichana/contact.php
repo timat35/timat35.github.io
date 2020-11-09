@@ -22,7 +22,7 @@
 				</div>
 				<div class="col-12 col-md-auto ">
 					 <b>Horaires</b></br> 
-					 du Mardi au Samedi, 10h-13h et 14h-19h.</br>
+					 Le mardi de 16h à 19h et le samedi de 10h à 13h.</br>
 					 Plus d'information <a href="boutique.php" >ici</a>
 				</div>
 			</div>
