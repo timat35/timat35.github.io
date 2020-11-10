@@ -31,7 +31,7 @@
 							venir les récupérer <strong>le mardi de 16h à 19h et le samedi de 10h à 13h.</strong></br>
 						</p>
 						<p class="d-none d-md-block">
-						Si vous n'arrivez pas à choisir, la chouette dorée vous propose des cartes cadeaux a récupérer sur place!
+						Si vous n'arrivez pas à choisir, la chouette dorée vous propose des cartes cadeaux à récupérer sur place!
 
 						<div  class="col-12 py-2 px-0 d-none d-md-block ">
 							<img  class="w-50" src="img/bon_cadeau.jpg"  alt="" class="img-fluid" />
@@ -51,7 +51,7 @@
 				<div  class="col-6 align-self-center text-left">
 					<div>
 						<p>
-							Si vous n'arrivez pas à choisir, la chouette dorée vous propose des cartes cadeaux a récupérer sur place!
+							Si vous n'arrivez pas à choisir, la chouette dorée vous propose des cartes cadeaux à récupérer sur place!
 						</p>
 						
 					</div>
