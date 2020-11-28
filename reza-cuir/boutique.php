@@ -8,23 +8,6 @@
 
 <div class="container text-center">
 
-	<div class="row mb-2">
-	
-		<div  class="col-12 align-self-center text-left">
-			<div>
-				<p>
-					<h5 class="text-center">Info période de confinement</h5>
-					Nos petits commerces d’artisans sont fermés, le marché de Noël de Grenoble annulé… mais les commandes sont possibles ! </br>
-					Pour cela vous pouvez me <a href="contact.php"> contacter</a> par mail pour me préciser l’article de votre choix. </br> 
-					je peux ensuite vous faire un envoi postal ou vous pouvez venir récupérer votre commande à notre boutique de Grenoble</br> <a href="http://www.lachouettedoree.fr/" target="_blank">la chouette dorée</a> au horaires suivants : le mardi de 16h à 19h et le samedi de 10h à 13h.
-				</p>
-
-			</div>
-		</div>
-
-
-	</div>
-
 	<div class="masonry_container">
 		<div class="h3">
 			<p>Boutiques</p>
@@ -57,7 +40,7 @@
 
 							<p>
 								7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
-								Le mardi de 16h à 19h et le samedi de 10h à 13h.
+								Du mardi au dimanche de 10h à 19h.
 							</p>
 							<div  class="">
 								<a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
@@ -83,7 +66,7 @@
 							</p>
 							<p>
 								Place de la Halle, 38710 Mens.<br>
-								Fermé pendant le confinement.
+								Du mercredi au samedi de 9h à 13h et de 15h à 19h.
 							</p>
 							<div>
 								<a target="_blank"  href="https://www.facebook.com/La-fabrique-du-tri%C3%A8ves-364716250226669/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>

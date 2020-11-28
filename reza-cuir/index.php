@@ -7,26 +7,6 @@
 
 <div id="content">
 
-	<div class="row">
-
-		<div  class="col-3 d-none d-xl-block">
-		</div>
-	
-		<div  class="col-xl-6 col-12 align-self-center text-left">
-			<div>
-				<p>
-					<h5 class="text-center">Info période de confinement</h5>
-					Nos petits commerces d’artisans sont fermés, le marché de Noël de Grenoble annulé… mais les commandes sont possibles ! </br>
-					Pour cela vous pouvez me <a href="contact.php"> contacter</a> par mail pour me préciser l’article de votre choix. </br> 
-					je peux ensuite vous faire un envoi postal ou vous pouvez venir récupérer votre commande à notre boutique de Grenoble</br> <a href="http://www.lachouettedoree.fr/" target="_blank">la chouette dorée</a> au horaires suivants : le mardi de 16h à 19h et le samedi de 10h à 13h.
-				</p>
-
-			</div>
-		</div>
-
-
-	</div>
-
 
 
 <div class="slider d-none d-sm-block">
