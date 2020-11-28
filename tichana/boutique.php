@@ -13,31 +13,7 @@
 
 
 			<div class="col-12 col-md-auto encart">
-				<div class="row">
-				
-					<div  class="col-6  text-right  ">
-						<img   src="img/boutique/boutique_confinement.jpg"  alt="" class="img-fluid" />
-					</div>
-
-					<div  class="col-6 align-self-center text-left">
-						<div>
-							<p>
-								<h5>Surprise on est fermé ! </h5>
-								Alors on imagine une nouvelle formule. Nous vous proposons des commandes avec <strong> retrait à la boutique.</strong></br>
-								Pour cela, il vous suffit de faire un tour sur les sites de chacune:</br>
-								<a href="https://www.lechantdelemail.com/" target="_blank">Le chant de l'émail</a> /
-								<a href="https://www.eska-vetements.fr/" target="_blank">Eska</a> /
-								<a href="http://www.reza-cuir.com/" target="_blank">Réza</a> /
-								<a href="https://www.directproducteur.com/tetenlair/" target="_blank">Têt-en-l'air</a> /
-								<a href="https://www.julia-belle.com/" target="_blank">Julia Belle</a>. </br>
-								Nous contacter en nous précisant les articles de votre choix et</br>
-								venir les récupérer <strong>le mardi de 16h à 19h et le samedi de 10h à 13h.</strong></br>
-							</p>
-
-						</div>
-					</div>
-				</div>
-
+	
 				<div class="row mt-4">
 			
 				<div  class="col-6  text-right  ">
@@ -84,7 +60,7 @@
 				</p>
 				<h3> Horaires</h3>
 				<p>
-				Le mardi de 16h à 19h et le samedi de 10h à 13h.</br>
+				Du mardi au dimanche de 10h à 19h.</br>
 				</p>
 				<iframe class="googlemap" frameborder="0" style="border:0"
 				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO5YiRbz1ikcRHLVm1UxN9kc&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>

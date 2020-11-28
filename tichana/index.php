@@ -9,61 +9,19 @@
 
 	<div class = "row justify-content-center">
 
-		<div class="col-12 col-md-auto mb-4 encart">
+		<div class=" col-auto mb-4 encart">
 			<div class="row">
-			
-				<div  class="col-6  text-right  ">
-					<img   src="img/conf_chouette.jpg"  alt="" class="img-fluid" />
-				</div>
-
-				<div  class="col-6 align-self-center text-left">
+				<div  class="col-12 align-self-center text-left">
 					<div>
-						<p>
-							<h5>Surprise on est fermé ! </h5>
-							Alors on imagine une nouvelle formule. Nous vous proposons des commandes avec <strong> retrait à la boutique.</strong></br>
-							Pour cela, il vous suffit de faire un tour sur les sites de chacune:</br>
-							<a href="https://www.lechantdelemail.com/" target="_blank">Le chant de l'émail</a> /
-							<a href="https://www.eska-vetements.fr/" target="_blank">Eska</a> /
-							<a href="http://www.reza-cuir.com/" target="_blank">Réza</a> /
-							<a href="https://www.directproducteur.com/tetenlair/" target="_blank">Têt-en-l'air</a> /
-							<a href="https://www.julia-belle.com/" target="_blank">Julia Belle</a>. </br>
-							Nous contacter en nous précisant les articles de votre choix et</br>
-							venir les récupérer <strong>le mardi de 16h à 19h et le samedi de 10h à 13h.</strong></br>
-						</p>
-						<p class="d-none d-md-block">
-						Si vous n'arrivez pas à choisir, la chouette dorée vous propose des cartes cadeaux à récupérer sur place!
-
-						<div  class="col-12 py-2 px-0 d-none d-md-block ">
-							<img  class="w-50" src="img/bon_cadeau.jpg"  alt="" class="img-fluid" />
-						</div>
-
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row mt-4 d-md-none">
-			
-				<div  class="col-6  text-right  ">
-					<img   src="img/bon_cadeau.jpg"  alt="" class="img-fluid" />
-				</div>
-
-				<div  class="col-6 align-self-center text-left">
-					<div>
-						<p>
-							Si vous n'arrivez pas à choisir, la chouette dorée vous propose des cartes cadeaux à récupérer sur place!
-						</p>
-						
+						<h5>
+							Réouverture à partir du 28 novembre de 10h à 19h, du mardi au dimanche.
+						</h5>
 					</div>
 				</div>
 			</div>
 
 		</div>
 
-	</div>
-
-	<div class="row justify-content-center">
-		<div class="col-12 col-lg-9  border-bottom border-dark  mb-4"></div>
 	</div>
 
 

@@ -28,7 +28,16 @@
 							<div  class="col-6 align-self-center text-left">
 								<div>
 									<p>
-										Le marché de Noël de Grenoble a été annulé, mais nous continuons d'expédier vos commandes!
+										Le marché de Noël de Grenoble a été annulé, mais la boutique est ouverte!
+
+										Vous pouvez retrouvez tous les produits de</br> 
+										<a href="https://www.lechantdelemail.com/" target="_blank">Le chant de l'émail</a> /
+										<a href="https://www.eska-vetements.fr/" target="_blank">Eska</a> /
+										<a href="http://www.reza-cuir.com/" target="_blank">Réza</a> /
+										<a href="https://www.directproducteur.com/tetenlair/" target="_blank">Têt-en-l'air</a> /
+										<a href="https://www.julia-belle.com/" target="_blank">Julia Belle</a> </br>
+										<strong>du mardi au dimanche de 10h à 19h.</strong></br>
+
 									</p>
 								</div>
 							</div>
