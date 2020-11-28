@@ -104,7 +104,7 @@
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/moment.js'></script>
-<script type="text/javascript" src="js/main.js?v=1.5"></script>
+<script type="text/javascript" src="js/main.js?v=18112020"></script>
 
 <script type="text/javascript">
 

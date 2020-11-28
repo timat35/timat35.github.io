@@ -204,7 +204,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="js/main.js?v=1.5"></script>
+<script type="text/javascript" src="js/main.js?v=18112020"></script>
 <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 <script type="text/javascript" src="js/photoswipe.js"></script>

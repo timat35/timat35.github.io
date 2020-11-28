@@ -2,7 +2,7 @@
 
 function load_content(name, files) {
 	
-	$.getJSON("json/creatrice.json", function(crea_data) {
+	$.getJSON("json/creatrice.json?v=18112020", function(crea_data) {
 		
 
 		
