@@ -11,7 +11,7 @@
 
 	
 
-		
+		<!-- 
 		
 		<div class="row mb-4 justify-content-center">
 			
@@ -47,7 +47,7 @@
 
 
 				
-					<!-- <div  class="col-8 text-center align-self-center ">
+					<div  class="col-8 text-center align-self-center ">
 						<a href="http://www.lacordealinge-grenoble.com/championnet.html" target="_blank">
 							<img   src="img/news/VideGrenier.jpg"  alt="" class="img-fluid" />
 						</a>
@@ -69,11 +69,11 @@
 							Ouverture exceptionnelle les dimanches 15 et 22 décembre et lundi 23 décembre 10h-19h.</br>
 							</p>
 						</div>
-					</div> -->
+					</div> 
 				</div>
 			</div>
 			
-		</div>
+		</div> -->
 
 
 		
@@ -82,11 +82,11 @@
 		</div> -->
 		
 		
-<!-- 		<div class="col-12 text-center">
+		<div class="col-12 text-center">
 			<h2>En parallele</h2>
-		</div> -->
+		</div>
 		
-		<div id = "div_marche" class="d-none row mb-4 ml-md-4">
+		<div id = "div_marche" class=" row mb-4 ml-md-4">
 			
 		</div>
 		
