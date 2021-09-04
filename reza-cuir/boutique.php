@@ -40,7 +40,7 @@
 
 							<p>
 								7 rue du lieutenant Chanaron, 38000 Grenoble.<br>
-								Du mardi au dimanche de 10h à 19h.
+								Du mardi au samedi de 10h à 13h et de 14h à 19h.
 							</p>
 							<div  class="">
 								<a target="_blank"  href="https://www.facebook.com/lachouettedoree/"><img src="/media/photo-marche/Icone-Facebook.jpg" alt="Icone-Facebook"  width class="imgIcone" /></a>
@@ -82,7 +82,7 @@
 
 	
 
-	<div class="d-none masonry_container">
+	<div class="masonry_container">
 		<div class="h3">
 			<p>Futur marché</p>
 		</div>

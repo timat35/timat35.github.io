@@ -36,7 +36,7 @@
 										<a href="http://www.reza-cuir.com/" target="_blank">Réza</a> /
 										<a href="https://www.directproducteur.com/tetenlair/" target="_blank">Têt-en-l'air</a> /
 										<a href="https://www.julia-belle.com/" target="_blank">Julia Belle</a> </br>
-										<strong>du mardi au dimanche de 10h à 19h.</strong></br>
+										<strong>Du mardi au samedi de 10h à 13h et de 14h à 19h.</strong></br>
 
 									</p>
 								</div>

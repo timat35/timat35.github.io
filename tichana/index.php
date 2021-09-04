@@ -14,7 +14,7 @@
 				<div  class="col-12 align-self-center text-left">
 					<div>
 						<h5>
-							Réouverture à partir du 28 novembre de 10h à 19h, du mardi au dimanche.
+							Ouverture de 10h à 13h et de 14h à 19h, du mardi au samedi.
 						</h5>
 					</div>
 				</div>

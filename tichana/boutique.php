@@ -60,7 +60,7 @@
 				</p>
 				<h3> Horaires</h3>
 				<p>
-				Du mardi au dimanche de 10h à 19h.</br>
+				Du mardi au samedi de 10h à 13h et de 14h à 19h.</br>
 				</p>
 				<iframe class="googlemap" frameborder="0" style="border:0"
 				src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJO5YiRbz1ikcRHLVm1UxN9kc&key=AIzaSyBuYHDgFw2fCBk5oy4_d2052Hhqq7ZJ5Fs" allowfullscreen>
