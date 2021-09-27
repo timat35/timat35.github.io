@@ -82,7 +82,7 @@
 
 	
 
-	<div class="masonry_container">
+	<div class="d-none masonry_container">
 		<div class="h3">
 			<p>Futur marché</p>
 		</div>
