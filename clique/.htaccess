@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteEngine on
+RewriteBase /
+RewriteRule ^/?$ "https\:\/\/discord\.gg\/NqaWXTq8wc" [R=301,L]
