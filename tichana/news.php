@@ -2,7 +2,19 @@
 <?php  include('title/title_news.php');?>
 <?php  include('header.php');?>
 
+<div id="fb-root"></div>
+<!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v13.0&appId=1131268431030821&autoLogAppEvents=1" nonce="XTY00ILX"></script> -->
 
+<script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 <div id="news" class ="container row">
 
@@ -95,11 +107,12 @@
 	<div class="col-12 col-lg-3 d-none d-md-block">
 		<div class="col-12 text-center">
 
-			<div class="fb-page mt-4" data-href="https://www.facebook.com/lachouettedoree/" data-tabs="timeline, events" data-width="500" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" >
-				<blockquote cite="https://www.facebook.com/lachouettedoree/" class="fb-xfbml-parse-ignore">
-					<a href="https://www.facebook.com/lachouettedoree/">La chouette dorée</a>
-				</blockquote>
-			</div>
+<!-- 			<div class="fb-page mt-4" data-href="https://www.facebook.com/lachouettedoree/" data-tabs="timeline, events" data-width="500" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" >
+				<blockquote cite="https://www.facebook.com/lachouettedoree/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lachouettedoree/">La chouette dorée</a></blockquote></div>
+			</div> -->
+
+			<div class="fb-like-box mt-4" data-href="https://www.facebook.com/lachouettedoree/" data-width="400" data-height="800" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false">
+            </div>
 		</div>
 		
 	</div>
@@ -116,14 +129,6 @@
 <script type="text/javascript" src="js/main.js?v=18112020"></script>
 
 <script type="text/javascript">
-
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.12';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
 
 $(document).ready(function() {
 	

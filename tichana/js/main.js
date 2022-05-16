@@ -233,7 +233,7 @@ function get_today_info (){
 	
 	today = yyyy + '-' + mm + '-' + dd;
 
-	var gcal_url =" https://www.googleapis.com/calendar/v3/calendars/u2fcgjs9fjrtgq1iad1j1kb4g4@group.calendar.google.com/events?key=AIzaSyAaxUTleiUlolnnX3BLykCj16woRUDiAnQ&maxResults=1000"
+	var gcal_url =" https://www.googleapis.com/calendar/v3/calendars/u2fcgjs9fjrtgq1iad1j1kb4g4@group.calendar.google.com/events?key=AIzaSyAaxUTleiUlolnnX3BLykCj16woRUDiAnQ&maxResults=10000"
 	var xhReq = new XMLHttpRequest();
 	xhReq.open("GET", gcal_url);
 	xhReq.send(null);
@@ -243,16 +243,14 @@ function get_today_info (){
 	    var gcal_json = JSON.parse(xhReq.responseText);
 	    var obj = gcal_json.items;
 
-
-		for (var i=0 ; i < obj.length ; i++)
-		{
-			if (obj[i].start.date ==today) {
-				
-				var crea = obj[i].summary;
-			}
+			for (var i=0 ; i < obj.length ; i++)
+				{
+				if (obj[i].start.date ==today) {
+					
+					var crea = obj[i].summary;
+				}
 
 		}
-
 
 		if (crea != undefined) {
 		

@@ -19,6 +19,11 @@
 					</div>
 				</div>
 			</div>
+				<div  class="col-12">
+					<div class="text-center">
+						<h5 id="a_today"></h5>
+					</div>
+				</div>
 
 		</div>
 
@@ -115,8 +120,14 @@
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="js/main.js?v=18112020"></script>
+<script type="text/javascript" src="js/main.js?v=05052022"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+
+	get_today_info();
+	
+</script>
 
 
 </body>
