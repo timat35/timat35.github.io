@@ -253,33 +253,45 @@ function get_today_info (){
 		}
 
 		if (crea != undefined) {
-		
 
-			if (similarity(crea,"Le chant de l'émail") > 0.30) {
-				var ref = "creatrice.php?creatrice=chant";
+			if (similarity(crea,"Fermé") > 0.30) {
+				document.getElementById("a_today").innerHTML=  "Aujourd'hui, la chouette dorée est fermée.";
 			} 
-			else if (similarity(crea,"Eska") > 0.30) {
-				var ref = "creatrice.php?creatrice=eska";
-			} 
-			else if (similarity(crea,"Réza") > 0.30) {
-				var ref = "creatrice.php?creatrice=reza";
-			} 
-			else if (similarity(crea,"Têt-en-l'air") > 0.30) {
-				var ref ="creatrice.php?creatrice=tet";
-			}
-			else if (similarity(crea,"Julia Belle") > 0.30) {
-				var ref ="creatrice.php?creatrice=princesse";
+			else
+			{
+
+				if (similarity(crea,"Le chant de l'émail") > 0.30) {
+					var ref = "creatrice.php?creatrice=chant";
+				} 
+				else if (similarity(crea,"Eska") > 0.30) {
+					var ref = "creatrice.php?creatrice=eska";
+				} 
+				else if (similarity(crea,"Réza") > 0.30) {
+					var ref = "creatrice.php?creatrice=reza";
+				} 
+				else if (similarity(crea,"Têt-en-l'air") > 0.30) {
+					var ref ="creatrice.php?creatrice=tet";
+				}
+				else if (similarity(crea,"Julia Belle") > 0.30) {
+					var ref ="creatrice.php?creatrice=princesse";
+				}
+				else if (similarity(crea,"Berthe") > 0.30) {
+					var ref ="index.php";
+				}
+				else if (similarity(crea,"Amok") > 0.30) {
+					var ref ="index.php";
+				}
+
+				
+				const temp_a = document.createElement("a");
+				temp_a.setAttribute("href", ref);
+				temp_a.innerHTML = crea;
+				
+				document.getElementById("a_today").innerHTML = "Aujourd'hui, "
+				document.getElementById("a_today").append(temp_a)
+				document.getElementById("a_today").append(" ouvre la chouette dorée.")
 			}
 
-			
-			const temp_a = document.createElement("a");
-			temp_a.setAttribute("href", ref);
-			temp_a.innerHTML = crea;
-			
-			document.getElementById("a_today").innerHTML = "Aujourd'hui, "
-			document.getElementById("a_today").append(temp_a)
-			document.getElementById("a_today").append(" ouvre la chouette dorée.")
-			
 		}
 		else {
 			document.getElementById("a_today").innerHTML=  "Aujourd'hui, la chouette dorée est fermée.";

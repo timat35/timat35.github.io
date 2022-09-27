@@ -14,7 +14,7 @@
 				<div  class="col-12 align-self-center text-left">
 					<div>
 						<h5>
-							Ouverture de 10h à 13h et de 14h à 19h, du mardi au samedi.
+							Réouverture mardi 30 août de 10h à 13h et de 14h à 19h, du mardi au samedi.
 						</h5>
 					</div>
 				</div>
@@ -120,7 +120,7 @@
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="js/main.js?v=05052022"></script>
+<script type="text/javascript" src="js/main.js?v=16082022"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
