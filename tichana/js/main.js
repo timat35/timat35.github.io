@@ -252,9 +252,10 @@ function get_today_info (){
 
 		}
 
+
 		if (crea != undefined) {
 
-			if (similarity(crea,"Fermé") > 0.30) {
+			if (similarity(crea,"Fermé") > 0.70) {
 				document.getElementById("a_today").innerHTML=  "Aujourd'hui, la chouette dorée est fermée.";
 			} 
 			else
@@ -263,22 +264,22 @@ function get_today_info (){
 				if (similarity(crea,"Le chant de l'émail") > 0.30) {
 					var ref = "creatrice.php?creatrice=chant";
 				} 
-				else if (similarity(crea,"Eska") > 0.30) {
+				else if (similarity(crea,"Eska") > 0.40) {
 					var ref = "creatrice.php?creatrice=eska";
 				} 
-				else if (similarity(crea,"Réza") > 0.30) {
+				else if (similarity(crea,"Réza") > 0.40) {
 					var ref = "creatrice.php?creatrice=reza";
 				} 
 				else if (similarity(crea,"Têt-en-l'air") > 0.30) {
 					var ref ="creatrice.php?creatrice=tet";
 				}
-				else if (similarity(crea,"Julia Belle") > 0.30) {
+				else if (similarity(crea,"Julia Belle") > 0.40) {
 					var ref ="creatrice.php?creatrice=princesse";
 				}
-				else if (similarity(crea,"Berthe") > 0.30) {
+				else if (similarity(crea,"Berthe") > 0.40) {
 					var ref ="index.php";
 				}
-				else if (similarity(crea,"Amok") > 0.30) {
+				else if (similarity(crea,"Amok") > 0.40) {
 					var ref ="index.php";
 				}
 
