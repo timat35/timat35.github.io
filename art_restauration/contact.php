@@ -9,7 +9,7 @@
 <div id="content">
     <p>
     Christine Laversanne<br />
-    9 avenue Jean Jaures, 69007 Lyon<br />
+    6 rue Mazard, 69002 Lyon<br />
     </p>
     <section  class="textContact">
     <p>
