@@ -18,12 +18,17 @@ function load_galery() {
 			var temp_title = img_data.title;
 			p_title.innerHTML = temp_title;
 
+			const p_subtitle = document.createElement("p");
+			p_subtitle.setAttribute("class", "image_comp_subtitle");
+			var temp_subtitle = img_data.text[0];
+			p_subtitle.innerHTML = temp_subtitle;
+
 			const temp_p = document.createElement("p");
 			temp_p.setAttribute("class", "image_comp_desc");
 			nb_par = img_data.text.length;
-			var temp_desc = img_data.text[0];
+			var temp_desc = img_data.text[1];
 			
-			for (var j=1; j<nb_par; j++) {
+			for (var j=2; j<nb_par; j++) {
 				
 				temp_desc = temp_desc + "<br />" + img_data.text[j];
 			}
@@ -31,6 +36,7 @@ function load_galery() {
 			temp_p.innerHTML = temp_desc;
 			
 			div_text.appendChild(p_title)
+			div_text.appendChild(p_subtitle)
 			div_text.appendChild(temp_p)
 			
 			const div_image = document.createElement("div");

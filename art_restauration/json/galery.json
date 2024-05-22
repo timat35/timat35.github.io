@@ -22,11 +22,9 @@
 	"img":["portrait_19_1","portrait_19_2","portrait_19_3"
 		,"portrait_19_4","portrait_19_5","portrait_19_6","portrait_19_7","portrait_19_8"],
 	"text":[
-		"Huile sur toile"
+		"Huile sur toile 64.5 x 53 cm"
 		,
-		"Toile déclouée, vieux rubans adhésif au revers de la toile pour masquer d’importantes"
-		,
-		"lacunes complètes, trous de lumière, vernis jaunis et encrassés"
+		"Toile déclouée, vieux rubans adhésif au revers de la toile pour masquer d’importantes, lacunes complètes, trous de lumière, vernis jaunis et encrassés"
 		],
 	"subtitle":[
 		"Avant les opérations de conservation et de restauration", 
@@ -45,11 +43,9 @@
 	"img":["abstrait_GM_20_1","abstrait_GM_20_2","abstrait_GM_20_3","abstrait_GM_20_4"
 		,"abstrait_GM_20_5","abstrait_GM_20_6"],
 	"text":[
-		"Huile sur toile"
+		"Huile sur toile 110 x 146 cm"
 		,
-		"Déplacage de la couche picturale et soulèvements sur le bas du tableau,"
-		,
-		"petites lacunes de couche colorée réparties sur le pourtour de l’œuvre."
+		"Déplacage de la couche picturale et soulèvements sur le bas du tableau, petites lacunes de couche colorée réparties sur le pourtour de l’œuvre."
 		],
 	"subtitle":[
 		"Avant les opérations de restauration",
@@ -66,11 +62,9 @@
 	"img":["scene_17_1","scene_17_2","scene_17_3","scene_17_4"
 		,"scene_17_5","scene_17_6","scene_17_7","scene_17_8","scene_17_9","scene_17_10"],
 	"text":[
-		"Huile sur bois"
+		"Huile sur bois 28,5 x 38,5 cm"
 		,
-		"Tableau fléché, pièce de bois manquante, petits enfoncements, griffures,"
-		,
-		"Vernis très jaune"
+		"Tableau fléché, pièce de bois manquante, petits enfoncements, griffures, vernis très jaune"
 		],
 	"subtitle":[
 		"Avant restauration",
@@ -92,11 +86,9 @@
 	"img":["homme_turban_1","homme_turban_2","homme_turban_3","homme_turban_4"
 		,"homme_turban_5","homme_turban_6","homme_turban_7","homme_turban_8"],
 	"text":[
-		"Huile sur toile"
+		"Huile sur toile 74,3 x 55,7 cm"
 		,
-		"Adhésifs et badigeons au revers de la toile, accrocs et déchirures"
-		,
-		"Lacunes complètes, nombreux repeints, vernis très assombris"
+		"Adhésifs et badigeons au revers de la toile, accrocs et déchirures, lacunes complètes, nombreux repeints, vernis très assombris"
 		],
 	"subtitle":[
 		"Avant les opérations de conservation et de restauration", 
@@ -107,6 +99,26 @@
 		"Retrait d’un repeint très important sur la main", 
 		"Retrait sous le repeint d’un ancien mastic très abusif",
 		"Tableau après réintégration lacunaire (masticage, retouches) et vernis final"
+	]
+},
+"5": {
+	"_comment":["comment", "pour voir"],
+	"title":"Lavement des pieds- Musée de l’Antiquaille – Lyon",
+	"img":["pied_1","pied_2","pied_3","pied_4"
+		,"pied_5","pied_6","pied_7"],
+	"text":[
+		"Huile sur toile 226 x 320 cm"
+		,
+		"Soulèvements, lacunes ,couche colorée encrassée, superposition de vernis jaunis et assombris -repeints ( 60 cm linéaire environ )"
+		],
+	"subtitle":[
+		"Avant restauration – tests-", 
+		"Soulèvements de couche picturale ",
+		"Allègement vernis jaunis", 
+		"Allègement vernis jaunis",  
+		"Dégagement de repeints à la jointure de 2 lès",   
+		"Retouche colorée en hauteur !", 
+		"L’œuvre après restauration"
 	]
 }
 }

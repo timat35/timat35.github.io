@@ -102,6 +102,11 @@ div.image_comp img {
 	margin:3px 3px 0px 0px;
 }
 
+div.click_line {
+	font-weight: normal!important;
+	font-size: 1.4em!important;
+}
+
 h2.page_title {
 	color:#984806;
 	font-weight: normal!important;
@@ -117,8 +122,14 @@ p.image_comp_title {
 	font-size: 1.4em;
 }
 
+p.image_comp_subtitle {
+	margin-bottom: 0px!important;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
 p.image_comp_desc {
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 /*Header*/

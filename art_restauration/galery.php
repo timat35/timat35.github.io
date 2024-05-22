@@ -7,7 +7,7 @@
 	<div class="col-12 text-center">
 		<h2 class = "page_title">Galerie</h2>
 	</div>
-    <div id="content">
+    <div id="content" class = "click_line">
         <p>
         cliquer sur l’image pour le détail des opérations
         </p>
